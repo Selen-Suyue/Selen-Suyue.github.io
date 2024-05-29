@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a sophomore undergraduate student in the School of Artificial Intelligence at Xidian University.Currently, I am working in the OMEGA team led by [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/), under the guidance of Associate Prof. Hao Li, conducting research related to adversarial attacks.
+I am a sophomore undergraduate student in the School of Artificial Intelligence at [Xidian University.Currently](https://www.xidian.edu.cn/), I am working in the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm) led by [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/), under the guidance of Associate Prof. [Hao Li](https://web.xidian.edu.cn/haoli/), conducting research related to adversarial attacks.
 
 A data-driven personal website
 ======
