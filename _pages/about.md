@@ -75,6 +75,8 @@ Selected Awards
 ----------------
 - Provincial First Prize &#x1F3C6; in the National Undergraduate Mathematical Modeling Competition 
 
+- China Computer Design Competition Provincial Second Prize &#x1F3C6
+
 Miscellaneous
 ---------------
 I have a passion for badminton &#x1F3C3; and debate &#x1F649; , and I am the freshman debate champion &#x1F3C6; of Xidian University in 2022!
