@@ -15,7 +15,7 @@ News
 Education and Research Experience
 --------------
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/Selen-Suyue/Selen/blob/master/images/%E8%A5%BF%E7%94%B5%E6%96%B0%E6%A0%87%E5%BF%971-%E7%BA%A2%E8%89%B2-%E9%80%8F%E6%98%8E.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
+    <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/%E8%A5%BF%E7%94%B5%E6%96%B0%E6%A0%87%E5%BF%971-%E7%BA%A2%E8%89%B2-%E9%80%8F%E6%98%8E.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Xidian University (XDU)</strong><br>
         September 2022 - July 2026<br>
@@ -27,7 +27,7 @@ Education and Research Experience
 <br>
 
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/weijianwen/SJTU-logo-banner/blob/master/SJTU_LOGO/PNG/sjtulogored.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
+    <img src="https://github.com/weijianwen/SJTU-logo-banner/raw/master/SJTU_LOGO/PNG/sjtulogored.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
         July 2024 -  <br>
