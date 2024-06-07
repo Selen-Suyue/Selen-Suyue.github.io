@@ -24,6 +24,7 @@ Education and Research Experience
 </div>
 
 <br>
+
 Publications
 --------------
 
