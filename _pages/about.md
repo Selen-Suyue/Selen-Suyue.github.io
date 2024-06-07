@@ -77,4 +77,4 @@ Selected Awards
 
 Miscellaneous
 ---------------
-I have a passion for badminton :running: and debate :hear_no_evil: , and I am the freshman debate champion :trophy: of Xidian University in 2022!
+I have a passion for badminton :running: and debate :hear_no_evil: , and I am the freshman debate champion \U0001F3C6 of Xidian University in 2022!
