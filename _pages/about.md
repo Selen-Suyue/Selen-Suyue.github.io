@@ -40,10 +40,10 @@ Publications
 
 Projects
 --------------
-# Adversarial Attack
+<strong>Adversarial Attack<strong>
 
 <div style="display: flex; align-items: center;">
-    <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/3D%E7%82%B9%E4%BA%91.png" alt="3daa" width="70" height="140" style="margin-right: 20px;">
+    <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/3D%E7%82%B9%E4%BA%91.png" alt="3daa" width="140" height="70" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on 3D Point Cloud Recognition Models<br>
         We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task.<br>
