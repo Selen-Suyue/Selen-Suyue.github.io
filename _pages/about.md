@@ -27,7 +27,7 @@ Education and Research Experience
 <br>
 
 <div style="display: flex; align-items: center;">
-    <img src="[https://github.com/weijianwen/SJTU-logo-banner/raw/master/SJTU_LOGO/PNG/sjtulogored.png](https://github.com/weijianwen/SJTU-logo-banner/raw/master/SJTU_LOGO/PNG/sjtulogoblue.png)" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
+    <img src="https://github.com/weijianwen/SJTU-logo-banner/raw/master/SJTU_LOGO/PNG/sjtulogoblue.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
         July 2024 -  <br>
