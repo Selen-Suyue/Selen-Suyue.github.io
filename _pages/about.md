@@ -75,7 +75,7 @@ Selected Awards
 ----------------
 - Provincial First Prize &#x1F3C6; in the National Undergraduate Mathematical Modeling Competition 
 
-- China Computer Design Competition Provincial Second Prize &#x1F3C6
+- China Computer Design Competition Provincial Second Prize &#x1F3C6;
 
 Miscellaneous
 ---------------
