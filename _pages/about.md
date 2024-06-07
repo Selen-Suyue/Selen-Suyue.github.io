@@ -15,25 +15,15 @@ News
 Education and Research Experience
 --------------
 <div style="display: flex; align-items: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/en/0/05/Chinese_University_of_Hong_Kong_logo.svg" alt="CUHK logo" width="60" height="60" style="margin-right: 20px;">
+    <img src="https://github.com/note286/xdulogo/blob/main/%E8%A5%BF%E7%94%B5%E6%96%B0%E6%A0%87%E5%BF%971-%E8%93%9D%E8%89%B2-%E9%80%8F%E6%98%8E.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>The Chinese University of Hong Kong (CUHK)</strong><br>
-        August 2019 - July 2023<br>
-        Ph.D. in Information Engineering
+        September 2022 - July 2026<br>
+        B.E. in School of Artificial Intelligence
     </div>
 </div>
 
 <br>
-
-<div style="display: flex; align-items: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/en/8/88/Zhejiang_University_logo.svg" alt="ZJU logo" width="60" height="60" style="margin-right: 20px;">
-    <div>
-        <strong>Zhejiang University (ZJU)</strong><br>
-        August 2015 - July 2019<br>
-        Major: B.E. in Information Engineering<br>
-        Minor: Advanced Honor Class of Engineering Education (ACEE), Chu Kochen Honors College
-    </div>
-</div>
 Publications
 --------------
 
