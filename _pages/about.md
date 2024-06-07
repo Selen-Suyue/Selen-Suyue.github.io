@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a sophomore undergraduate student :mortar_board: in the School of Artificial Intelligence at [Xidian University](https://www.xidian.edu.cn/). Currently, I am working in the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm) led by [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/), under the guidance of Associate Prof. [Hao Li](https://web.xidian.edu.cn/haoli/), conducting research related to adversarial attacks :mag: . This summer :palm_tree: , I will be traveling to [MVIG Lab](https://www.mvig.org/index.html) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) to work on embodied AI with researcher [Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) :seedling: .
+I am a sophomore undergraduate student :mortar_board: in the School of Artificial Intelligence at [Xidian University](https://www.xidian.edu.cn/). Currently, I am working in the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm) led by [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/), under the guidance of Associate Prof. [Hao Li](https://web.xidian.edu.cn/haoli/), conducting research related to adversarial attacks :mag: . This summer :palm_tree: , I will be traveling to [MVIG Lab](https://www.mvig.org/index.html) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) to work on embodied AI with researcher [Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) [:seedling:] .
 
 News
 ---------------
