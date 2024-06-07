@@ -42,29 +42,13 @@ Projects
 --------------
 # Adversarial Attack
 
-## ![3DATTACK Image](https://github.com/Selen-Suyue/Selen/raw/master/images/3D%E7%82%B9%E4%BA%91.png)
-### Adversarial Attacks on 3D Point Cloud Recognition Models
-We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task.
-
-## ![Object2Scene Image](image_url_2)
-### [Object2Scene: Putting Objects in Context for Open-Vocabulary 3D Detection](paper_url_2)
-Chenming Zhu, Wenwei Zhang, **Tai Wang**, Xihui Liu, Kai Chen  
-Arxiv preprint  
-[Paper](paper_url_2) [Code](code_url_2) (Coming Soon)
-
-# Perception & Interaction with LLMs
-
-## ![UniHSI Image](image_url_3)
-### [UniHSI: Unified Human-Scene Interaction via Prompted Chain-of-Contacts](paper_url_3)
-Zeqi Xiao, **Tai Wang**, Jingbo Wang, Jinkun Cao, Wenwei Zhang, Bo Dai, Dahua Lin, Jiangmiao Pang  
-International Conference on Learning Representations (ICLR) 2024, Spotlight  
-[Project Page](project_page_url_3) [Paper](paper_url_3) [Code](code_url_3)
-
-## ![PointLLM Image](image_url_4)
-### [PointLLM: Empowering Large Language Models to Understand Point Clouds](paper_url_4)
-Runsen Xu, Xiaolong Wang, **Tai Wang**, Yilun Chen, Jiangmiao Pang, Dahua Lin  
-Arxiv preprint  
-[Project Page](project_page_url_4) [Paper](paper_url_4) [Code](code_url_4)
+<div style="display: flex; align-items: center;">
+    <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/3D%E7%82%B9%E4%BA%91.png" alt="3daa" width="70" height="140" style="margin-right: 20px;">
+    <div>
+        <strong>Adversarial Attacks on 3D Point Cloud Recognition Models<br>
+        We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task.<br>
+    </div>
+</div>
 
 Selected Awards
 ----------------
