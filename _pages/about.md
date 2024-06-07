@@ -73,7 +73,7 @@ Projects
 
 Selected Awards
 ----------------
-- Provincial First Prize in the National Undergraduate Mathematical Modeling Competition &#x1F3C6;
+- Provincial First Prize &#x1F3C6; in the National Undergraduate Mathematical Modeling Competition 
 
 Miscellaneous
 ---------------
