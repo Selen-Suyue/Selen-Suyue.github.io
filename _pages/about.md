@@ -77,7 +77,7 @@ Projects
     <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/MANO%E6%89%8B%E9%83%A8%E9%87%8D%E5%BB%BA.png" alt="MANO" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Hand reconstruction based on MANO</strong><br>
-        Hand reconstruction and key point estimation using the MANO model, A small game, forked from Teacher Yang. &#x1F680;
+        Hand reconstruction and key point estimation using the MANO model. A small game, forked from Teacher Yang. &#x1F680;
     </div>
 </div>
 
