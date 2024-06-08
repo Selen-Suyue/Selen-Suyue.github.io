@@ -46,7 +46,7 @@ Projects
     <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/3D%E7%82%B9%E4%BA%91.png" alt="3daa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on 3D Point Cloud Recognition Models</strong><br>
-        We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task. &#x2708;
+        We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task. &#x1F680;
     </div>
 </div>
 
@@ -56,7 +56,17 @@ Projects
     <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/R%E5%AF%B9%E6%8A%97.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
-        In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. &#x1F680;
+        In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. The Related article is being submitted. &#x1F680;
+    </div>
+</div>
+
+<br>
+
+<div style="display: flex; align-items: center;">
+    <img src="https://github.com/Selen-Suyue/Selen/blob/master/images/%E7%BA%A2%E5%A4%96%E5%AF%B9%E6%8A%97.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
+    <div>
+        <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
+       In the past, real-world infrared adversarial attacks were one-off attacks and difficult to deploy. We used TEC to implement efficient infrared adversarial attacks that can adapt to scenarios in hardware. It can induce pedestrian detection models in infrared scenarios to make misjudgments. &#x1F680;
     </div>
 </div>
 
@@ -67,7 +77,7 @@ Projects
     <img src="https://github.com/Selen-Suyue/Selen/raw/master/images/MANO%E6%89%8B%E9%83%A8%E9%87%8D%E5%BB%BA.png" alt="MANO" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Hand reconstruction based on MANO</strong><br>
-        Hand reconstruction and key point estimation using the MANO model. &#x1F680;
+        Hand reconstruction and key point estimation using the MANO model, A small game, forked from Teacher Yang. &#x1F680;
     </div>
 </div>
 
@@ -80,3 +90,4 @@ Selected Awards
 Miscellaneous
 ---------------
 I have a passion for badminton &#x1F3C3; and debate &#x1F649; , and I am the freshman debate champion &#x1F3C6; of Xidian University in 2022!
+In addition, I am a deep lover &#128156; of literature, especially Chinese classical literature &#127811; .
