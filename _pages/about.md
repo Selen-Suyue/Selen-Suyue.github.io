@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![亚丝娜](/images/亚斯娜.jpg)
+<img  src="../images/亚斯娜.jpg"/>
 <html>
 <head>
     <style>
