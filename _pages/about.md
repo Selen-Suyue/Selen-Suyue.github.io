@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Selen Su's homepage"
+title: "Selen Su's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
