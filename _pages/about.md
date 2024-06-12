@@ -16,7 +16,7 @@ redirect_from:
         body {
             background-color: #E6E6FA;
         }
-        header {
+        .title {
             background-color: #E6E6FA;
         }
         .main-heading {
