@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 <img  src="../images/Asuna.jpg"/>
-<html>
+<html> 
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
