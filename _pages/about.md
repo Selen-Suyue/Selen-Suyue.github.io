@@ -40,7 +40,7 @@ Education and Research Experience
     <div>
         <strong>Xidian University (XDU)</strong><br>
         September 2022 - July 2026<br>
-        B.E. in School of Artificial Intelligence<br>
+        B.E. in School of Artificial Intelligence<br> 
         Intern at OMEGA Lab
     </div>
 </div>
