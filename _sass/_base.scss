@@ -6,7 +6,9 @@ html {
   position: relative;
   min-height: 100%;
 }
-
+.site-header {
+  background-color: #FFB6C1;
+}
 body {
   margin: 0;
   padding: $masthead-height 0 0;
