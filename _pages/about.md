@@ -7,44 +7,7 @@ redirect_from:
   - /about.html
 ---
 <img  src="https://github.com/Selen-Suyue/Selen/raw/master/images/%E4%BA%9A%E4%B8%9D%E5%A8%9C.jpg"/>
-<div style="display:none">
 <h1 align="center">Hi there <img src="https://github.com/sudnyeshtalekar/sudnyeshtalekar/raw/master/Assets/Hi.gif" width="40px">,Welcome to my secret base!</h1>
-</div>
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-        
-        .main-heading {
-            font-family: 'Permanent Marker', cursive;
-            text-align: center;
-            color: #87CEFA;
-        }
-
-        .sub-heading {
-            font-family: 'Fredericka the Great', cursive;
-            text-align: center;
-            color: #87CEFA;
-        }
-
-        .welcome-message {
-            font-family: 'Homemade Apple', cursive;
-            text-align: center;
-            color: #87CEFA;
-        }
-    </style>
-</head>
-<body>
-
-<h1 class="main-heading">Hi there <img src="https://github.com/sudnyeshtalekar/sudnyeshtalekar/raw/master/Assets/Hi.gif" width="40px"></h1>
-<h2 class="sub-heading">Welcome to my secret base!</h2>
-
-</body>
-</html>
-
 I am a sophomore undergraduate student &#x1F393; in the School of Artificial Intelligence at [Xidian University](https://www.xidian.edu.cn/). Currently, I am working in the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm) led by [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/), under the guidance of Associate Prof. [Hao Li](https://web.xidian.edu.cn/haoli/), conducting research related to adversarial attacks &#x1F50D; . This summer &#x1F334; , I will be traveling to [MVIG Lab](https://www.mvig.org/index.html) at [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/) to work on embodied AI &#x1F331; with researcher [Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
 
 News
