@@ -13,7 +13,9 @@ redirect_from:
         @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-        
+        body {
+            background-color: #FFB6C1;
+        }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
