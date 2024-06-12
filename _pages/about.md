@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img  src="https://github.com/Selen-Suyue/Selen/raw/master/images/%E4%BA%9A%E4%B8%9D%E5%A8%9C.jpg"/>
+![亚丝娜](https://github.com/Selen-Suyue/Selen/raw/master/images/%E4%BA%9A%E4%B8%9D%E5%A8%9C.jpg)
 <html>
 <head>
     <style>
