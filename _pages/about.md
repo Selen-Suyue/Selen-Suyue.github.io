@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![Asuna](../images/Asuna.jpg)
+![Asuna](images/Asuna.jpg)
 <html> 
 <head>
     <style>
