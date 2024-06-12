@@ -16,7 +16,7 @@ redirect_from:
         body {
             background-color: #FFE4E1;
         }
-        .title{
+        title{
             background-color: #FFE4E1;
         }
         .main-heading {
