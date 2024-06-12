@@ -9,7 +9,7 @@ redirect_from:
 <img src="images/Asuna.jpg"/>
 <html> 
 <head>
-  <link rel="shortcut icon" href="images/XDU.png" /> 
+    <link rel="icon" href="images/MANO.png" type="image" />
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
