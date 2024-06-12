@@ -16,6 +16,9 @@ redirect_from:
         body {
             background-color: #FFB6C1;
         }
+        header {
+            background-color: #FFB6C1;
+        }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
