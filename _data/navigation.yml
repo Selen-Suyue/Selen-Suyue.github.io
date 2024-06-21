@@ -10,7 +10,7 @@ main:
   #   url: /teaching/    
     
   - title: "CV"
-    url: images/SJTU.png
+    url: /images/SJTU.png
     
    #- title: "Guide"
   #   url: /markdown/
