@@ -104,9 +104,9 @@ Projects
 
 Selected Awards
 ----------------
-- The Provincial First Prize in the National Undergraduate Mathematical Modeling Competition &#x1F3C6;  
+- Provincial First Prize of China College Students Mathematical Modeling Contest &#x1F3C6;  
 
-- China Computer Design Competition Provincial Second Prize &#x1F3C6;
+- Second Prize of Northwest Region in China Computer Design Competition &#x1F3C6;
 
 Miscellaneous
 ---------------
