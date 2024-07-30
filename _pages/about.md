@@ -104,7 +104,8 @@ Projects
 
 Selected Awards
 ----------------
-- Provincial First Prize of China Undergraduate Mathematical Contest in Modeling &#x1F3C6;  
+- Provincial First Prize of China Undergraduate Mathematical Contest in Modeling &#x1F3C6;
+  [code](Selen-Suyue/Math-Model) 
 
 - Second Prize of Northwest Region in China Computer Design Competition &#x1F3C6;
 
