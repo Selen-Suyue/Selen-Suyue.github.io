@@ -68,7 +68,7 @@ Projects
     <div>
         <strong>Adversarial Attacks on 3D Point Cloud Recognition Models</strong><br>
         We applied the FGSM adversarial attack to the point cloud recognition model, achieving significant interference with Pointnet++ in the classification task. &#x1F680;<br>
-       <a href="https://github.com/Selen-Suyue/FGSM-PointCloud">[code]</a> 
+       <a href="https://github.com/Selen-Suyue/FGSM-PointCloud">[code]</a>  <a href="https://github.com/Selen-Suyue/FGSM-PointCloud/raw/main/专业基础实践.pdf">[paper]</a>
     </div>
 </div>
 
