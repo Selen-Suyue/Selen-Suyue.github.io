@@ -78,6 +78,7 @@ Projects
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
         In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. The Related article is being submitted. &#x1F680;
+         [code](https://github.com/Selen-Suyue/Edge-ReID)
     </div>
 </div>
 
@@ -105,7 +106,7 @@ Projects
 Selected Awards
 ----------------
 - Provincial First Prize of China Undergraduate Mathematical Contest in Modeling &#x1F3C6;
-  [code](Selen-Suyue/Math-Model) 
+  [code](https://github.com/Selen-Suyue/Math-Model) 
 
 - Second Prize of Northwest Region in China Computer Design Competition &#x1F3C6;
 
