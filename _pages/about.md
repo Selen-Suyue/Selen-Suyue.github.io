@@ -78,7 +78,7 @@ Projects
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
         In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. The Related article is being submitted. &#x1F680;<br>
-      [code](https://github.com/Selen-Suyue/Edge-ReID)
+      <a href="https://github.com/Selen-Suyue/Edge-ReID">[code]</a> 
     </div>
 </div>
 
