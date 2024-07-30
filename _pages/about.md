@@ -106,7 +106,7 @@ Selected Awards
 - Second Prize of Northwest Region in China Computer Design Competition &#x1F3C6;
   [code](https://github.com/Selen-Suyue/Edge-ReID)
 
-- The MCM S winner who was mercilessly hurt because of forgetting to write a memo &#x1F3C6;
+- The MCM S winner who was mercilessly hurt for forgetting to write a memo &#x1F3C6;
   [paper](https://github.com/Selen-Suyue/Math-Model/raw/main/MCM.pdf)
 
 
