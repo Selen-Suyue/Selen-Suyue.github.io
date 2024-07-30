@@ -96,13 +96,7 @@ Projects
 <br>
 
 <strong>Embodied AI<strong>
-<div style="display: flex; align-items: center;">
-    <img src="images/MANO.png" alt="MANO" width="240" height="120" style="margin-right: 20px;">
-    <div>
-        <strong>Hand reconstruction based on MANO</strong><br>
-        This is my first lesson in embodied AI：hand reconstruction and key point estimation using the MANO model. It is small game forked from Teacher Yang. &#x1F680;
-    </div>
-</div>
+
 
 Selected Awards
 ----------------
