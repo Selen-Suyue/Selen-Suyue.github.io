@@ -31,7 +31,7 @@ I am a sophomore undergraduate student &#x1F393; in the School of Artificial Int
 
 News
 ---------------
-I have set up a [personal blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!
+*I have set up a [personal blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
 Education and Research Experience
 --------------
@@ -113,7 +113,8 @@ Selected Awards
 
 Miscellaneous
 ---------------
-I have a passion for badminton &#x1F3C3; and debate &#x1F649; , and I am the freshman debate champion &#x1F3C6; of Xidian University in 2022!   
-In addition, I am a deep lover &#128156; of literature, especially Chinese classical literature &#127811; .
+I have a passion for badminton. &#x1F3C3; Therefore, I am actively looking for a badminton partner on campus. If you are the same as me, please feel free to contact me. &#128513;   
+I am also good at debate &#x1F649; as the freshman debate champion &#x1F3C6; of Xidian University in 2022!     
+In addition, I am a deep lover &#128156; of literature, especially Chinese classical literature &#127811; . I developed this hobby at a very early age, when I could read widely without worries. I seem to have abandoned this hobby at this impetuous age, and I hope to pick it up again in the future.
 
 <img  src="images/Asuna2.jpg"/>
