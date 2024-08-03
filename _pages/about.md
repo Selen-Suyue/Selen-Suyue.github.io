@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<img src="https://github.com/Selen-Suyue/Wallpaper/raw/main/qingyin1.jpg"/>
+<img src="https://github.com/Selen-Suyue/Wallpaper/raw/main/guhechu.jpg"/>
 <html> 
 <head>
     <style>
