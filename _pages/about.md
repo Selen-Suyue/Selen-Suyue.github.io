@@ -31,7 +31,7 @@ I am a sophomore undergraduate student &#x1F393; in the School of Artificial Int
 
 News
 ---------------
-*I have set up a [personal blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
+- *I have set up a [personal blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
 Education and Research Experience
 --------------
