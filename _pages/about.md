@@ -65,7 +65,7 @@ Projects
 <strong>Adversarial Attack<strong>
 
 <div style="display: flex; align-items: center;">
-    <img src="images/3Dpointcloud.png" alt="3daa" width="240" height="240" style="margin-right: 20px;">
+    <img src="images/3Dpointcloud.png" alt="3daa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on 3D Vision Models</strong><br>
        Existing 3D adversarial attacks primarily manipulate point cloud geometry through object addition, posing practical deployment challenges. We introduce FGSM-based attacks directly perturbing point cloud geometry, demonstrating effectiveness against models like PointNet++. Our findings highlight the vulnerability of 3D models to geometric attacks and emphasize the role of sampling rules in their robustness.&#x1F680;<br>
@@ -80,7 +80,6 @@ Projects
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
         In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. The Related article is being submitted. &#x1F680;<br>
-      <a href="https://github.com/Selen-Suyue/Edge-ReID">[code]</a> 
     </div>
 </div>
 
