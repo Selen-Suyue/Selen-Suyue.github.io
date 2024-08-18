@@ -68,7 +68,7 @@ Projects
     <img src="images/3Dpointcloud.png" alt="3daa" width="240" height="240" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on 3D Vision Models</strong><br>
-       Existing research on adversarial attacks targeting 3D visual models remains limited. Most perturbation-based 3D attacks focus on generating physical objects around point clouds, rather than directly perturbing the objects themselves. This approach involves altering the number of points, making it challenging to deploy accurately in real-world scenarios due to physical constraints. In this work, we introduce FGSM-based perturbations directly applied to point clouds, effectively attacking visual models like PointNet++. Our results demonstrate the efficacy of this approach, revealing interesting insights into the adversarial robustness of 3D visual models stemming from their sampling rules &#x1F680;<br>
+       Existing 3D adversarial attacks primarily manipulate point cloud geometry through object addition, posing practical deployment challenges. We introduce FGSM-based attacks directly perturbing point cloud geometry, demonstrating effectiveness against models like PointNet++. Our findings highlight the vulnerability of 3D models to geometric attacks and emphasize the role of sampling rules in their robustness.&#x1F680;<br>
        <a href="https://github.com/Selen-Suyue/FGSM-PointCloud">[code]</a>  <a href="https://github.com/Selen-Suyue/FGSM-PointCloud/raw/main/专业基础实践.pdf">[paper]</a>
     </div>
 </div>
