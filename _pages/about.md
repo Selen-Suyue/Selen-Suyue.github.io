@@ -113,8 +113,10 @@ Selected Awards
 
 Miscellaneous
 ---------------
-I have a passion for badminton. &#x1F3C3; Therefore, I am actively looking for a badminton partner on campus. If you are the same as me, please feel free to contact me. &#128513;   
-I am also good at debate &#x1F649; as the freshman debate champion &#x1F3C6; of Xidian University in 2022!     
-In addition, I am a deep lover &#128156; of literature, especially Chinese classical literature. &#127811; I developed this hobby at a very early age, when I could read widely without worries. I seem to have abandoned this hobby at this impetuous age, and I hope to pick it up again in the future.
+Badminton is my guilty pleasure! Looking for someone to keep my skills sharp on campus.  Let's hit the court and work up a sweat! 
+
+By the way, I'm also a bit of a debate nerd - took home the freshman championship at Xidian in 2022. 
+
+And if we ever get tired of all that athleticism, I'm a huge fan of classic Chinese literature. Reading used to be my thing, but life has a way of making you forget your passions.  Maybe we can rediscover them together!
 
 <img  src="https://github.com/Selen-Suyue/Wallpaper/raw/main/binguo.jpg"/>
