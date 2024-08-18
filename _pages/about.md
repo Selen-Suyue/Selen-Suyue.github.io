@@ -79,7 +79,7 @@ Projects
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
-        In the process of cross-modal image matching, we found that edge shape features are the most important common features of infrared and visible light modalities. Based on this, we implemented adversarial attacks in the cross-modal pedestrian re-identification task. This is the first black-box physical attack in this field. It is also the first time that generative models are used in adversarial attacks. The Related article is being submitted. &#x1F680;<br>
+        We propose Edge-Attack, a physical adversarial attack that probes VI-ReID models' ability to excavate deep-level feature spaces by perturbing modality-invariant shallow-level features. By generating realistic adversarial patches, we test models' robustness in leveraging deep-level implicit features. Edge-Attack exposes the vulnerability of state-of-the-art VI-ReID models, highlighting the need for more robust feature extraction. Related work has been submitted to **AAAI2025** &#x1F680;<br>
     </div>
 </div>
 
