@@ -33,6 +33,7 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 News
 ---------------
+- *I'm in charge of the Research Department for our school's [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [personal blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
 Education and Research Experience
