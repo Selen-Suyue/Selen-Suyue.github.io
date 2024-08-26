@@ -38,7 +38,7 @@ News
 
 Education and Research Experience
 --------------
-<img width= "300" height="300" align= "right" src= "images/ganyu.gif"/>
+<img width= "240" height="240" align= "right" src= "images/ganyu.gif"/>
 <div style="display: flex; align-items: center;">
     <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
     <div>
