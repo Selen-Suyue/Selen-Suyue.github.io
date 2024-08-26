@@ -40,7 +40,7 @@ Education and Research Experience
 --------------
 <div style="display: flex; align-items: center;">
     <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
-   <img width= "240" height="240" align= "right" src= "images/ganyu.gif"/>
+   
     <div>
         <strong>Xidian University (XDU)</strong><br>
         September 2022 - July 2026<br>
