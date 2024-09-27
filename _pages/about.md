@@ -36,7 +36,7 @@ News
 - *I'm in charge of the Research Department for our school's [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [Personal Blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
-Education and Research Experience
+Research Experience
 --------------
 <div style="display: flex; align-items: center;">
     <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
