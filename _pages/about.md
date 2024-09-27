@@ -1,12 +1,10 @@
 ---
 permalink: /
-title: "Selen Su's Homepage"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-<img src="https://github.com/Selen-Suyue/Wallpaper/raw/main/qingyin.jpg"/>
 <html> 
 <head>
     <style>
@@ -94,10 +92,5 @@ Selected Awards
 
 Miscellaneous
 ---------------
-Badminton is my guilty pleasure! Looking for someone to keep my skills sharp on campus.  Let's hit the court and work up a sweat! 
 
-By the way, I'm also a bit of a debate nerd - took home the freshman championship at Xidian. 
 
-And if we ever get tired of all that athleticism, I'm a huge fan of classic Chinese literature. Reading used to be my thing, but life has a way of making you forget your passions.  Maybe we can rediscover them together!
-
-<img  src="https://github.com/Selen-Suyue/Wallpaper/raw/main/binguo.jpg"/>
