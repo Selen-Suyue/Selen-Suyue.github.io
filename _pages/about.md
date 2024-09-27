@@ -27,7 +27,7 @@ redirect_from:
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my secret base!</h1>
 </body>
 </html>
-I am a junior in the School of Artificial Intelligence at [Xidian University](https://www.xidian.edu.cn/), currently pursuing research in robot learning with a focus on visual perception and object affordance under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My ultimate goal is to create robots capable of autonomous exploration and learning through interaction with the environment.  
+I am a junior at [Xidian University](https://www.xidian.edu.cn/), currently pursuing research in robot learning with a focus on visual perception and object affordance under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My ultimate goal is to create robots capable of autonomous exploration and learning through interaction with the environment.  
 
 Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm), under the supervision of [Prof. Hao Li](https://web.xidian.edu.cn/haoli/) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
 
@@ -42,9 +42,8 @@ Education and Research Experience
     <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Xidian University (XDU)</strong><br>
-        September 2022 - July 2026<br>
-        B.E. in School of Artificial Intelligence<br> 
-        Intern at OMEGA Lab
+        September 2023 - July 2024<br>
+        Intern at COIS Lab
     </div>
 </div>
 <br>
@@ -53,7 +52,7 @@ Education and Research Experience
     <img src="images/SJTU.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
-        July 2024 -  <br>
+        July 2024 -  Now<br>
         Intern at MVIG Lab
     </div>
 </div>
@@ -64,17 +63,6 @@ Publications
 Projects
 --------------
 <strong>Adversarial Attack<strong>
-
-<div style="display: flex; align-items: center;">
-    <img src="images/3Dpointcloud.png" alt="3daa" width="240" height="120" style="margin-right: 20px;">
-    <div>
-        <strong>Adversarial Attacks on 3D Vision Models</strong><br>
-       Existing 3D adversarial attacks primarily manipulate point cloud geometry through object addition, posing practical deployment challenges. We introduce FGSM-based attacks directly perturbing point cloud geometry, demonstrating effectiveness against models like PointNet++. Our findings highlight the vulnerability of 3D models to geometric attacks and emphasize the role of sampling rules in their robustness.&#x1F680;<br>
-       <a href="https://github.com/Selen-Suyue/FGSM-PointCloud">[code]</a>  <a href="https://github.com/Selen-Suyue/FGSM-PointCloud/raw/main/专业基础实践.pdf">[paper]</a>
-    </div>
-</div>
-
-<br>
 
 <div style="display: flex; align-items: center;">
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
@@ -101,14 +89,7 @@ Projects
 
 Selected Awards
 ----------------
-- Provincial First Prize of China Undergraduate Mathematical Contest in Modeling &#x1F3C6;
-  [code](https://github.com/Selen-Suyue/Math-Model) 
 
-- Second Prize of Northwest Region in China Computer Design Competition &#x1F3C6;
-  [code](https://github.com/Selen-Suyue/Edge-ReID)
-
-- The MCM S winner who was mercilessly hurt for forgetting to write a memo &#x1F3C6;
-  [paper](https://github.com/Selen-Suyue/Math-Model/raw/main/MCM.pdf)
 
 
 Miscellaneous
