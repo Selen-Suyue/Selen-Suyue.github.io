@@ -89,8 +89,3 @@ Selected Awards
 ----------------
 
 
-
-Miscellaneous
----------------
-
-
