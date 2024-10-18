@@ -41,7 +41,7 @@ Research Experience
     <div>
         <strong>Xidian University (XDU)</strong><br>
         September 2023 - July 2024<br>
-        RA at COIS Lab
+        RA at [COIS](https://cois.xidian.edu.cn/index.htm) Lab
     </div>
 </div>
 <br>
@@ -51,7 +51,7 @@ Research Experience
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
         July 2024 -  Now<br>
-        RA at MVIG Lab
+        RA at [MVIG](https://www.mvig.org/index.html) Lab
     </div>
 </div>
 
