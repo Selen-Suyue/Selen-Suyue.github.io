@@ -51,7 +51,7 @@ Research Experience
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
         July 2024 -  Now<br>
-        Research intern at <a href="https://cois.xidian.edu.cn/index.htm">MVIG</a> Lab 
+        Research intern at <a href="https://www.mvig.org/index.html">MVIG</a> Lab 
     </div>
 </div> 
 
