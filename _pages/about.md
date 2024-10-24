@@ -7,14 +7,13 @@ redirect_from:
 ---
 <html> 
 <head>
-   <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
         body {
             background-color:	 #FFF0F5;
-            font-family: 'Sofia', Arial Rounded MT Bold', 'Verdana', sans-serif;
+            font-family: Arial Rounded MT Bold', 'Verdana', sans-serif;
         }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
