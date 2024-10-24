@@ -13,7 +13,7 @@ redirect_from:
         @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
         body {
             background-color:	 #FFF0F5;
-            font-family: Arial Rounded MT Bold', 'Verdana', sans-serif;
+            font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
         }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
