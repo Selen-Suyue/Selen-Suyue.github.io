@@ -67,7 +67,7 @@ Projects
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
-        We propose Edge-Attack, a physical adversarial attack that probes VI-ReID models' ability to excavate deep-level feature spaces by perturbing modality-invariant shallow-level features. By generating realistic adversarial patches, we test models' robustness in leveraging deep-level implicit features. Edge-Attack exposes the vulnerability of sota VI-ReID models, highlighting the need for more robust feature extraction. <i>This work has been submitted to AAAI2025.</i> &#x1F680;<br>
+        Introducing Edge-Attack: a physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in state-of-the-art models, highlighting the need for better feature extraction. <i>This work has been submitted to AAAI2025.</i> &#x1F680;<br>
     </div>
 </div>
 
@@ -77,7 +77,7 @@ Projects
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
-       In the past, real-world infrared adversarial attacks were one-off attacks and difficult to deploy. We used TEC to implement efficient infrared adversarial attacks that can adapt to scenarios in hardware. It can induce pedestrian detection models in infrared scenarios to make misjudgments. <i>This work has been submitted to AAAI2025.</i> &#x1F680;
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>This work has been submitted to AAAI2025.</i> &#x1F680;
     </div>
 </div>
 
