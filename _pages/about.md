@@ -41,7 +41,7 @@ Research Experience
     <div>
         <strong>Xidian University (XDU)</strong><br>
         September 2023 - July 2024<br>
-        Research intern at <a href="https://cois.xidian.edu.cn/index.htm"><em>COIS</em></a> Lab 
+        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab 
     </div>
 </div>
 <br>
