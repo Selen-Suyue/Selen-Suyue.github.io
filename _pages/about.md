@@ -67,7 +67,7 @@ Projects
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
-        Introducing Edge-Attack: a physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in state-of-the-art models, highlighting the need for better feature extraction. <i>This work has been submitted to AAAI2025.</i> &#x1F680;<br>
+        A physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in sota models, highlighting the need for better feature extraction. <i>This work has been submitted to AAAI2025.</i> &#x1F680;<br>
     </div>
 </div>
 
