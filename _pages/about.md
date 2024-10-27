@@ -77,7 +77,7 @@ Projects
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>This work has been submitted to AAAI2025.</i> &#x1F680;
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
     </div>
 </div>
 
