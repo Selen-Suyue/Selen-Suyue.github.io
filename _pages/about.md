@@ -63,7 +63,7 @@ Publications
 <div style="display: flex; align-items: center;">
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
-        <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
+        <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
         A physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in sota models, highlighting the need for better feature extraction. <br>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
