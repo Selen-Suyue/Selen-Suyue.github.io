@@ -58,10 +58,19 @@ Research Experience
 
 Publications
 --------------
+<strong>Adversarial Attack<strong>
+
+<div style="display: flex; align-items: center;">
+    <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
+    <div>
+        <strong>Adversarial Attacks on Multimodal Image Matching</strong><br>
+        A physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in sota models, highlighting the need for better feature extraction. <br>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+    </div>
+</div>
 
 Projects
 --------------
-<strong>Adversarial Attack<strong>
 
 <div style="display: flex; align-items: center;">
     <img src="images/RAA.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
@@ -71,7 +80,6 @@ Projects
     </div>
 </div>
 
-<br>
 
 <div style="display: flex; align-items: center;">
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
