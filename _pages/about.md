@@ -12,7 +12,7 @@ redirect_from:
         @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
         body {
-            background-color:	 #b7cbc2;
+            background-color:	 #000000;
             font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
         }
         .main-heading {
