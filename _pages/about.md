@@ -33,7 +33,7 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 News
 ---------------
-- *My first work on robot learning--[MBA](https://selen-suyue.github.io/MBApage), focusing on object motion information to help robots manipulate*
+- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), focusing on object motion information to help robots manipulate*
 - *I'm in charge of the Research Department for our school's [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [Personal Blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
@@ -67,8 +67,8 @@ Publications
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
     <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
-    <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li&#9993;</a>, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong&#9993;</a>
+    <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li</a>&#9993;, 
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
 
        A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
@@ -81,12 +81,12 @@ Publications
     <div>
         <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
       <i style="font-size: 13px;">
-    <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li&#9993;</a>, 
+    <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://scholar.google.com.hk/citations?user=eX7Ra5UAAAAJ&hl=zh-CN" target="_blank">Fanggao Wan</a>, 
     <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
     <a href="https://scholar.google.com.hk/citations?user=h4PExPwAAAAJ&hl=zh-CN" target="_blank">Mingyang Zhang</a>, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong&#9993;</a>
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
     </div>
