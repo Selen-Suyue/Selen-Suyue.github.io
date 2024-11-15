@@ -86,7 +86,7 @@ Publications
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
         <i style="font-size: 13px;">Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang</i><br>
         Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
-        <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a>
+        <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
     </div>
 </div>
 
