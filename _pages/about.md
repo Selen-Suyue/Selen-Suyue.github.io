@@ -24,7 +24,7 @@ redirect_from:
     </style>
 </head>
 <body>
-<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my secret base!</h1>
+<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my academic base!</h1>
 </body>
 </html>
 I am a junior at [Xidian University](https://www.xidian.edu.cn/), currently pursuing research in robot learning with a focus on visual perception and object affordance under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My ultimate goal is to create robots capable of autonomous exploration and learning through interaction with the environment.  
@@ -33,7 +33,7 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 News
 ---------------
-- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), focusing on object motion information to help robots manipulate*
+- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion information for robots manipulate*
 - *I'm in charge of the Research Department for our school's [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [Personal Blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
