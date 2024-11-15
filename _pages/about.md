@@ -76,13 +76,13 @@ Publications
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
     </div>
 </div>
-
+<br>
 <strong>Robot Learning<strong>
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
-        Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<br>
+        **Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang**<br>
         Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
         <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a>
     </div>
