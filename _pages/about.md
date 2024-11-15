@@ -87,7 +87,7 @@ Publications
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
     <a href="https://scholar.google.com.hk/citations?user=h4PExPwAAAAJ&hl=zh-CN" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong&#9993;</a>
-</i><br
+</i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
     </div>
 </div>
