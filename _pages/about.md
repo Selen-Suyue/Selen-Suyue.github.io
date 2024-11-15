@@ -70,8 +70,7 @@ Publications
     <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
-
-       A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
+A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
       <a href="https://arxiv.org/pdf/2410.20097"><em>[paper]</em></a>
     </div>
 </div>
