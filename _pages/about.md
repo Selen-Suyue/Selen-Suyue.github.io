@@ -64,7 +64,7 @@ Publications
     <img src="images/GAP.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
-       <i style="font-size: 13px;">Yue Su, Hao Li, Maoguo Gong</i><br>
+       <i style="font-size: 13px;">Yue Su, Hao Li&#9993;, Maoguo Gong&#9993;</i><br>
        A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
       <a href="https://arxiv.org/pdf/2410.20097"><em>[paper]</em></a>
     </div>
@@ -74,7 +74,7 @@ Publications
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
-      <i style="font-size: 13px;">Hao Li, Fanggao Wan, Yue Su, Yue Wu, Mingyang Zhang, Maoguo Gong</i><br>
+      <i style="font-size: 13px;">Hao Li&#9993;, Fanggao Wan, Yue Su, Yue Wu, Mingyang Zhang, Maoguo Gong&#9993;</i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
     </div>
 </div>
@@ -84,7 +84,7 @@ Publications
     <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
-        <i style="font-size: 13px;">Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang</i><br>
+        <i style="font-size: 13px;">Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang&#9993;</i><br>
         Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
         <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
     </div>
