@@ -14,7 +14,7 @@ redirect_from:
         body {
             background-color:	 #FFFFFF;
             font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
-            font-size: 10px;
+            font-size: 15px;
         }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
@@ -60,21 +60,15 @@ Research Experience
 Publications
 --------------
 <strong>Adversarial Attack<strong>
-
 <div style="display: flex; align-items: center;">
     <img src="images/GAP.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
-        A physical adversarial attack probing VI-ReID models by perturbing shallow, modality-invariant features. This approach generates adversarial patches to test model robustness and exposes vulnerabilities in sota models, highlighting the need for better feature extraction. <br>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+       A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
+      <a href="https://arxiv.org/pdf/2410.20097"><em>[paper]</em></a>
     </div>
 </div>
 <br>
-<strong>Robot Learning<strong>
-  
-Projects
---------------
-
 <div style="display: flex; align-items: center;">
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
     <div>
@@ -83,9 +77,17 @@ Projects
     </div>
 </div>
 
+<strong>Robot Learning<strong>
+ <div style="display: flex; align-items: center;">
+    <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
+    <div>
+        <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
+        Yue Su*, Xinyu Zhan*, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<br>
+        Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
+        <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a>
+    </div>
+</div>
 
 
-Selected Awards
-----------------
 
 
