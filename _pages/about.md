@@ -14,6 +14,7 @@ redirect_from:
         body {
             background-color:	 #FFFFFF;
             font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
+            font-size: 10px;
         }
         .main-heading {
             font-family: 'Permanent Marker', cursive;
