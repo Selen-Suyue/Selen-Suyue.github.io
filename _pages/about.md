@@ -27,7 +27,8 @@ redirect_from:
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my academic base!</h1>
 </body>
 </html>
-I am a junior at [Xidian University](https://www.xidian.edu.cn/), currently pursuing research in robot learning with a focus on visual perception and object affordance under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My ultimate goal is to create robots capable of autonomous exploration and learning through interaction with the environment.  
+I am a junior at [Xidian University](https://www.xidian.edu.cn/), currently pursuing research in robot learning with particular attention to 
+perception and inference about the real world under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My overarching objective is to develop autonomous robots capable of independent exploration and self-directed learning through dynamic interaction with real world.
 
 Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm), under the supervision of [Prof. Hao Li](https://web.xidian.edu.cn/haoli/) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
 
@@ -60,7 +61,7 @@ Research Experience
 
 Publications
 --------------
-<strong>Adversarial Attack<strong>
+<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 22px;">Adversarial Attack</p>
 <div style="display: flex; align-items: center;">
     <img src="images/GAP.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
