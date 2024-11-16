@@ -91,7 +91,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     </div>
 </div>
 <br>
-<strong>Robot Learning<strong>
+<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 22px;">Robot Learning</p>
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
     <div>
