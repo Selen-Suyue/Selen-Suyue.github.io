@@ -72,7 +72,7 @@ Publications
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
 A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
-      <a href="https://arxiv.org/pdf/2410.20097"><em>[paper]</em></a>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
 <br>
@@ -106,7 +106,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a> &#9993;
         </i><br>
         Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
-        <a href="https://arxiv.org/pdf/2411.09658"><em>[paper]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
+        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
     </div>
 </div>
 
