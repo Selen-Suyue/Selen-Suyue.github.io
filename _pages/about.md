@@ -113,10 +113,10 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
 Projects
 -----------------------
 <div style="display: flex; align-items: center;">
-    <img src="images/U_pre.png" alt="U_pre" width="240" height="120" style="margin-right: 20px;">
+    <img src="images/U_pre_pipeline.png" alt="U_pre" width="240" height="120" style="margin-right: 20px;">
     <div>
-        <strong>U-pre: U-Net1D is an excellent learner for time series forecasting.</strong><br>
-Time series forecasting is a regression problem with consistent input-output distributions and strong mathematical alignment, making it well-suited for U-Net's architecture. Using the classic U-Net1D, we achieved results on certain tasks that surpassed some 2022 transformer-based baselines, highlighting its surprising potential. Future work will explore its capabilities further.<br>
+        <strong>U-pre: U-Net is an excellent learner for time series forecasting.</strong><br>
+Time series forecasting is a regression problem with consistent input-output distributions and strong mathematical alignment, making it well-suited for U-Net's architecture. Using the U-Net1D, we achieved results on certain tasks that surpassed 2022 transformer-based baselines, highlighting its surprising potential. In addition, the effect is significantly improved after combining U-net with Bert-Encoder to take into account both local and global attention. <br>
       <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a>
     </div>
 </div>
