@@ -117,7 +117,8 @@ Projects
     <div>
         <strong>U-pre: U-Net is an excellent learner for time series forecasting.</strong><br>
 Time series forecasting is a regression problem suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. U-Net1D outperformed transformer-based models at 2022 on some tasks, showing its surprising potential. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
-      <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a>
+      <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a> 
+      <a href="files/upre.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
 
