@@ -131,7 +131,10 @@
       {% endif %}      
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr icon-pad-right" aria-hidden="true"></i>Tumblr</a></li>
-      {% endif %}      
+      {% endif %} 
+       {% if author.bilibili %}
+      <li><a href="{{ author.bilibili }}"><i class="fa-brands fa-bilibili" style="color: #c52081;" aria-hidden="true"></i>Bilibili</a></li>
+      {% endif %} 
       {% if author.twitter %}
         <li><a href="https://twitter.com/{{ author.twitter }}"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i>Twitter</a></li>
       {% endif %}
@@ -155,9 +158,6 @@
       {% endif %}     
       {% if author.XiaoHongShu %}
       <li><a href="{{ author.XiaoHongShu }}"><i class="fa-solid fa-book" style="color: #d23737;" aria-hidden="true"></i>XiaoHongShu</a></li>
-      {% endif %} 
-      {% if author.bilibili %}
-      <li><a href="{{ author.bilibili }}"><i class="fa-brands fa-bilibili" style="color: #c52081;" aria-hidden="true"></i>Bilibili</a></li>
       {% endif %} 
     </ul>
   </div>
