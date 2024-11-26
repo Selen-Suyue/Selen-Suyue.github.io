@@ -122,4 +122,15 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
     </div>
 </div>
 
+<div style="display: flex; align-items: center;">
+    <img src="images/acoflow.png" alt="U_pre" width="240" height="120" style="margin-right: 20px;">
+    <div>
+        <strong>AcoFlow: Heuristic Search for Maximum Flow Problem</strong><br>
+      The problem of finding the maximum flow in a network has been well solved in the Ford-Fulkerson Method. However, the problem lies in how to design better heuristic information to help us find the augmenting path in each iteration to minimize the number of iterations. We boldly challenge this problem through the ant colony algorithm.
+<br>
+      <a href="https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow"><em>[code]</em></a> 
+      <a href="files/AcoFlow.pdf"><em>[report-cn]</em></a>
+    </div>
+</div>
+
 
