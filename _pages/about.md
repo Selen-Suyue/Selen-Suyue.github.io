@@ -140,7 +140,7 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
       Existing adversarial attacks on point clouds are mainly based on physical generation rather than gradient perturbation. We tried to extend FGSM to the 3D field and achieved significant success within a certain gradient range, but the sampling method of 3D models tells us that things seem to be not that simple...
 <br>
       <a href="https://github.com/Selen-Suyue/FGSM3D"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/FGSM3D/blob/main/report.pdf"><em>[report-cn]</em></a>
+      <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
 
