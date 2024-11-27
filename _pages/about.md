@@ -145,7 +145,7 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/crosstalk.png" alt="crosstalk" width="240" height="120" style="margin-right: 20px;">
+    <img src="images/crosstalk.png" alt="crosstalk" width="240" height="75" style="margin-right: 20px;">
     <div>
         <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
       This project uses the Google Gemini API to create a simple chatbot application simulating two crosstalk performers (Dougen and Penggen) performing based on user-provided topics.
