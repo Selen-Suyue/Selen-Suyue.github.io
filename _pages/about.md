@@ -157,9 +157,9 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
 
 Awards
 ---------------
-- *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling.[code](https://github.com/Selen-Suyue/CUMCM2024)[paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
-- *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling.[code](https://github.com/Selen-Suyue/CUMCM2023)*
-- *Second Prize, Regional Level, 2024 China Computer Design Contest.[code](https://github.com/Selen-Suyue/Advpull)*
+- *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024),[paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
+- *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
+- *Second Prize, Regional Level, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)*
 
 
 
