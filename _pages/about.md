@@ -107,6 +107,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
         </i><br>
         Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
+        <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
     </div>
 </div>
 
