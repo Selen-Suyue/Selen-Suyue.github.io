@@ -61,7 +61,7 @@ Research Experience
 
 Publications
 --------------
-<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 22px;">Adversarial Attack</p>
+<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 20px;">Adversarial Attack</p>
 <div style="display: flex; align-items: center;">
     <img src="images/GAP.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
@@ -92,7 +92,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     </div>
 </div>
 <br>
-<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 22px;">Robot Learning</p>
+<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 20px;">Robot Learning</p>
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
     <div>
