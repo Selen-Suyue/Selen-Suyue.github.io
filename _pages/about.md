@@ -34,7 +34,7 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 News
 ---------------
-- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation*
+- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation.*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [Personal Blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
 
