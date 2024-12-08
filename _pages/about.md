@@ -149,7 +149,9 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
     <img src="images/crosstalk.png" alt="crosstalk" width="240" height="120" style="margin-right: 20px;">
     <div>
         <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
-      This project uses the Google Gemini API to create a simple chatbot application simulating two crosstalk performers (Dougen and Penggen) performing based on user-provided topics.
+      This project uses the Google Gemini to create a simple chatbot application simulating two 
+      crosstalk performers performing based on user-provided topics. We also submit a interactive character communication
+      paradigram based on audio model, future work will focus on the audio style transfer and reduce inference time. 
 <br>
       <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
       <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[report-cn]</em></a>
@@ -158,8 +160,8 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
 
 Awards
 ---------------
-- *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024),[paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
-- *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
+- *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
+- *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024),[paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
 - *Second Prize, Regional Level, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)*
 
 
