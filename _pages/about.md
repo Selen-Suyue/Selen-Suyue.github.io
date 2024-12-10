@@ -88,7 +88,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     <a href="https://scholar.google.com.hk/citations?user=h4PExPwAAAAJ&hl=zh-CN" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted at AAAI 2025.</i> &#x1F680;
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted at AAAI 2025.</i> &#128293;
     </div>
 </div>
 <br>
