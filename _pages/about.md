@@ -79,7 +79,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
 <div style="display: flex; align-items: center;">
     <img src="images/iraa.png" alt="Raa" width="240" height="120" style="margin-right: 20px;">
     <div>
-        <strong>Infrared adversarial attacks on pedestrian detection</strong><br>
+        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
       <i style="font-size: 13px;">
     <a href="https://web.xidian.edu.cn/haoli/" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://scholar.google.com.hk/citations?user=eX7Ra5UAAAAJ&hl=zh-CN" target="_blank">Fanggao Wan</a>, 
@@ -88,7 +88,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     <a href="https://scholar.google.com.hk/citations?user=h4PExPwAAAAJ&hl=zh-CN" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i>In Submission to AAAI2025.</i> &#x1F680;
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted by AAAI2025.</i> &#x1F680;
     </div>
 </div>
 <br>
