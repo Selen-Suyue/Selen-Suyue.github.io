@@ -30,7 +30,7 @@ redirect_from:
 I am a junior at [Xidian University](https://en.xidian.edu.cn/), currently pursuing research in robot learning with particular attention to 
 perception and inference about the real world under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My overarching objective is to develop autonomous robots capable of independent exploration and self-directed learning through dynamic interaction with real world.
 
-Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://cois.xidian.edu.cn/index.htm), under the supervision of [Prof. Hao Li](https://scholar.google.com.hk/citations?user=JkQmO-kAAAAJ&hl=zh-CN) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
+Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
 
 News
 ---------------
@@ -69,7 +69,7 @@ Publications
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
     <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
-    <a href="https://scholar.google.com.hk/citations?user=JkQmO-kAAAAJ&hl=zh-CN" target="_blank">Hao Li</a>&#9993;, 
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
 A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
@@ -82,11 +82,11 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
       <i style="font-size: 13px;">
-    <a href="https://scholar.google.com.hk/citations?user=JkQmO-kAAAAJ&hl=zh-CN" target="_blank">Hao Li</a>&#9993;, 
-    <a href="https://scholar.google.com.hk/citations?user=eX7Ra5UAAAAJ&hl=zh-CN" target="_blank">Fanggao Wan</a>, 
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&#9993;, 
+    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
     <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
-    <a href="https://scholar.google.com.hk/citations?user=h4PExPwAAAAJ&hl=zh-CN" target="_blank">Mingyang Zhang</a>, 
+    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted at AAAI 2025.</i> &#128293;
