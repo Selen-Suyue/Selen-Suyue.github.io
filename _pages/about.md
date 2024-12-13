@@ -34,10 +34,10 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 News
 ---------------
-- *Our work Advdisplay was accepted at AAAI 2025 &#128293;*
+- *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation.*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
-- *I have set up a [Personal Blog](https://www.cnblogs.com/SelenBlog), welcome everyone to visit!*
+- *I have set up a [Personal Blog](https://selen-suyue.github.io/biosite), welcome everyone to visit!*
 
 Research Experience
 --------------
