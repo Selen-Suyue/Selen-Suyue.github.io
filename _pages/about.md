@@ -164,7 +164,7 @@ Awards
 - *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
 - *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024),[paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
 - *Second Prize, Northwestern, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)*
-  <iframe src="https://www.tripo3d.ai/embed?share=9d257035-1930-4f97-9783-17bb71a2b9d9" width="600" height="400" frameBorder="0" allowFullScreen/>
+
 
 
 
