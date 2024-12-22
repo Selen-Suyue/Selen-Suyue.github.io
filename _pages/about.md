@@ -155,7 +155,7 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
       paradigram based on audio model, future work will focus on the audio style transfer and reduce inference time. 
 <br>
       <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[report-cn]</em></a>
+      <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
     </div>
 </div>
 
