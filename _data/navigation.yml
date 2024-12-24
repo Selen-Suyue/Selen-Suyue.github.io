@@ -1,16 +1,23 @@
 # main links links
+
 main:
-   # - title: "Publications"
-   #   url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ"
+  - title: "Publications"
+    url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ"
 
-  #- title: "Talks"
-  #   url: /talks/    
+#   - title: "Talks"
+#     url: /talks/    
 
-  # - title: "Teaching"
-  #   url: /teaching/    
+#   - title: "Teaching"
+#     url: /teaching/    
+    
+#   - title: "Portfolio"
+#     url: /portfolio/
+        
+#   - title: "Blog Posts"
+#     url: /year-archive/
     
   - title: "Resume"
     url: /files/selen_resume.pdf
     
-   #- title: "Guide"
-  #   url: /markdown/
+#   - title: "Guide"
+#     url: /markdown/
