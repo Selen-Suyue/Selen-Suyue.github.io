@@ -10,7 +10,7 @@ main:
   #   url: /teaching/    
     
   - title: "CV"
-   url: /files/selen_resume.pdf
+    url: /files/selen_resume.pdf
     
    #- title: "Guide"
   #   url: /markdown/
