@@ -1,7 +1,7 @@
 # main links links
 main:
-   #- title: "Publications"
-  #   url: /publications/
+   - title: "Publications"
+     url: https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ
 
   #- title: "Talks"
   #   url: /talks/    
@@ -9,7 +9,7 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "CV"
+  - title: "Resume"
     url: /files/selen_resume.pdf
     
    #- title: "Guide"
