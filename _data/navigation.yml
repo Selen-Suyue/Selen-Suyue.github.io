@@ -4,20 +4,15 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ"
 
-#   - title: "Talks"
-#     url: /talks/    
+  - title: "Talks"
+    url:     
 
-#   - title: "Teaching"
-#     url: /teaching/    
-    
-#   - title: "Portfolio"
-#     url: /portfolio/
-        
-#   - title: "Blog Posts"
-#     url: /year-archive/
+  - title: "Teaching"
+    url:   
+     
+  - title: "Blogs"
+    url: "https://selen-suyue.github.io/biosite/"  
     
   - title: "Resume"
     url: /files/selen_resume.pdf
     
-#   - title: "Guide"
-#     url: /markdown/
