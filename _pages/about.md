@@ -71,7 +71,7 @@ Research Experience
 Publications
 --------------
  <div style="display: flex; align-items: center;">
-    <img src="images/MBA.png" alt="MBA" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
         <i style="font-size: 13px;">
@@ -89,7 +89,7 @@ Publications
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/GAP.png" alt="RIaa" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
@@ -97,13 +97,13 @@ Publications
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
-A generative adversarial attack on VI-ReID models perturbs modality-invariant features, creating patches that expose SOTA vulnerabilities and highlight the need for enhanced feature extraction. <br>
+A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/iraa.png" alt="Raa" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
       <i style="font-size: 13px;">
@@ -114,27 +114,27 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
     <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted at AAAI 2025.</i> &#128293;
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.<i style="color:red">Accepted at AAAI 2025.</i> &#128293;
     </div>
 </div>
 
 Projects
 --------
 <div style="display: flex; align-items: center;">
-    <img src="images/U_pre_pipeline.png" alt="U_pre" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>U-pre: U-Net is an excellent learner for time series forecasting.</strong><br>
-Time series forecasting is a regression problem suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. U-Net1D outperformed transformer-based models at 2022 on some tasks, showing its surprising potential. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
+Time series forecasting is suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
       <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a> 
       <a href="files/upre.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/acoflow.png" alt="acoflow" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/acoflow.png" alt="acoflow" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AcoFlow: Heuristic Search for Maximum Flow Problem</strong><br>
-      The problem of finding the maximum flow in a network has been well solved in the Ford-Fulkerson Method. However, the problem lies in how to design better heuristic information to help us find the augmenting path in each iteration to minimize the number of iterations. We boldly challenge this problem through the ant colony algorithm.
+      The problem of finding the maximum flow lies in how to design better heuristic information to find the augmenting path. We boldly challenge this problem through the ant colony algorithm.
 <br>
       <a href="https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow"><em>[code]</em></a> 
       <a href="files/AcoFlow.pdf"><em>[report-cn]</em></a>
@@ -142,10 +142,10 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/FGSM3D.png" alt="FGSM3D" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/FGSM3D.png" alt="FGSM3D" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>FGSM3D: Is the point cloud gradient perturbation attack feasible?</strong><br>
-      Existing adversarial attacks on point clouds are mainly based on physical generation rather than gradient perturbation. We tried to extend FGSM to the 3D field and achieved significant success within a certain gradient range, but the sampling method of 3D models tells us that things seem to be not that simple...
+      We tried to extend FGSM to the 3D field and achieved significant success within a certain gradient range, but the sampling method of 3D models tells us that things seem to be not that simple...
 <br>
       <a href="https://github.com/Selen-Suyue/FGSM3D"><em>[code]</em></a> 
       <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
@@ -153,12 +153,11 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/crosstalk.png" alt="crosstalk" width="160" height="80" style="margin-right: 20px;">
+    <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
       This project uses the Google Gemini to create a simple chatbot application simulating two 
-      crosstalk performers performing based on user-provided topics. We also submit a interactive character communication
-      paradigram based on audio model, future work will focus on the audio style transfer and reduce inference time. 
+      crosstalk performers performing based on user-provided topics.
 <br>
       <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
       <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
