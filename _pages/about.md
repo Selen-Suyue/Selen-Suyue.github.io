@@ -166,6 +166,38 @@ Time series forecasting is a regression problem suited for U-Net's architecture 
     </div>
 </div>
 
+## Projects
+
+### U-pre: U-Net is an excellent learner for time series forecasting
+![U-pre](images/U_pre_pipeline.png)
+
+Time series forecasting is a regression problem suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. U-Net1D outperformed transformer-based models in 2022 on some tasks, showing its surprising potential. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention.  
+[**[Code]**](https://github.com/Selen-Suyue/U-pre) [**[Report (CN)]**](files/upre.pdf)
+
+---
+
+### AcoFlow: Heuristic Search for Maximum Flow Problem
+![AcoFlow](images/acoflow.png)
+
+The problem of finding the maximum flow in a network has been well solved in the Ford-Fulkerson Method. However, the challenge lies in designing better heuristic information to find augmenting paths in each iteration and minimize the number of iterations. This project tackles the problem using the ant colony algorithm.  
+[**[Code]**](https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow) [**[Report (CN)]**](files/AcoFlow.pdf)
+
+---
+
+### FGSM3D: Is the point cloud gradient perturbation attack feasible?
+![FGSM3D](images/FGSM3D.png)
+
+Existing adversarial attacks on point clouds are mainly based on physical generation rather than gradient perturbation. This project extends FGSM to the 3D domain, achieving significant success within a certain gradient range. However, the 3D model sampling method suggests the problem is more complex than it appears.  
+[**[Code]**](https://github.com/Selen-Suyue/FGSM3D) [**[Report (CN)]**](https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf)
+
+---
+
+### AgentCrossTalk: Perform a Crosstalk between two LLM agents
+![AgentCrossTalk](images/crosstalk.png)
+
+This project leverages Google Gemini to create a chatbot simulating two crosstalk performers based on user-provided topics. It also proposes an interactive character communication paradigm using an audio model. Future work will focus on audio style transfer and reducing inference time.  
+[**[Code]**](https://github.com/Selen-Suyue/Agent_CrossTalk) [**[Website]**](https://lyn-siya.github.io/AgentCrosstalk/)
+
 Awards
 ---------------
 - *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
