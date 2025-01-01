@@ -120,7 +120,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
 
 
 Projects
-=======
+--------
 <div style="display: flex; align-items: center;">
     <img src="images/U_pre_pipeline.png" alt="U_pre" width="240" height="120" style="margin-right: 20px;">
     <div>
