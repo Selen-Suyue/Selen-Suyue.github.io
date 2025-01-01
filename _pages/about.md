@@ -34,12 +34,11 @@ Previously, during my sophomore year, I contributed to research on adversarial a
 
 Research Interests
 --------
-My research interests and the deep learning paradigm I aim to shape primarily focus on the following aspects:
+My research interests and the deep learning paradigm I aim to shape primarily focus on:
 
-- **Reasoning-based Learning**: Inferring knowledge through interaction with the real world, such as deducing object motions, contacts, mechanical interactions, affordances, etc., from observations. By leveraging the ability to reason about the real world, robots or agents can acquire enhanced generalization capabilities, potentially leading to the development of active learning abilities in the future.
+- **Reasoning-based Learning**: Inferring knowledge from real-world interactions, such as object motions, contacts, and affordances, to enhance agents' reasoning and generalization, paving the way for active learning development.
 
-- **Generative Modeling**: The aim is to use generative methods to model objects governed by physical laws, including feature-level, semantic-level, and scene-level representations, with the ultimate goal of building a world model.
-
+- **Generative Modeling**: Using generative methods to model objects under physical laws, spanning feature, semantic, and scene levels, to ultimately build a world model.
 
 News
 ---------------
@@ -71,7 +70,24 @@ Research Experience
 
 Publications
 --------------
-<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 20px;">Adversarial Attack</p>
+ <div style="display: flex; align-items: center;">
+    <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
+    <div>
+        <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank">Yue Su*</a>, 
+            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan*</a>, 
+            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
+            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
+            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
+            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a> &#9993;
+        </i><br>
+        Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
+        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
+        <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
+    </div>
+</div>
+<br>
 <div style="display: flex; align-items: center;">
     <img src="images/GAP.png" alt="RIaa" width="240" height="120" style="margin-right: 20px;">
     <div>
@@ -101,25 +117,7 @@ A generative adversarial attack on VI-ReID models perturbs modality-invariant fe
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios, causing pedestrian detection models in infrared settings to misjudge. <i style="color:red">Accepted at AAAI 2025.</i> &#128293;
     </div>
 </div>
-<br>
-<p style="font-family: 'Times New Roman', serif; font-style: italic; font-weight: bold; font-size: 20px;">Robot Learning</p>
- <div style="display: flex; align-items: center;">
-    <img src="images/MBA.png" alt="MBA" width="240" height="120" style="margin-right: 20px;">
-    <div>
-        <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
-        <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank">Yue Su*</a>, 
-            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan*</a>, 
-            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
-            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
-            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
-            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a> &#9993;
-        </i><br>
-        Propose MBA, a novel module that employs two cascaded diffusion processes for object motion generation and robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.<br>
-        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
-    </div>
-</div>
+
 
 Projects
 -----------------------
