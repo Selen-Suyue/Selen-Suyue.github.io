@@ -32,6 +32,15 @@ perception and inference about the real world under the guidance of [Prof. Lixin
 
 Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
 
+Research Interests
+--------
+My research interests and the deep learning paradigm I aim to shape primarily focus on the following aspects:
+
+- **Reasoning-based Learning**: Inferring knowledge through interaction with the real world, such as deducing object motions, contacts, mechanical interactions, affordances, etc., from observations. By leveraging the ability to reason about the real world, robots or agents can acquire enhanced generalization capabilities, potentially leading to the development of active learning abilities in the future.
+
+- **Generative Modeling**: The aim is to use generative methods to model objects governed by physical laws, including feature-level, semantic-level, and scene-level representations, with the ultimate goal of building a world model.
+
+
 News
 ---------------
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
