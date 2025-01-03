@@ -20,7 +20,8 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: $sans-serif-narrow;
+    font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
+    color: #ca6f6f;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
