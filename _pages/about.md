@@ -23,6 +23,7 @@ redirect_from:
         }
         div.markdown-body a, a {
            text-decoration: none !important;
+           color: #ff5733;
         }
     </style>
 </head>
