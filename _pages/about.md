@@ -21,8 +21,8 @@ redirect_from:
             text-align: center;
             color: #87CEFA;
         }
-        a {
-            text-decoration: none; 
+         a, div a {
+            text-decoration: none;
         }
     </style>
 </head>
