@@ -19,7 +19,7 @@ redirect_from:
         .main-heading {
             font-family: 'Permanent Marker', cursive;
             text-align: center;
-            color: #87CEFA;
+            color: #ff5733;
         }
         div.markdown-body a, a {
            text-decoration: none !important;
