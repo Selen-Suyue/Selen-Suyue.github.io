@@ -21,6 +21,10 @@ redirect_from:
             text-align: center;
             color: #87CEFA;
         }
+        a {
+            text-decoration: none;  /* 去掉下划线 */
+            color: inherit;  /* 继承父元素的颜色 */
+        }
     </style>
 </head>
 <body>
