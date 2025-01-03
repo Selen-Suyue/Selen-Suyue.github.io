@@ -22,8 +22,7 @@ redirect_from:
             color: #87CEFA;
         }
         a {
-            text-decoration: none;  /* 去掉下划线 */
-            color: inherit;  /* 继承父元素的颜色 */
+            text-decoration: none; 
         }
     </style>
 </head>
