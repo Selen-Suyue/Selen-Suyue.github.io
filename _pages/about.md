@@ -21,8 +21,8 @@ redirect_from:
             text-align: center;
             color: #87CEFA;
         }
-         a, div a {
-            text-decoration: none;
+        div.markdown-body a, a {
+           text-decoration: none !important;
         }
     </style>
 </head>
