@@ -31,18 +31,17 @@ redirect_from:
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my academic base!</h1>
 </body>
 </html>
-I am a junior at [Xidian University](https://en.xidian.edu.cn/), currently pursuing research in robot learning with particular attention to 
-perception and inference about the real world under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). My overarching objective is to develop autonomous robots capable of independent exploration and self-directed learning through dynamic interaction with real world.
+I am a third-year undergraduate(2022-2026) at [Xidian University](https://en.xidian.edu.cn/), currently pursuing research in robot learning under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/).
 
-Previously, during my sophomore year, I contributed to research on adversarial attacks against computer vision systems at the [Key Laboratory of Cooperative Intelligent Systems, Ministry of Education](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). This experience instilled in me a deep appreciation for the importance of robustness and security in vision-based systems, particularly for applications in agents' autonomous exploration.
+Previously, I contributed to research on adversarial attacks against computer vision systems at the [Laboratory of Cooperative Intelligent Systems](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/).
 
 Research Interests
 --------
-My research interests and the deep learning paradigm I aim to shape primarily focus on:
+My research interests and the learning paradigm I aim to shape primarily focus on:
 
-- **Reasoning-based Learning**: Inferring knowledge from real-world interactions, such as object motions, contacts, and affordances, to enhance agents' reasoning and generalization, paving the way for active learning development.
+- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agents' reasoning and generalization, promoting the development of active learning.
 
-- **Generative Modeling**: Using generative methods to model objects under physical laws, spanning feature, semantic, and scene levels, to ultimately build a world model.
+- **Generative Modeling**: Modeling the agent's knowledge through generative methods to develop into a world model.
 
 News
 ---------------
@@ -54,16 +53,6 @@ News
 Research Experience
 --------------
 <div style="display: flex; align-items: center;">
-    <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
-    <div>
-        <strong>Xidian University (XDU)</strong><br>
-        September 2023 - July 2024<br>
-        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab 
-    </div>
-</div>
-<br>
-
-<div style="display: flex; align-items: center;">
     <img src="images/SJTU.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
     <div>
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
@@ -71,7 +60,15 @@ Research Experience
         Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab 
     </div>
 </div> 
-
+<br>
+<div style="display: flex; align-items: center;">
+    <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
+    <div>
+        <strong>Xidian University (XDU)</strong><br>
+        September 2023 - July 2024<br>
+        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab 
+    </div>
+</div>
 Publications
 --------------
  <div style="display: flex; align-items: center;">
