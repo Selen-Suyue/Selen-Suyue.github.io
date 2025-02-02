@@ -37,7 +37,7 @@ Research Interests
 --------
 My research interests and the learning paradigm I aim to shape primarily focus on:
 
-- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agents' reasoning and generalization, promoting the development of active learning.
+- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agents' reasoning and generalization, promoting the development of proactive learning.
 
 - **Generative Modeling**: Modeling the agent's knowledge through generative methods to develop into a world model.
 
