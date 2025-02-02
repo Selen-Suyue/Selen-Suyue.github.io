@@ -80,7 +80,7 @@ Publications
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
             <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
-            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a> &#9993;
+            <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&#9993;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
