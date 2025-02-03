@@ -21,8 +21,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: "italic","Music Carnival","HFBest Wishes", "Comic Sans MS","Verdana";
-    font-size: 16px;
-    color: red;
+    font-size: 18px;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
