@@ -75,7 +75,7 @@ Publications
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank">Yue Su*</a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong>*</a>, 
             <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan*</a>, 
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
             <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
@@ -93,7 +93,7 @@ Publications
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
+    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
 </i><br>
@@ -109,7 +109,7 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
       <i style="font-size: 13px;">
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&#9993;, 
     <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-    <a href="https://selen-suyue.github.io" target="_blank">Yue Su</a>, 
+    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
     <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&#9993;
