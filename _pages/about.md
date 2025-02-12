@@ -37,7 +37,7 @@ Research Interests
 --------
 My research interests and the learning paradigm I aim to shape primarily focus on:
 
-- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agents' reasoning and generalization, promoting the development of proactive learning.
+- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agent's reasoning and generalization, promoting the development of proactive learning.
 
 - **Generative Modeling**: Modeling the agent's knowledge through generative methods to develop into a world model.
 
@@ -95,7 +95,7 @@ Publications
        <i style="font-size: 13px;">
     <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;;
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
 </i><br>
 A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
