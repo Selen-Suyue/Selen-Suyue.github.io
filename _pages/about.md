@@ -43,6 +43,7 @@ My research interests and the learning paradigm I aim to shape primarily focus o
 
 News
 ---------------
+- *Build [MetaPalace](https://metapalace.xj63.fun/), Let you in a meta world of The Palace Museum.*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation.*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
@@ -121,9 +122,20 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
 Projects
 --------
 <div style="display: flex; align-items: center;">
+    <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
+We've done what the Old Palace official website couldn't: offering 3D artifact views with single-view reconstruction and an interactive LLM-powered tour guider using RAG technology. <br>
+      <a href="https://metapalace.xj63.fun/"><em>[website]</em></a> 
+      <a href="https://github.com/xj63/MetaPalaceSite"><em>[front-end code]</em></a>
+      <a href="https://github.com/Selen-Suyue/MetaPalace"><em>[back-end code]</em></a>
+    </div>
+</div>
+<br>
+<div style="display: flex; align-items: center;">
     <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>U-pre: U-Net is an excellent learner for time series forecasting.</strong><br>
+        <strong>U-pre: U-Net is an excellent learner for time series forecasting</strong><br>
 Time series forecasting is suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
       <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a> 
       <a href="files/upre.pdf"><em>[report-cn]</em></a>
