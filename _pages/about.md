@@ -75,12 +75,12 @@ Publications
     <img src="images/dsp.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
-        <i style="font-size: 12px;">
+        <i style="font-size: 13px;">
             <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
             <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
             <a href="https://hanxue.me/" target="_blank">Han Xue</a>, 
-            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
+            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, <br>
             <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
