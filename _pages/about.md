@@ -86,7 +86,9 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, has demonstrated capabilities exceeding diffusion policies.<br>
+        <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[code]</em></a>
     </div>
 </div>
 <br>
