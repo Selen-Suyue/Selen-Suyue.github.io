@@ -79,8 +79,8 @@ Publications
             <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
             <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
-            <a href="https://hanxue.me/" target="_blank">Han Xue</a>, 
-            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, <br>
+            <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
+            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
             <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
