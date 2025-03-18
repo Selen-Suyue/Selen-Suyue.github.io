@@ -88,7 +88,8 @@ Publications
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, has demonstrated capabilities exceeding diffusion policies.<br>
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[code]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
+      <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
     </div>
 </div>
 <br>
