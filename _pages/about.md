@@ -43,6 +43,7 @@ My research interests and the learning paradigm I aim to shape primarily focus o
 
 News
 ---------------
+- *Unlesh the potential of Autoregressive model in imitation learning: [Dense Policy](https://selen-suyue.github.io/DspNet) is on preprint!*
 - *Build [MetaPalace](https://metapalace.xj63.fun/), Let you in a meta world of The Palace Museum.*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation.*
