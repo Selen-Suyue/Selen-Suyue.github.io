@@ -141,7 +141,7 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
 </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
       <br>
-      <i style="color:blue">AAAI 2025</i> 
+      <i style="color:#83a1c7;">AAAI 2025</i> 
       <br>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
     </div>
