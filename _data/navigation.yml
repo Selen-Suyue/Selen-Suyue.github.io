@@ -4,17 +4,14 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ"
 
-  - title: "Resume"
+  - title: "CV-En"
     url: /files/selen_resume.pdf
-     
+    
+  - title: "CV-Cn"
+    url:   /files/chinese_resume.pdf  
+
   - title: "Blogs"
     url: "https://selen-suyue.github.io/biosite/"  
-    
-  - title: "Talks"
-    url:     
-
-  - title: "Teaching"
-    url:   
     
   - title: "Slide"
     url: /files/selenslide.pdf
