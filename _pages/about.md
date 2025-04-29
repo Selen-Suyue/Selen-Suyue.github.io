@@ -36,11 +36,7 @@ I am a third-year undergraduate(2022-2026) at [Xidian University](https://en.xid
 
 Research Interests
 --------
-My research interests and the learning paradigm I aim to shape primarily focus on:
-
-- **Reasoning-based Learning**: Inferring knowledge from interactions with environments to enhance agent's reasoning and generalization, promoting the development of proactive learning.
-
-- **Generative Modeling**: Modeling the agent's knowledge through generative methods to develop into a world model.
+As you know, our goal is to develop AI into a life-like, curious, and autonomous agent capable of self-directed exploration, both in the real world and in virtual environments.
 
 News
 ---------------
