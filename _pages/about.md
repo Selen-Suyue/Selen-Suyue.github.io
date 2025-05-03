@@ -167,13 +167,24 @@ Time series forecasting is suited for U-Net's architecture due to its consistent
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/acoflow.png" alt="acoflow" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>AcoFlow: Heuristic Search for Maximum Flow Problem</strong><br>
-      The problem of finding the maximum flow lies in how to design better heuristic information to find the augmenting path. We boldly challenge this problem through the ant colony algorithm.
+        <strong>UniGen: Unified understanding and generation based on Flicker 8k dataset</strong><br>
+A light-weight model for joint learning of language and image based on tiny captioned image dataset. UniGen is equipped
+with the abilities of image genration and language description in one model.<br>
+      <a href="https://github.com/Selen-Suyue/UniGen"><em>[code]</em></a>
+    </div>
+</div>
 <br>
-      <a href="https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow"><em>[code]</em></a> 
-      <a href="files/AcoFlow.pdf"><em>[report-cn]</em></a>
+<div style="display: flex; align-items: center;">
+    <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
+      This project uses the Google Gemini to create a simple chatbot application simulating two 
+      crosstalk performers performing based on user-provided topics.
+<br>
+      <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
+      <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
     </div>
 </div>
 <br>
@@ -189,14 +200,13 @@ Time series forecasting is suited for U-Net's architecture due to its consistent
 </div>
 <br>
 <div style="display: flex; align-items: center;">
-    <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/acoflow.png" alt="acoflow" width="200" height="100" style="margin-right: 20px;">
     <div>
-        <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
-      This project uses the Google Gemini to create a simple chatbot application simulating two 
-      crosstalk performers performing based on user-provided topics.
+        <strong>AcoFlow: Heuristic Search for Maximum Flow Problem</strong><br>
+      The problem of finding the maximum flow lies in how to design better heuristic information to find the augmenting path. We boldly challenge this problem through the ant colony algorithm.
 <br>
-      <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
-      <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
+      <a href="https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow"><em>[code]</em></a> 
+      <a href="files/AcoFlow.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
 
