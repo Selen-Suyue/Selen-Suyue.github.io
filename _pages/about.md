@@ -170,7 +170,7 @@ Time series forecasting is suited for U-Net's architecture due to its consistent
     <img src="images/mpre.png" alt="M_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>M-pre: Mamba for time series forecasting</strong><br>
-We tried Mamba for time series forecasting based on feature-conditioned tokens. <br>
+We tried Mamba for time series forecasting based on feature-conditioned tokens, which outpreformed transformer-based U-pre. <br>
       <a href="https://github.com/Selen-Suyue/M-pre"><em>[code]</em></a> 
       <a href=""><em>[report-cn]</em></a>
     </div>
