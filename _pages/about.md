@@ -167,6 +167,16 @@ Time series forecasting is suited for U-Net's architecture due to its consistent
 </div>
 <br>
 <div style="display: flex; align-items: center;">
+    <img src="images/mpre.png" alt="M_pre" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>M-pre: Mamba for time series forecasting</strong><br>
+We tried Mamba for time series forecasting based on feature-conditioned tokens. <br>
+      <a href="https://github.com/Selen-Suyue/M-pre"><em>[code]</em></a> 
+      <a href=""><em>[report-cn]</em></a>
+    </div>
+</div>
+<br>
+<div style="display: flex; align-items: center;">
     <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>UniGen: Unified understanding and generation based on Flicker 8k dataset</strong><br>
