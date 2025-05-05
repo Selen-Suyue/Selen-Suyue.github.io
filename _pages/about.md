@@ -36,7 +36,7 @@ I am a third-year undergraduate(2022-2026) at [Xidian University](https://en.xid
 
 Research Interests
 --------
-As you know, our goal is to develop AI into a life-like, curious, and autonomous agent capable of self-directed exploration, both in the real world and in virtual environments.
+As you know, our goal is to develop AI into a life-like, curious, and autonomous agent capable of self-directed exploration, both in the real world and in virtual environments. And that's why we should build VLAs, as action can be a bridge between the static model and dynamic agent.
 
 News
 ---------------
