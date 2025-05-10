@@ -32,7 +32,7 @@ redirect_from:
 </body>
 </html>
 I am a third-year undergraduate(2022-2026) at [Xidian University](https://en.xidian.edu.cn/), currently pursuing research in robot learning under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Previously, I contributed to research on adversarial attacks against vision models at the [Laboratory of Cooperative Intelligent Systems](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). 
-<span style="color: #83a1c7;">I am looking for 2026 fall phd or master opportunities, alongside potential internships, whether in academia or industry</span>.
+<!-- <span style="color: #83a1c7;">I am looking for 2026 fall phd or master opportunities, alongside potential internships, whether in academia or industry</span>. -->
 
 Research Interests
 --------
