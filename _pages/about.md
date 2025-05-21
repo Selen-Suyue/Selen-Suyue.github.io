@@ -40,10 +40,10 @@ As you know, our goal is to develop AI into a life-like, curious, and autonomous
 
 News
 ---------------
+- *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
 - *Unlesh the potential of Autoregressive model in imitation learning: [Dense Policy](https://selen-suyue.github.io/DspNet) is on preprint!*
 - *Build [MetaPalace](https://metapalace.xj63.fun/), Let you in a meta world of The Palace Museum.*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
-- *My first work on robot learning:[MBA](https://selen-suyue.github.io/MBApage), about object motion for robots manipulation.*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 - *I have set up a [Blog Site](https://selen-suyue.github.io/biosite), welcome everyone to visit!*
 
@@ -104,6 +104,8 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
+      <b><i style="color:#83a1c7;">IEEE RA-L 2025</i></b>
+      <br>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
     </div>
