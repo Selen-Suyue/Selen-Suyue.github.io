@@ -50,6 +50,7 @@ redirect_from:
   align-items: center;
   padding: 15px;
   border: 1px solid #ddd;
+  margin-top: 20px;
   margin-bottom: 20px;
   border-radius: 8px;
   background: #fff;
@@ -240,7 +241,6 @@ We tried Mamba for time series forecasting based on feature-conditioned tokens, 
       <a href="https://github.com/Selen-Suyue/M-pre/raw/main/M_pre.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
-<br>
 <div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
