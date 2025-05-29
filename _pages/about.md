@@ -12,7 +12,7 @@ redirect_from:
         background: #f9f9f9;
         border-radius: 12px;
         padding: 16px;
-        margin-bottom: 20px;
+        margin-bottom: 5px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s, box-shadow 0.3s;
     }
@@ -50,7 +50,7 @@ redirect_from:
   align-items: center;
   padding: 15px;
   border: 1px solid #ddd;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   border-radius: 8px;
   background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
