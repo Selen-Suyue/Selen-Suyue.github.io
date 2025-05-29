@@ -37,13 +37,12 @@ redirect_from:
         text-decoration: none;
         color: #0073e6;
     }
-    .experience-container {
-    display: flex;
-    gap: 20px; /* 控制卡片之间的间距 */
-    flex-wrap: wrap; /* 在小屏幕下自动换行 */
+.experience-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
 }
-    .experience-card {
-    flex: 1 1 48%; /* 每张卡片大约占一半宽度 */
+.experience-card {
     box-sizing: border-box;
 }
 </style>
@@ -105,7 +104,6 @@ Research Experience
       </div>
   </div>
 </div>
-
 
 Publications
 --------------
