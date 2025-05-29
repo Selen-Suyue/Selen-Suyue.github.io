@@ -64,28 +64,24 @@ redirect_from:
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 </body>
 </html>
-I am a third-year undergraduate (2022-2026) at [Xidian University](https://en.xidian.edu.cn/), currently pursuing research in robot learning under the guidance of [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html) at the [MVIG Lab](https://www.mvig.org/index.html), [Shanghai Jiao Tong University](https://en.sjtu.edu.cn/). Previously, I contributed to research on adversarial attacks against vision models at the [Laboratory of Cooperative Intelligent Systems](https://web.xidian.edu.cn/mggong/), under the supervision of [Prof. Hao Li](https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en) and [Prof. Maoguo Gong](https://web.xidian.edu.cn/mggong/). 
-<!-- <span style="color: #83a1c7;">I am looking for 2026 fall phd or master opportunities, alongside potential internships, whether in academia or industry</span>. -->
 
-Research Interests
---------
-As you know, our goal is to develop AI into a life-like, curious, and autonomous agent capable of self-directed exploration, both in the real world and in virtual environments. And that's why we should build VLAs, as action can be a bridge between the static model and dynamic agent.
+I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Vision-Language-Action.</em>
+I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html)
+
 
 News
 ---------------
 - *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
 - *Unlesh the potential of Autoregressive model in imitation learning: [Dense Policy](https://selen-suyue.github.io/DspNet) is on preprint!*
-- *Build [MetaPalace](https://metapalace.xj63.fun/), Let you in a meta world of The Palace Museum.*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
-- *I have set up a [Blog Site](https://selen-suyue.github.io/biosite), welcome everyone to visit!*
 
 Research Experience
 --------------
 <div class="experience-card">
     <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
     <div class="experience-info">
-        <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
+        <strong>Shanghai Jiao Tong University</strong><br>
         July 2024 - Now<br>
         Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
     </div>
@@ -94,7 +90,7 @@ Research Experience
 <div class="experience-card">
     <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
     <div class="experience-info">
-        <strong>Xidian University (XDU)</strong><br>
+        <strong>Xidian University</strong><br>
         September 2023 - July 2024<br>
         Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
     </div>
