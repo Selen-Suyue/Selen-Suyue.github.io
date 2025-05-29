@@ -37,6 +37,15 @@ redirect_from:
         text-decoration: none;
         color: #0073e6;
     }
+    .experience-container {
+    display: flex;
+    gap: 20px; /* 控制卡片之间的间距 */
+    flex-wrap: wrap; /* 在小屏幕下自动换行 */
+}
+    .experience-card {
+    flex: 1 1 48%; /* 每张卡片大约占一半宽度 */
+    box-sizing: border-box;
+}
 </style>
 <html> 
 <head>
@@ -77,23 +86,26 @@ News
 
 Research Experience
 --------------
-<div class="experience-card">
-    <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
-    <div class="experience-info">
-        <strong>Shanghai Jiao Tong University</strong><br>
-        July 2024 - Now<br>
-        Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
-    </div>
+<div class="experience-container">
+  <div class="experience-card">
+      <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Shanghai Jiao Tong University</strong><br>
+          July 2024 - Now<br>
+          Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
+      </div>
+  </div>
+
+  <div class="experience-card">
+      <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Xidian University</strong><br>
+          September 2023 - July 2024<br>
+          Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+      </div>
+  </div>
 </div>
 
-<div class="experience-card">
-    <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
-    <div class="experience-info">
-        <strong>Xidian University</strong><br>
-        September 2023 - July 2024<br>
-        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
-    </div>
-</div>
 
 Publications
 --------------
