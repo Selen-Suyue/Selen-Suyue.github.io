@@ -12,7 +12,7 @@ redirect_from:
         background: #f9f9f9;
         border-radius: 12px;
         padding: 16px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s, box-shadow 0.3s;
     }
@@ -50,7 +50,7 @@ redirect_from:
   align-items: center;
   padding: 15px;
   border: 1px solid #ddd;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   border-radius: 8px;
   background: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -152,7 +152,6 @@ Publications
     </div>
 </div>
 </div>
-<br>
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
@@ -174,7 +173,6 @@ Publications
     </div>
 </div>
 </div>
-<br>
 <div style="display: flex; align-items: center;">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -223,7 +221,6 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
     </div>
 </div>
 </div>
-<br>
 <div style="display: flex; align-items: center;">
     <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -244,6 +241,7 @@ We tried Mamba for time series forecasting based on feature-conditioned tokens, 
     </div>
 </div>
 <br>
+<div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -253,7 +251,7 @@ with the abilities of image genration and language description in one model.<br>
       <a href="https://github.com/Selen-Suyue/UniGen"><em>[code]</em></a>
     </div>
 </div>
-<br>
+</div>
 <div style="display: flex; align-items: center;">
     <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
     <div>
