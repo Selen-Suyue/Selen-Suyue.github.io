@@ -5,6 +5,39 @@ redirect_from:
   - /about/
   - /about.html
 ---
+<style>
+    .experience-card {
+        display: flex;
+        align-items: center;
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .experience-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+    .experience-info {
+        font-family: "Segoe UI", sans-serif;
+    }
+    .experience-info strong {
+        font-size: 1.1em;
+    }
+    .experience-info a {
+        text-decoration: none;
+        color: #0073e6;
+    }
+</style>
 <html> 
 <head>
     <style>
@@ -49,21 +82,21 @@ News
 
 Research Experience
 --------------
-<div style="display: flex; align-items: center;">
-    <img src="images/SJTU.png" alt="SJTU logo" width="60" height="60" style="margin-right: 20px;">
-    <div>
+<div class="experience-card">
+    <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
+    <div class="experience-info">
         <strong>Shanghai Jiao Tong University (SJTU)</strong><br>
-        July 2024 -  Now<br>
-        Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab 
+        July 2024 - Now<br>
+        Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
     </div>
-</div> 
-<br>
-<div style="display: flex; align-items: center;">
-    <img src="images/XDU.png" alt="Xi'dian logo" width="60" height="60" style="margin-right: 20px;">
-    <div>
+</div>
+
+<div class="experience-card">
+    <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
+    <div class="experience-info">
         <strong>Xidian University (XDU)</strong><br>
         September 2023 - July 2024<br>
-        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab 
+        Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
     </div>
 </div>
 
