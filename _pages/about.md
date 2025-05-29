@@ -45,36 +45,28 @@ redirect_from:
     .experience-card {
         box-sizing: border-box;
     }
-    .publication-card {
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    border: 1px solid #ddd;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+.publication-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    .publication-card.featured {
-    border-color: #3f51b5;
-    background: #e8eaf6;
-    box-shadow: 0 8px 16px rgba(63, 81, 181, 0.3);
-    transform: scale(1.05);
-    z-index: 10;
-    }
+.publication-card.featured {
+  border-color: #f2a678;       /* 哈密瓜色边框 */
+  background: #f9e6db;         /* 非常浅的哈密瓜色背景 */
+  box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); /* 哈密瓜色半透明阴影 */
+  z-index: 10;
+}
 
-    /* 你还可以给图片或文字添加颜色强调 */
-    .publication-card.featured img {
-    border: 3px solid #3f51b5;
-    border-radius: 6px;
-    }
-
-    .publication-card.featured strong {
-    color: #3f51b5;
-    font-size: 1.2em;
-    }
-
+.publication-card.featured img {
+  border: 3px solid #f2a678;  /* 哈密瓜色边框 */
+  border-radius: 6px;
+}
 </style>
 <html> 
 <head>
