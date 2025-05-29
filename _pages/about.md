@@ -152,8 +152,8 @@ Publications
     </div>
 </div>
 </div>
-
 <br>
+<div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -172,6 +172,7 @@ Publications
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
     </div>
+</div>
 </div>
 <br>
 <div style="display: flex; align-items: center;">
@@ -210,6 +211,7 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
 
 Projects
 --------
+<div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -219,6 +221,7 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
       <a href="https://github.com/xj63/MetaPalaceSite"><em>[front-end code]</em></a>
       <a href="https://github.com/Selen-Suyue/MetaPalace"><em>[back-end code]</em></a>
     </div>
+</div>
 </div>
 <br>
 <div style="display: flex; align-items: center;">
