@@ -12,7 +12,7 @@ redirect_from:
         background: #f9f9f9;
         border-radius: 12px;
         padding: 16px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s, box-shadow 0.3s;
     }
