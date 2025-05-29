@@ -35,16 +35,46 @@ redirect_from:
     }
     .experience-info a {
         text-decoration: none;
-        color: #0073e6;
+        color: #ca6f6f;
     }
-.experience-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-}
-.experience-card {
-    box-sizing: border-box;
-}
+    .experience-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .experience-card {
+        box-sizing: border-box;
+    }
+    .publication-card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: #fff;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .publication-card.featured {
+    border-color: #3f51b5;
+    background: #e8eaf6;
+    box-shadow: 0 8px 16px rgba(63, 81, 181, 0.3);
+    transform: scale(1.05);
+    z-index: 10;
+    }
+
+    /* 你还可以给图片或文字添加颜色强调 */
+    .publication-card.featured img {
+    border: 3px solid #3f51b5;
+    border-radius: 6px;
+    }
+
+    .publication-card.featured strong {
+    color: #3f51b5;
+    font-size: 1.2em;
+    }
+
 </style>
 <html> 
 <head>
@@ -107,6 +137,7 @@ Research Experience
 
 Publications
 --------------
+<div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/dsp.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -128,6 +159,8 @@ Publications
       <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
     </div>
 </div>
+</div>
+
 <br>
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
