@@ -49,7 +49,7 @@ redirect_from:
     display: flex;
     align-items: center;
     padding: 3px;
-    border: 1px solid #ddd;
+    border: 1.5px solid #ddd;
     margin-top: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -62,11 +62,6 @@ redirect_from:
         background: #f9e6db;         /* 非常浅的哈密瓜色背景 */
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); /* 哈密瓜色半透明阴影 */
         z-index: 10;
-    }
-
-    .publication-card.featured img {
-        border: 2px solid #f2a678;  /* 哈密瓜色边框 */
-        box-sizing: border-box;     /* 关键：让边框在图片原有尺寸内绘制 */
     }
 </style>
 <html> 
