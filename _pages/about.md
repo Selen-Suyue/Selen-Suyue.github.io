@@ -63,6 +63,93 @@ redirect_from:
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); /* 哈密瓜色半透明阴影 */
         z-index: 10;
     }
+    .news-section {
+    font-family: sans-serif; /* 设置字体，你可以改成你网站的主题字体 */
+    margin-bottom: 30px; /* 与下方内容的间距 */
+    }
+
+    /* 新闻标题 "News" */
+    .news-section h3 {
+        margin-bottom: 5px; /* 标题和下方分割线的间距 */
+        color: #333; /* 标题颜色 */
+        /* 可选：给标题加一点装饰 */
+        /* border-left: 4px solid #f2a678; /* 左侧哈密瓜色强调线 */
+        /* padding-left: 10px; /* 强调线和文字的间距 */
+    }
+
+    /* 分割线 <hr> */
+    .news-section hr {
+        border: 0; /* 移除默认边框 */
+        height: 1px; /* 设置高度为1像素，形成细线 */
+        background-color: #ddd; /* 分割线颜色，浅灰色 */
+        margin-bottom: 15px; /* 分割线和新闻列表的间距 */
+    }
+
+    /* 新闻列表容器 <ul> */
+    .news-list {
+        list-style: none; /* 移除默认的列表项目符号 (小圆点) */
+        padding-left: 0; /* 移除默认的左内边距 */
+    }
+
+    /* 每条新闻 <li> */
+    .news-list li {
+        padding: 10px 5px; /* 上下10px，左右5px的内边距，让文字不贴边 */
+        margin-bottom: 8px; /* 新闻条目之间的间距 */
+        border-left: 3px solid transparent; /* 左侧边框，初始透明，宽度3px。这是一个占位符，用于鼠标悬停时显示颜色而内容不跳动 */
+        transition: background-color 0.3s ease, border-left-color 0.3s ease, transform 0.2s ease-out; /* 过渡效果：背景色、左边框颜色、位移，持续时间和缓动函数 */
+        /* 入场动画设置 */
+        opacity: 0; /* 初始完全透明 */
+        transform: translateX(-20px); /* 初始向左偏移20px */
+        animation: slideInFadeIn 0.5s ease-out forwards; /* 应用名为 slideInFadeIn 的动画，持续0.5秒，ease-out缓动，动画结束后保持最后一帧状态 */
+    }
+
+    /* 为列表项设置交错的入场动画延迟 */
+    .news-list li:nth-child(1) { animation-delay: 0.1s; } /* 第1个延迟0.1秒 */
+    .news-list li:nth-child(2) { animation-delay: 0.2s; } /* 第2个延迟0.2秒 */
+    .news-list li:nth-child(3) { animation-delay: 0.3s; } /* 第3个延迟0.3秒 */
+    .news-list li:nth-child(4) { animation-delay: 0.4s; } /* 第4个延迟0.4秒 */
+    /* 如果有更多新闻条目，继续添加 :nth-child(5), :nth-child(6) 等 */
+
+    /* 定义入场动画：从左侧滑入并淡入 */
+    @keyframes slideInFadeIn {
+        to { /* 动画结束状态 */
+            opacity: 1; /* 完全不透明 */
+            transform: translateX(0); /* 回到原始水平位置 */
+        }
+    }
+
+    /* 鼠标悬停在某条新闻 <li> 上时的效果 */
+    .news-list li:hover {
+        background-color: #f9f9f9; /* 背景变为浅灰色 */
+        border-left-color: #f2a678; /* 左边框变为哈密瓜色 (之前透明的边框现在显示出来了) */
+        transform: translateX(5px); /* 整个条目向右轻微移动5px */
+    }
+
+    /* 新闻条目中的链接 <a> */
+    .news-list li a {
+        color: #007bff; /* 链接颜色，标准蓝色，或你的主题色 */
+        text-decoration: none; /* 移除默认下划线 */
+        font-weight: 500; /* 字体稍微加粗 */
+        transition: color 0.2s ease, text-decoration 0.2s ease; /* 颜色和下划线的过渡效果 */
+    }
+
+    /* 鼠标悬停在链接 <a> 上时的效果 */
+    .news-list li a:hover {
+        color: #0056b3; /* 链接颜色变深 */
+        text-decoration: underline; /* 添加下划线 */
+    }
+
+    /* 新闻条目中的 emoji 表情 <span class="emoji"> */
+    .news-list li .emoji {
+        display: inline-block; /* 允许对其进行 transform 变换 */
+        margin-left: 5px; /* 与前面文字的间距 */
+        transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); /* transform属性的过渡效果，使用了一个有回弹效果的 cubic-bezier 函数 */
+    }
+
+    /* 当鼠标悬停在某条新闻 <li> 上时，该条目内的 .emoji 的效果 */
+    .news-list li:hover .emoji {
+        transform: scale(1.3) rotate(15deg); /* emoji 放大1.3倍并旋转15度 */
+    }
 </style>
 <html> 
 <head>
@@ -101,10 +188,23 @@ I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](h
 
 News
 ---------------
-- *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
-- *Unlesh the potential of Autoregressive model in imitation learning: [Dense Policy](https://selen-suyue.github.io/DspNet) is on preprint!*
-- *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
-- *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
+<div class="news-section">
+    <hr>
+    <ul class="news-list">
+        <li>
+            <a href="https://selen-suyue.github.io/MBApage" target="_blank" rel="noopener noreferrer">MBA</a> is accepted in IEEE RA-L 2025 <span class="emoji"></span>
+        </li>
+        <li>
+            Unleash the potential of Autoregressive model in imitation learning: <a href="https://selen-suyue.github.io/DspNet" target="_blank" rel="noopener noreferrer">Dense Policy</a> is on preprint!
+        </li>
+        <li>
+            Our work <a href="#">Advdisplay</a> was accepted at AAAI 2025 <span class="emoji"></span>
+        </li>
+        <li>
+            In charge of <a href="https://github.com/MSC-XDU" target="_blank" rel="noopener noreferrer">Microsoft Club</a>. Feel free to reach out if you'd like to join.
+        </li>
+    </ul>
+</div>
 
 Research Experience
 --------------
