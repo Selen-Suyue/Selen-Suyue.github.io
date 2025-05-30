@@ -95,7 +95,7 @@ redirect_from:
             transition: all 0.3s ease; /* 平滑过渡效果 */
         }
         div.markdown-body a:hover, a:hover {
-            color: #a2b97a;            /* 悬浮时变深一点的颜色 */
+            color: #c71585;            /* 悬浮时变深一点的颜色 */
             text-decoration: underline; /* 加上悬浮时的下划线 */
         }
     </style>
