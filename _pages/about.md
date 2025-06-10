@@ -286,11 +286,11 @@ with the abilities of image genration and language description in one model.<br>
     </div>
 </div>
 
-Awards
+<!-- Awards
 ---------------
 - *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
 - *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024), [paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
-- *Second Prize, Northwestern, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)*
+- *Second Prize, Northwestern, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)* -->
 
 
 
