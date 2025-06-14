@@ -169,7 +169,9 @@ Publications
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
       <b><i style="color:#83a1c7;">IEEE RA-L 2025</i></b>
       <br>
-        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
+        <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
+        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
+        <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
     </div>
 </div>
