@@ -271,7 +271,8 @@ with the abilities of image genration and language description in one model.<br>
     <img src="images/dobot.png" alt="dobot" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>OpenDoBot: Generalizable visual-motor policy on Dobot Robot</strong><br>
-       We develop Imitation Learning policy and multi stage detection based policy on DoBot Robot. <br>
+       We develop Imitation Learning policy and multi stage detection based policy on DoBot Robot, which has been proved 
+       to preform well on combinatorial problems.<br>
       <a href="https://www.dobot-robots.com/"><em>[DoBot Robot]</em></a> 
       <a href="https://github.com/Selen-Suyue/OpenDoBot"><em>[IL policy code]</em></a>
       <a href="https://github.com/Selen-Suyue/ms-bot"><em>[multi stage code]</em></a>
