@@ -214,6 +214,18 @@ Projects
 --------
 <div class="publication-card featured">
 <div style="display: flex; align-items: center;">
+    <img src="images/dobot.png" alt="dobot" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>OpenDoBot: Generalizable visual-motor policy on Dobot Robot</strong><br>
+       We develop Imitation Learning policy and multi stage detection based policy on DoBot Robot. <br>
+      <a href="https://www.dobot-robots.com/"><em>[DoBot Robot]</em></a> 
+      <a href="https://github.com/Selen-Suyue/OpenDoBot"><em>[IL policy code]</em></a>
+      <a href="https://github.com/Selen-Suyue/ms-bot"><em>[multi stage code]</em></a>
+    </div>
+</div>
+</div>
+<div class="publication-card featured">
+<div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
@@ -276,23 +288,6 @@ with the abilities of image genration and language description in one model.<br>
       <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
-<br>
-<div style="display: flex; align-items: center;">
-    <img src="images/acoflow.png" alt="acoflow" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>AcoFlow: Heuristic Search for Maximum Flow Problem</strong><br>
-      The problem of finding the maximum flow lies in how to design better heuristic information to find the augmenting path. We boldly challenge this problem through the ant colony algorithm.
-<br>
-      <a href="https://github.com/Selen-Suyue/ML-Homework/blob/main/Max_flow"><em>[code]</em></a> 
-      <a href="files/AcoFlow.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
-
-<!-- Awards
----------------
-- *First Prize, Provincial Level, 2023 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2023)*
-- *First Prize, Provincial Level, 2024 China Mathematical Contest in Modeling. [code](https://github.com/Selen-Suyue/CUMCM2024), [paper](https://github.com/Selen-Suyue/CUMCM2024/raw/main/example.pdf)*
-- *Second Prize, Northwestern, 2024 China Computer Design Contest. [code](https://github.com/Selen-Suyue/Advpull)* -->
 
 
 
