@@ -106,7 +106,7 @@ News
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 
-Research Experience
+Experience
 --------------
 <div class="experience-container">
   <div class="experience-card">
@@ -122,8 +122,8 @@ Research Experience
       <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
       <div class="experience-info">
           <strong>Xidian University</strong><br>
-          September 2023 - July 2024<br>
-          Research intern at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          September 2022 - July 2026<br>
+          B.Eng at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
 </div>
