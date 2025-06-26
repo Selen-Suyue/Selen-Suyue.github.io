@@ -146,7 +146,7 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
-        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;&nbsp;</i></b>
+        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
       <!-- <br> -->
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
@@ -169,7 +169,7 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;&nbsp;</i></b>
+      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
       <!-- <br> -->
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
@@ -188,7 +188,7 @@ Publications
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
 </i><br>
 A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-<b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;&nbsp;</i></b>
+<b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
@@ -207,7 +207,7 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
 </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
       <br>
-      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;&nbsp;</i></b>
+      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
     </div>
 </div>
