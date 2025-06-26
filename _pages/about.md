@@ -101,8 +101,8 @@ I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](h
 
 News
 ---------------
+- *Unlesh the potential of Autoregressive policy: [Dense Policy](https://selen-suyue.github.io/DspNet) is accepted in ICCV 2025 &#128293;*
 - *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
-- *Unlesh the potential of Autoregressive model in imitation learning: [Dense Policy](https://selen-suyue.github.io/DspNet) is on preprint!*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
 - *In charge of [Microsoft Club](https://github.com/MSC-XDU). Feel free to reach out if you'd like to join.*
 
