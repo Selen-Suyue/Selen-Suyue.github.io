@@ -46,22 +46,49 @@ redirect_from:
         box-sizing: border-box;
     }
     .publication-card {
-    display: flex;
-    align-items: center;
-    padding: 3px;
-    border: 1.5px solid #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    background: #fff;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    box-sizing: border-box; /* 推荐添加，确保padding和border不额外增加尺寸 */
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border: 1.5px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+
+        /* 关键：确保这个下外边距存在，它负责卡片之间的垂直距离 */
+        margin-bottom: 20px; 
+        
+        /* 将过渡效果放在基础卡片上，这样所有卡片（包括非精选的）都能有平滑效果 */
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
+    /* 当鼠标悬浮在任意 publication-card 上时的效果 */
+    .publication-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
+    /* 精选卡片（featured）的特殊样式 */
     .publication-card.featured {
-        border-color: #f2a678;       /* 哈密瓜色边框 */
-        background: #f9e6db;         /* 非常浅的哈密瓜色背景 */
-        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); /* 哈密瓜色半透明阴影 */
+        border-color: #f5bba7;       /* 更浅的哈密瓜色边框 */
+        background: #fef5f1;         /* 非常浅的哈密瓜色背景 */
+        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2); /* 更柔和的初始阴影 */
         z-index: 10;
+    }
+
+    /* 鼠标悬浮在精选卡片上时的效果 */
+    .publication-card.featured:hover {
+        transform: translateY(-5px); /* 向上移动效果保持不变 */
+        /* 阴影使用更明显的哈密瓜色调 */
+        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
+    }
+    .sakura-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999; /* 确保在最顶层 */
+    pointer-events: none; /* 让鼠标可以点击穿透花瓣，操作下方的链接和内容 */
     }
 </style>
 <html> 
@@ -147,14 +174,14 @@ Publications
         </i><br>
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
         <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
-      <!-- <br> -->
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
-      <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
     </div>
 </div>
 </div>
+
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
@@ -170,7 +197,6 @@ Publications
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
       <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
-      <!-- <br> -->
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
         <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
@@ -178,7 +204,8 @@ Publications
     </div>
 </div>
 </div>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
@@ -186,14 +213,14 @@ Publications
     <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-</i><br>
-A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-<b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+    </i><br>
+    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
 </div>
-<br>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
@@ -204,7 +231,7 @@ A generative physical adversarial attack on VI-ReID models perturbs modality-inv
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
     <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-</i><br>
+    </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
       <br>
       <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
@@ -226,7 +253,8 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
     </div>
 </div>
 </div>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>U-pre: U-Net is an excellent learner for time series forecasting</strong><br>
@@ -235,8 +263,8 @@ Time series forecasting is suited for U-Net's architecture due to its consistent
       <a href="files/upre.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
-<br>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/mpre.png" alt="M_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>M-pre: Mamba for time series forecasting</strong><br>
@@ -245,6 +273,7 @@ We tried Mamba for time series forecasting based on feature-conditioned tokens, 
       <a href="https://github.com/Selen-Suyue/M-pre/raw/main/M_pre.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
+
 <div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
@@ -256,7 +285,8 @@ with the abilities of image genration and language description in one model.<br>
     </div>
 </div>
 </div>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
@@ -267,7 +297,7 @@ with the abilities of image genration and language description in one model.<br>
       <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
     </div>
 </div>
-<br>
+
 <div class="publication-card featured">
 <div style="display: flex; align-items: center;">
     <img src="images/dobot.png" alt="dobot" width="200" height="100" style="margin-right: 20px;">
@@ -281,7 +311,8 @@ with the abilities of image genration and language description in one model.<br>
     </div>
 </div>
 </div>
-<div style="display: flex; align-items: center;">
+
+<div class="publication-card">
     <img src="images/FGSM3D.png" alt="FGSM3D" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>FGSM3D: Is the point cloud gradient perturbation attack feasible?</strong><br>
@@ -292,7 +323,34 @@ with the abilities of image genration and language description in one model.<br>
     </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/sakura-js/dist/sakura.min.js"></script>
 
-
+<!-- 初始化樱花特效 -->
+<script>
+    var sakura = new Sakura('body', {
+        colors: [
+            {
+                gradient: [
+                    {r: 255, g: 192, b: 203}, // 粉色
+                    {r: 255, g: 255, b: 255}  // 白色
+                ],
+                stop: 0.9
+            },
+            {
+                gradient: [
+                    {r: 247, g: 182, b: 196}, // 稍深的粉色
+                    {r: 255, g: 255, b: 255}  // 白色
+                ],
+                stop: 0.9
+            }
+        ],
+        fallSpeed: 1,      // 花瓣掉落速度
+        maxSize: 14,       // 花瓣最大尺寸
+        minSize: 10,       // 花瓣最小尺寸
+        delay: 200,        // 新花瓣生成的延迟
+        lifeTime: 15,      // 花瓣的生命周期（秒）
+        className: 'sakura-canvas' // 应用我们上面定义的CSS类
+    });
+</script>
 
 
