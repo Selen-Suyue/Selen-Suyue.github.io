@@ -17,7 +17,7 @@ redirect_from:
         transition: transform 0.3s, box-shadow 0.3s;
     }
     .experience-card:hover {
-        transform: translateY(-2px);
+        transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
@@ -63,7 +63,7 @@ redirect_from:
 
     /* 当鼠标悬浮在任意 publication-card 上时的效果 */
     .publication-card:hover {
-        transform: translateY(-2px);
+        transform: translateY(-5px);
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
 
@@ -77,7 +77,7 @@ redirect_from:
 
     /* 鼠标悬浮在精选卡片上时的效果 */
     .publication-card.featured:hover {
-        transform: translateY(-2px); /* 向上移动效果保持不变 */
+        transform: translateY(-5px); /* 向上移动效果保持不变 */
         /* 阴影使用更明显的哈密瓜色调 */
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
@@ -107,45 +107,9 @@ redirect_from:
             color: #c71585;            /* 悬浮时变深一点的颜色 */
             text-decoration: underline; /* 加上悬浮时的下划线 */
         }
-        .sakura-canvas {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 9999; /* 确保在最顶层 */
-            pointer-events: none; /* 让鼠标可以点击穿透花瓣，操作下方的链接和内容 */
-            }
     </style>
 </head>
 <body>
-<script src="https://cdn.jsdelivr.net/npm/sakura-js/dist/sakura.min.js"></script>
-<script>
-    var sakura = new Sakura('body', {
-        colors: [
-            {
-                gradient: [
-                    {r: 255, g: 192, b: 203}, // 粉色
-                    {r: 255, g: 255, b: 255}  // 白色
-                ],
-                stop: 0.9
-            },
-            {
-                gradient: [
-                    {r: 247, g: 182, b: 196}, // 稍深的粉色
-                    {r: 255, g: 255, b: 255}  // 白色
-                ],
-                stop: 0.9
-            }
-        ],
-        fallSpeed: 1,      // 花瓣掉落速度
-        maxSize: 14,       // 花瓣最大尺寸
-        minSize: 10,       // 花瓣最小尺寸
-        delay: 200,        // 新花瓣生成的延迟
-        lifeTime: 15,      // 花瓣的生命周期（秒）
-        className: 'sakura-canvas' // 应用我们上面定义的CSS类
-    });
-</script>
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px"> Welcome to my Homepage!</h1>
 </body>
 </html>
@@ -349,5 +313,7 @@ with the abilities of image genration and language description in one model.<br>
       <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
     </div>
 </div>
+
+
 
 
