@@ -14,10 +14,13 @@ redirect_from:
         padding: 16px;
         margin-bottom: 0px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-        transition: transform 0.3s, box-shadow 0.3s;
+        /* 修改点：移除旧的transform过渡，只保留box-shadow */
+        transition: box-shadow 0.3s;
+        /* 新增点：裁剪溢出的子元素（如放大的图片） */
+        overflow: hidden; 
     }
     .experience-card:hover {
-        transform: translateY(-5px);
+        /* 修改点：移除了 transform: translateY(-5px); */
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
@@ -26,13 +29,27 @@ redirect_from:
         margin-right: 20px;
         border-radius: 8px;
         object-fit: contain;
+        /* 新增点：为图片自身添加过渡效果 */
+        transition: transform 0.35s ease;
     }
+    /* 新增点：定义鼠标悬浮在卡片上时，图片的动画 */
+    .experience-card:hover .experience-logo {
+        transform: scale(1.1); /* 图片放大10% */
+    }
+
     .experience-info {
         font-family: "Segoe UI", sans-serif;
     }
     .experience-info strong {
         font-size: 1.1em;
+        /* 新增点：为标题文字添加颜色过渡 */
+        transition: color 0.3s ease;
     }
+    /* 新增点：定义悬浮时标题的颜色变化 */
+    .experience-card:hover strong {
+        color: #c71585; /* 使用您的链接悬浮色 */
+    }
+
     .experience-info a {
         text-decoration: none;
         color: #ca6f6f;
@@ -45,6 +62,7 @@ redirect_from:
     .experience-card {
         box-sizing: border-box;
     }
+
     .publication-card {
         display: flex;
         align-items: center;
@@ -53,34 +71,53 @@ redirect_from:
         border-radius: 8px;
         background: #fff;
         box-sizing: border-box;
-
-        /* 关键：确保这个下外边距存在，它负责卡片之间的垂直距离 */
         margin-bottom: 20px; 
-        
-        /* 将过渡效果放在基础卡片上，这样所有卡片（包括非精选的）都能有平滑效果 */
-        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        /* 修改点：移除旧的transform过渡 */
+        transition: box-shadow 0.3s ease;
+        /* 新增点：裁剪溢出的子元素 */
+        overflow: hidden; 
     }
 
-    /* 当鼠标悬浮在任意 publication-card 上时的效果 */
+    /* 新增点：为出版物卡片内的图片添加过渡 */
+    .publication-card img {
+        transition: transform 0.35s ease;
+    }
+
+    /* 新增点：为出版物卡片内的标题添加过渡 */
+    .publication-card strong {
+        transition: color 0.3s ease;
+    }
+
     .publication-card:hover {
-        transform: translateY(-5px);
+        /* 修改点：移除了 transform: translateY(-5px); */
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
+    
+    /* 新增点：定义悬浮时，内部图片和标题的变化 */
+    .publication-card:hover img {
+        transform: scale(1.1);
+    }
+    .publication-card:hover strong {
+        color: #c71585;
+    }
 
-    /* 精选卡片（featured）的特殊样式 */
     .publication-card.featured {
-        border-color: #f5bba7;       /* 更浅的哈密瓜色边框 */
-        background: #fef5f1;         /* 非常浅的哈密瓜色背景 */
-        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2); /* 更柔和的初始阴影 */
+        border-color: #f5bba7;
+        background: #fef5f1;
+        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2);
         z-index: 10;
     }
 
-    /* 鼠标悬浮在精选卡片上时的效果 */
     .publication-card.featured:hover {
-        transform: translateY(-5px); /* 向上移动效果保持不变 */
-        /* 阴影使用更明显的哈密瓜色调 */
-        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
+        /* 修改点：移除了 transform: translateY(-5px); */
+        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4);
     }
+
+    /* 对精选卡片也应用标题变色效果 */
+    .publication-card.featured:hover strong {
+        color: #c71585;
+    }
+
 </style>
 <html> 
 <head>
@@ -101,11 +138,11 @@ redirect_from:
         div.markdown-body a,a {
             text-decoration: none !important;
             color: #ca6f6f;
-            transition: all 0.3s ease; /* 平滑过渡效果 */
+            transition: all 0.3s ease; 
         }
         div.markdown-body a:hover, a:hover {
-            color: #c71585;            /* 悬浮时变深一点的颜色 */
-            text-decoration: underline; /* 加上悬浮时的下划线 */
+            color: #c71585;           
+            text-decoration: underline; 
         }
     </style>
 </head>
