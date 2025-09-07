@@ -106,7 +106,7 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Vision-Language-Action.</em>
+I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Robot Learning.</em>
 I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
 
 News
