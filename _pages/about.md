@@ -129,7 +129,6 @@ Experience
       </div>
   </div>
 
-<div class="experience-container">
   <div class="experience-card">
       <img src="images/astri.png" alt="astri logo" class="experience-logo">
       <div class="experience-info">
@@ -139,7 +138,6 @@ Experience
       </div>
   </div>
 
-<div class="experience-container">
   <div class="experience-card">
       <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
       <div class="experience-info">
