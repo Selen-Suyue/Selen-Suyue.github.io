@@ -134,7 +134,7 @@ Experience
       <div class="experience-info">
           <strong>Astribot Inc.</strong><br>
           June 2025 - Sep 2025<br>
-          MLE Intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
+          MLE Intern advised by <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
       </div>
   </div>
 
@@ -152,8 +152,8 @@ Experience
       <div class="experience-info">
           <strong>Xidian University</strong><br>
           September 2022 - July 2026<br>
-          RANK: 4/174 <br>
-          B.Eng at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          RANK: 4/174<br>
+          B.E at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
 </div>
