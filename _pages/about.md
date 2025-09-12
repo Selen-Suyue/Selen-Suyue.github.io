@@ -151,7 +151,7 @@ Experience
       <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
       <div class="experience-info">
           <strong>Xidian University</strong><br>
-          September 2022 - July 2026<br>
+          Sep 2022 - July 2026<br>
           RANK: 4/174<br>
           B.E at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
