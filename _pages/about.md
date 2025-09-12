@@ -107,6 +107,7 @@ redirect_from:
 </html>
 
 I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Robot Learning.</em>
+I work at [MMLab@HKU](https://mmlab.hk/) with [Prof. Xihui Liu](https://xh-liu.github.io/).
 I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
 
 News
@@ -120,11 +121,31 @@ Experience
 --------------
 <div class="experience-container">
   <div class="experience-card">
+      <img src="images/HKU.png" alt="HKU logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>The University of Hong Kong</strong><br>
+          June 2025 - Now<br>
+          Research Intern at <a href="https://mmlab.hk/"><em>MMLab@HKU</em></a> 
+      </div>
+  </div>
+
+<div class="experience-container">
+  <div class="experience-card">
+      <img src="images/astri.png" alt="astri logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Astribot Inc.</strong><br>
+          June 2025 - Sep 2025<br>
+          MLE Intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
+      </div>
+  </div>
+
+<div class="experience-container">
+  <div class="experience-card">
       <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
       <div class="experience-info">
           <strong>Shanghai Jiao Tong University</strong><br>
           July 2024 - Now<br>
-          Research intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
+          Research Intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
       </div>
   </div>
 
@@ -133,6 +154,7 @@ Experience
       <div class="experience-info">
           <strong>Xidian University</strong><br>
           September 2022 - July 2026<br>
+          RANK: 4/174 <br>
           B.Eng at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
