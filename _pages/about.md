@@ -188,7 +188,9 @@ Publications
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
-    <img src="images/dsp.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
+    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
+      <source src="images/flower_dsp.mp4" type="video/mp4">
+    </video>
     <div>
         <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
         <i style="font-size: 13px;">
@@ -213,7 +215,7 @@ Publications
 
 <div class="publication-card featured">
  <div style="display: flex; align-items: center;">
-    <img src="images/MBA.png" alt="MBA" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
         <i style="font-size: 13px;">
