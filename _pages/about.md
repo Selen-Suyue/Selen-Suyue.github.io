@@ -181,6 +181,7 @@ Publications
         <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
         <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
+        <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
     </div>
   </div>
 </div>
