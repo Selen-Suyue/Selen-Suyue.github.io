@@ -161,6 +161,31 @@ Experience
 Publications
 --------------
 <div class="publication-card featured">
+  <div style="display: flex; align-items: center;">
+    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
+      <source src="https://github.com/Selen-Suyue/DSPv2Net/raw/main/video/videoshow.mp4" type="video/mp4">
+    </video>
+    <div>
+        <strong>DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>, 
+            <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
+            <a href="" target="_blank">Liufan Tan</a>
+            <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>
+            <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>
+            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
+        </i><br>
+        Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent action generation.
+        <br>
+        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
+        <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/dsp.png" alt="DSP" width="200" height="100" style="margin-right: 20px;">
     <div>
