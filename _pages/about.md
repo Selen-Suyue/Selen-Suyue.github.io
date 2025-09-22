@@ -171,7 +171,7 @@ Publications
             <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
             <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>, 
             <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
-            <a href="" target="_blank">Liufan Tan</a>,
+            <a href="" target="_blank">Liufan Tan</a>, <br>
             <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>,
             <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
