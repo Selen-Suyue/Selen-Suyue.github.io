@@ -171,12 +171,12 @@ Publications
             <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
             <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>, 
             <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
-            <a href="" target="_blank">Liufan Tan</a>
-            <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>
-            <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>
+            <a href="" target="_blank">Liufan Tan</a>,
+            <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>,
+            <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent action generation.
+        Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
         <br>
         <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
