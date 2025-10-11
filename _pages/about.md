@@ -152,7 +152,7 @@ Experience
       <div class="experience-info">
           <strong>Xidian University</strong><br>
           Sep 2022 - July 2026<br>
-          Rank: 4/174, National Scholarship 2025<br>
+          Rank: 4/174, National Scholarship<br>
           B.E at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
