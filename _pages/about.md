@@ -125,7 +125,7 @@ Experience
       <div class="experience-info">
           <strong>ByteDance Seed</strong><br>
           Oct 2025 - Now<br>
-          MLE Intern at <a href="https://mmlab.hk/"><em>Seed-Robotics</em></a> 
+          MLE Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
       </div>
   </div>
 
