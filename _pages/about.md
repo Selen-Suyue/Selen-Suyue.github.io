@@ -121,6 +121,15 @@ Experience
 --------------
 <div class="experience-container">
   <div class="experience-card">
+      <img src="images/bytedance.png" alt="Seed logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>ByteDance Seed</strong><br>
+          Oct 2025 - Now<br>
+          MLE Intern at <a href="https://mmlab.hk/"><em>Seed-Robotics</em></a> 
+      </div>
+  </div>
+
+  <div class="experience-card">
       <img src="images/HKU.png" alt="HKU logo" class="experience-logo">
       <div class="experience-info">
           <strong>The University of Hong Kong</strong><br>
@@ -142,7 +151,7 @@ Experience
       <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
       <div class="experience-info">
           <strong>Shanghai Jiao Tong University</strong><br>
-          July 2024 - Now<br>
+          July 2024 - June 2025<br>
           Research Intern at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
       </div>
   </div>
@@ -354,6 +363,7 @@ with the abilities of image genration and language description in one model.<br>
     </div>
 </div>
 
-
-
+Awards
+--------
+- National Scholarship 2025
 
