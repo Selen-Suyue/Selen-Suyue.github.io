@@ -165,7 +165,7 @@ Experience
           <strong>Xidian University</strong><br>
           Sep 2022 - July 2026<br>
           Rank 4/174, <b>National Scholarship</b><br>
-          B.E at <a href="https://sai.xidian.edu.cn"><em>SAI<em></a>, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          B.E at <a href="https://sai.xidian.edu.cn"><em>SAI</em></a> & RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
 </div>
