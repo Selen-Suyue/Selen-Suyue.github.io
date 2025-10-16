@@ -107,8 +107,11 @@ redirect_from:
 </html>
 
 I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Robot Learning.</em>
+
 I work at [MMLab@HKU](https://mmlab.hk/) with [Prof. Xihui Liu](https://xh-liu.github.io/).
-I work at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
+I worked at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
+
+Currently I conduct the VLA research at [ByteDance Seed](https://seed.bytedance.com/en/).
 
 News
 ---------------
@@ -161,8 +164,8 @@ Experience
       <div class="experience-info">
           <strong>Xidian University</strong><br>
           Sep 2022 - July 2026<br>
-          Rank: 4/174, National Scholarship<br>
-          B.E at AI College, RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          Rank 4/174, <b>National Scholarship</b><br>
+          B.E at <a href="https://sai.xidian.edu.cn"><em>SAI<em></a> & RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
   </div>
 </div>
