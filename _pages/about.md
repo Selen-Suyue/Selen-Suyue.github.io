@@ -217,6 +217,7 @@ Publications
         </i><br>
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
         <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
+        <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Su_Dense_Policy_Bidirectional_Autoregressive_Learning_of_Actions_ICCV_2025_paper.html"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
@@ -369,4 +370,8 @@ with the abilities of image genration and language description in one model.<br>
 Awards
 --------
 - National Scholarship 2025
+
+Talks
+--------
+- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2;
 
