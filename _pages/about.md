@@ -106,7 +106,7 @@ redirect_from:
 </body>
 </html>
 
-I am an undergraduate (2022-2026) at Xidian University, <em> focusing on Robot Learning.</em>
+I am an undergraduate (2022-2026) at Xidian University, focusing on Computer Vision and Robot Learning.
 
 I work at [MMLab@HKU](https://mmlab.hk/) with [Prof. Xihui Liu](https://xh-liu.github.io/).
 Previously I worked at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
