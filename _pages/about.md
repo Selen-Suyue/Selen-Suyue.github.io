@@ -370,6 +370,7 @@ with the abilities of image genration and language description in one model.<br>
 Awards
 --------
 - National Scholarship 2025
+- Outstanding Student 2025
 
 Talks
 --------
