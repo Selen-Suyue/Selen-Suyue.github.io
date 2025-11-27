@@ -369,6 +369,7 @@ with the abilities of image genration and language description in one model.<br>
 
 Awards
 --------
+- Xiaomi Outstanding Scholarship 2025
 - National Scholarship 2025
 - Outstanding Student 2025
 
