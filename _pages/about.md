@@ -371,7 +371,7 @@ Awards
 --------
 - Xiaomi Outstanding Scholarship 2025
 - National Scholarship 2025
-- Outstanding Student 2025
+- Outstanding Student, Xidian University, 2025
 
 Talks
 --------
