@@ -175,7 +175,7 @@ Publications
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
-      <source src="https://github.com/Selen-Suyue/DSPv2Net/raw/main/video/videoshow.mp4" type="video/mp4">
+      <source src="images/dspv2.mp4" type="video/mp4">
     </video>
     <div>
         <strong>DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</strong><br>
