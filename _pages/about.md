@@ -298,7 +298,7 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 </div>
 </div>
 
-<div class="publication-card">
+<!-- <div class="publication-card">
     <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>U-pre: U-Net is an excellent learner for time series forecasting</strong><br>
@@ -365,7 +365,7 @@ with the abilities of image genration and language description in one model.<br>
       <a href="https://github.com/Selen-Suyue/FGSM3D"><em>[code]</em></a> 
       <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
     </div>
-</div>
+</div> -->
 
 Awards
 --------
