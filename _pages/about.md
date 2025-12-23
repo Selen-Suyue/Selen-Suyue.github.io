@@ -375,5 +375,6 @@ Awards
 
 Talks
 --------
+- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
 - [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
 
