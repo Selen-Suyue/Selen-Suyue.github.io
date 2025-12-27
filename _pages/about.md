@@ -375,7 +375,7 @@ Awards
 
 Talks
 --------
-- [2025/12] Invited to [Talk on NICE semniar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
+- [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
 - [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
 - [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
 
