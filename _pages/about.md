@@ -56,7 +56,6 @@ redirect_from:
         margin-bottom: 20px; 
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-
     .publication-card:hover {
        
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -73,6 +72,40 @@ redirect_from:
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
     
+    .toggle-btn-container {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .toggle-btn {
+        background-color: white;
+        color: #ca6f6f;
+        border: 2px solid #ca6f6f;
+        padding: 10px 25px;
+        border-radius: 25px;
+        font-family: "Segoe UI", sans-serif;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 14px;
+    }
+    .toggle-btn:hover {
+        background-color: #ca6f6f;
+        color: white;
+        box-shadow: 0 4px 12px rgba(202, 111, 111, 0.3);
+    }
+    
+    #more-publications {
+        display: none; 
+    }
+    
+    .fade-in {
+        animation: fadeIn 0.5s;
+    }
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
 </style>
 <html> 
 <head>
@@ -170,8 +203,8 @@ Experience
   </div>
 </div>
 
-Publications
---------------
+<h2 id="pub-heading">Selected Publications</h2>
+
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -249,43 +282,75 @@ Publications
 </div>
 </div>
 
-<div class="publication-card">
-    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
-       <i style="font-size: 13px;">
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-    </i><br>
-    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+<div id="more-publications">
+    <div class="publication-card">
+        <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+        <div>
+            <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
+           <i style="font-size: 13px;">
+        <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+        <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
+        <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+        </i><br>
+        A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+          <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+        </div>
+    </div>
+
+    <div class="publication-card">
+        <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
+        <div>
+            <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
+          <i style="font-size: 13px;">
+        <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
+        <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
+        <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+        <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
+        <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
+        <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+        </i><br>
+          Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
+          <br>
+          <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+        </div>
     </div>
 </div>
 
-<div class="publication-card">
-    <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
-      <i style="font-size: 13px;">
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-    <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
-    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-    </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
-      <br>
-      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
-    </div>
+
+<div class="toggle-btn-container">
+    <button class="toggle-btn" onclick="togglePublications()" id="pub-btn">
+        View All Publications ▾
+    </button>
 </div>
+
+<script>
+function togglePublications() {
+    var morePubs = document.getElementById("more-publications");
+    var btn = document.getElementById("pub-btn");
+    var heading = document.getElementById("pub-heading");
+
+    if (morePubs.style.display === "none" || morePubs.style.display === "") {
+        // 展开
+        morePubs.style.display = "block";
+        morePubs.classList.add("fade-in");
+        btn.innerHTML = "Show Less ▴";
+        heading.innerHTML = "Full Publications"; // 标题变为 Full
+    } else {
+        // 收起
+        morePubs.style.display = "none";
+        btn.innerHTML = "View All Publications ▾";
+        heading.innerHTML = "Selected Publications"; // 标题变回 Selected
+        // 稍微滚动回标题位置，体验更好
+        heading.scrollIntoView({behavior: "smooth", block: "start"});
+    }
+}
+</script>
 
 Projects
 --------
-<div class="publication-card featured">
+<div class="publication-card">
 <div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -298,74 +363,6 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 </div>
 </div>
 
-<!-- <div class="publication-card">
-    <img src="images/U_pre_pipeline.png" alt="U_pre" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>U-pre: U-Net is an excellent learner for time series forecasting</strong><br>
-Time series forecasting is suited for U-Net's architecture due to its consistent input-output distributions and strong mathematical alignment. Combining U-Net with Bert-Encoder improved performance by incorporating both local and global attention. <br>
-      <a href="https://github.com/Selen-Suyue/U-pre"><em>[code]</em></a> 
-      <a href="files/upre.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
-
-<div class="publication-card">
-    <img src="images/mpre.png" alt="M_pre" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>M-pre: Mamba for time series forecasting</strong><br>
-We tried Mamba for time series forecasting based on feature-conditioned tokens, which outpreformed transformer-based U-pre. <br>
-      <a href="https://github.com/Selen-Suyue/M-pre"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/M-pre/raw/main/M_pre.pdf"><em>[report-cn]</em></a>
-    </div>
-</div>
-
-<div class="publication-card featured">
-<div style="display: flex; align-items: center;">
-    <img src="images/UniGen.png" alt="UniGen" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>UniGen: Unified understanding and generation based on Flicker 8k dataset</strong><br>
-A light-weight model for joint learning of language and image based on tiny captioned image dataset. UniGen is equipped
-with the abilities of image genration and language description in one model.<br>
-      <a href="https://github.com/Selen-Suyue/UniGen"><em>[code]</em></a>
-    </div>
-</div>
-</div>
-
-<div class="publication-card">
-    <img src="images/crosstalk.png" alt="crosstalk" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>AgentCrossTalk: Performe a Crsosstalk between two LLM agents</strong><br>
-      This project uses the Google Gemini to create a simple chatbot application simulating two 
-      crosstalk performers performing based on user-provided topics.
-<br>
-      <a href="https://github.com/Selen-Suyue/Agent_CrossTalk"><em>[code]</em></a> 
-      <a href="https://lyn-siya.github.io/AgentCrosstalk/"><em>[website]</em></a>
-    </div>
-</div>
-
-<div class="publication-card featured">
-<div style="display: flex; align-items: center;">
-    <img src="images/dobot.png" alt="dobot" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>OpenDoBot: Generalizable visual-motor policy on Dobot Robot</strong><br>
-       We develop Imitation Learning policy and multi stage detection based policy on DoBot Robot, which has been proved 
-       to preform well on combinatorial problems.<br>
-      <a href="https://www.dobot-robots.com/"><em>[DoBot Robot]</em></a> 
-      <a href="https://github.com/Selen-Suyue/OpenDoBot"><em>[IL policy code]</em></a>
-      <a href="https://github.com/Selen-Suyue/ms-bot"><em>[multi stage code]</em></a>
-    </div>
-</div>
-</div>
-
-<div class="publication-card">
-    <img src="images/FGSM3D.png" alt="FGSM3D" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>FGSM3D: Is the point cloud gradient perturbation attack feasible?</strong><br>
-      We tried to extend FGSM to the 3D field and achieved significant success within a certain gradient range, but the sampling method of 3D models tells us that things seem to be not that simple...
-<br>
-      <a href="https://github.com/Selen-Suyue/FGSM3D"><em>[code]</em></a> 
-      <a href="https://github.com/Selen-Suyue/FGSM3D/raw/main/report.pdf"><em>[report-cn]</em></a>
-    </div>
-</div> -->
 
 Awards
 --------
@@ -376,6 +373,6 @@ Awards
 Talks
 --------
 - [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
-- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
-- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
+- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2.
+- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2.
 
