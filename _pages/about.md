@@ -203,8 +203,11 @@ Experience
   </div>
 </div>
 
+
+<!-- 标题 ID 用于锚点定位 -->
 <h2 id="pub-heading">Selected Publications</h2>
 
+<!-- ==================== 1. 精选论文 (Selected) - 始终显示 ==================== -->
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -221,7 +224,7 @@ Experience
             <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
+        Improved Dense Policy for Whole-body Mobile Manipulation.
         <br>
         <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
@@ -248,13 +251,12 @@ Experience
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
+        Propose Dense Policy, A bidirectional robotic autoregressive policy.<br>
         <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
         <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Su_Dense_Policy_Bidirectional_Autoregressive_Learning_of_Actions_ICCV_2025_paper.html"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
     </div>
 </div>
 </div>
@@ -272,7 +274,7 @@ Experience
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
+        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes.<br>
       <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
@@ -282,7 +284,10 @@ Experience
 </div>
 </div>
 
-<div id="more-publications">
+<!-- ==================== 2. 更多论文 (Full List) - 默认隐藏 ==================== -->
+<!-- 注意：这里直接加了 style="display: none;" 确保逻辑正确 -->
+<div id="more-publications" style="display: none;">
+    
     <div class="publication-card">
         <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
         <div>
@@ -316,36 +321,44 @@ Experience
           <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
         </div>
     </div>
+
 </div>
 
-
-<div class="toggle-btn-container">
-    <button class="toggle-btn" onclick="togglePublications()" id="pub-btn">
+<!-- ==================== 3. 按钮与脚本 ==================== -->
+<div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
+    <button id="pub-btn" onclick="togglePublications()" style="background-color: white; color: #ca6f6f; border: 2px solid #ca6f6f; padding: 10px 25px; border-radius: 25px; font-family: sans-serif; font-weight: bold; cursor: pointer; transition: all 0.3s ease;">
         View All Publications ▾
     </button>
 </div>
 
 <script>
-function togglePublications() {
-    var morePubs = document.getElementById("more-publications");
-    var btn = document.getElementById("pub-btn");
-    var heading = document.getElementById("pub-heading");
+    function togglePublications() {
+        var morePubs = document.getElementById("more-publications");
+        var btn = document.getElementById("pub-btn");
+        var heading = document.getElementById("pub-heading");
 
-    if (morePubs.style.display === "none" || morePubs.style.display === "") {
-        // 展开
-        morePubs.style.display = "block";
-        morePubs.classList.add("fade-in");
-        btn.innerHTML = "Show Less ▴";
-        heading.innerHTML = "Full Publications"; // 标题变为 Full
-    } else {
-        // 收起
-        morePubs.style.display = "none";
-        btn.innerHTML = "View All Publications ▾";
-        heading.innerHTML = "Selected Publications"; // 标题变回 Selected
-        // 稍微滚动回标题位置，体验更好
-        heading.scrollIntoView({behavior: "smooth", block: "start"});
+        // 直接检查内联样式，这是最稳健的方法
+        if (morePubs.style.display === "none") {
+            morePubs.style.display = "block";
+            btn.innerHTML = "Show Less ▴";
+            heading.innerHTML = "Full Publications";
+            
+            // 简单的淡入效果
+            morePubs.style.opacity = 0;
+            var opacity = 0;
+            var timer = setInterval(function() {
+                if (opacity >= 1) clearInterval(timer);
+                morePubs.style.opacity = opacity;
+                opacity += 0.1;
+            }, 30);
+            
+        } else {
+            morePubs.style.display = "none";
+            btn.innerHTML = "View All Publications ▾";
+            heading.innerHTML = "Selected Publications";
+            heading.scrollIntoView({behavior: "smooth", block: "start"});
+        }
     }
-}
 </script>
 
 Projects
