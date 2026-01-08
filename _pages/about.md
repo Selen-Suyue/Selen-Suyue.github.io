@@ -203,8 +203,8 @@ Experience
 Publications
 --------------
 <div class="pub-button-container">
-  <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
-  <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+  <button class="pub-button" onclick="showPublications('all')">All Publications</button>
+  <button class="pub-button active" onclick="showPublications('featured')">Selected Only</button>
 </div>
 
 <div class="publication-card featured">
@@ -318,33 +318,7 @@ Publications
     </div>
 </div>
 
-<script>
-function showPublications(type) {
-  // Update button states
-  const allButtons = document.querySelectorAll('.pub-button');
-  allButtons.forEach(button => button.classList.remove('active'));
-  
-  if (type === 'all') {
-    document.querySelector('.pub-button:first-child').classList.add('active');
-  } else {
-    document.querySelector('.pub-button:nth-child(2)').classList.add('active');
-  }
-  
-  // Show/hide publications based on type
-  const allPubs = document.querySelectorAll('.publication-card');
-  allPubs.forEach(pub => {
-    if (type === 'all') {
-      pub.style.display = 'flex';
-    } else if (type === 'featured') {
-      if (pub.classList.contains('featured')) {
-        pub.style.display = 'flex';
-      } else {
-        pub.style.display = 'none';
-      }
-    }
-  });
-}
-</script>
+<script src="assets/js/show_publications.js"></script>
 
 Projects
 --------
@@ -370,5 +344,6 @@ Awards
 
 Talks
 --------
-- [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
+- [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning
 - [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
+- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
