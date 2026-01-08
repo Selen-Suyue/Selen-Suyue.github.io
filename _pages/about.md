@@ -72,33 +72,6 @@ redirect_from:
     .publication-card.featured:hover {
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
-
-    /* 新增：Toggle 按钮样式 */
-    .toggle-container {
-        margin-bottom: 20px;
-    }
-    .toggle-btn {
-        background-color: #f9f9f9;
-        border: 1px solid #ddd;
-        color: #555;
-        padding: 6px 16px;
-        cursor: pointer;
-        font-family: "Segoe UI", sans-serif;
-        font-size: 14px;
-        border-radius: 20px;
-        margin-right: 10px;
-        transition: all 0.3s ease;
-        outline: none;
-    }
-    .toggle-btn:hover {
-        background-color: #eee;
-    }
-    .toggle-btn.active {
-        background-color: #ca6f6f;
-        color: #fff;
-        border-color: #ca6f6f;
-        box-shadow: 0 2px 6px rgba(202, 111, 111, 0.3);
-    }
     
 </style>
 <html> 
@@ -199,18 +172,7 @@ Experience
 
 Publications
 --------------
-<!-- 切换按钮 -->
-<div class="toggle-container">
-    <button class="toggle-btn active" onclick="filterPublications('selected')">Selected</button>
-    <button class="toggle-btn" onclick="filterPublications('full')">Full</button>
-</div>
-
-<!-- 
-    添加了 class="pub-item" 到所有卡片 
-    添加了 class="selected-item" 到 selected 卡片 (前三个)
--->
-
-<div class="publication-card featured pub-item selected-item">
+<div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/dspv2.mp4" type="video/mp4">
@@ -236,7 +198,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card featured pub-item selected-item">
+<div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/flower_dsp.mp4" type="video/mp4">
@@ -264,7 +226,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card featured pub-item selected-item">
+<div class="publication-card featured">
  <div style="display: flex; align-items: center;">
     <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -287,7 +249,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card pub-item">
+<div class="publication-card">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
@@ -302,7 +264,7 @@ Publications
     </div>
 </div>
 
-<div class="publication-card pub-item">
+<div class="publication-card">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
@@ -349,39 +311,3 @@ Talks
 - [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
 - [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
 
-<!-- 脚本逻辑 -->
-<script>
-    function filterPublications(category) {
-        var items = document.getElementsByClassName('pub-item');
-        var buttons = document.getElementsByClassName('toggle-btn');
-        
-        // 更新按钮状态
-        for (var i = 0; i < buttons.length; i++) {
-            buttons[i].classList.remove('active');
-            if (buttons[i].innerText.toLowerCase() === category) {
-                buttons[i].classList.add('active');
-            }
-        }
-
-        // 筛选逻辑
-        for (var i = 0; i < items.length; i++) {
-            var item = items[i];
-            if (category === 'full') {
-                // 显示所有, 保持 flex 布局
-                item.style.display = 'flex';
-            } else if (category === 'selected') {
-                // 仅显示带有 selected-item 类的元素
-                if (item.classList.contains('selected-item')) {
-                    item.style.display = 'flex';
-                } else {
-                    item.style.display = 'none';
-                }
-            }
-        }
-    }
-    
-    // 初始化，默认显示 selected
-    document.addEventListener('DOMContentLoaded', function() {
-        filterPublications('selected');
-    });
-</script>
