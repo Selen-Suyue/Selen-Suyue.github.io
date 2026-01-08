@@ -55,8 +55,16 @@ redirect_from:
         box-sizing: border-box;
         margin-bottom: 20px; 
         transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
 
+        color: #5f6368; /* 正文整体更浅 */
+    }
+    .publication-card > div > strong,
+    .publication-card > div > div > strong {
+        color: #202124;
+    }
+    .publication-card i {
+        color: #6b7280;
+    }
     .publication-card:hover {
        
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -74,7 +82,7 @@ redirect_from:
     }
     
     .publication-card.non-featured {
-        display: none; /* 默认隐藏非精选出版物 */
+        display: flex; /* 默认隐藏非精选出版物 */
     }
     
     .pub-button-container {
@@ -203,8 +211,35 @@ Experience
 Publications
 --------------
 <div class="pub-button-container">
-  <button class="pub-button" onclick="showPublications('all')">All Publications</button>
-  <button class="pub-button active" onclick="showPublications('featured')">Selected Only</button>
+  <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
+  <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+</div>
+
+<div class="publication-card">
+  <div style="display: flex; align-items: center;">
+    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
+      <source src="images/clap.mp4" type="video/mp4">
+    </video>
+    <div>
+        <strong>CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>*,
+            <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>*, 
+            <a href="" target="_blank">Zifeng Gao</a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="" target="_blank">Tiranru Dai</a>,
+            <a href="https://homepage.zhouc.ai/" target="_blank">Cai Zhou</a>,
+            <a href="https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/" target="_blank">Jiwen Lu</a>,
+            <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>&dagger;
+        </i><br>
+        Learning Vision-Language-Action Models from Human Videos.
+        <br>
+        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
+        <a href=""><em>[code]</em></a>
+        <a href="https://lin-shan.com/CLAP/#"><em>[website]</em></a>
+    </div>
+  </div>
 </div>
 
 <div class="publication-card featured">
