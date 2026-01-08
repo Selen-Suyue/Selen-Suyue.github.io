@@ -56,6 +56,7 @@ redirect_from:
         margin-bottom: 20px; 
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
+
     .publication-card:hover {
        
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -72,40 +73,6 @@ redirect_from:
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
     
-    .toggle-btn-container {
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 40px;
-    }
-    .toggle-btn {
-        background-color: white;
-        color: #ca6f6f;
-        border: 2px solid #ca6f6f;
-        padding: 10px 25px;
-        border-radius: 25px;
-        font-family: "Segoe UI", sans-serif;
-        font-weight: bold;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        font-size: 14px;
-    }
-    .toggle-btn:hover {
-        background-color: #ca6f6f;
-        color: white;
-        box-shadow: 0 4px 12px rgba(202, 111, 111, 0.3);
-    }
-    
-    #more-publications {
-        display: none; 
-    }
-    
-    .fade-in {
-        animation: fadeIn 0.5s;
-    }
-    @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-    }
 </style>
 <html> 
 <head>
@@ -203,11 +170,8 @@ Experience
   </div>
 </div>
 
-
-<!-- 标题 ID 用于锚点定位 -->
-<h2 id="pub-heading">Selected Publications</h2>
-
-<!-- ==================== 1. 精选论文 (Selected) - 始终显示 ==================== -->
+Publications
+--------------
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -224,7 +188,7 @@ Experience
             <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        Improved Dense Policy for Whole-body Mobile Manipulation.
+        Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
         <br>
         <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
@@ -251,12 +215,13 @@ Experience
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose Dense Policy, A bidirectional robotic autoregressive policy.<br>
+        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
         <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
         <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Su_Dense_Policy_Bidirectional_Autoregressive_Learning_of_Actions_ICCV_2025_paper.html"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
         <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
         <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
+        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
     </div>
 </div>
 </div>
@@ -274,7 +239,7 @@ Experience
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes.<br>
+        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
       <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
@@ -284,82 +249,39 @@ Experience
 </div>
 </div>
 
-<!-- ==================== 2. 更多论文 (Full List) - 默认隐藏 ==================== -->
-<!-- 注意：这里直接加了 style="display: none;" 确保逻辑正确 -->
-<div id="more-publications" style="display: none;">
-    
-    <div class="publication-card">
-        <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
-        <div>
-            <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
-           <i style="font-size: 13px;">
-        <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-        <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-        <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-        </i><br>
-        A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-          <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
-        </div>
+<div class="publication-card">
+    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
+       <i style="font-size: 13px;">
+    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    </i><br>
+    A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
+    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
-
-    <div class="publication-card">
-        <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
-        <div>
-            <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
-          <i style="font-size: 13px;">
-        <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-        <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-        <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
-        <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
-        <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
-        <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-        </i><br>
-          Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
-          <br>
-          <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
-          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
-        </div>
-    </div>
-
 </div>
 
-<!-- ==================== 3. 按钮与脚本 ==================== -->
-<div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
-    <button id="pub-btn" onclick="togglePublications()" style="background-color: white; color: #ca6f6f; border: 2px solid #ca6f6f; padding: 10px 25px; border-radius: 25px; font-family: sans-serif; font-weight: bold; cursor: pointer; transition: all 0.3s ease;">
-        View All Publications ▾
-    </button>
+<div class="publication-card">
+    <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
+      <i style="font-size: 13px;">
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
+    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
+    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+    <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
+    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    </i><br>
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
+      <br>
+      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+    </div>
 </div>
-
-<script>
-    function togglePublications() {
-        var morePubs = document.getElementById("more-publications");
-        var btn = document.getElementById("pub-btn");
-        var heading = document.getElementById("pub-heading");
-
-        // 直接检查内联样式，这是最稳健的方法
-        if (morePubs.style.display === "none") {
-            morePubs.style.display = "block";
-            btn.innerHTML = "Show Less ▴";
-            heading.innerHTML = "Full Publications";
-            
-            // 简单的淡入效果
-            morePubs.style.opacity = 0;
-            var opacity = 0;
-            var timer = setInterval(function() {
-                if (opacity >= 1) clearInterval(timer);
-                morePubs.style.opacity = opacity;
-                opacity += 0.1;
-            }, 30);
-            
-        } else {
-            morePubs.style.display = "none";
-            btn.innerHTML = "View All Publications ▾";
-            heading.innerHTML = "Selected Publications";
-            heading.scrollIntoView({behavior: "smooth", block: "start"});
-        }
-    }
-</script>
 
 Projects
 --------
@@ -386,6 +308,6 @@ Awards
 Talks
 --------
 - [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
-- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2.
-- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2.
+- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
+- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
 
