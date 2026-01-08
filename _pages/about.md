@@ -73,6 +73,36 @@ redirect_from:
         box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4); 
     }
     
+    .publication-card.non-featured {
+        display: none; /* 默认隐藏非精选出版物 */
+    }
+    
+    .pub-button-container {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+    
+    .pub-button {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 8px 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .pub-button:hover {
+        background-color: #e0e0e0;
+    }
+    
+    .pub-button.active {
+        background-color: #ca6f6f;
+        color: white;
+        border-color: #ca6f6f;
+    }
+    
 </style>
 <html> 
 <head>
@@ -172,6 +202,11 @@ Experience
 
 Publications
 --------------
+<div class="pub-button-container">
+  <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
+  <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+</div>
+
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -249,7 +284,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card">
+<div class="publication-card non-featured">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
@@ -264,7 +299,7 @@ Publications
     </div>
 </div>
 
-<div class="publication-card">
+<div class="publication-card non-featured">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
@@ -282,6 +317,34 @@ Publications
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
     </div>
 </div>
+
+<script>
+function showPublications(type) {
+  // Update button states
+  const allButtons = document.querySelectorAll('.pub-button');
+  allButtons.forEach(button => button.classList.remove('active'));
+  
+  if (type === 'all') {
+    document.querySelector('.pub-button:first-child').classList.add('active');
+  } else {
+    document.querySelector('.pub-button:nth-child(2)').classList.add('active');
+  }
+  
+  // Show/hide publications based on type
+  const allPubs = document.querySelectorAll('.publication-card');
+  allPubs.forEach(pub => {
+    if (type === 'all') {
+      pub.style.display = 'flex';
+    } else if (type === 'featured') {
+      if (pub.classList.contains('featured')) {
+        pub.style.display = 'flex';
+      } else {
+        pub.style.display = 'none';
+      }
+    }
+  });
+}
+</script>
 
 Projects
 --------
@@ -309,5 +372,3 @@ Talks
 --------
 - [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning.
 - [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
-- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
-
