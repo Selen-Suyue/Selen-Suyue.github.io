@@ -256,7 +256,7 @@ Publications
             <a href="" target="_blank">Zifeng Gao</a>, 
             <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
             <a href="" target="_blank">Tiranru Dai</a>,
-            <a href="https://homepage.zhouc.ai/" target="_blank">Cai Zhou</a>,
+            <a href="https://homepage.zhouc.ai/" target="_blank">Cai Zhou</a>, <br>
             <a href="https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/" target="_blank">Jiwen Lu</a>,
             <a href="https://andytang15.github.io/" target="_blank">Yansong Tang</a>&dagger;
         </i><br>
