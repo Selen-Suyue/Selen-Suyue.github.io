@@ -110,7 +110,35 @@ redirect_from:
         color: white;
         border-color: #ca6f6f;
     }
-    
+
+    /* Projects cards: keep styles independent from publications */
+    .project-card {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border: 1.5px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        color: #5f6368;
+    }
+
+    .project-card > div > strong,
+    .project-card > div > div > strong {
+        color: #202124;
+    }
+
+    .project-card i {
+        color: #6b7280;
+    }
+
+    .project-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+
 </style>
 <html> 
 <head>
@@ -357,7 +385,7 @@ Publications
 
 Projects
 --------
-<div class="publication-card">
+<div class="project-card">
 <div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
