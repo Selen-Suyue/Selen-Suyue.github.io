@@ -386,8 +386,10 @@ Publications
 Projects
 --------
 <div class="project-card">
-<div style="display: flex; align-items: center;">
-    <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
+ <div style="display: flex; align-items: center;">
+    <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
+      <source src="images/metapalace.mp4" type="video/mp4">
+    </video>
     <div>
         <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
 We've done what the Old Palace official website couldn't: offering 3D artifact views with single-view reconstruction and an interactive LLM-powered tour guider using RAG technology. <br>
