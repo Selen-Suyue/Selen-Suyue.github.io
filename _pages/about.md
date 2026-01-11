@@ -387,7 +387,6 @@ Projects
 --------
 <div class="project-card">
  <div style="display: flex; align-items: center;">
-<div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
