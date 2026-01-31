@@ -286,10 +286,9 @@ Publications
             <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        <b><i style="color:#83a1c7;">ICRA 2026 oral &nbsp;</i></b>
         Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
         <br>
-        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">ICRA 2026 oral &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
         <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
         <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
