@@ -181,6 +181,7 @@ Currently I conduct the VLA research at [ByteDance Seed](https://seed.bytedance.
 
 News
 ---------------
+- *[DSPv2](https://selen-suyue.github.io/DSPv2Net) and [MBA](https://selen-suyue.github.io/MBApage) are accepted in ICRA 2026 &#128293;*
 - *[Dense Policy](https://selen-suyue.github.io/DspNet) is accepted in ICCV 2025 &#128293;*
 - *[MBA](https://selen-suyue.github.io/MBApage) is accepted in IEEE RA-L 2025 &#128293;*
 - *Our work [Advdisplay]() was accepted at AAAI 2025 &#128293;*
