@@ -388,6 +388,16 @@ Projects
 --------
 <div class="project-card">
  <div style="display: flex; align-items: center;">
+    <img src="images/maniunicon.png" alt="Maniunicon" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>ManiUniCon: A Unified Control Interface for Robotic Manipulation</strong><br>
+ManiUniCon is a comprehensive, multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time. <br>
+      <a href="https://github.com/Universal-Control/ManiUniCon"><em>[code]</em></a>
+    </div>
+</div>
+</div>
+<div class="project-card">
+ <div style="display: flex; align-items: center;">
     <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
