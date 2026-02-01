@@ -289,7 +289,7 @@ Publications
         </i><br>
         Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
         <br>
-        <b><i style="color:#83a1c7;">ICRA 2026 oral &nbsp;</i></b>
+        <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
         <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
         <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
@@ -339,7 +339,7 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 oral &nbsp;</i></b>
+      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
         <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
