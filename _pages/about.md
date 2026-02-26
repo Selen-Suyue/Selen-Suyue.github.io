@@ -244,6 +244,33 @@ Publications
   <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
 </div>
 
+<div class="publication-card featured">
+  <div style="display: flex; align-items: center;">
+    <img src="images/WoG.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
+            <a href="https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en" target="_blank">Haixin Shi</a>, 
+            <a href="https://mingyulau.github.io/" target="_blank">Mingyu Liu</a>,
+            <a href="https://scholar.google.com/citations?user=8nrJ1vsAAAAJ&hl=en" target="_blank">Zhengshen Zhang</a>,
+            <a href="" target="_blank">Ningyuan Huang</a>,
+            <a href="https://scholar.google.com/citations?user=3EXYkZcAAAAJ&hl=zh-CN" target="_blank">Weiheng Zhong</a>,
+            <a href="https://zbzhu99.github.io/" target="_blank">Zhengbang Zhu</a>,
+            <a href="https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en" target="_blank">Yuxiao Liu</a>&dagger;,
+            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
+        </i><br>
+        World Modeling in Condition Space for Action Generation: Less is More.
+        <br>
+        <b><i style="color:#83a1c7;">Arxiv Preprint &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
+        <a href=""><em>[code]</em></a>
+        <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
