@@ -246,7 +246,7 @@ Publications
 
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
-    <img src="images/WoG.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <img src="images/WoG.png" alt="wog" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
         <i style="font-size: 13px;">
