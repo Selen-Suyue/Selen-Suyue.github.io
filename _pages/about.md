@@ -261,7 +261,7 @@ Publications
             <a href="https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en" target="_blank">Yuxiao Liu</a>&dagger;,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        World Modeling in Condition Space for Action Generation: Less is More.
+        We propose WoG (World Guidance), a world modeling paradigm  in condition space for action generation: less is more.
         <br>
         <b><i style="color:#83a1c7;">Arxiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
