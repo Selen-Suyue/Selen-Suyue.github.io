@@ -265,7 +265,7 @@ Publications
         <br>
         <b><i style="color:#83a1c7;">Arxiv Preprint &nbsp;</i></b>
         <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
-        <a href=""><em>[code]</em></a>
+        <a href="https://github.com/Selen-Suyue/WoG"><em>[code]</em></a>
         <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
     </div>
   </div>
