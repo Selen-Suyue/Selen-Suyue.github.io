@@ -79,9 +79,9 @@ redirect_from:
     }
 
     .pub-badge--oral {
-        color: #3b6ea5;
-        background: rgba(131, 161, 199, 0.18);
-        border: 1px solid rgba(131, 161, 199, 0.55);
+        color: #83a1c7;
+        background: rgba(131, 161, 199, 0.16);
+        border: 1px solid rgba(131, 161, 199, 0.7);
     }
     .publication-card:hover {
        
