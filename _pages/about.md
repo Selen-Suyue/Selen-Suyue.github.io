@@ -246,7 +246,12 @@ Publications
 
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
-    <img src="images/WoG.png" alt="wog" width="200" height="100" style="margin-right: 20px;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
+      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay loop muted playsinline>
+        <source src="images/WoG.mp4" type="video/mp4">
+      </video>
+    </div>
     <div>
         <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
         <i style="font-size: 13px;">
@@ -366,7 +371,7 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026 &nbsp;</i></b>
+      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026</i><span style="display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; color: #b42318; background: rgba(244, 63, 94, 0.12); border: 1px solid rgba(244, 63, 94, 0.35);">Oral</span>&nbsp;</b>
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
         <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
@@ -410,6 +415,7 @@ Publications
 </div>
 
 <script src="assets/js/show_publications.js"></script>
+<script src="assets/js/pub_media_rotator.js"></script>
 
 Projects
 --------
