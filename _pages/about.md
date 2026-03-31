@@ -65,6 +65,24 @@ redirect_from:
     .publication-card i {
         color: #6b7280;
     }
+
+    .pub-badge {
+        display: inline-block;
+        margin-left: 6px;
+        padding: 1px 8px;
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 1.5;
+        vertical-align: baseline;
+        white-space: nowrap;
+    }
+
+    .pub-badge--oral {
+        color: #3b6ea5;
+        background: rgba(131, 161, 199, 0.18);
+        border: 1px solid rgba(131, 161, 199, 0.55);
+    }
     .publication-card:hover {
        
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
@@ -371,7 +389,7 @@ Publications
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026</i><span style="display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; font-size: 12px; font-weight: 700; color: #b42318; background: rgba(244, 63, 94, 0.12); border: 1px solid rgba(244, 63, 94, 0.35);">Oral</span>&nbsp;</b>
+      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026</i></b><span class="pub-badge pub-badge--oral">Oral</span>&nbsp;
         <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
         <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
         <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
