@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const rotators = document.querySelectorAll('.pub-media-rotator');
 
   rotators.forEach((rotator) => {
-    const intervalMs = Number.parseInt(rotator.dataset.interval || '12000', 10);
+    const intervalMs = Number.parseInt(rotator.dataset.interval || '4000', 10);
     let items = Array.from(rotator.children).filter(
       (el) => el && (el.tagName === 'IMG' || el.tagName === 'VIDEO')
     );
@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', () => {
     let idx = 0;
     let timerId = null;
 
+    const clearTimer = () => {
+      if (!timerId) return;
+      window.clearTimeout(timerId);
+      timerId = null;
+    };
+
     const show = (newIdx) => {
       items.forEach((el, i) => {
         const active = i === newIdx;
@@ -26,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (el.tagName === 'VIDEO') {
           if (active) {
+            el.loop = false;
             const p = el.play();
             if (p && typeof p.catch === 'function') p.catch(() => {});
           } else {
@@ -36,10 +43,40 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     };
 
+    const scheduleNext = () => {
+      clearTimer();
+
+      const current = items[idx];
+      let holdMs = intervalMs;
+
+      if (current && current.tagName === 'VIDEO') {
+        const durationSec = current.duration;
+        if (Number.isFinite(durationSec) && durationSec > 0) {
+          holdMs = Math.max(holdMs, Math.ceil(durationSec * 1000));
+        } else {
+          current.addEventListener(
+            'loadedmetadata',
+            () => {
+              if (items[idx] !== current) return;
+              scheduleNext();
+            },
+            { once: true }
+          );
+        }
+      }
+
+      timerId = window.setTimeout(() => {
+        idx = (idx + 1) % items.length;
+        show(idx);
+        scheduleNext();
+      }, holdMs);
+    };
+
     const fallbackToImage = () => {
-      if (timerId) window.clearInterval(timerId);
+      clearTimer();
       idx = 0;
       show(idx);
+      scheduleNext();
     };
 
     items.forEach((el) => {
@@ -51,9 +88,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     show(idx);
-    timerId = window.setInterval(() => {
-      idx = (idx + 1) % items.length;
-      show(idx);
-    }, intervalMs);
+    scheduleNext();
   });
 });
