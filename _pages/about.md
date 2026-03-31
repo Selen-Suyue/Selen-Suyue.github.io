@@ -266,7 +266,7 @@ Publications
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
-      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay loop muted playsinline>
+      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline>
         <source src="images/WoG.mp4" type="video/mp4">
       </video>
     </div>

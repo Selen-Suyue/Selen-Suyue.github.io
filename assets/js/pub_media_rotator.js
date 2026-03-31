@@ -25,6 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
       timerId = null;
     };
 
+    const advance = () => {
+      idx = (idx + 1) % items.length;
+      show(idx);
+      scheduleNext();
+    };
+
     const show = (newIdx) => {
       items.forEach((el, i) => {
         const active = i === newIdx;
@@ -33,6 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (el.tagName === 'VIDEO') {
           if (active) {
             el.loop = false;
+            el.removeAttribute('loop');
+            el.currentTime = 0;
             const p = el.play();
             if (p && typeof p.catch === 'function') p.catch(() => {});
           } else {
@@ -47,12 +55,22 @@ document.addEventListener('DOMContentLoaded', () => {
       clearTimer();
 
       const current = items[idx];
-      let holdMs = intervalMs;
+      if (!current) return;
 
-      if (current && current.tagName === 'VIDEO') {
+      if (current.tagName === 'VIDEO') {
+        current.addEventListener(
+          'ended',
+          () => {
+            if (items[idx] !== current) return;
+            advance();
+          },
+          { once: true }
+        );
+
+        let holdMs = Math.max(intervalMs, 12000);
         const durationSec = current.duration;
         if (Number.isFinite(durationSec) && durationSec > 0) {
-          holdMs = Math.max(holdMs, Math.ceil(durationSec * 1000));
+          holdMs = Math.max(intervalMs, Math.ceil(durationSec * 1000) + 250);
         } else {
           current.addEventListener(
             'loadedmetadata',
@@ -63,13 +81,16 @@ document.addEventListener('DOMContentLoaded', () => {
             { once: true }
           );
         }
+
+        timerId = window.setTimeout(() => {
+          if (items[idx] !== current) return;
+          advance();
+        }, holdMs);
+
+        return;
       }
 
-      timerId = window.setTimeout(() => {
-        idx = (idx + 1) % items.length;
-        show(idx);
-        scheduleNext();
-      }, holdMs);
+      timerId = window.setTimeout(advance, intervalMs);
     };
 
     const fallbackToImage = () => {
