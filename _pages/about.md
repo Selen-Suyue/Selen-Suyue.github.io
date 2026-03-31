@@ -80,7 +80,7 @@ redirect_from:
 
     .pub-badge--oral {
         color: #83a1c7;
-        background: rgba(131, 161, 199, 0.06);
+        background: rgba(131, 161, 199, 0.0);
         border: 1px solid rgba(131, 161, 199, 0.7);
     }
     .publication-card:hover {
