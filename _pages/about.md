@@ -82,6 +82,7 @@ redirect_from:
         color: #83a1c7;
         background: rgba(131, 161, 199, 0.0);
         border: 1px solid rgba(131, 161, 199, 0.7);
+        font-style: italic;
     }
     .publication-card:hover {
        
