@@ -181,6 +181,10 @@
   }
 }
 
+.author__urls-wrapper.is-open .author__urls {
+  display: block;
+}
+
 .author__urls {
   display: none;
   position: absolute;
@@ -191,7 +195,7 @@
   border: 1px solid $border-color;
   border-radius: $border-radius;
   background: #fff;
-  z-index: -1;
+  z-index: 20;
   box-shadow: 0 0 10px rgba(#000, 0.25);
   cursor: default;
 

@@ -1,4 +1,41 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
+<script>
+(function() {
+  function closeAll() {
+    document.querySelectorAll('.author__urls-wrapper.is-open').forEach(function(wrapper) {
+      wrapper.classList.remove('is-open');
+    });
+  }
+
+  function init() {
+    document.querySelectorAll('.author__urls-wrapper').forEach(function(wrapper) {
+      var button = wrapper.querySelector('button');
+      var list = wrapper.querySelector('.author__urls');
+      if (!button || !list) return;
+
+      button.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopPropagation();
+        wrapper.classList.toggle('is-open');
+      });
+    });
+
+    document.addEventListener('click', function() {
+      closeAll();
+    });
+
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') closeAll();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
 
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
