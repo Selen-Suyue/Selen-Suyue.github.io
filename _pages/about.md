@@ -94,6 +94,7 @@ redirect_from:
     }
 
     .pub-badge--oral {
+        margin-left: 4px;
         vertical-align: 2px;
         color: #4c6a94;
         background: rgba(131, 161, 199, 0.14);
