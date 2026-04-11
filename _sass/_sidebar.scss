@@ -249,8 +249,8 @@
 
   a {
     display: grid;
-    grid-template-columns: 1.75em 1fr;
-    column-gap: 0.6em;
+    grid-template-columns: 1.5em 1fr;
+    column-gap: 0.35em;
     align-items: center;
     margin-bottom: 5px;
     padding-right: 5px;
@@ -267,12 +267,12 @@
 
   li > a > i,
   li > a > .icon {
-    width: 1.75em;
-    height: 1.75em;
+    width: 1.5em;
+    height: 1.5em;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.15em;
+    font-size: 1.1em;
     line-height: 1;
     text-align: center;
   }
