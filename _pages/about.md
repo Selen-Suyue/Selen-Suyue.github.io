@@ -67,22 +67,36 @@ redirect_from:
     }
 
     .pub-badge {
-        display: inline-block;
-        margin-left: 6px;
-        padding: 1px 8px;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35em;
+        margin-left: 8px;
+        padding: 2px 8px;
         border-radius: 999px;
-        font-size: 12px;
-        font-weight: 700;
-        line-height: 1.5;
-        vertical-align: baseline;
+        font-size: 11px;
+        font-weight: 650;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
         white-space: nowrap;
+        border: 1px solid transparent;
+        background: rgba(107, 114, 128, 0.08);
+        color: #6b7280;
+    }
+
+    .pub-badge::before {
+        content: "";
+        width: 0.45em;
+        height: 0.45em;
+        border-radius: 999px;
+        background: currentColor;
+        opacity: 0.75;
     }
 
     .pub-badge--oral {
-        color: #83a1c7;
-        background: rgba(131, 161, 199, 0.0);
-        border: 1px solid rgba(131, 161, 199, 0.7);
-        font-style: italic;
+        color: #4c6a94;
+        background: rgba(131, 161, 199, 0.14);
+        border-color: rgba(131, 161, 199, 0.35);
     }
     .publication-card:hover {
        
