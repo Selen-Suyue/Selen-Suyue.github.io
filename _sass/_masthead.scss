@@ -20,8 +20,8 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: $helvetica;
-    font-size: 16px;
+    font-family: $global-font-family;
+    font-size: 17px;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
