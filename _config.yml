@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Selen Su / Personal Homepage"
+title                    : "Selen Su / Homepage"
 title_separator          : "-"
 name                     : Selen
 description              : &description "personal description"
@@ -24,7 +24,7 @@ author:
   avatar           : "selen.png"
   name             : "Yue Su 苏悦"
   pronouns         : "He/Him"  
-  bio              : "周虽旧邦，其命维新"
+  bio              : "重剑无锋, 大巧不工"
   location         : 
   employer         : 
   uri              : 
