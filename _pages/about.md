@@ -211,7 +211,7 @@ I am an undergraduate (2022-2026) at Xidian University and incoming Phd at [MMLa
 
 News
 ---------------
-- [2026/05] *Finished my internship at ByteDance Seed.*
+- [2026/05] Finished my internship at ByteDance Seed.
 
 Experience
 --------------
