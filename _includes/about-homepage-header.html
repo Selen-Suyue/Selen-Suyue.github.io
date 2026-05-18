@@ -1,0 +1,177 @@
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+    .experience-card {
+        display: flex;
+        align-items: center;
+        background: #f9f9f9;
+        border-radius: 12px;
+        padding: 16px;
+        margin-bottom: 0px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .experience-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .experience-logo {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+        border-radius: 8px;
+        object-fit: contain;
+    }
+    .experience-info {
+        font-family: "Segoe UI", sans-serif;
+    }
+    .experience-info strong {
+        font-size: 1.1em;
+    }
+    .experience-info a {
+        text-decoration: none;
+        color: #ca6f6f;
+    }
+    .experience-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+    .experience-card {
+        box-sizing: border-box;
+    }
+    .publication-card {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border: 1.5px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: #5f6368;
+    }
+    .publication-card > div > strong,
+    .publication-card > div > div > strong {
+        color: #202124;
+    }
+    .publication-card i {
+        color: #6b7280;
+    }
+    .pub-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35em;
+        margin-left: 8px;
+        padding: 2px 8px;
+        border-radius: 999px;
+        font-size: 11px;
+        font-weight: 650;
+        line-height: 1.4;
+        letter-spacing: 0.01em;
+        vertical-align: middle;
+        white-space: nowrap;
+        border: 1px solid transparent;
+        background: rgba(107, 114, 128, 0.08);
+        color: #6b7280;
+    }
+    .pub-badge::before {
+        content: "";
+        width: 0.45em;
+        height: 0.45em;
+        border-radius: 999px;
+        background: currentColor;
+        opacity: 0.75;
+    }
+    .pub-badge--oral {
+        margin-left: 4px;
+        vertical-align: 2px;
+        color: #4c6a94;
+        background: rgba(131, 161, 199, 0.14);
+        border-color: rgba(131, 161, 199, 0.35);
+    }
+    .publication-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .publication-card.featured {
+        border-color: #f5bba7;
+        background: #fef5f1;
+        box-shadow: 0 4px 8px rgba(242, 166, 120, 0.2);
+        z-index: 10;
+    }
+    .publication-card.featured:hover {
+        box-shadow: 0 8px 16px rgba(242, 166, 120, 0.4);
+    }
+    .publication-card.non-featured {
+        display: flex;
+    }
+    .pub-button-container {
+        display: flex;
+        gap: 10px;
+        margin: 20px 0;
+        flex-wrap: wrap;
+    }
+    .pub-button {
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        padding: 8px 16px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .pub-button:hover {
+        background-color: #e0e0e0;
+    }
+    .pub-button.active {
+        background-color: #ca6f6f;
+        color: white;
+        border-color: #ca6f6f;
+    }
+    .project-card {
+        display: flex;
+        align-items: center;
+        padding: 3px;
+        border: 1.5px solid #ddd;
+        border-radius: 8px;
+        background: #fff;
+        box-sizing: border-box;
+        margin-bottom: 20px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        color: #5f6368;
+    }
+    .project-card > div > strong,
+    .project-card > div > div > strong {
+        color: #202124;
+    }
+    .project-card i {
+        color: #6b7280;
+    }
+    .project-card:hover {
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    body {
+        background-color: #FFFFFF;
+        font-family: 'Arial Rounded MT Bold', 'Verdana', sans-serif;
+        font-size: 15px;
+    }
+    .main-heading {
+        font-family: 'Permanent Marker', cursive;
+        text-align: center;
+        color: #ca6f6f;
+    }
+    div.markdown-body a,
+    a {
+        text-decoration: none !important;
+        color: #ca6f6f;
+        transition: all 0.3s ease;
+    }
+    div.markdown-body a:hover,
+    a:hover {
+        color: #c71585;
+        text-decoration: underline;
+    }
+</style>
+
+<h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt="Hi"> Welcome to my Homepage!</h1>
