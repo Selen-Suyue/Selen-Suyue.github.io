@@ -11,7 +11,14 @@ I am an undergraduate (2022-2026) at Xidian University and incoming Phd at [MMLa
 
 News
 ---------------
-- [2026/05] Finished my internship at ByteDance Seed.
+<section class="profile-list-section">
+  <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026/05</span>
+      <span class="profile-list__content">Finished my internship at ByteDance Seed.</span>
+    </li>
+  </ul>
+</section>
 
 Experience
 --------------
@@ -282,13 +289,42 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 
 Awards
 --------
-- Xiaomi Outstanding Scholarship 2025
-- National Scholarship 2025
-- Outstanding Student, Xidian University, 2025
+<section class="profile-list-section">
+  <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025</span>
+      <span class="profile-list__content">Xiaomi Outstanding Scholarship</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025</span>
+      <span class="profile-list__content">National Scholarship</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025</span>
+      <span class="profile-list__content">Outstanding Student, Xidian University</span>
+    </li>
+  </ul>
+</section>
 
 Talks
 --------
-- [2026/03] Invited to [Talk on RoboTion](http://xhslink.com/o/74L1xM2Vw2f) about WoG.
-- [2025/12] Invited to [Talk on NICE seminar](https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9) about Imitation Learning
-- [2025/12] Invited to [Talk on RL China](https://b23.tv/We6FLQh) about DSPv2
-- [2025/10] Invited to [Talk on 3D视觉工坊](https://b23.tv/PvLKNR1) about DSP and DSPv2
+<section class="profile-list-section">
+  <ul class="profile-list">
+    <li class="profile-list__item">
+      <span class="profile-list__date">2026/03</span>
+      <span class="profile-list__content">Invited to <a href="http://xhslink.com/o/74L1xM2Vw2f">Talk on RoboTion</a> about WoG.</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025/12</span>
+      <span class="profile-list__content">Invited to <a href="https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9">Talk on NICE seminar</a> about Imitation Learning.</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025/12</span>
+      <span class="profile-list__content">Invited to <a href="https://b23.tv/We6FLQh">Talk on RL China</a> about DSPv2.</span>
+    </li>
+    <li class="profile-list__item">
+      <span class="profile-list__date">2025/10</span>
+      <span class="profile-list__content">Invited to <a href="https://b23.tv/PvLKNR1">Talk on 3D视觉工坊</a> about DSP and DSPv2.</span>
+    </li>
+  </ul>
+</section>
