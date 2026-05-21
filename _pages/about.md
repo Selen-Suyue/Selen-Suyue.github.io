@@ -139,6 +139,7 @@ Publications
         Learning Vision-Language-Action Models from Human Videos.
         <br>
         <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+        <a href="https://mp.weixin.qq.com/s/6qkoPGMbnZXFWOYg-MljlQ"><em>[机器之心]</em></a>
         <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
         <a href=""><em>[code]</em></a>
         <a href="https://lin-shan.com/CLAP/#"><em>[website]</em></a>
