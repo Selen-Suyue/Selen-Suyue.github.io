@@ -161,13 +161,7 @@
         list-style: none;
     }
     .profile-list::before {
-        content: "";
-        position: absolute;
-        top: 8px;
-        bottom: 8px;
-        left: 3px;
-        width: 1px;
-        background: linear-gradient(to bottom, rgba(202, 111, 111, 0.08), rgba(202, 111, 111, 0.38), rgba(202, 111, 111, 0.08));
+        content: none;
     }
     .profile-list__item {
         position: relative;
@@ -183,14 +177,14 @@
     .profile-list__item::before {
         content: "";
         position: absolute;
-        top: 1.05em;
-        left: -18px;
-        width: 7px;
-        height: 7px;
-        border-radius: 999px;
-        background: #fff;
-        border: 1.5px solid #ca6f6f;
-        box-shadow: 0 0 0 3px rgba(202, 111, 111, 0.08);
+        top: 0.54em;
+        left: -25px;
+        width: 15px;
+        height: 22px;
+        background: url("/images/sakura-petal.svg") center / contain no-repeat;
+        filter: drop-shadow(0 1px 2px rgba(181, 93, 118, 0.16));
+        transform: rotate(-76deg);
+        transform-origin: 50% 50%;
     }
     .profile-list__date {
         color: #6f86a6;

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 96" role="img" aria-label="Sakura petal">
+  <title>Sakura petal</title>
+  <desc>Single sakura petal adapted from CC0 Wikimedia Commons Sakura.svg by Mnmazur.</desc>
+  <defs>
+    <linearGradient id="petal-fill" x1="16" y1="8" x2="48" y2="90" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fad8e1"/>
+      <stop offset="0.26" stop-color="#f6c1d0"/>
+      <stop offset="0.64" stop-color="#ee99b2"/>
+      <stop offset="1" stop-color="#cb6688"/>
+    </linearGradient>
+    <radialGradient id="petal-glow" cx="22" cy="18" r="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff0f5" stop-opacity="0.38"/>
+      <stop offset="0.45" stop-color="#fdd7e2" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path
+    d="M31.8 92.5C19.6 78.9 7.4 58.8 8.1 38.9 8.7 22.5 19.6 9.2 25.7 3c4.9 14.5 14.7 14.8 20.7.3 7.4 8.2 11.2 24.1 8.4 40.4C51.2 63.7 41.1 80.8 31.8 92.5Z"
+    fill="url(#petal-fill)"/>
+  <path
+    d="M31.8 92.5C19.6 78.9 7.4 58.8 8.1 38.9 8.7 22.5 19.6 9.2 25.7 3c4.9 14.5 14.7 14.8 20.7.3 7.4 8.2 11.2 24.1 8.4 40.4C51.2 63.7 41.1 80.8 31.8 92.5Z"
+    fill="url(#petal-glow)"/>
+  <path
+    d="M31.8 92.5C19.6 78.9 7.4 58.8 8.1 38.9 8.7 22.5 19.6 9.2 25.7 3c4.9 14.5 14.7 14.8 20.7.3 7.4 8.2 11.2 24.1 8.4 40.4C51.2 63.7 41.1 80.8 31.8 92.5Z"
+    fill="none"
+    stroke="#b95578"
+    stroke-opacity="0.38"
+    stroke-width="2"/>
+  <path
+    d="M32 87C32 69.5 32.7 48.8 35.8 17.2"
+    fill="none"
+    stroke="#bd5f7e"
+    stroke-opacity="0.22"
+    stroke-width="1.45"
+    stroke-linecap="round"/>
+  <path
+    d="M33.5 48.8c-4.9-3.2-9.4-7.4-13.2-13.3M33.2 60.8c4.5-3.1 8.5-6.8 11.7-11.8M32.4 71.9c-3.8-2.7-7.1-5.9-10-10.2"
+    fill="none"
+    stroke="#c9738e"
+    stroke-opacity="0.15"
+    stroke-width="1.15"
+    stroke-linecap="round"/>
+</svg>
