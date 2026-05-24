@@ -89,6 +89,33 @@ Publications
 
 <div class="publication-card featured">
   <div style="display: flex; align-items: center;">
+    <img src="https://itheresaapocalypse.github.io/images/game-multiverse.png" alt="Game multiverse survey" width="200" height="100" style="margin-right: 20px; object-fit: cover;">
+    <div>
+        <strong>Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://itheresaapocalypse.github.io/academicpages.github.io/" target="_blank">Kuan Zhang</a>*,
+            <a href="https://li-battery-dc.github.io/" target="_blank">Dongchen Liu</a>*,
+            <a href="" target="_blank">Qiyue Zhao</a>*,
+            <a href="" target="_blank">Tianyu Xin</a>*,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*,
+            <a href="" target="_blank">Haisheng Wang</a>,
+            <a href="" target="_blank">Han Yin</a>,
+            <a href="" target="_blank">Hongbo Ma</a>,
+            <a href="" target="_blank">Peize Li</a>,
+            ...,
+            <a href="https://yimingli-page.github.io/" target="_blank">Yiming Li</a>&dagger;
+        </i><br>
+        A survey of foundation models as generalist game players across datasets, models, harnesses, and benchmarks.
+        <br>
+        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
+        <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
+        <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card featured">
+  <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
       <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline>
@@ -98,7 +125,7 @@ Publications
     <div>
         <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
             <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
             <a href="https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en" target="_blank">Haixin Shi</a>, 
             <a href="https://mingyulau.github.io/" target="_blank">Mingyu Liu</a>,
@@ -130,7 +157,7 @@ Publications
             <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>*,
             <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en" target="_blank">Jianan Wang</a>*, 
             <a href="" target="_blank">Zifeng Gao</a>, 
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
             <a href="" target="_blank">Tiranru Dai</a>,
             <a href="https://homepage.zhouc.ai/" target="_blank">Cai Zhou</a>, <br>
             <a href="https://ivg.au.tsinghua.edu.cn/Jiwen_Lu/" target="_blank">Jiwen Lu</a>,
@@ -155,7 +182,7 @@ Publications
     <div>
         <strong>DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
             <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>, 
             <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
             <a href="" target="_blank">Liufan Tan</a>, <br>
@@ -181,7 +208,7 @@ Publications
     <div>
         <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*, 
             <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
             <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
@@ -207,7 +234,7 @@ Publications
     <div>
         <strong>Motion Before Action: Diffusing Object Motion as Manipulation Condition</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>*, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*, 
             <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
             <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
             <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
@@ -229,7 +256,7 @@ Publications
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+    <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
     </i><br>
@@ -246,7 +273,7 @@ Publications
       <i style="font-size: 13px;">
     <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
     <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-    <a href="https://selen-suyue.github.io" target="_blank"><strong>Yue Su</strong></a>, 
+    <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
     <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
     <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
