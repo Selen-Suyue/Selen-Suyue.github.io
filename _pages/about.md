@@ -7,7 +7,11 @@ redirect_from:
 ---
 {% include about-homepage-header.html %}
 
-I am an incoming Phd at [MMLab@HKU](https://mmlab.hk/) (2026.9 - 2030.8) with [Prof. Xihui Liu](https://xh-liu.github.io/). Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/). I was also an RA at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). I got my B. Eng. degree from Xidian University from Xidian University (2022.9 - 2026.6).
+I am an incoming Phd at [MMLab@HKU](https://mmlab.hk/) (2026.9 - 2030.8) with [Prof. Xihui Liu](https://xh-liu.github.io/). 
+
+Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/), [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
+
+I got my B. Eng. degree from Xidian University from Xidian University (2022.9 - 2026.6).
 
 News
 ---------------
