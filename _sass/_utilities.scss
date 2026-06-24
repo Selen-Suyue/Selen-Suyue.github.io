@@ -239,6 +239,11 @@ body:hover .visually-hidden button {
 
   .fa-instagram {
     color: #d62976;
+    display: inline-block;
+  }
+
+  .fa-instagram:before {
+    display: inline-block;
     background: linear-gradient(45deg, #feda75 0%, #fa7e1e 25%, #d62976 50%, #962fbf 75%, #4f5bd5 100%);
     -webkit-background-clip: text;
     background-clip: text;
