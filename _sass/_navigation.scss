@@ -432,3 +432,35 @@
     }
   }
 }
+
+
+/* Modern compact overflow menu */
+.greedy-nav {
+  button {
+    display: grid; place-items: center; width: 44px; height: 44px; padding: 0;
+    border: 1px solid rgba(202, 111, 111, 0.24); border-radius: 12px;
+    background: rgba(202, 111, 111, 0.06); color: #a4525d;
+    box-shadow: 0 2px 8px rgba(95, 36, 46, 0.06);
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+    &:hover { background: rgba(202, 111, 111, 0.11); border-color: rgba(202, 111, 111, 0.38); box-shadow: 0 4px 12px rgba(95, 36, 46, 0.10); }
+    &:active { transform: scale(0.96); }
+    &:focus-visible { outline: 3px solid rgba(202, 111, 111, 0.22); outline-offset: 2px; }
+    .navicon, .navicon::before, .navicon::after { width: 20px; height: 2px; border-radius: 999px; background: #a4525d; }
+    .navicon::before { top: -6px; }
+    .navicon::after { bottom: -6px; }
+    &.close .navicon { background: transparent; }
+  }
+  .hidden-links {
+    min-width: 190px; margin-top: 10px; padding: 6px;
+    border: 1px solid rgba(202, 111, 111, 0.18); border-radius: 14px;
+    box-shadow: 0 12px 32px rgba(45, 35, 37, 0.12);
+    &::before, &::after { content: none; }
+    li { border: 0; }
+    a {
+      margin: 0; padding: 10px 12px; border-radius: 9px; color: #5f6368; line-height: 1.35;
+      transition: color 0.18s ease, background-color 0.18s ease;
+      &:hover, &:focus-visible { color: #8f1d2c; background: rgba(202, 111, 111, 0.09); text-decoration: none; }
+      &:focus-visible { outline: 2px solid rgba(202, 111, 111, 0.22); outline-offset: -2px; }
+    }
+  }
+}

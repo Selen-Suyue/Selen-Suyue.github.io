@@ -243,11 +243,11 @@
         .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
         .publication-card, .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
-        .publication-card > div, .project-card > div { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
+        .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
         .publication-card .pub-media-rotator img, .publication-card .pub-media-rotator video { width: 100% !important; height: 100% !important; object-fit: cover; }
-        .publication-card > div > div, .project-card > div > div { min-width: 0; overflow-wrap: anywhere; }
-        .publication-card > div > div > strong, .project-card > div > div > strong { display: inline-block; margin-bottom: 0.25rem; font-size: 1.05em; line-height: 1.35; }
+        .publication-card > div, .project-card > div { min-width: 0; overflow-wrap: anywhere; }
+        .publication-card > div > strong, .publication-card > div > div > strong, .project-card > div > strong, .project-card > div > div > strong { display: inline-block; margin-bottom: 0.25rem; font-size: 1.05em; line-height: 1.35; }
         .pub-button-container { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin: 14px 0; }
         .pub-button { min-height: 44px; padding: 9px 10px; line-height: 1.2; }
         .profile-list { padding-left: 12px; }
