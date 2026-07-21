@@ -283,7 +283,7 @@
 }
 
 // Responsive author profile: horizontal on tablets, centered and stacked on phones.
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: ($large - 1px)) {
   .sidebar {
     display: grid; grid-template-columns: 96px minmax(0, 1fr) auto; gap: 0 16px; align-items: center;
     padding: 16px; border: 1px solid $border-color; border-radius: 14px; background: #fff;
