@@ -399,3 +399,8 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 767px) {
+  #main { margin-top: 1rem; padding-left: max(14px, env(safe-area-inset-left)); padding-right: max(14px, env(safe-area-inset-right)); }
+  .page__content { overflow-wrap: anywhere; h2 { margin-top: 1.75em; padding-bottom: 0.35em; } }
+}
