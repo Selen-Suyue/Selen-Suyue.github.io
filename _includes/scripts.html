@@ -1,29 +1,58 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 <script>
 (function() {
+  function setAuthorMenu(wrapper, open) {
+    var button = wrapper.querySelector('button');
+    if (!button) return;
+    var list = wrapper.querySelector('.author__urls');
+    wrapper.classList.toggle('is-open', open);
+    if (list) list.style.display = open ? 'block' : 'none';
+    button.setAttribute('aria-expanded', String(open));
+  }
+
+  function setSiteMenu(open) {
+    var button = document.querySelector('#site-nav > button');
+    var menu = document.querySelector('#site-nav .hidden-links');
+    if (!button || !menu) return;
+    menu.classList.toggle('hidden', !open);
+    button.classList.toggle('close', open);
+    button.setAttribute('aria-expanded', String(open));
+  }
+
   function closeAll() {
     document.querySelectorAll('.author__urls-wrapper.is-open').forEach(function(wrapper) {
-      wrapper.classList.remove('is-open');
+      setAuthorMenu(wrapper, false);
     });
+    setSiteMenu(false);
   }
 
   function init() {
     document.querySelectorAll('.author__urls-wrapper').forEach(function(wrapper) {
       var button = wrapper.querySelector('button');
-      var list = wrapper.querySelector('.author__urls');
-      if (!button || !list) return;
-
+      if (!button) return;
       button.addEventListener('click', function(event) {
         event.preventDefault();
-        event.stopPropagation();
-        wrapper.classList.toggle('is-open');
-      });
+        event.stopImmediatePropagation();
+        var nextOpen = button.getAttribute('aria-expanded') !== 'true';
+        closeAll();
+        setAuthorMenu(wrapper, nextOpen);
+      }, true);
     });
 
-    document.addEventListener('click', function() {
-      closeAll();
-    });
+    var navButton = document.querySelector('#site-nav > button');
+    if (navButton) {
+      navButton.addEventListener('click', function(event) {
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        var nextOpen = navButton.getAttribute('aria-expanded') !== 'true';
+        closeAll();
+        setSiteMenu(nextOpen);
+      }, true);
+    }
 
+    document.addEventListener('click', function(event) {
+      if (!event.target.closest('.author__urls-wrapper, #site-nav')) closeAll();
+    });
     document.addEventListener('keydown', function(event) {
       if (event.key === 'Escape') closeAll();
     });
