@@ -256,6 +256,7 @@ Publications
 </div>
 
 <div class="publication-card non-featured">
+  <div class="publication-card__layout">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
@@ -268,9 +269,11 @@ Publications
     <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
     </div>
+  </div>
 </div>
 
 <div class="publication-card non-featured">
+  <div class="publication-card__layout">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
@@ -287,6 +290,7 @@ Publications
       <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
       <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
     </div>
+  </div>
 </div>
 
 <script src="assets/js/show_publications.js"></script>
