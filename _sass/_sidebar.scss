@@ -297,6 +297,30 @@
     .author__bio { margin-top: 0.35rem; line-height: 1.4; }
     .author__urls-wrapper { display: block; }
   }
+
+  .author__urls-wrapper button.btn--inverse {
+    color: #a4525d !important;
+    border-color: rgba(202, 111, 111, 0.42) !important;
+    background-color: rgba(202, 111, 111, 0.10);
+
+    &:hover,
+    &:focus-visible {
+      color: #8f1d2c !important;
+      border-color: rgba(202, 111, 111, 0.62) !important;
+      background-color: rgba(202, 111, 111, 0.18);
+    }
+
+    &:focus-visible {
+      outline-color: rgba(202, 111, 111, 0.42);
+    }
+
+    &:active,
+    &.open {
+      color: #fff !important;
+      border-color: #a4525d !important;
+      background-color: #a4525d;
+    }
+  }
 }
 @media screen and (max-width: 520px) {
   .sidebar {
