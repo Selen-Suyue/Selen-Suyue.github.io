@@ -101,7 +101,7 @@ Publications
         <strong>CARA: Concept-Aware Risk Attention for Interpretable Collision Prediction</strong><br>
         <i style="font-size: 13px;">
             <a href="https://scholar.google.com/scholar?q=author%3A%22Zhishan+Tao%22" target="_blank">Zhishan Tao</a>,
-            <a href="https://ruoyuwang.org/" target="_blank">Ruoyu Wang</a>,
+            <a href="" target="_blank">Ruoyu Wang</a>,
             <a href="https://scholar.google.com/scholar?q=author%3A%22Yucheng+Wu%22" target="_blank">Yucheng Wu</a>,
             <a href="https://enjundu.com/" target="_blank">Enjun Du</a>,
             <a href="https://scholar.google.com/scholar?q=author%3A%22Yilei+Yuan%22" target="_blank">Yilei Yuan</a>,
