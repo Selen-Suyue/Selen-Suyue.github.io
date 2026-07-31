@@ -100,14 +100,49 @@
         opacity: 0.75;
     }
     .pub-badge--oral {
-        margin-left: 4px;
-        vertical-align: 2px;
         color: #4c6a94;
         background: rgba(131, 161, 199, 0.14);
         border-color: rgba(131, 161, 199, 0.35);
     }
+    .pub-meta-row {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 7px 11px;
+        margin-top: 5px;
+        min-height: 24px;
+        line-height: 1.35;
+    }
+    .pub-meta-row .pub-venue {
+        display: inline-flex;
+        align-items: center;
+        color: #83a1c7;
+        font-style: italic;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+    .pub-meta-row .pub-badge {
+        margin: 0;
+        padding: 3px 8px;
+        line-height: 1;
+        vertical-align: baseline;
+    }
+    .pub-meta-row .pub-links {
+        display: inline-flex;
+        align-items: center;
+        gap: 9px;
+    }
+    .pub-meta-row .pub-links a {
+        display: inline-flex;
+        align-items: center;
+        line-height: 1.35;
+        white-space: nowrap;
+    }
     .publication-card:hover {
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .publication-card.first-author:not(.featured) {
+        border-color: #f1d3c8;
     }
     .publication-card.featured {
         border-color: #f1d3c8;
