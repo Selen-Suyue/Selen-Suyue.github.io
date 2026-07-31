@@ -87,11 +87,39 @@ Experience
 Publications
 --------------
 <div class="pub-button-container">
-  <button class="pub-button active" onclick="showPublications('all')">All Publications</button>
-  <button class="pub-button" onclick="showPublications('featured')">Selected Only</button>
+  <button class="pub-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+  <button class="pub-button" type="button" data-filter="world-action-model" aria-pressed="false">World (Action) Model</button>
+  <button class="pub-button" type="button" data-filter="embodied-ai" aria-pressed="false">Embodied AI</button>
+  <button class="pub-button" type="button" data-filter="game-ai" aria-pressed="false">Game AI</button>
+  <button class="pub-button" type="button" data-filter="vision" aria-pressed="false">Vision</button>
 </div>
 
-<div class="publication-card featured">
+<div class="publication-card" data-topics="vision" data-date="2026-07-24">
+  <div class="publication-card__layout">
+    <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+        <strong>CARA: Concept-Aware Risk Attention for Interpretable Collision Prediction</strong><br>
+        <i style="font-size: 13px;">
+            Zhishan Tao,
+            Ruoyu Wang,
+            Yucheng Wu,
+            <a href="https://enjundu.com/" target="_blank">Enjun Du</a>,
+            Yilei Yuan,
+            Sherwin Ho,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+            Jinbo Su,
+            Yi Hong&dagger;
+        </i><br>
+        An interpretable spatio-temporal framework that grounds collision prediction in evolving, human-understandable risk concepts.
+        <br>
+        <b><i style="color:#83a1c7;">ACM MM 2026 &nbsp;</i></b>
+        <span class="pub-badge pub-badge--oral">Oral</span>
+        <a href="https://arxiv.org/abs/2607.22494"><em>[arXiv]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-topics="game-ai" data-date="2026-05-11">
   <div style="display: flex; align-items: center;">
     <img src="https://itheresaapocalypse.github.io/images/game-multiverse.png" alt="Game multiverse survey" width="200" height="100" style="margin-right: 20px; object-fit: cover;">
     <div>
@@ -118,7 +146,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card featured">
+<div class="publication-card featured" data-topics="world-action-model embodied-ai" data-date="2026-02-25">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
@@ -150,7 +178,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card">
+<div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-01-07">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/clap.mp4" type="video/mp4">
@@ -178,7 +206,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card featured">
+<div class="publication-card" data-topics="embodied-ai" data-date="2025-09-19">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/dspv2.mp4" type="video/mp4">
@@ -204,7 +232,28 @@ Publications
   </div>
 </div>
 
-<div class="publication-card featured">
+<div class="publication-card" data-topics="vision" data-date="2025-04-11">
+  <div class="publication-card__layout">
+    <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
+      <i style="font-size: 13px;">
+    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;,
+    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>,
+    <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+    <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>,
+    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>,
+    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
+    </i><br>
+      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
+      <br>
+      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
+      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2025-03-17">
  <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/flower_dsp.mp4" type="video/mp4">
@@ -212,13 +261,13 @@ Publications
     <div>
         <strong>Dense Policy: Bidirectional Autoregressive Learning of Actions</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*, 
-            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*, 
-            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>, 
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*,
+            <a href="https://scholar.google.com/citations?user=WurpqEMAAAAJ&hl=en" target="_blank">Xinyu Zhan</a>*,
+            <a href="https://tonyfang.net/" target="_blank">Hongjie Fang</a>,
             <a href="https://hanxue.me/" target="_blank">Han Xue</a>, <br>
-            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>, 
-            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>, 
-            <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
+            <a href="https://fang-haoshu.github.io/" target="_blank">Haoshu Fang</a>,
+            <a href="https://dirtyharrylyl.github.io/" target="_blank">Yong-Lu Li</a>,
+            <a href="http://mvig.org" target="_blank">Cewu Lu</a>,
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
         Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
@@ -232,7 +281,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card featured">
+<div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2024-11-14">
  <div style="display: flex; align-items: center;">
     <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -255,7 +304,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card non-featured">
+<div class="publication-card" data-topics="vision" data-date="2024-10-26">
   <div class="publication-card__layout">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -268,27 +317,6 @@ Publications
     A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
     <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
       <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
-    </div>
-  </div>
-</div>
-
-<div class="publication-card non-featured">
-  <div class="publication-card__layout">
-    <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</strong><br>
-      <i style="font-size: 13px;">
-    <a href="https://scholar.google.com/citations?user=JkQmO-kAAAAJ&hl=en" target="_blank">Hao Li</a>&dagger;, 
-    <a href="https://scholar.google.com/citations?user=eX7Ra5UAAAAJ&hl=en" target="_blank">Fanggao Wan</a>, 
-    <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
-    <a href="https://ywuchina.github.io/" target="_blank">Yue Wu</a>, 
-    <a href="https://scholar.google.com/citations?user=h4PExPwAAAAJ&hl=en" target="_blank">Mingyang Zhang</a>, 
-    <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
-    </i><br>
-      Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
-      <br>
-      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
     </div>
   </div>
 </div>
