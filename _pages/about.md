@@ -92,6 +92,10 @@ Publications
   <button class="pub-button" type="button" data-filter="embodied-ai" aria-pressed="false">Embodied AI</button>
   <button class="pub-button" type="button" data-filter="game-ai" aria-pressed="false">Game AI</button>
   <button class="pub-button" type="button" data-filter="vision" aria-pressed="false">Vision</button>
+  <span class="pub-legend" title="Colored borders indicate first- or co-first-author papers" aria-label="Colored borders indicate first- or co-first-author papers">
+    <span class="pub-legend__swatch" aria-hidden="true"></span>
+    First / Co-first
+  </span>
 </div>
 
 <div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-08-02">
