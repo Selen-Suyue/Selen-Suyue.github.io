@@ -94,6 +94,31 @@ Publications
   <button class="pub-button" type="button" data-filter="vision" aria-pressed="false">Vision</button>
 </div>
 
+<div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-08-02">
+  <div class="publication-card__layout">
+    <img src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div>
+        <strong>SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://scholar.google.com/citations?user=P0TNo5gAAAAJ&hl=3n" target="_blank">Ruiteng Zhao</a>,
+            <a href="https://scholar.google.com/citations?user=8nrJ1vsAAAAJ&hl=en" target="_blank">Zhengshen Zhang</a>,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+            <a href="https://scholar.google.com/citations?user=PFp3jbAAAAAJ&hl=en" target="_blank">Wenshuo Wang</a>,
+            <a href="https://scholar.google.com/citations?user=bMaupo8AAAAJ&hl=en" target="_blank">Jiahui Li</a>,
+            <a href="https://scholar.google.com/citations?user=RZBaKLsAAAAJ&hl=en" target="_blank">Zhiyuan Yang</a>,
+            <a href="https://scholar.google.com/citations?user=mfH9UFIAAAAJ&hl=en" target="_blank">Francis E. H. Tay</a>,
+            <a href="https://scholar.google.com/citations?user=dMogb2EAAAAJ&hl=en" target="_blank">Marcelo H. Ang Jr.</a>,
+            <a href="https://scholar.google.com/citations?user=uO_R9wQAAAAJ&hl=en" target="_blank">Haiyue Zhu</a>&dagger;
+        </i><br>
+        SG-WAM predicts action-conditioned future dynamics in a geometry-aware policy representation space for robust robot manipulation.
+        <br>
+        <b><i style="color:#83a1c7;">Preprint &nbsp;</i></b>
+        <a href="https://github.com/ReturnZhao/SG-WAM"><em>[code]</em></a>
+        <a href="https://sg-wam.github.io/#paper-note"><em>[website]</em></a>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card" data-topics="vision" data-date="2026-07-24">
   <div class="publication-card__layout">
     <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
