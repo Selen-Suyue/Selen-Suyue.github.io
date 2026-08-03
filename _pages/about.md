@@ -98,6 +98,7 @@ Publications
   <div class="publication-card__layout">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" style="width: 200px; height: 120px; object-fit: cover; display: block;">
+      <img src="https://sg-wam.github.io/intro.png" alt="SG-WAM teaser focusing on the Ours section" style="width: 400.6px; height: 220px; max-width: none; object-fit: fill; display: none; transform: translate(-200.8px, 0); transform-origin: top left;">
       <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline preload="metadata">
         <source src="https://sg-wam.github.io/video/real_deployment_exp/56981ef9461afa6f53938f1936740a57.mp4" type="video/mp4">
       </video>
