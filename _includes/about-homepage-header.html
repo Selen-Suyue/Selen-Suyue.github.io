@@ -304,6 +304,57 @@
         color: #c71585;
         text-decoration: underline;
     }
+    /* Responsive publication media: keep every item inside the same aspect-ratio frame. */
+    .pub-media-rotator {
+        position: relative;
+        width: 200px;
+        max-width: 100%;
+        height: auto;
+        aspect-ratio: 5 / 3;
+        margin-right: 20px;
+        border-radius: 8px;
+        overflow: hidden;
+        flex: 0 0 auto;
+        background: #fff;
+    }
+    .pub-media-rotator > img,
+    .pub-media-rotator > video {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+    }
+    .pub-media-rotator > .pub-media-rotator__overview {
+        object-fit: contain;
+        object-position: center;
+        background: #fff;
+    }
+    .pub-media-rotator > .pub-media-rotator__video {
+        object-fit: cover;
+        object-position: center;
+    }
+    /*
+     * The SG-WAM teaser's Ours panel occupies x=920..1836 of the 1836px source.
+     * Clip the left comparison panel, then center the complete Ours panel.
+     * Percentages make the crop scale with both desktop and mobile frames.
+     */
+    .publication-card .pub-media-rotator > img.pub-media-rotator__teaser {
+        position: absolute;
+        inset: auto;
+        top: 0;
+        left: 50%;
+        width: auto !important;
+        height: 100% !important;
+        max-width: none !important;
+        object-fit: fill !important;
+        object-position: center !important;
+        clip-path: inset(0 0 0 50.109%);
+        transform: translateX(-75.0545%);
+        transform-origin: center;
+        background: #fff;
+    }
+
     /* Responsive homepage cards: stack rich media above copy on narrow screens. */
     @media (max-width: 767px) {
         .main-heading { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; margin-bottom: 1.25rem; }
