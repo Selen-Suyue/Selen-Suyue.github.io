@@ -77,7 +77,7 @@ Experience
   <div class="experience-card">
       <img src="images/ssy.png" alt="ssy logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Hubei Wuchang Experimental High School</strong><br>
+          <strong>湖北省武昌实验中学</strong><br>
           Sep 2019 - June 2022<br>
           那是一段小有遗憾的幸福时光.
       </div>
