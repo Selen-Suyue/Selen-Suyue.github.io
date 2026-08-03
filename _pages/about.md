@@ -96,7 +96,12 @@ Publications
 
 <div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-08-02">
   <div class="publication-card__layout">
-    <img src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" style="width: 200px; height: 120px; object-fit: cover; display: block;">
+      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline preload="metadata">
+        <source src="https://sg-wam.github.io/video/real_deployment_exp/56981ef9461afa6f53938f1936740a57.mp4" type="video/mp4">
+      </video>
+    </div>
     <div>
         <strong>SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</strong><br>
         <i style="font-size: 13px;">
