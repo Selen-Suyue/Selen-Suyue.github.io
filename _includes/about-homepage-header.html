@@ -204,6 +204,33 @@
         border-radius: 50%;
         background: rgba(202, 111, 111, 0.72);
     }
+    .pub-legend {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 30px;
+        padding: 4px 9px;
+        border: 1px solid rgba(241, 211, 200, 0.9);
+        border-radius: 999px;
+        background: rgba(255, 250, 248, 0.78);
+        color: #8d7478;
+        font-size: 0.76rem;
+        font-weight: 600;
+        line-height: 1.15;
+        letter-spacing: 0.01em;
+        white-space: nowrap;
+        box-sizing: border-box;
+    }
+    .pub-legend__swatch {
+        width: 10px;
+        height: 10px;
+        border: 1.5px solid #e6b9aa;
+        border-radius: 3px;
+        background: #fffaf8;
+        box-shadow: 0 1px 3px rgba(202, 111, 111, 0.08);
+        box-sizing: border-box;
+        flex: 0 0 auto;
+    }
     .project-card {
         display: flex;
         align-items: center;
@@ -374,6 +401,7 @@
         .publication-card > div > strong, .publication-card > div > div > strong, .project-card > div > strong, .project-card > div > div > strong { display: inline-block; margin-bottom: 0.25rem; font-size: 1.05em; line-height: 1.35; }
         .pub-button-container { display: flex; gap: 7px; margin: 14px 0 18px; }
         .pub-button { min-height: 40px; padding: 8px 12px; font-size: 0.82rem; line-height: 1.2; }
+        .pub-legend { min-height: 40px; padding: 8px 11px; font-size: 0.8rem; }
         .profile-list { padding-left: 12px; }
         .profile-list__item { padding-left: 14px; }
         .profile-list__item::before { left: -14px; }
