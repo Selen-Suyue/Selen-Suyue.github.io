@@ -325,10 +325,11 @@
         height: 100%;
         max-width: none;
     }
-    .pub-media-rotator > .pub-media-rotator__overview {
-        object-fit: contain;
-        object-position: center;
+    .publication-card .pub-media-rotator > img.pub-media-rotator__overview {
+        object-fit: contain !important;
+        object-position: center !important;
         background: #fff;
+        box-sizing: border-box;
     }
     .pub-media-rotator > .pub-media-rotator__video {
         object-fit: cover;
@@ -367,6 +368,7 @@
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
         .publication-card .pub-media-rotator img, .publication-card .pub-media-rotator video { width: 100% !important; height: 100% !important; object-fit: cover; }
+        .publication-card .pub-media-rotator > img.pub-media-rotator__overview { object-fit: contain !important; object-position: center !important; padding: 4px 6px; box-sizing: border-box; }
         .publication-card > .publication-card__layout > img { aspect-ratio: auto; height: auto !important; object-fit: contain; background: #fff; }
         .publication-card > div, .project-card > div { min-width: 0; overflow-wrap: anywhere; }
         .publication-card > div > strong, .publication-card > div > div > strong, .project-card > div > strong, .project-card > div > div > strong { display: inline-block; margin-bottom: 0.25rem; font-size: 1.05em; line-height: 1.35; }
