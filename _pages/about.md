@@ -96,6 +96,10 @@ Publications
     <span class="pub-legend__swatch" aria-hidden="true"></span>
     First / Co-first
   </span>
+  <span class="pub-legend" title="Filled cards indicate selected publications" aria-label="Filled cards indicate selected publications">
+    <span class="pub-legend__swatch pub-legend__swatch--selected" aria-hidden="true"></span>
+    Selected
+  </span>
 </div>
 
 <div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-08-02">
