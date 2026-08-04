@@ -107,9 +107,6 @@ Publications
     <div class="pub-media-rotator" data-interval="4000">
       <img class="pub-media-rotator__overview" src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" style="display: block;">
       <img class="pub-media-rotator__teaser" src="https://sg-wam.github.io/intro.png" alt="SG-WAM teaser focusing on the complete Ours section" style="display: none;">
-      <video class="pub-media-rotator__video" style="display: none;" autoplay muted playsinline preload="metadata">
-        <source src="https://sg-wam.github.io/video/real_deployment_exp/56981ef9461afa6f53938f1936740a57.mp4" type="video/mp4">
-      </video>
     </div>
     <div>
         <strong>SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</strong><br>
