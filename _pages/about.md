@@ -91,7 +91,7 @@ Publications
   <button class="pub-button" type="button" data-filter="world-action-model" aria-pressed="false">World (Action) Model</button>
   <button class="pub-button" type="button" data-filter="embodied-ai" aria-pressed="false">Embodied AI</button>
   <button class="pub-button" type="button" data-filter="game-ai" aria-pressed="false">Game AI</button>
-  <button class="pub-button" type="button" data-filter="vision" aria-pressed="false">Vision</button>
+  <button class="pub-button" type="button" data-filter="others" aria-pressed="false">Others</button>
   <span class="pub-legend" title="Colored borders indicate first- or co-first-author papers" aria-label="Colored borders indicate first- or co-first-author papers">
     <span class="pub-legend__swatch" aria-hidden="true"></span>
     First / Co-first
@@ -130,7 +130,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="vision" data-date="2026-07-24">
+<div class="publication-card" data-topics="others" data-date="2026-07-24">
   <div class="publication-card__layout">
     <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
     <div>
@@ -271,7 +271,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="vision" data-date="2025-04-11">
+<div class="publication-card" data-topics="others" data-date="2025-04-11">
   <div class="publication-card__layout">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -343,7 +343,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card first-author" data-topics="vision" data-date="2024-10-26">
+<div class="publication-card first-author" data-topics="others" data-date="2024-10-26">
   <div class="publication-card__layout">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
