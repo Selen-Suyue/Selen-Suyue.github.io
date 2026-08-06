@@ -403,21 +403,21 @@ Awards
 <section class="profile-list-section profile-list-section--awards" aria-label="Awards">
   <ul class="profile-list">
     <li class="profile-list__item">
-      <time class="profile-list__date" datetime="2025">2025</time>
+      <time class="profile-list__date" datetime="2025">Nov 2025</time>
       <span class="profile-list__content">
         <span class="profile-list__title">Xiaomi Outstanding Scholarship</span>
         <span class="profile-list__meta">Scholarship</span>
       </span>
     </li>
     <li class="profile-list__item">
-      <time class="profile-list__date" datetime="2025">2025</time>
+      <time class="profile-list__date" datetime="2025">Oct 2025</time>
       <span class="profile-list__content">
         <span class="profile-list__title">National Scholarship</span>
         <span class="profile-list__meta">Scholarship</span>
       </span>
     </li>
     <li class="profile-list__item">
-      <time class="profile-list__date" datetime="2025">2025</time>
+      <time class="profile-list__date" datetime="2025">Oct 2025</time>
       <span class="profile-list__content">
         <span class="profile-list__title">Outstanding Student</span>
         <span class="profile-list__meta">Xidian University</span>
