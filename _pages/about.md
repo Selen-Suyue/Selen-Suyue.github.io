@@ -379,7 +379,7 @@ Projects
     <div>
         <strong>ManiUniCon: A Unified Control Interface for Robotic Manipulation</strong><br>
 ManiUniCon is a comprehensive, multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time. <br>
-      <b><i style="color:#83a1c7;">Universal-Control Team &nbsp;</i></b>
+      <a href="https://github.com/Universal-Control"><em>[team]</em></a>
       <a href="https://github.com/Universal-Control/ManiUniCon"><em>[code]</em></a>
     </div>
 </div>
