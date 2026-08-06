@@ -259,19 +259,19 @@
     .profile-list-section {
         --profile-accent: #6f86a6;
         --profile-accent-rgb: 111, 134, 166;
-        margin: 10px 0 30px;
+        margin: 8px 0 26px;
     }
     .profile-list-section--awards {
-        --profile-accent: #a98349;
-        --profile-accent-rgb: 169, 131, 73;
+        --profile-accent: #bf8192;
+        --profile-accent-rgb: 191, 129, 146;
     }
     .profile-list-section--talks {
-        --profile-accent: #b66f7a;
-        --profile-accent-rgb: 182, 111, 122;
+        --profile-accent: #987d9b;
+        --profile-accent-rgb: 152, 125, 155;
     }
     .profile-list {
         display: grid;
-        gap: 9px;
+        gap: 6px;
         margin: 0;
         padding: 0;
         list-style: none;
@@ -279,64 +279,64 @@
     .profile-list__item {
         position: relative;
         display: grid;
-        grid-template-columns: minmax(84px, max-content) minmax(0, 1fr);
-        gap: 16px;
+        grid-template-columns: minmax(76px, max-content) minmax(0, 1fr);
+        gap: 12px;
         align-items: center;
         margin: 0;
-        padding: 13px 16px 13px 14px;
+        padding: 9px 13px 9px 12px;
         overflow: hidden;
-        border: 1px solid rgba(var(--profile-accent-rgb), 0.17);
-        border-radius: 13px;
+        border: 1px solid rgba(var(--profile-accent-rgb), 0.12);
+        border-radius: 9px;
         background:
-            linear-gradient(112deg, rgba(var(--profile-accent-rgb), 0.075), rgba(255, 255, 255, 0) 38%),
+            linear-gradient(112deg, rgba(var(--profile-accent-rgb), 0.035), rgba(255, 255, 255, 0) 34%),
             #fff;
-        box-shadow: 0 2px 9px rgba(31, 41, 55, 0.025);
+        box-shadow: 0 1px 4px rgba(31, 41, 55, 0.018);
         color: #5f6368;
-        line-height: 1.4;
+        line-height: 1.35;
         transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     }
     .profile-list__item::before {
         content: "";
         position: absolute;
-        inset: 12px auto 12px 0;
-        width: 3px;
-        border-radius: 0 3px 3px 0;
+        inset: 9px auto 9px 0;
+        width: 2px;
+        border-radius: 0 2px 2px 0;
         background: var(--profile-accent);
-        opacity: 0.72;
+        opacity: 0.58;
     }
     .profile-list__item:hover {
-        border-color: rgba(var(--profile-accent-rgb), 0.32);
-        box-shadow: 0 8px 22px rgba(31, 41, 55, 0.07);
-        transform: translateY(-2px);
+        border-color: rgba(var(--profile-accent-rgb), 0.24);
+        box-shadow: 0 4px 12px rgba(31, 41, 55, 0.045);
+        transform: translateY(-1px);
     }
     .profile-list__date {
         display: inline-flex;
         align-items: center;
         justify-content: center;
         width: fit-content;
-        min-width: 72px;
-        min-height: 27px;
-        padding: 3px 9px;
-        border: 1px solid rgba(var(--profile-accent-rgb), 0.2);
-        border-radius: 999px;
-        background: rgba(var(--profile-accent-rgb), 0.08);
+        min-width: 64px;
+        min-height: 22px;
+        padding: 2px 6px;
+        border: 1px solid rgba(var(--profile-accent-rgb), 0.13);
+        border-radius: 7px;
+        background: rgba(var(--profile-accent-rgb), 0.045);
         color: var(--profile-accent);
-        font-size: 0.76rem;
+        font-size: 0.69rem;
         font-weight: 700;
         line-height: 1;
-        letter-spacing: 0.035em;
+        letter-spacing: 0.025em;
         white-space: nowrap;
         box-sizing: border-box;
     }
     .profile-list__content {
         display: grid;
-        gap: 2px;
+        gap: 1px;
         min-width: 0;
     }
     .profile-list__title {
         width: fit-content;
         color: #292d32;
-        font-size: 0.96rem;
+        font-size: 0.92rem;
         font-weight: 700;
         line-height: 1.35;
     }
@@ -345,23 +345,23 @@
     }
     .profile-list__meta {
         color: #7a8088;
-        font-size: 0.84rem;
+        font-size: 0.8rem;
         line-height: 1.35;
     }
     @media (max-width: 520px) {
         .profile-list {
-            gap: 8px;
+            gap: 6px;
         }
         .profile-list__item {
-            grid-template-columns: minmax(0, 1fr);
-            gap: 8px;
-            padding: 13px 14px;
+            grid-template-columns: 66px minmax(0, 1fr);
+            gap: 10px;
+            padding: 9px 11px;
         }
         .profile-list__date {
-            min-width: 0;
-            min-height: 25px;
-            padding: 3px 8px;
-            font-size: 0.72rem;
+            min-width: 62px;
+            min-height: 21px;
+            padding: 2px 5px;
+            font-size: 0.67rem;
         }
     }
     @media (prefers-reduced-motion: reduce) {
