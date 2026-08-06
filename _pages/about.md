@@ -15,11 +15,14 @@ I got my B. Eng. degree from Xidian University (2022.9 - 2026.6).
 
 News
 ---------------
-<section class="profile-list-section">
+<section class="profile-list-section profile-list-section--news" aria-label="Latest news">
   <ul class="profile-list">
     <li class="profile-list__item">
-      <span class="profile-list__date">2026/05</span>
-      <span class="profile-list__content">Finished my internship at ByteDance Seed.</span>
+      <time class="profile-list__date" datetime="2026-05">May 2026</time>
+      <span class="profile-list__content">
+        <span class="profile-list__title">Internship completed</span>
+        <span class="profile-list__meta">ByteDance Seed · Seed Robotics</span>
+      </span>
     </li>
   </ul>
 </section>
@@ -123,9 +126,14 @@ Publications
         </i><br>
         SG-WAM predicts action-conditioned future dynamics in a geometry-aware policy representation space for robust robot manipulation.
         <br>
-        <b><i style="color:#83a1c7;">Preprint &nbsp;</i></b>
-        <a href="https://github.com/ReturnZhao/SG-WAM"><em>[code]</em></a>
-        <a href="https://sg-wam.github.io/#paper-note"><em>[website]</em></a>
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2608.01397"><em>[arXiv]</em></a>
+            <a href="https://github.com/ReturnZhao/SG-WAM"><em>[code]</em></a>
+            <a href="https://sg-wam.github.io/#paper-note"><em>[website]</em></a>
+          </span>
+        </div>
     </div>
   </div>
 </div>
@@ -392,42 +400,63 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 
 Awards
 --------
-<section class="profile-list-section">
+<section class="profile-list-section profile-list-section--awards" aria-label="Awards">
   <ul class="profile-list">
     <li class="profile-list__item">
-      <span class="profile-list__date">2025</span>
-      <span class="profile-list__content">Xiaomi Outstanding Scholarship</span>
+      <time class="profile-list__date" datetime="2025">2025</time>
+      <span class="profile-list__content">
+        <span class="profile-list__title">Xiaomi Outstanding Scholarship</span>
+        <span class="profile-list__meta">Scholarship</span>
+      </span>
     </li>
     <li class="profile-list__item">
-      <span class="profile-list__date">2025</span>
-      <span class="profile-list__content">National Scholarship</span>
+      <time class="profile-list__date" datetime="2025">2025</time>
+      <span class="profile-list__content">
+        <span class="profile-list__title">National Scholarship</span>
+        <span class="profile-list__meta">Scholarship</span>
+      </span>
     </li>
     <li class="profile-list__item">
-      <span class="profile-list__date">2025</span>
-      <span class="profile-list__content">Outstanding Student, Xidian University</span>
+      <time class="profile-list__date" datetime="2025">2025</time>
+      <span class="profile-list__content">
+        <span class="profile-list__title">Outstanding Student</span>
+        <span class="profile-list__meta">Xidian University</span>
+      </span>
     </li>
   </ul>
 </section>
 
 Talks
 --------
-<section class="profile-list-section">
+<section class="profile-list-section profile-list-section--talks" aria-label="Invited talks">
   <ul class="profile-list">
     <li class="profile-list__item">
-      <span class="profile-list__date">2026/03</span>
-      <span class="profile-list__content">Invited to <a href="http://xhslink.com/o/74L1xM2Vw2f">Talk on RoboTion</a> about WoG.</span>
+      <time class="profile-list__date" datetime="2026-03">Mar 2026</time>
+      <span class="profile-list__content">
+        <a class="profile-list__title" href="http://xhslink.com/o/74L1xM2Vw2f">RoboTion</a>
+        <span class="profile-list__meta">Invited talk · World Guidance (WoG)</span>
+      </span>
     </li>
     <li class="profile-list__item">
-      <span class="profile-list__date">2025/12</span>
-      <span class="profile-list__content">Invited to <a href="https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&p=9">Talk on NICE seminar</a> about Imitation Learning.</span>
+      <time class="profile-list__date" datetime="2025-12">Dec 2025</time>
+      <span class="profile-list__content">
+        <a class="profile-list__title" href="https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&amp;p=9">NICE Seminar</a>
+        <span class="profile-list__meta">Invited talk · Imitation Learning</span>
+      </span>
     </li>
     <li class="profile-list__item">
-      <span class="profile-list__date">2025/12</span>
-      <span class="profile-list__content">Invited to <a href="https://b23.tv/We6FLQh">Talk on RL China</a> about DSPv2.</span>
+      <time class="profile-list__date" datetime="2025-12">Dec 2025</time>
+      <span class="profile-list__content">
+        <a class="profile-list__title" href="https://b23.tv/We6FLQh">RL China</a>
+        <span class="profile-list__meta">Invited talk · DSPv2</span>
+      </span>
     </li>
     <li class="profile-list__item">
-      <span class="profile-list__date">2025/10</span>
-      <span class="profile-list__content">Invited to <a href="https://b23.tv/PvLKNR1">Talk on 3D视觉工坊</a> about DSP and DSPv2.</span>
+      <time class="profile-list__date" datetime="2025-10">Oct 2025</time>
+      <span class="profile-list__content">
+        <a class="profile-list__title" href="https://b23.tv/PvLKNR1">3D视觉工坊</a>
+        <span class="profile-list__meta">Invited talk · DSP &amp; DSPv2</span>
+      </span>
     </li>
   </ul>
 </section>
