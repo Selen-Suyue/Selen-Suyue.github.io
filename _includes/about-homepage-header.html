@@ -270,63 +270,75 @@
         --profile-accent-rgb: 152, 125, 155;
     }
     .profile-list {
+        position: relative;
         display: grid;
-        gap: 6px;
+        gap: 0;
         margin: 0;
-        padding: 0;
+        padding: 2px 0;
         list-style: none;
+    }
+    .profile-list::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 7px;
+        width: 2px;
+        background: linear-gradient(
+            to bottom,
+            transparent 0,
+            rgba(var(--profile-accent-rgb), 0.42) 14%,
+            rgba(var(--profile-accent-rgb), 0.42) 86%,
+            transparent 100%
+        );
     }
     .profile-list__item {
         position: relative;
         display: grid;
-        grid-template-columns: minmax(76px, max-content) minmax(0, 1fr);
-        gap: 12px;
+        grid-template-columns: minmax(70px, max-content) minmax(0, 1fr);
+        gap: 10px;
         align-items: center;
         margin: 0;
-        padding: 9px 13px 9px 12px;
-        overflow: hidden;
-        border: 1px solid rgba(var(--profile-accent-rgb), 0.12);
-        border-radius: 9px;
-        background:
-            linear-gradient(112deg, rgba(var(--profile-accent-rgb), 0.035), rgba(255, 255, 255, 0) 34%),
-            #fff;
-        box-shadow: 0 1px 4px rgba(31, 41, 55, 0.018);
+        padding: 8px 0 8px 29px;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
+        box-shadow: none;
         color: #5f6368;
         line-height: 1.35;
-        transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
     }
     .profile-list__item::before {
         content: "";
         position: absolute;
-        inset: 9px auto 9px 0;
-        width: 2px;
-        border-radius: 0 2px 2px 0;
-        background: var(--profile-accent);
-        opacity: 0.58;
-    }
-    .profile-list__item:hover {
-        border-color: rgba(var(--profile-accent-rgb), 0.24);
-        box-shadow: 0 4px 12px rgba(31, 41, 55, 0.045);
-        transform: translateY(-1px);
+        top: 50%;
+        left: 7px;
+        width: 16px;
+        height: 2px;
+        border: 0;
+        background: linear-gradient(
+            to right,
+            rgba(var(--profile-accent-rgb), 0.62),
+            rgba(var(--profile-accent-rgb), 0.12)
+        );
+        transform: translateY(-50%);
     }
     .profile-list__date {
         display: inline-flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         width: fit-content;
-        min-width: 64px;
-        min-height: 22px;
-        padding: 2px 6px;
-        border: 1px solid rgba(var(--profile-accent-rgb), 0.13);
-        border-radius: 7px;
-        background: rgba(var(--profile-accent-rgb), 0.045);
+        min-width: 0;
+        min-height: 0;
+        padding: 0;
+        border: 0;
+        border-radius: 0;
+        background: transparent;
         color: var(--profile-accent);
-        font-size: 0.69rem;
+        font-size: 0.72rem;
         font-weight: 700;
-        line-height: 1;
+        line-height: 1.25;
         letter-spacing: 0.025em;
         white-space: nowrap;
-        box-sizing: border-box;
     }
     .profile-list__content {
         display: grid;
@@ -349,27 +361,16 @@
         line-height: 1.35;
     }
     @media (max-width: 520px) {
-        .profile-list {
-            gap: 6px;
-        }
         .profile-list__item {
-            grid-template-columns: 66px minmax(0, 1fr);
-            gap: 10px;
-            padding: 9px 11px;
+            grid-template-columns: 64px minmax(0, 1fr);
+            gap: 8px;
+            padding: 7px 0 7px 27px;
         }
         .profile-list__date {
-            min-width: 62px;
-            min-height: 21px;
-            padding: 2px 5px;
-            font-size: 0.67rem;
-        }
-    }
-    @media (prefers-reduced-motion: reduce) {
-        .profile-list__item {
-            transition: none;
-        }
-        .profile-list__item:hover {
-            transform: none;
+            min-width: 0;
+            min-height: 0;
+            padding: 0;
+            font-size: 0.69rem;
         }
     }
     body {
