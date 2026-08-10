@@ -186,9 +186,13 @@ Publications
         </i><br>
         A survey of foundation models as generalist game players across datasets, models, harnesses, and benchmarks.
         <br>
-        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
-        <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
+            <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
+          </span>
+        </div>
     </div>
   </div>
 </div>
@@ -244,11 +248,15 @@ Publications
         </i><br>
         Learning Vision-Language-Action Models from Human Videos.
         <br>
-        <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-        <a href="https://mp.weixin.qq.com/s/6qkoPGMbnZXFWOYg-MljlQ"><em>[机器之心]</em></a>
-        <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
-        <a href="https://github.com/LinShan-Bin/OpenCLAP"><em>[code]</em></a>
-        <a href="https://lin-shan.com/CLAP/#"><em>[website]</em></a>
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-links">
+            <a href="https://mp.weixin.qq.com/s/6qkoPGMbnZXFWOYg-MljlQ"><em>[机器之心]</em></a>
+            <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
+            <a href="https://github.com/LinShan-Bin/OpenCLAP"><em>[code]</em></a>
+            <a href="https://lin-shan.com/CLAP/#"><em>[website]</em></a>
+          </span>
+        </div>
     </div>
   </div>
 </div>
@@ -362,8 +370,12 @@ Publications
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
     </i><br>
     A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
-    <b><i style="color:#83a1c7;">ArXiv Preprint &nbsp;</i></b>
-      <a href="https://arxiv.org/abs/2410.20097"><em>[arxiv]</em></a>
+    <div class="pub-meta-row">
+      <span class="pub-venue">arXiv 2024</span>
+      <span class="pub-links">
+        <a href="https://arxiv.org/abs/2410.20097"><em>[arXiv]</em></a>
+      </span>
+    </div>
     </div>
   </div>
 </div>
