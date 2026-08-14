@@ -21,7 +21,6 @@ function addPublicationCategoryDots(publication) {
 
     const dot = document.createElement('span');
     dot.className = `pub-category-dot pub-category-dot--${topic}`;
-    dot.title = label;
     dot.setAttribute('aria-hidden', 'true');
     dots.appendChild(dot);
   });
