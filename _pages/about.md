@@ -91,10 +91,9 @@ Publications
 --------------
 <div class="pub-button-container">
   <button class="pub-button active" type="button" data-filter="all" aria-pressed="true">All</button>
-  <button class="pub-button" type="button" data-filter="world-action-model" aria-pressed="false">World (Action) Model</button>
-  <button class="pub-button" type="button" data-filter="embodied-ai" aria-pressed="false">Embodied AI</button>
-  <button class="pub-button" type="button" data-filter="game-ai" aria-pressed="false">Game AI</button>
-  <button class="pub-button" type="button" data-filter="vision" aria-pressed="false">Others</button>
+  <button class="pub-button pub-button--comprehension" type="button" data-filter="comprehension" aria-pressed="false">Comprehension</button>
+  <button class="pub-button pub-button--imagination" type="button" data-filter="imagination" aria-pressed="false">Imagination</button>
+  <button class="pub-button pub-button--action" type="button" data-filter="action" aria-pressed="false">Action</button>
   <span class="pub-legend" title="Colored borders indicate first- or co-first-author papers" aria-label="Colored borders indicate first- or co-first-author papers">
     <span class="pub-legend__swatch" aria-hidden="true"></span>
     First / Co-first
@@ -105,7 +104,7 @@ Publications
   </span>
 </div>
 
-<div class="publication-card" data-topics="world-action-model embodied-ai" data-date="2026-08-02">
+<div class="publication-card" data-topics="imagination action" data-date="2026-08-02">
   <div class="publication-card__layout">
     <div class="pub-media-rotator" data-interval="4000">
       <img class="pub-media-rotator__overview" src="https://sg-wam.github.io/sg-wam-overview.png" alt="SG-WAM framework overview" style="display: block;">
@@ -138,7 +137,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="vision" data-date="2026-07-24">
+<div class="publication-card" data-topics="comprehension" data-date="2026-07-24">
   <div class="publication-card__layout">
     <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
     <div>
@@ -166,7 +165,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card first-author" data-topics="game-ai" data-date="2026-05-11">
+<div class="publication-card first-author" data-topics="comprehension action" data-date="2026-05-11">
   <div style="display: flex; align-items: center;">
     <img src="https://itheresaapocalypse.github.io/images/game-multiverse.png" alt="Game multiverse survey" width="200" height="100" style="margin-right: 20px; object-fit: cover;">
     <div>
@@ -197,7 +196,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card featured first-author" data-topics="world-action-model embodied-ai" data-date="2026-02-25">
+<div class="publication-card featured first-author" data-topics="imagination action" data-date="2026-02-25">
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
       <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
@@ -229,7 +228,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="embodied-ai" data-date="2026-01-07">
+<div class="publication-card" data-topics="comprehension action" data-date="2026-01-07">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/clap.mp4" type="video/mp4">
@@ -261,7 +260,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card first-author" data-topics="embodied-ai" data-date="2025-09-19">
+<div class="publication-card first-author" data-topics="comprehension action" data-date="2025-09-19">
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/dspv2.mp4" type="video/mp4">
@@ -287,7 +286,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="vision" data-date="2025-04-11">
+<div class="publication-card" data-topics="comprehension" data-date="2025-04-11">
   <div class="publication-card__layout">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -308,7 +307,7 @@ Publications
   </div>
 </div>
 
-<div class="publication-card first-author" data-topics="embodied-ai" data-date="2025-03-17">
+<div class="publication-card first-author" data-topics="action" data-date="2025-03-17">
  <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
       <source src="images/flower_dsp.mp4" type="video/mp4">
@@ -336,7 +335,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card first-author" data-topics="embodied-ai" data-date="2024-11-14">
+<div class="publication-card first-author" data-topics="imagination action" data-date="2024-11-14">
  <div style="display: flex; align-items: center;">
     <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -359,7 +358,7 @@ Publications
 </div>
 </div>
 
-<div class="publication-card first-author" data-topics="vision" data-date="2024-10-26">
+<div class="publication-card first-author" data-topics="comprehension" data-date="2024-10-26">
   <div class="publication-card__layout">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>

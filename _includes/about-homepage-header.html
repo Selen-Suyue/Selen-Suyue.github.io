@@ -60,6 +60,48 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         color: #5f6368;
     }
+    .pub-category-rail {
+        display: flex;
+        align-self: stretch;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        flex: 0 0 auto;
+        margin-right: 12px;
+    }
+    .pub-category-tag {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 88px;
+        padding: 8px 4px;
+        border: 1px solid currentColor;
+        border-radius: 999px;
+        box-sizing: border-box;
+        font-size: 0.62rem;
+        font-weight: 700;
+        line-height: 1;
+        letter-spacing: 0.035em;
+        text-transform: uppercase;
+        white-space: nowrap;
+        writing-mode: vertical-rl;
+        transform: rotate(180deg);
+    }
+    .pub-category-tag--comprehension {
+        color: #5279a5;
+        background: #eef4fa;
+        border-color: #b8cce0;
+    }
+    .pub-category-tag--imagination {
+        color: #8066a3;
+        background: #f4f0f8;
+        border-color: #cfc0df;
+    }
+    .pub-category-tag--action {
+        color: #4f8369;
+        background: #eef7f1;
+        border-color: #b8d6c4;
+    }
     .publication-card[hidden] {
         display: none;
     }
@@ -203,6 +245,48 @@
         margin-right: 5px;
         border-radius: 50%;
         background: rgba(202, 111, 111, 0.72);
+    }
+    .pub-button--comprehension {
+        color: #5279a5;
+        border-color: rgba(82, 121, 165, 0.24);
+        background: rgba(238, 244, 250, 0.72);
+    }
+    .pub-button--comprehension:hover,
+    .pub-button--comprehension.active {
+        color: #3f648c;
+        border-color: rgba(82, 121, 165, 0.42);
+        background: #eaf2f9;
+    }
+    .pub-button--comprehension.active::before {
+        background: #5279a5;
+    }
+    .pub-button--imagination {
+        color: #8066a3;
+        border-color: rgba(128, 102, 163, 0.24);
+        background: rgba(244, 240, 248, 0.72);
+    }
+    .pub-button--imagination:hover,
+    .pub-button--imagination.active {
+        color: #6d528f;
+        border-color: rgba(128, 102, 163, 0.42);
+        background: #f1ebf7;
+    }
+    .pub-button--imagination.active::before {
+        background: #8066a3;
+    }
+    .pub-button--action {
+        color: #4f8369;
+        border-color: rgba(79, 131, 105, 0.24);
+        background: rgba(238, 247, 241, 0.72);
+    }
+    .pub-button--action:hover,
+    .pub-button--action.active {
+        color: #3d6f56;
+        border-color: rgba(79, 131, 105, 0.42);
+        background: #eaf5ee;
+    }
+    .pub-button--action.active::before {
+        background: #4f8369;
     }
     .pub-legend {
         display: inline-flex;
@@ -443,7 +527,10 @@
         .experience-card { align-items: flex-start; padding: 14px; }
         .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
-        .publication-card, .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
+        .publication-card { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: stretch; column-gap: 10px; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
+        .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
+        .publication-card > .pub-category-rail { align-self: stretch; margin-right: 0; }
+        .publication-card .pub-category-tag { min-height: 82px; padding: 7px 3px; font-size: 0.58rem; }
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
         .publication-card .pub-media-rotator img, .publication-card .pub-media-rotator video { width: 100% !important; height: 100% !important; object-fit: cover; }
