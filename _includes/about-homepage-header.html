@@ -49,9 +49,10 @@
         min-width: 0;
     }
     .publication-card {
+        position: relative;
         display: flex;
         align-items: center;
-        padding: 12px;
+        padding: 30px 12px 12px;
         border: 1.5px solid #ddd;
         border-radius: 8px;
         background: #fff;
@@ -60,47 +61,37 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         color: #5f6368;
     }
-    .pub-category-rail {
+    .pub-category-dots {
+        position: absolute;
+        top: 11px;
+        left: 13px;
         display: flex;
-        align-self: stretch;
         align-items: center;
-        justify-content: center;
-        gap: 5px;
-        flex: 0 0 auto;
-        margin-right: 12px;
+        gap: 7px;
+        height: 10px;
+        z-index: 2;
     }
-    .pub-category-tag {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        min-height: 88px;
-        padding: 8px 4px;
-        border: 1px solid currentColor;
-        border-radius: 999px;
+    .pub-category-dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
         box-sizing: border-box;
-        font-size: 0.62rem;
-        font-weight: 700;
-        line-height: 1;
-        letter-spacing: 0.035em;
-        text-transform: uppercase;
-        white-space: nowrap;
-        writing-mode: vertical-rl;
-        transform: rotate(180deg);
+        border: 1px solid rgba(71, 78, 87, 0.10);
+        box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.72), 0 1px 2px rgba(45, 55, 72, 0.10);
+        transition: filter 0.2s ease, transform 0.2s ease;
     }
-    .pub-category-tag--comprehension {
-        color: #5279a5;
-        background: #eef4fa;
-        border-color: #b8cce0;
+    .publication-card:hover .pub-category-dot {
+        filter: saturate(1.06);
+        transform: translateY(-0.5px);
     }
-    .pub-category-tag--imagination {
-        color: #8d7aa4;
-        background: #faf7fc;
-        border-color: #ded3e8;
+    .pub-category-dot--comprehension {
+        background: #9bbddd;
     }
-    .pub-category-tag--action {
-        color: #6f8f7d;
-        background: #f6faf7;
-        border-color: #d2e2d8;
+    .pub-category-dot--imagination {
+        background: #c7b4d8;
+    }
+    .pub-category-dot--action {
+        background: #afd0bc;
     }
     .publication-card[hidden] {
         display: none;
@@ -527,11 +518,8 @@
         .experience-card { align-items: flex-start; padding: 14px; }
         .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
-        .publication-card { display: grid; grid-template-columns: auto minmax(0, 1fr); align-items: stretch; column-gap: 10px; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
-        .publication-card--untagged { grid-template-columns: minmax(0, 1fr); }
+        .publication-card { display: block; padding: 30px 12px 12px; margin-bottom: 14px; border-radius: 12px; }
         .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
-        .publication-card > .pub-category-rail { align-self: stretch; margin-right: 0; }
-        .publication-card .pub-category-tag { min-height: 82px; padding: 7px 3px; font-size: 0.58rem; }
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
         .publication-card .pub-media-rotator img, .publication-card .pub-media-rotator video { width: 100% !important; height: 100% !important; object-fit: cover; }

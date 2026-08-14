@@ -4,13 +4,13 @@ const PUBLICATION_CATEGORIES = {
   action: 'Action'
 };
 
-function addPublicationCategoryLabels(publication) {
-  if (publication.querySelector('.pub-category-rail')) return;
+function addPublicationCategoryDots(publication) {
+  if (publication.querySelector('.pub-category-dots')) return;
 
   const topics = publication.dataset.topics.split(/\s+/).filter(Boolean);
-  const rail = document.createElement('div');
-  rail.className = 'pub-category-rail';
-  rail.setAttribute('aria-label', `Categories: ${topics
+  const dots = document.createElement('div');
+  dots.className = 'pub-category-dots';
+  dots.setAttribute('aria-label', `Categories: ${topics
     .map((topic) => PUBLICATION_CATEGORIES[topic])
     .filter(Boolean)
     .join(', ')}`);
@@ -19,14 +19,14 @@ function addPublicationCategoryLabels(publication) {
     const label = PUBLICATION_CATEGORIES[topic];
     if (!label) return;
 
-    const tag = document.createElement('span');
-    tag.className = `pub-category-tag pub-category-tag--${topic}`;
-    tag.textContent = label;
-    tag.setAttribute('aria-hidden', 'true');
-    rail.appendChild(tag);
+    const dot = document.createElement('span');
+    dot.className = `pub-category-dot pub-category-dot--${topic}`;
+    dot.title = label;
+    dot.setAttribute('aria-hidden', 'true');
+    dots.appendChild(dot);
   });
 
-  if (rail.childElementCount) publication.prepend(rail);
+  if (dots.childElementCount) publication.prepend(dots);
 }
 
 function showPublications(topic) {
@@ -47,7 +47,7 @@ function showPublications(topic) {
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelectorAll('.publication-card[data-topics]').forEach(
-    addPublicationCategoryLabels
+    addPublicationCategoryDots
   );
 
   const firstPublication = document.querySelector('.publication-card[data-date]');

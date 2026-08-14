@@ -105,9 +105,9 @@ Publications
 </div>
 
 <div class="publication-card" data-topics="imagination action" data-date="2026-08-02">
-  <div class="pub-category-rail" aria-label="Categories: Imagination, Action">
-    <span class="pub-category-tag pub-category-tag--imagination" aria-hidden="true">Imagination</span>
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
+    <span class="pub-category-dot pub-category-dot--imagination" title="Imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
     <div class="pub-media-rotator" data-interval="4000">
@@ -142,8 +142,8 @@ Publications
 </div>
 
 <div class="publication-card" data-topics="comprehension" data-date="2026-07-24">
-  <div class="pub-category-rail" aria-label="Category: Comprehension">
-    <span class="pub-category-tag pub-category-tag--comprehension" aria-hidden="true">Comprehension</span>
+  <div class="pub-category-dots" aria-label="Category: Comprehension">
+    <span class="pub-category-dot pub-category-dot--comprehension" title="Comprehension" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
     <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
@@ -173,8 +173,8 @@ Publications
 </div>
 
 <div class="publication-card first-author" data-topics="action" data-date="2026-05-11">
-  <div class="pub-category-rail" aria-label="Category: Action">
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
     <img src="https://itheresaapocalypse.github.io/images/game-multiverse.png" alt="Game multiverse survey" width="200" height="100" style="margin-right: 20px; object-fit: cover;">
@@ -207,9 +207,9 @@ Publications
 </div>
 
 <div class="publication-card featured first-author" data-topics="imagination action" data-date="2026-02-25">
-  <div class="pub-category-rail" aria-label="Categories: Imagination, Action">
-    <span class="pub-category-tag pub-category-tag--imagination" aria-hidden="true">Imagination</span>
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
+    <span class="pub-category-dot pub-category-dot--imagination" title="Imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
     <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
@@ -243,8 +243,8 @@ Publications
 </div>
 
 <div class="publication-card" data-topics="action" data-date="2026-01-07">
-  <div class="pub-category-rail" aria-label="Category: Action">
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -278,8 +278,8 @@ Publications
 </div>
 
 <div class="publication-card first-author" data-topics="action" data-date="2025-09-19">
-  <div class="pub-category-rail" aria-label="Category: Action">
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -306,7 +306,10 @@ Publications
   </div>
 </div>
 
-<div class="publication-card publication-card--untagged" data-topics="" data-date="2025-04-11">
+<div class="publication-card" data-topics="imagination" data-date="2025-04-11">
+  <div class="pub-category-dots" aria-label="Category: Imagination">
+    <span class="pub-category-dot pub-category-dot--imagination" title="Imagination" aria-hidden="true"></span>
+  </div>
   <div class="publication-card__layout">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
     <div>
@@ -328,8 +331,8 @@ Publications
 </div>
 
 <div class="publication-card first-author" data-topics="action" data-date="2025-03-17">
-  <div class="pub-category-rail" aria-label="Category: Action">
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
  <div style="display: flex; align-items: center;">
     <video width="200" height="120" style="margin-right: 20px; border-radius: 8px;" autoplay loop muted playsinline>
@@ -359,9 +362,9 @@ Publications
 </div>
 
 <div class="publication-card first-author" data-topics="imagination action" data-date="2024-11-14">
-  <div class="pub-category-rail" aria-label="Categories: Imagination, Action">
-    <span class="pub-category-tag pub-category-tag--imagination" aria-hidden="true">Imagination</span>
-    <span class="pub-category-tag pub-category-tag--action" aria-hidden="true">Action</span>
+  <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
+    <span class="pub-category-dot pub-category-dot--imagination" title="Imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--action" title="Action" aria-hidden="true"></span>
   </div>
  <div style="display: flex; align-items: center;">
     <img src="images/mba_animation.gif" alt="MBA" width="200" height="100" style="margin-right: 20px;">
@@ -385,7 +388,10 @@ Publications
 </div>
 </div>
 
-<div class="publication-card publication-card--untagged first-author" data-topics="" data-date="2024-10-26">
+<div class="publication-card first-author" data-topics="imagination" data-date="2024-10-26">
+  <div class="pub-category-dots" aria-label="Category: Imagination">
+    <span class="pub-category-dot pub-category-dot--imagination" title="Imagination" aria-hidden="true"></span>
+  </div>
   <div class="publication-card__layout">
     <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
