@@ -52,7 +52,7 @@
         position: relative;
         display: flex;
         align-items: center;
-        padding: 30px 12px 12px;
+        padding: 12px;
         border: 1.5px solid #ddd;
         border-radius: 8px;
         background: #fff;
@@ -63,30 +63,30 @@
     }
     .pub-category-dots {
         position: absolute;
-        top: 11px;
+        top: 2px;
         left: 13px;
         display: flex;
         align-items: center;
-        gap: 7px;
-        height: 10px;
+        gap: 6px;
+        height: 8px;
         z-index: 2;
     }
     .pub-category-dot {
-        width: 10px;
-        height: 10px;
+        width: 8px;
+        height: 8px;
         border-radius: 50%;
         box-sizing: border-box;
         border: 1px solid rgba(71, 78, 87, 0.10);
         box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.72), 0 1px 2px rgba(45, 55, 72, 0.10);
     }
     .pub-category-dot--comprehension {
-        background: #d79a9f;
+        background: #9bbddd;
     }
     .pub-category-dot--imagination {
-        background: #c7a1b1;
+        background: #aaa1b2;
     }
     .pub-category-dot--action {
-        background: #d8ad9b;
+        background: #d88992;
     }
     .publication-card[hidden] {
         display: none;
@@ -233,46 +233,46 @@
         background: rgba(202, 111, 111, 0.72);
     }
     .pub-button--comprehension {
-        color: #ad656d;
-        border-color: rgba(202, 111, 111, 0.22);
-        background: rgba(255, 250, 248, 0.78);
+        color: #6f8eae;
+        border-color: rgba(111, 142, 174, 0.22);
+        background: rgba(245, 249, 252, 0.82);
     }
     .pub-button--comprehension:hover,
     .pub-button--comprehension.active {
-        color: #98555e;
-        border-color: rgba(202, 111, 111, 0.34);
-        background: #fff3f4;
+        color: #5d7d9e;
+        border-color: rgba(111, 142, 174, 0.36);
+        background: #eff5fa;
     }
     .pub-button--comprehension.active::before {
-        background: #d79a9f;
+        background: #9bbddd;
     }
     .pub-button--imagination {
-        color: #9d7082;
-        border-color: rgba(170, 119, 140, 0.20);
-        background: rgba(255, 250, 248, 0.78);
+        color: #7f7788;
+        border-color: rgba(127, 119, 136, 0.20);
+        background: rgba(249, 248, 250, 0.82);
     }
     .pub-button--imagination:hover,
     .pub-button--imagination.active {
-        color: #895f70;
-        border-color: rgba(170, 119, 140, 0.32);
-        background: #faf3f6;
+        color: #6d6576;
+        border-color: rgba(127, 119, 136, 0.34);
+        background: #f3f1f5;
     }
     .pub-button--imagination.active::before {
-        background: #c7a1b1;
+        background: #aaa1b2;
     }
     .pub-button--action {
-        color: #a87561;
-        border-color: rgba(188, 126, 101, 0.20);
+        color: #a65f68;
+        border-color: rgba(202, 111, 111, 0.22);
         background: rgba(255, 250, 248, 0.78);
     }
     .pub-button--action:hover,
     .pub-button--action.active {
-        color: #94634f;
-        border-color: rgba(188, 126, 101, 0.32);
-        background: #fff5f1;
+        color: #934f58;
+        border-color: rgba(202, 111, 111, 0.34);
+        background: #fff1f2;
     }
     .pub-button--action.active::before {
-        background: #d8ad9b;
+        background: #d88992;
     }
     .pub-legend {
         display: inline-flex;
@@ -513,7 +513,7 @@
         .experience-card { align-items: flex-start; padding: 14px; }
         .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
-        .publication-card { display: block; padding: 30px 12px 12px; margin-bottom: 14px; border-radius: 12px; }
+        .publication-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
