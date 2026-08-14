@@ -233,11 +233,14 @@ Publications
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
         We propose WoG (World Guidance), a world modeling paradigm  in condition space for action generation: less is more.
-        <br>
-        <b><i style="color:#83a1c7;">ICML 2026 &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
-        <a href="https://github.com/Selen-Suyue/WoG"><em>[code]</em></a>
-        <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
+        <div class="pub-meta-row">
+          <span class="pub-venue">ICML 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
+            <a href="https://github.com/Selen-Suyue/WoG"><em>[code]</em></a>
+            <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
+          </span>
+        </div>
     </div>
   </div>
 </div>
@@ -297,11 +300,14 @@ Publications
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
         Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.
-        <br>
-        <b><i style="color:#83a1c7;">ICRA 2026 &nbsp;</i></b>
-        <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
-        <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
-        <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
+        <div class="pub-meta-row">
+          <span class="pub-venue">ICRA 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2509.16063"><em>[arXiv]</em></a>
+            <a href="https://github.com/Selen-Suyue/DSPv2"><em>[code]</em></a>
+            <a href="https://selen-suyue.github.io/DSPv2Net/"><em>[website]</em></a>
+          </span>
+        </div>
     </div>
   </div>
 </div>
@@ -323,9 +329,12 @@ Publications
     <a href="https://web.xidian.edu.cn/mggong/" target="_blank">Maoguo Gong</a>&dagger;
     </i><br>
       Historically, infrared adversarial attacks were single-use and tough to deploy. Using TEC, we implemented efficient attacks adaptable to hardware scenarios.
-      <br>
-      <b><i style="color:#83a1c7;">AAAI 2025 &nbsp;</i></b>
-      <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+      <div class="pub-meta-row">
+        <span class="pub-venue">AAAI 2025</span>
+        <span class="pub-links">
+          <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011"><em>[paper]</em></a>
+        </span>
+      </div>
     </div>
   </div>
 </div>
@@ -350,13 +359,17 @@ Publications
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>,
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.<br>
-        <b><i style="color:#83a1c7;">ICCV 2025 &nbsp;</i></b>
-        <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Su_Dense_Policy_Bidirectional_Autoregressive_Learning_of_Actions_ICCV_2025_paper.html"><em>[paper]</em></a>
-        <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
-        <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
-        <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
+        Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, demonstrated exceeding diffusion policies.
+        <div class="pub-meta-row">
+          <span class="pub-venue">ICCV 2025</span>
+          <span class="pub-links">
+            <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Su_Dense_Policy_Bidirectional_Autoregressive_Learning_of_Actions_ICCV_2025_paper.html"><em>[paper]</em></a>
+            <a href="https://arxiv.org/abs/2503.13217"><em>[arXiv]</em></a>
+            <a href="https://selen-suyue.github.io/DspNet/"><em>[website]</em></a>
+            <a href="https://github.com/Selen-Suyue/DensePolicy"><em>[3D-code]</em></a>
+            <a href="https://github.com/Selen-Suyue/DensePolicy2D"><em>[2D-code]</em></a>
+          </span>
+        </div>
     </div>
 </div>
 </div>
@@ -378,12 +391,16 @@ Publications
             <a href="http://mvig.org" target="_blank">Cewu Lu</a>, 
             <a href="https://lixiny.github.io" target="_blank">Lixin Yang</a>&dagger;
         </i><br>
-        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.<br>
-      <b><i style="color:#83a1c7;">RA-L 2025, ICRA 2026</i></b>&nbsp;
-        <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
-        <a href="https://arxiv.org/abs/2411.09658"><em>[arxiv]</em></a> 
-        <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
-        <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
+        Propose MBA, a novel plug-and-play module leveraging cascaded diffusion processes to generate actions guided by object motion, enabling seamless integration with manipulation policies.
+        <div class="pub-meta-row">
+          <span class="pub-venue">RA-L 2025, ICRA 2026</span>
+          <span class="pub-links">
+            <a href="https://ieeexplore.ieee.org/abstract/document/11027642"><em>[paper]</em></a>
+            <a href="https://arxiv.org/abs/2411.09658"><em>[arXiv]</em></a>
+            <a href="https://selen-suyue.github.io/MBApage"><em>[website]</em></a>
+            <a href="https://github.com/Selen-Suyue/MBA"><em>[code]</em></a>
+          </span>
+        </div>
     </div>
 </div>
 </div>
@@ -393,7 +410,7 @@ Publications
     <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
-    <img src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
+    <img class="pub-media--dot-clearance" src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
     <div>
         <strong>Generative Adversarial Patches for Physical Attacks on Cross-Modal Pedestrian Re-Identification</strong><br>
        <i style="font-size: 13px;">
