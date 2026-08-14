@@ -90,7 +90,7 @@ Experience
 Publications
 --------------
 <div class="pub-button-container">
-  <button class="pub-button active" type="button" data-filter="all" aria-pressed="true">All</button>
+  <button class="pub-button pub-button--all active" type="button" data-filter="all" aria-pressed="true">All</button>
   <button class="pub-button pub-button--comprehension" type="button" data-filter="comprehension" aria-pressed="false">Comprehension</button>
   <button class="pub-button pub-button--imagination" type="button" data-filter="imagination" aria-pressed="false">Imagination</button>
   <button class="pub-button pub-button--action" type="button" data-filter="action" aria-pressed="false">Action</button>

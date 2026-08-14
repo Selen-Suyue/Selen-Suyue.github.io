@@ -232,6 +232,20 @@
         border-radius: 50%;
         background: rgba(202, 111, 111, 0.72);
     }
+    .pub-button--all {
+        color: #777579;
+        border-color: rgba(107, 114, 128, 0.16);
+        background: rgba(248, 248, 249, 0.82);
+    }
+    .pub-button--all:hover,
+    .pub-button--all.active {
+        color: #5f6064;
+        border-color: rgba(107, 114, 128, 0.28);
+        background: #f2f2f3;
+    }
+    .pub-button--all.active::before {
+        background: #929095;
+    }
     .pub-button--comprehension {
         color: #6f8eae;
         border-color: rgba(111, 142, 174, 0.22);
@@ -514,6 +528,7 @@
         .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
         .publication-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
+        .pub-category-dots { display: none; }
         .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }
         .publication-card > img, .publication-card > video, .publication-card > div > img, .publication-card > div > video, .publication-card .pub-media-rotator, .project-card > img, .project-card > video, .project-card > div > img, .project-card > div > video { display: block; width: 100% !important; max-width: none; height: auto !important; aspect-ratio: 16 / 9; margin: 0 !important; border-radius: 8px; object-fit: cover; }
