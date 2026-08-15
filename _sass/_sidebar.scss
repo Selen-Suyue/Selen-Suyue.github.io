@@ -303,22 +303,22 @@
   }
 
   .author__urls-wrapper button {
-    min-width: 92px;
-    min-height: 40px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    min-width: 112px;
+    min-height: 44px;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
   }
 
   .author__urls-wrapper button.btn--inverse {
     color: #a4525d !important;
     border-color: rgba(202, 111, 111, 0.42) !important;
-    background-color: rgba(202, 111, 111, 0.10);
+    background-color: rgba(202, 111, 111, 0.025);
 
     &:hover,
     &:focus-visible {
       color: #8f1d2c !important;
       border-color: rgba(202, 111, 111, 0.62) !important;
-      background-color: rgba(202, 111, 111, 0.18);
+      background-color: rgba(202, 111, 111, 0.055);
     }
 
     &:focus-visible {
@@ -327,9 +327,9 @@
 
     &:active,
     &.open {
-      color: #fff !important;
-      border-color: #a4525d !important;
-      background-color: #a4525d;
+      color: #8f1d2c !important;
+      border-color: rgba(202, 111, 111, 0.50) !important;
+      background-color: rgba(202, 111, 111, 0.09);
     }
   }
 }
