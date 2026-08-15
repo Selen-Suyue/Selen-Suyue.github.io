@@ -306,6 +306,7 @@
     min-width: 112px;
     min-height: 44px;
     padding-left: 1.2rem;
+    font-size: 0.95rem;
     padding-right: 1.2rem;
   }
 
@@ -339,7 +340,7 @@
     .author__avatar { width: 112px; height: 112px; grid-row: auto; img, img.author__avatar { width: 112px; height: 112px; } }
     .author__content { width: 100%; }
     .author__urls-wrapper { width: 100%; justify-self: stretch; }
-    .author__urls-wrapper button { width: 100%; min-width: 0; min-height: 44px; }
+    .author__urls-wrapper button { width: 100%; min-width: 0; min-height: 44px; font-size: $type-size-6; }
     .author__urls-wrapper button.btn--inverse {
       background-color: rgba(202, 111, 111, 0.025);
 
