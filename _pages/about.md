@@ -94,13 +94,15 @@ Publications
   <button class="pub-button pub-button--comprehension" type="button" data-filter="comprehension" aria-pressed="false">Comprehension</button>
   <button class="pub-button pub-button--imagination" type="button" data-filter="imagination" aria-pressed="false">Imagination</button>
   <button class="pub-button pub-button--action" type="button" data-filter="action" aria-pressed="false">Action</button>
-  <span class="pub-legend" title="Colored borders indicate first- or co-first-author papers" aria-label="Colored borders indicate first- or co-first-author papers">
-    <span class="pub-legend__swatch" aria-hidden="true"></span>
-    First / Co-first
-  </span>
-  <span class="pub-legend" title="Filled cards indicate selected publications" aria-label="Filled cards indicate selected publications">
-    <span class="pub-legend__swatch pub-legend__swatch--selected" aria-hidden="true"></span>
-    Selected
+  <span class="pub-legend-group" role="group" aria-label="Publication card legend">
+    <span class="pub-legend" title="Colored borders indicate first- or co-first-author papers" aria-label="Colored borders indicate first- or co-first-author papers">
+      <span class="pub-legend__swatch" aria-hidden="true"></span>
+      First / Co-first
+    </span>
+    <span class="pub-legend" title="Filled cards indicate selected publications" aria-label="Filled cards indicate selected publications">
+      <span class="pub-legend__swatch pub-legend__swatch--selected" aria-hidden="true"></span>
+      Selected
+    </span>
   </span>
 </div>
 
