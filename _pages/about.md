@@ -54,7 +54,7 @@ Experience
       <div class="experience-info">
           <strong>Astribot Inc.</strong><br>
           June 2025 - Sep 2025<br>
-          Research Intern advised by <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
+          Research Intern with <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
       </div>
   </div>
 
