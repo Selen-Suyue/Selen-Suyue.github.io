@@ -28,8 +28,17 @@ function addPublicationCategoryDots(publication) {
   if (dots.childElementCount) publication.prepend(dots);
 }
 
+function publicationMatchesFilter(publication, filter) {
+  if (filter === 'all') return true;
+  if (filter === 'first') return publication.classList.contains('first-author');
+  if (filter === 'selected') return publication.classList.contains('featured');
+
+  const topics = publication.dataset.topics.split(/\s+/);
+  return topics.includes(filter);
+}
+
 function showPublications(topic) {
-  const buttons = document.querySelectorAll('.pub-button[data-filter]');
+  const buttons = document.querySelectorAll('.pub-button-container [data-filter]');
   const publications = document.querySelectorAll('.publication-card[data-topics]');
 
   buttons.forEach((button) => {
@@ -39,8 +48,7 @@ function showPublications(topic) {
   });
 
   publications.forEach((publication) => {
-    const topics = publication.dataset.topics.split(/\s+/);
-    publication.hidden = topic !== 'all' && !topics.includes(topic);
+    publication.hidden = !publicationMatchesFilter(publication, topic);
   });
 }
 
@@ -65,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
       ));
   }
 
-  document.querySelectorAll('.pub-button[data-filter]').forEach((button) => {
+  document.querySelectorAll('.pub-button-container [data-filter]').forEach((button) => {
     button.addEventListener('click', () => showPublications(button.dataset.filter));
   });
 
