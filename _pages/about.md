@@ -45,7 +45,7 @@ Experience
       <div class="experience-info">
           <strong>ByteDance Seed</strong><br>
           Oct 2025 - May 2026<br>
-          MLE Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
+          Research Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
       </div>
   </div>
 
@@ -54,7 +54,7 @@ Experience
       <div class="experience-info">
           <strong>Astribot Inc.</strong><br>
           June 2025 - Sep 2025<br>
-          MLE Intern advised by <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
+          Research Intern advised by <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
       </div>
   </div>
 
