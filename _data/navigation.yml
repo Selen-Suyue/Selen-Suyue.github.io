@@ -4,6 +4,9 @@ main:
   - title: "Publications"
     url: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=TUVYCcIAAAAJ"
 
+  - title: "CV"
+    url: /cv.html
+
   # - title: "CV-En"
   #   url: /files/selen_resume.pdf
     
