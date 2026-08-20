@@ -100,6 +100,27 @@
   }
 }
 
+// Subtle, localized motion for the homepage portrait. The original image stays
+// in the DOM as an accessible fallback whenever WebGL or motion is unavailable.
+.author__avatar--breeze {
+  position: relative;
+  isolation: isolate;
+}
+
+.author__avatar-breeze-canvas {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .author__avatar-breeze-canvas {
+    display: none;
+  }
+}
+
 .author__content {
   display: table-cell;
   vertical-align: top;
