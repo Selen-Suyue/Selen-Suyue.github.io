@@ -67,20 +67,22 @@
       "  float lowerLeftHair = softBox(p, vec2(0.165, 0.465), vec2(0.325, 0.675), 0.04);",
       "  float hairRegion = max(max(topHair, leftHair), max(rightHair, lowerLeftHair));",
       "  float hairMask = hairRegion * (0.16 + 0.84 * darkness);",
+      "  float faceKeepStill = softBox(p, vec2(0.245, 0.235), vec2(0.690, 0.635), 0.035);",
+      "  hairMask *= 1.0 - faceKeepStill;",
 
       "  float ribbonRegion = softBox(p, vec2(0.69, 0.305), vec2(0.985, 0.735), 0.055);",
       "  float ribbonTail = smoothstep(0.68, 0.94, p.x);",
       "  float ribbonMask = ribbonRegion * ribbonTail * (0.20 + 0.80 * redness);",
 
       // Two slow, slightly out-of-phase waves feel more like a breeze than a
-      // mechanical pendulum. Maximum displacement is about 1-2 CSS pixels.
+      // mechanical pendulum. Maximum displacement is about 2-4 CSS pixels.
       "  float hairWave = sin(u_time * 1.42 + p.x * 7.0 + p.y * 4.5);",
       "  float hairLift = cos(u_time * 1.07 + p.y * 8.5);",
-      "  vec2 hairOffset = vec2(0.0030 * hairWave, 0.00155 * hairLift) * hairMask;",
+      "  vec2 hairOffset = vec2(0.0085 * hairWave, 0.0042 * hairLift) * hairMask;",
 
       "  float ribbonWave = sin(u_time * 1.68 + p.y * 9.0);",
       "  float ribbonLift = cos(u_time * 1.31 + p.x * 7.5);",
-      "  vec2 ribbonOffset = vec2(0.0062 * ribbonWave, 0.0033 * ribbonLift) * ribbonMask;",
+      "  vec2 ribbonOffset = vec2(0.0170 * ribbonWave, 0.0085 * ribbonLift) * ribbonMask;",
 
       "  vec2 offset = hairOffset + ribbonOffset;",
       "  vec2 samplePoint = clamp(p - offset, vec2(0.001), vec2(0.999));",
