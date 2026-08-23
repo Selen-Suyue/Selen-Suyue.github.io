@@ -435,48 +435,66 @@ Publications
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
-<h2 class="novel-section__title" id="novel-section-title">Novel</h2>
-<div class="kindred-slideshow" data-kindred-carousel data-autoplay="5000" aria-label="Kindred illustration carousel">
+<header class="novel-section__header">
+  <h2 class="novel-section__title" id="novel-section-title">Novels</h2>
+  <a class="novel-section__series" href="/biosite/post/kindred_prologue/">
+    <span class="novel-section__series-name">Kindred</span><span>· An AI simulated city</span>
+  </a>
+</header>
+<div class="kindred-slideshow" data-kindred-carousel data-autoplay="5000" aria-label="Kindred novel illustration carousel">
   <div class="kindred-slideshow__viewport">
-    <div class="kindred-slideshow__track" data-kindred-track tabindex="0" role="region" aria-label="Kindred chapter illustrations. Swipe horizontally or use the arrow keys.">
+    <div class="kindred-slideshow__track" data-kindred-track tabindex="0" role="region" aria-roledescription="carousel" aria-label="Kindred chapter illustrations. Swipe or use the arrow keys.">
       <a class="kindred-slide" href="/biosite/post/kindred_1/" aria-label="Read Kindred Chapter 1: 欢迎来到 Kindred">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_1.png" alt="Illustration for Kindred Chapter 1" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 01</span><span class="kindred-slide__title">欢迎来到 Kindred</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_2/" aria-label="Read Kindred Chapter 2: 猎人">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_2.png" alt="Illustration for Kindred Chapter 2" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 02</span><span class="kindred-slide__title">猎人</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_3/" aria-label="Read Kindred Chapter 3: 旧书店">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_3.png" alt="Illustration for Kindred Chapter 3" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 03</span><span class="kindred-slide__title">旧书店</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_4/" aria-label="Read Kindred Chapter 4: 第一次误判">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_4.png" alt="Illustration for Kindred Chapter 4" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 04</span><span class="kindred-slide__title">第一次误判</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_5/" aria-label="Read Kindred Chapter 5: 百分之三十">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_5.png" alt="Illustration for Kindred Chapter 5" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 05</span><span class="kindred-slide__title">百分之三十</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_6/" aria-label="Read Kindred Chapter 6: 关系测试">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_6.png" alt="Illustration for Kindred Chapter 6" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 06</span><span class="kindred-slide__title">关系测试</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_7/" aria-label="Read Kindred Chapter 7: 百分之五十">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_7.png" alt="Illustration for Kindred Chapter 7" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 07</span><span class="kindred-slide__title">百分之五十</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_8/" aria-label="Read Kindred Chapter 8: 继承体">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_8.png" alt="Illustration for Kindred Chapter 8" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 08</span><span class="kindred-slide__title">继承体</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_9/" aria-label="Read Kindred Chapter 9: 判别器崩溃">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_9.png" alt="Illustration for Kindred Chapter 9" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 09</span><span class="kindred-slide__title">判别器崩溃</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_10/" aria-label="Read Kindred Chapter 10: 百分之九十">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_10.png" alt="Illustration for Kindred Chapter 10" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 10</span><span class="kindred-slide__title">百分之九十</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_11/" aria-label="Read Kindred Chapter 11: 公审">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_11.png" alt="Illustration for Kindred Chapter 11" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 11</span><span class="kindred-slide__title">公审</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_12/" aria-label="Read Kindred Chapter 12: 无法证明的人">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_12.png" alt="Illustration for Kindred Chapter 12" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Chapter 12</span><span class="kindred-slide__title">无法证明的人</span></span>
       </a>
       <a class="kindred-slide" href="/biosite/post/kindred_epilogue/" aria-label="Read Kindred Epilogue: 折角">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_epilogue.png" alt="Illustration for the Kindred epilogue" loading="lazy" decoding="async">
+        <span class="kindred-slide__caption"><span class="kindred-slide__chapter">Epilogue</span><span class="kindred-slide__title">折角</span></span>
       </a>
     </div>
     <button class="kindred-slideshow__control kindred-slideshow__control--previous" type="button" data-kindred-direction="-1" aria-label="Previous illustration">
@@ -486,12 +504,10 @@ Publications
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="m6 3.5 4.5 4.5L6 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
   </div>
-  <a class="kindred-slideshow__caption" href="/biosite/post/kindred_prologue/">
-    <span class="kindred-slideshow__brand">Kindred</span><span class="kindred-slideshow__tagline">: An AI simulated city.</span>
-  </a>
+  <div class="kindred-slideshow__pagination" data-kindred-pagination aria-label="Choose a Kindred chapter illustration"></div>
 </div>
 </section>
-<script src="assets/js/kindred_carousel.js?v=20260823c"></script>
+<script src="assets/js/kindred_carousel.js?v=20260823d"></script>
 
 Projects
 --------
