@@ -435,12 +435,10 @@ Publications
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
-<header class="novel-section__header">
-  <h2 class="novel-section__title" id="novel-section-title">Novels</h2>
-  <a class="novel-section__series" href="/biosite/post/kindred_prologue/">
-    <span class="novel-section__series-name">Kindred</span><span>· An AI simulated city</span>
-  </a>
-</header>
+<h2 id="novel-section-title">Novels</h2>
+<a class="novel-section__series" href="/biosite/post/kindred_prologue/">
+  <span class="novel-section__series-name">Kindred</span><span>· An AI simulated city</span>
+</a>
 <div class="kindred-slideshow" data-kindred-carousel data-autoplay="5000" aria-label="Kindred novel illustration carousel">
   <div class="kindred-slideshow__viewport">
     <div class="kindred-slideshow__track" data-kindred-track tabindex="0" role="region" aria-roledescription="carousel" aria-label="Kindred chapter illustrations. Swipe or use the arrow keys.">
