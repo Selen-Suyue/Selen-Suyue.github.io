@@ -9,7 +9,11 @@
     var previous = carousel.querySelector('[data-kindred-direction="-1"]');
     var next = carousel.querySelector('[data-kindred-direction="1"]');
     var reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    var autoplayDelay = Number(carousel.getAttribute("data-autoplay")) || 0;
     var animationFrame = null;
+    var autoplayTimer = null;
+    var isHovered = false;
+    var hasFocus = false;
 
     function nearestSlideIndex() {
       var trackLeft = track.getBoundingClientRect().left;
@@ -35,9 +39,17 @@
       next.disabled = atEnd;
     }
 
-    function move(direction) {
+    function move(direction, wrap) {
       var currentIndex = nearestSlideIndex();
-      var targetIndex = Math.max(0, Math.min(slides.length - 1, currentIndex + direction));
+      var targetIndex = currentIndex + direction;
+
+      if (wrap) {
+        if (targetIndex >= slides.length) targetIndex = 0;
+        if (targetIndex < 0) targetIndex = slides.length - 1;
+      } else {
+        targetIndex = Math.max(0, Math.min(slides.length - 1, targetIndex));
+      }
+
       var firstSlideOffset = slides[0].offsetLeft;
       var targetOffset = slides[targetIndex].offsetLeft - firstSlideOffset;
 
@@ -47,15 +59,58 @@
       });
     }
 
-    previous.addEventListener("click", function () { move(-1); });
-    next.addEventListener("click", function () { move(1); });
+    function stopAutoplay() {
+      if (autoplayTimer !== null) {
+        window.clearTimeout(autoplayTimer);
+        autoplayTimer = null;
+      }
+    }
+
+    function scheduleAutoplay() {
+      stopAutoplay();
+      if (!autoplayDelay || reducedMotion.matches || document.hidden || isHovered || hasFocus) return;
+
+      autoplayTimer = window.setTimeout(function () {
+        move(1, true);
+        scheduleAutoplay();
+      }, autoplayDelay);
+    }
+
+    function moveManually(direction) {
+      move(direction, false);
+      scheduleAutoplay();
+    }
+
+    previous.addEventListener("click", function () { moveManually(-1); });
+    next.addEventListener("click", function () { moveManually(1); });
 
     track.addEventListener("keydown", function (event) {
       if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
         event.preventDefault();
-        move(event.key === "ArrowLeft" ? -1 : 1);
+        moveManually(event.key === "ArrowLeft" ? -1 : 1);
       }
     });
+
+    carousel.addEventListener("mouseenter", function () {
+      isHovered = true;
+      stopAutoplay();
+    });
+    carousel.addEventListener("mouseleave", function () {
+      isHovered = false;
+      scheduleAutoplay();
+    });
+    carousel.addEventListener("focusin", function () {
+      hasFocus = true;
+      stopAutoplay();
+    });
+    carousel.addEventListener("focusout", function () {
+      hasFocus = false;
+      scheduleAutoplay();
+    });
+    document.addEventListener("visibilitychange", scheduleAutoplay);
+    if (reducedMotion.addEventListener) {
+      reducedMotion.addEventListener("change", scheduleAutoplay);
+    }
 
     track.addEventListener("scroll", function () {
       if (animationFrame !== null) {
@@ -66,5 +121,6 @@
 
     window.addEventListener("resize", updateControls);
     updateControls();
+    scheduleAutoplay();
   });
 }());

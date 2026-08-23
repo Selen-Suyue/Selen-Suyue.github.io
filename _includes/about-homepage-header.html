@@ -546,10 +546,21 @@
     }
 
     /* Kindred: one cinematic illustration at a time, with a minimal glass caption. */
+    .novel-section {
+        margin: 18px 0 24px;
+    }
+    .novel-section__title {
+        margin: 0 0 10px;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #f2f3f3;
+        color: #3d4147;
+        font-size: 1.25em;
+        line-height: 1.3;
+    }
     .kindred-slideshow {
         position: relative;
         overflow: hidden;
-        margin: 10px 0 22px;
+        margin: 0;
         border: 1px solid rgba(170, 161, 178, 0.26);
         border-radius: 16px;
         background:
@@ -645,24 +656,53 @@
         outline-offset: -3px;
     }
     .kindred-slideshow__caption {
-        display: block;
-        padding: 10px 15px;
+        position: relative;
+        display: flex;
+        align-items: baseline;
+        gap: 4px;
+        overflow: hidden;
+        padding: 9px 15px 10px;
         border-top: 1px solid rgba(170, 161, 178, 0.18);
-        background: rgba(255, 255, 255, 0.58);
+        background:
+            linear-gradient(100deg, rgba(216, 137, 146, 0.20), rgba(255, 255, 255, 0.70) 43%, rgba(170, 161, 178, 0.13) 70%, rgba(155, 189, 221, 0.21)),
+            rgba(255, 255, 255, 0.54);
         color: #5f5961 !important;
-        font-size: 0.78rem;
-        font-weight: 700;
         line-height: 1.25;
-        letter-spacing: 0.01em;
-        backdrop-filter: blur(12px);
+        backdrop-filter: blur(18px) saturate(125%);
+    }
+    .kindred-slideshow__caption::before {
+        content: "";
+        position: absolute;
+        inset: 0 0 auto;
+        height: 1px;
+        background: linear-gradient(90deg, rgba(216, 137, 146, 0.68), rgba(170, 161, 178, 0.42), rgba(155, 189, 221, 0.65));
+    }
+    .kindred-slideshow__brand {
+        color: #9e5d68;
+        font-family: "Fredericka the Great", Georgia, serif;
+        font-size: 1.08rem;
+        font-weight: 400;
+        letter-spacing: 0.035em;
+    }
+    .kindred-slideshow__tagline {
+        color: #66616a;
+        font-size: 0.76rem;
+        font-weight: 600;
+        letter-spacing: 0.012em;
     }
     .kindred-slideshow__caption:hover {
         color: #a45f68 !important;
         text-decoration: none !important;
     }
     @media (max-width: 767px) {
+        .novel-section {
+            margin: 14px 0 20px;
+        }
+        .novel-section__title {
+            margin-bottom: 8px;
+            font-size: 1.15em;
+        }
         .kindred-slideshow {
-            margin: 10px 0 18px;
             border-radius: 14px;
         }
         .kindred-slideshow__viewport {
@@ -679,8 +719,13 @@
             right: 9px;
         }
         .kindred-slideshow__caption {
-            padding: 9px 12px;
-            font-size: 0.74rem;
+            padding: 8px 12px 9px;
+        }
+        .kindred-slideshow__brand {
+            font-size: 1rem;
+        }
+        .kindred-slideshow__tagline {
+            font-size: 0.72rem;
         }
     }
     @media (prefers-reduced-motion: reduce) {

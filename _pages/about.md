@@ -434,12 +434,11 @@ Publications
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
-<section class="kindred-slideshow" data-kindred-carousel aria-label="Kindred illustration carousel">
+<section class="novel-section" aria-labelledby="novel-section-title">
+<h2 class="novel-section__title" id="novel-section-title">Novel</h2>
+<div class="kindred-slideshow" data-kindred-carousel data-autoplay="5000" aria-label="Kindred illustration carousel">
   <div class="kindred-slideshow__viewport">
     <div class="kindred-slideshow__track" data-kindred-track tabindex="0" role="region" aria-label="Kindred chapter illustrations. Swipe horizontally or use the arrow keys.">
-      <a class="kindred-slide" href="/biosite/post/kindred_prologue/" aria-label="Read Kindred Prologue: 第一场葬礼">
-        <img class="kindred-slide__image" src="/biosite/imgs/kindred_prologue.png" alt="Illustration for the Kindred prologue" loading="lazy" decoding="async">
-      </a>
       <a class="kindred-slide" href="/biosite/post/kindred_1/" aria-label="Read Kindred Chapter 1: 欢迎来到 Kindred">
         <img class="kindred-slide__image" src="/biosite/imgs/kindred_1.png" alt="Illustration for Kindred Chapter 1" loading="lazy" decoding="async">
       </a>
@@ -487,7 +486,10 @@ Publications
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="m6 3.5 4.5 4.5L6 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
   </div>
-  <a class="kindred-slideshow__caption" href="/biosite/categories/novel/">Kindred: An AI simulated city.</a>
+  <a class="kindred-slideshow__caption" href="/biosite/categories/novel/">
+    <span class="kindred-slideshow__brand">Kindred</span><span class="kindred-slideshow__tagline">: An AI simulated city.</span>
+  </a>
+</div>
 </section>
 <script src="assets/js/kindred_carousel.js?v=20260823c"></script>
 
