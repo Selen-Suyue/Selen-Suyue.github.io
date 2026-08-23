@@ -41,11 +41,12 @@
     function move(direction) {
       var currentIndex = nearestCardIndex();
       var targetIndex = Math.max(0, Math.min(cards.length - 1, currentIndex + direction));
+      var firstCardOffset = cards[0].offsetLeft;
+      var targetOffset = cards[targetIndex].offsetLeft - firstCardOffset;
 
-      cards[targetIndex].scrollIntoView({
-        behavior: reducedMotion.matches ? "auto" : "smooth",
-        block: "nearest",
-        inline: "start"
+      track.scrollTo({
+        left: targetOffset,
+        behavior: reducedMotion.matches ? "auto" : "smooth"
       });
     }
 
