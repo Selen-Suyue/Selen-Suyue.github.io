@@ -545,6 +545,320 @@
         background: #fff;
     }
 
+    /* Kindred: a quiet, editorial carousel that borrows the homepage palette. */
+    .kindred-showcase {
+        --kindred-rose: #ca6f6f;
+        --kindred-blue: #9bbddd;
+        --kindred-lilac: #aaa1b2;
+        position: relative;
+        overflow: hidden;
+        margin: 16px 0 30px;
+        padding: clamp(22px, 4vw, 38px);
+        border: 1px solid rgba(170, 161, 178, 0.26);
+        border-radius: 24px;
+        background:
+            radial-gradient(circle at 90% 5%, rgba(155, 189, 221, 0.20), transparent 31%),
+            radial-gradient(circle at 8% 100%, rgba(202, 111, 111, 0.13), transparent 34%),
+            linear-gradient(135deg, #fffafa 0%, #fbfafc 52%, #f7fafd 100%);
+        box-shadow: 0 16px 40px rgba(88, 72, 86, 0.07);
+        color: #4f5157;
+    }
+    .kindred-showcase::before {
+        content: "";
+        position: absolute;
+        inset: 0 0 auto;
+        height: 3px;
+        background: linear-gradient(90deg, var(--kindred-rose), var(--kindred-lilac), var(--kindred-blue));
+        opacity: 0.72;
+    }
+    .kindred-showcase__header {
+        position: relative;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 22px;
+        align-items: end;
+        margin-bottom: 20px;
+    }
+    .kindred-showcase__eyebrow {
+        display: block;
+        margin-bottom: 7px;
+        color: #9c6871;
+        font-size: 0.7rem;
+        font-weight: 800;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+    }
+    .kindred-showcase__title {
+        margin: 0;
+        color: #29272c;
+        font-family: "Arial Rounded MT Bold", "Verdana", sans-serif;
+        font-size: clamp(2.7rem, 7vw, 4.6rem);
+        font-weight: 800;
+        line-height: 0.92;
+        letter-spacing: -0.065em;
+    }
+    .kindred-showcase__title span {
+        color: var(--kindred-rose);
+    }
+    .kindred-showcase__synopsis {
+        max-width: 680px;
+        margin: 18px 0 0;
+        color: #66666d;
+        font-size: 0.94rem;
+        line-height: 1.72;
+    }
+    .kindred-showcase__actions {
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        margin-top: 18px;
+    }
+    .kindred-showcase__link {
+        display: inline-flex;
+        align-items: center;
+        gap: 7px;
+        min-height: 38px;
+        padding: 7px 13px;
+        border: 1px solid rgba(202, 111, 111, 0.26);
+        border-radius: 999px;
+        background: rgba(255, 255, 255, 0.76);
+        color: #a45f68 !important;
+        font-size: 0.78rem;
+        font-weight: 700;
+        line-height: 1;
+        box-sizing: border-box;
+    }
+    .kindred-showcase__link:hover {
+        border-color: rgba(202, 111, 111, 0.48);
+        background: #fff;
+        color: #8f4f59 !important;
+        text-decoration: none !important;
+    }
+    .kindred-showcase__link--quiet {
+        border-color: rgba(155, 189, 221, 0.30);
+        color: #6f8095 !important;
+    }
+    .kindred-carousel__toolbar {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 8px;
+        white-space: nowrap;
+    }
+    .kindred-carousel__status {
+        min-width: 48px;
+        color: #8b858c;
+        font-size: 0.7rem;
+        font-variant-numeric: tabular-nums;
+        letter-spacing: 0.08em;
+        text-align: center;
+    }
+    .kindred-carousel__control {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 38px;
+        height: 38px;
+        padding: 0;
+        border: 1px solid rgba(170, 161, 178, 0.32);
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.82);
+        color: #716c74;
+        cursor: pointer;
+        box-shadow: 0 4px 12px rgba(87, 75, 86, 0.06);
+        transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+    }
+    .kindred-carousel__control:hover:not(:disabled) {
+        transform: translateY(-1px);
+        border-color: rgba(202, 111, 111, 0.45);
+        background: #fff;
+    }
+    .kindred-carousel__control:focus-visible,
+    .kindred-carousel__track:focus-visible,
+    .kindred-card:focus-visible,
+    .kindred-showcase__link:focus-visible {
+        outline: 3px solid rgba(155, 189, 221, 0.50);
+        outline-offset: 3px;
+    }
+    .kindred-carousel__control:disabled {
+        opacity: 0.34;
+        cursor: default;
+    }
+    .kindred-carousel__track {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: minmax(220px, 31%);
+        gap: 16px;
+        overflow-x: auto;
+        overscroll-behavior-inline: contain;
+        padding: 6px 3px 28px;
+        scroll-padding-inline: 3px;
+        scroll-snap-type: inline mandatory;
+        scrollbar-color: rgba(202, 111, 111, 0.48) rgba(170, 161, 178, 0.12);
+        scrollbar-width: thin;
+    }
+    .kindred-carousel__track::-webkit-scrollbar {
+        height: 5px;
+    }
+    .kindred-carousel__track::-webkit-scrollbar-track {
+        border-radius: 999px;
+        background: rgba(170, 161, 178, 0.12);
+    }
+    .kindred-carousel__track::-webkit-scrollbar-thumb {
+        border-radius: 999px;
+        background: rgba(202, 111, 111, 0.48);
+    }
+    .kindred-card {
+        position: relative;
+        display: block;
+        height: 330px;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.44);
+        border-radius: 20px;
+        background: #47424a;
+        box-shadow: 0 14px 28px rgba(54, 47, 55, 0.14);
+        color: #fff !important;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        isolation: isolate;
+        transition: transform 0.28s ease, box-shadow 0.28s ease;
+    }
+    .kindred-card:nth-child(even) {
+        transform: translateY(16px);
+    }
+    .kindred-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 19px 36px rgba(54, 47, 55, 0.20);
+        color: #fff !important;
+        text-decoration: none !important;
+    }
+    .kindred-card:nth-child(even):hover {
+        transform: translateY(12px);
+    }
+    .kindred-card__image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        max-width: none;
+        object-fit: cover;
+        transition: transform 0.45s ease;
+    }
+    .kindred-card:hover .kindred-card__image {
+        transform: scale(1.035);
+    }
+    .kindred-card__shade {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        background:
+            linear-gradient(180deg, rgba(21, 21, 25, 0.08) 26%, rgba(28, 26, 31, 0.88) 100%),
+            linear-gradient(90deg, rgba(72, 56, 67, 0.12), transparent 56%);
+    }
+    .kindred-card__content {
+        position: absolute;
+        inset: auto 0 0;
+        z-index: 2;
+        display: grid;
+        gap: 7px;
+        padding: 20px;
+    }
+    .kindred-card__number {
+        width: fit-content;
+        padding: 5px 8px;
+        border: 1px solid rgba(255, 255, 255, 0.28);
+        border-radius: 999px;
+        background: rgba(247, 242, 246, 0.13);
+        backdrop-filter: blur(10px);
+        color: rgba(255, 255, 255, 0.83);
+        font-size: 0.61rem;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    .kindred-card__title {
+        color: #fff;
+        font-size: 1.02rem;
+        font-weight: 750;
+        line-height: 1.35;
+        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+    }
+    .kindred-card__read {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: rgba(255, 255, 255, 0.72);
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+    }
+    .kindred-card__read svg {
+        transition: transform 0.2s ease;
+    }
+    .kindred-card:hover .kindred-card__read svg {
+        transform: translateX(3px);
+    }
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .kindred-carousel__track {
+            grid-auto-columns: minmax(230px, 44%);
+        }
+    }
+    @media (max-width: 767px) {
+        .kindred-showcase {
+            margin-top: 14px;
+            padding: 20px 16px 18px;
+            border-radius: 20px;
+        }
+        .kindred-showcase__header {
+            grid-template-columns: minmax(0, 1fr);
+            gap: 17px;
+            margin-bottom: 15px;
+        }
+        .kindred-showcase__title {
+            font-size: clamp(2.6rem, 14vw, 3.7rem);
+        }
+        .kindred-showcase__synopsis {
+            margin-top: 14px;
+            font-size: 0.88rem;
+            line-height: 1.65;
+        }
+        .kindred-showcase__actions {
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+        .kindred-carousel__toolbar {
+            justify-content: space-between;
+        }
+        .kindred-carousel__status {
+            margin-right: auto;
+            text-align: left;
+        }
+        .kindred-carousel__track {
+            grid-auto-columns: 86%;
+            gap: 12px;
+            padding-bottom: 20px;
+        }
+        .kindred-card,
+        .kindred-card:nth-child(even) {
+            height: 318px;
+            transform: none;
+        }
+        .kindred-card:hover,
+        .kindred-card:nth-child(even):hover {
+            transform: none;
+        }
+    }
+    @media (prefers-reduced-motion: reduce) {
+        .kindred-card,
+        .kindred-card__image,
+        .kindred-card__read svg,
+        .kindred-carousel__control {
+            transition: none;
+        }
+    }
+
     /* Responsive homepage cards: stack rich media above copy on narrow screens. */
     @media (max-width: 767px) {
         .main-heading { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; margin-bottom: 1.25rem; }
