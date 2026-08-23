@@ -434,15 +434,13 @@ Publications
 <script src="assets/js/show_publications.js"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
-Novel
------
 <section class="kindred-showcase" data-kindred-carousel aria-labelledby="kindred-title">
   <div class="kindred-showcase__header">
     <div>
       <span class="kindred-showcase__eyebrow">A serialized speculative novel</span>
       <h2 class="kindred-showcase__title" id="kindred-title">KIND<span>RED</span></h2>
       <p class="kindred-showcase__synopsis">
-        Written against the rise of AI companions and simulated intimacy, <em>Kindred</em> imagines a city built on the promise that no one has to be alone. When investigator Zhou Yan enters a population whose numbers no longer add up, he must decide who is human, who is artificial—and whether that distinction should decide who deserves to remain.
+        Written in the age of AI companions and simulated intimacy, <em>Kindred</em> follows investigator Zhou Yan into a city built so no one has to be alone. When its population stops adding up, he must ask who is human—and whether that distinction should decide who deserves to remain.
       </p>
       <div class="kindred-showcase__actions">
         <a class="kindred-showcase__link" href="/biosite/post/kindred_prologue/">
