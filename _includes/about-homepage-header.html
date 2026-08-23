@@ -560,29 +560,31 @@
     .kindred-slideshow {
         position: relative;
         overflow: hidden;
-        margin: 0;
-        padding: 8px 8px 0;
+        width: calc(100% - 24px);
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 7px 7px 0;
         border: 1px solid rgba(170, 161, 178, 0.26);
-        border-radius: 16px;
+        border-radius: 15px;
         background:
-            linear-gradient(135deg, rgba(216, 137, 146, 0.23), rgba(255, 255, 255, 0.88) 42%, rgba(170, 161, 178, 0.18) 67%, rgba(155, 189, 221, 0.25)),
-            #faf9fb;
-        box-shadow: 0 10px 26px rgba(88, 72, 86, 0.08);
+            linear-gradient(110deg, rgba(216, 137, 146, 0.25), rgba(224, 216, 226, 0.76) 48%, rgba(155, 189, 221, 0.27)),
+            #ece8ed;
+        box-shadow: 0 9px 23px rgba(88, 72, 86, 0.075);
         box-sizing: border-box;
     }
     .kindred-slideshow__viewport {
         position: relative;
         overflow: hidden;
         aspect-ratio: 16 / 9;
-        border: 1px solid rgba(255, 255, 255, 0.76);
+        border: 1px solid rgba(110, 101, 113, 0.16);
         border-radius: 10px;
         background:
             radial-gradient(circle at 15% 15%, rgba(216, 137, 146, 0.18), transparent 40%),
             radial-gradient(circle at 85% 85%, rgba(155, 189, 221, 0.20), transparent 42%),
             #e9e6eb;
         box-shadow:
-            0 5px 15px rgba(46, 40, 47, 0.12),
-            inset 0 0 0 1px rgba(102, 92, 104, 0.08);
+            0 4px 13px rgba(46, 40, 47, 0.11),
+            inset 0 0 0 1px rgba(102, 92, 104, 0.06);
     }
     .kindred-slideshow__track {
         display: grid;
@@ -673,22 +675,18 @@
         align-items: baseline;
         gap: 5px;
         overflow: hidden;
-        margin: 8px -8px 0;
+        margin: 7px -7px 0;
         padding: 13px 18px 14px;
-        border-top: 1px solid rgba(170, 161, 178, 0.18);
+        border: 0;
         background:
-            linear-gradient(100deg, rgba(216, 137, 146, 0.30), rgba(255, 255, 255, 0.78) 40%, rgba(170, 161, 178, 0.20) 70%, rgba(155, 189, 221, 0.32)),
-            rgba(255, 255, 255, 0.62);
+            linear-gradient(110deg, rgba(216, 137, 146, 0.25), rgba(224, 216, 226, 0.76) 48%, rgba(155, 189, 221, 0.27)),
+            #ece8ed;
         color: #5f5961 !important;
         line-height: 1.25;
         backdrop-filter: blur(18px) saturate(125%);
     }
     .kindred-slideshow__caption::before {
-        content: "";
-        position: absolute;
-        inset: 0 0 auto;
-        height: 1px;
-        background: linear-gradient(90deg, rgba(216, 137, 146, 0.68), rgba(170, 161, 178, 0.42), rgba(155, 189, 221, 0.65));
+        content: none;
     }
     .kindred-slideshow__brand {
         color: #9e5d68;
@@ -721,6 +719,7 @@
             font-size: 1.15em;
         }
         .kindred-slideshow {
+            width: calc(100% - 16px);
             padding: 6px 6px 0;
             border-radius: 14px;
         }
