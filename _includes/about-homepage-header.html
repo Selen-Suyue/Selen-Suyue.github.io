@@ -561,18 +561,28 @@
         position: relative;
         overflow: hidden;
         margin: 0;
+        padding: 8px 8px 0;
         border: 1px solid rgba(170, 161, 178, 0.26);
         border-radius: 16px;
         background:
-            linear-gradient(135deg, rgba(216, 137, 146, 0.08), rgba(170, 161, 178, 0.07) 52%, rgba(155, 189, 221, 0.10)),
-            #fff;
-        box-shadow: 0 9px 24px rgba(88, 72, 86, 0.055);
+            linear-gradient(135deg, rgba(216, 137, 146, 0.23), rgba(255, 255, 255, 0.88) 42%, rgba(170, 161, 178, 0.18) 67%, rgba(155, 189, 221, 0.25)),
+            #faf9fb;
+        box-shadow: 0 10px 26px rgba(88, 72, 86, 0.08);
+        box-sizing: border-box;
     }
     .kindred-slideshow__viewport {
         position: relative;
         overflow: hidden;
-        aspect-ratio: 5 / 2;
-        background: #29262c;
+        aspect-ratio: 16 / 9;
+        border: 1px solid rgba(255, 255, 255, 0.76);
+        border-radius: 10px;
+        background:
+            radial-gradient(circle at 15% 15%, rgba(216, 137, 146, 0.18), transparent 40%),
+            radial-gradient(circle at 85% 85%, rgba(155, 189, 221, 0.20), transparent 42%),
+            #e9e6eb;
+        box-shadow:
+            0 5px 15px rgba(46, 40, 47, 0.12),
+            inset 0 0 0 1px rgba(102, 92, 104, 0.08);
     }
     .kindred-slideshow__track {
         display: grid;
@@ -594,7 +604,9 @@
         width: 100%;
         height: 100%;
         overflow: hidden;
-        background: #29262c;
+        background:
+            linear-gradient(135deg, rgba(216, 137, 146, 0.11), rgba(170, 161, 178, 0.14) 52%, rgba(155, 189, 221, 0.13)),
+            #e8e6ea;
         color: inherit !important;
         scroll-snap-align: start;
         scroll-snap-stop: always;
@@ -607,7 +619,7 @@
         width: 100%;
         height: 100%;
         max-width: none;
-        object-fit: cover;
+        object-fit: contain;
         object-position: center;
         transition: transform 0.45s ease;
     }
@@ -659,13 +671,14 @@
         position: relative;
         display: flex;
         align-items: baseline;
-        gap: 4px;
+        gap: 5px;
         overflow: hidden;
-        padding: 9px 15px 10px;
+        margin: 8px -8px 0;
+        padding: 13px 18px 14px;
         border-top: 1px solid rgba(170, 161, 178, 0.18);
         background:
-            linear-gradient(100deg, rgba(216, 137, 146, 0.20), rgba(255, 255, 255, 0.70) 43%, rgba(170, 161, 178, 0.13) 70%, rgba(155, 189, 221, 0.21)),
-            rgba(255, 255, 255, 0.54);
+            linear-gradient(100deg, rgba(216, 137, 146, 0.30), rgba(255, 255, 255, 0.78) 40%, rgba(170, 161, 178, 0.20) 70%, rgba(155, 189, 221, 0.32)),
+            rgba(255, 255, 255, 0.62);
         color: #5f5961 !important;
         line-height: 1.25;
         backdrop-filter: blur(18px) saturate(125%);
@@ -679,14 +692,19 @@
     }
     .kindred-slideshow__brand {
         color: #9e5d68;
-        font-family: "Fredericka the Great", Georgia, serif;
-        font-size: 1.08rem;
-        font-weight: 400;
-        letter-spacing: 0.035em;
+        font-family: "Arial Rounded MT Bold", "Segoe UI", sans-serif;
+        font-size: 1.32rem;
+        font-weight: 800;
+        line-height: 1;
+        letter-spacing: -0.035em;
+        background: linear-gradient(90deg, #a85f6b, #796e83);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
     .kindred-slideshow__tagline {
         color: #66616a;
-        font-size: 0.76rem;
+        font-size: 0.9rem;
         font-weight: 600;
         letter-spacing: 0.012em;
     }
@@ -703,6 +721,7 @@
             font-size: 1.15em;
         }
         .kindred-slideshow {
+            padding: 6px 6px 0;
             border-radius: 14px;
         }
         .kindred-slideshow__viewport {
@@ -719,13 +738,14 @@
             right: 9px;
         }
         .kindred-slideshow__caption {
-            padding: 8px 12px 9px;
+            margin: 6px -6px 0;
+            padding: 11px 13px 12px;
         }
         .kindred-slideshow__brand {
-            font-size: 1rem;
+            font-size: 1.18rem;
         }
         .kindred-slideshow__tagline {
-            font-size: 0.72rem;
+            font-size: 0.82rem;
         }
     }
     @media (prefers-reduced-motion: reduce) {
