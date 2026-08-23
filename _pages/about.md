@@ -486,7 +486,7 @@ Publications
       <svg aria-hidden="true" width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="m6 3.5 4.5 4.5L6 12.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </button>
   </div>
-  <a class="kindred-slideshow__caption" href="/biosite/categories/novel/">
+  <a class="kindred-slideshow__caption" href="/biosite/post/kindred_prologue/">
     <span class="kindred-slideshow__brand">Kindred</span><span class="kindred-slideshow__tagline">: An AI simulated city.</span>
   </a>
 </div>
