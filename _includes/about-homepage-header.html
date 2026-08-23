@@ -545,334 +545,150 @@
         background: #fff;
     }
 
-    /* Kindred: a quiet, editorial carousel that borrows the homepage palette. */
-    .kindred-showcase {
-        --kindred-rose: #ca6f6f;
-        --kindred-blue: #9bbddd;
-        --kindred-lilac: #aaa1b2;
+    /* Kindred: one cinematic illustration at a time, with a minimal glass caption. */
+    .kindred-slideshow {
         position: relative;
         overflow: hidden;
         margin: 10px 0 22px;
-        padding: clamp(16px, 2.8vw, 24px);
         border: 1px solid rgba(170, 161, 178, 0.26);
-        border-radius: 18px;
+        border-radius: 16px;
         background:
-            radial-gradient(circle at 90% 5%, rgba(155, 189, 221, 0.20), transparent 31%),
-            radial-gradient(circle at 8% 100%, rgba(202, 111, 111, 0.13), transparent 34%),
-            linear-gradient(135deg, #fffafa 0%, #fbfafc 52%, #f7fafd 100%);
-        box-shadow: 0 10px 26px rgba(88, 72, 86, 0.055);
-        color: #4f5157;
+            linear-gradient(135deg, rgba(216, 137, 146, 0.08), rgba(170, 161, 178, 0.07) 52%, rgba(155, 189, 221, 0.10)),
+            #fff;
+        box-shadow: 0 9px 24px rgba(88, 72, 86, 0.055);
     }
-    .kindred-showcase::before {
-        content: "";
-        position: absolute;
-        inset: 0 0 auto;
-        height: 3px;
-        background: linear-gradient(90deg, var(--kindred-rose), var(--kindred-lilac), var(--kindred-blue));
-        opacity: 0.72;
-    }
-    .kindred-showcase__header {
+    .kindred-slideshow__viewport {
         position: relative;
-        z-index: 1;
-        display: grid;
-        grid-template-columns: minmax(205px, 0.65fr) minmax(260px, 1.15fr) auto;
-        gap: 16px;
-        align-items: end;
-        margin-bottom: 12px;
+        overflow: hidden;
+        aspect-ratio: 5 / 2;
+        background: #29262c;
     }
-    .kindred-showcase__eyebrow {
-        display: block;
-        margin-bottom: 4px;
-        color: #9c6871;
-        font-size: 0.62rem;
-        font-weight: 800;
-        letter-spacing: 0.14em;
-        text-transform: uppercase;
-    }
-    .kindred-showcase__title {
-        margin: 0;
-        color: #29272c;
-        font-family: "Arial Rounded MT Bold", "Verdana", sans-serif;
-        font-size: clamp(2.05rem, 4vw, 2.65rem);
-        font-weight: 800;
-        line-height: 0.92;
-        letter-spacing: -0.065em;
-    }
-    .kindred-showcase__title span {
-        color: var(--kindred-rose);
-    }
-    .kindred-showcase__synopsis {
-        max-width: 620px;
-        margin: 0;
-        color: #66666d;
-        font-size: 0.82rem;
-        line-height: 1.52;
-    }
-    .kindred-showcase__actions {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        margin-top: 10px;
-    }
-    .kindred-showcase__link {
-        display: inline-flex;
-        align-items: center;
-        gap: 7px;
-        min-height: 32px;
-        padding: 6px 10px;
-        border: 1px solid rgba(202, 111, 111, 0.26);
-        border-radius: 999px;
-        background: rgba(255, 255, 255, 0.76);
-        color: #a45f68 !important;
-        font-size: 0.7rem;
-        font-weight: 700;
-        line-height: 1;
-        box-sizing: border-box;
-    }
-    .kindred-showcase__link:hover {
-        border-color: rgba(202, 111, 111, 0.48);
-        background: #fff;
-        color: #8f4f59 !important;
-        text-decoration: none !important;
-    }
-    .kindred-showcase__link--quiet {
-        min-height: auto;
-        padding: 5px 2px;
-        border-color: transparent;
-        background: transparent;
-        color: #6f8095 !important;
-    }
-    .kindred-showcase__link--quiet:hover {
-        border-color: transparent;
-        background: transparent;
-    }
-    .kindred-carousel__toolbar {
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 6px;
-        white-space: nowrap;
-    }
-    .kindred-carousel__status {
-        min-width: 44px;
-        color: #8b858c;
-        font-size: 0.64rem;
-        font-variant-numeric: tabular-nums;
-        letter-spacing: 0.08em;
-        text-align: center;
-    }
-    .kindred-carousel__control {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 32px;
-        height: 32px;
-        padding: 0;
-        border: 1px solid rgba(170, 161, 178, 0.32);
-        border-radius: 50%;
-        background: rgba(255, 255, 255, 0.82);
-        color: #716c74;
-        cursor: pointer;
-        box-shadow: 0 4px 12px rgba(87, 75, 86, 0.06);
-        transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
-    }
-    .kindred-carousel__control:hover:not(:disabled) {
-        transform: translateY(-1px);
-        border-color: rgba(202, 111, 111, 0.45);
-        background: #fff;
-    }
-    .kindred-carousel__control:focus-visible,
-    .kindred-carousel__track:focus-visible,
-    .kindred-card:focus-visible,
-    .kindred-showcase__link:focus-visible {
-        outline: 3px solid rgba(155, 189, 221, 0.50);
-        outline-offset: 3px;
-    }
-    .kindred-carousel__control:disabled {
-        opacity: 0.34;
-        cursor: default;
-    }
-    .kindred-carousel__track {
+    .kindred-slideshow__track {
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: minmax(170px, 26.5%);
-        gap: 12px;
+        grid-auto-columns: 100%;
+        width: 100%;
+        height: 100%;
         overflow-x: auto;
         overscroll-behavior-inline: contain;
-        padding: 3px 2px 16px;
-        scroll-padding-inline: 3px;
         scroll-snap-type: inline mandatory;
-        scrollbar-color: rgba(202, 111, 111, 0.48) rgba(170, 161, 178, 0.12);
-        scrollbar-width: thin;
+        scrollbar-width: none;
     }
-    .kindred-carousel__track::-webkit-scrollbar {
-        height: 5px;
+    .kindred-slideshow__track::-webkit-scrollbar {
+        display: none;
     }
-    .kindred-carousel__track::-webkit-scrollbar-track {
-        border-radius: 999px;
-        background: rgba(170, 161, 178, 0.12);
-    }
-    .kindred-carousel__track::-webkit-scrollbar-thumb {
-        border-radius: 999px;
-        background: rgba(202, 111, 111, 0.48);
-    }
-    .kindred-card {
+    .kindred-slide {
         position: relative;
         display: block;
-        height: 232px;
+        width: 100%;
+        height: 100%;
         overflow: hidden;
-        border: 1px solid rgba(255, 255, 255, 0.44);
-        border-radius: 15px;
-        background: #47424a;
-        box-shadow: 0 9px 20px rgba(54, 47, 55, 0.13);
-        color: #fff !important;
+        background: #29262c;
+        color: inherit !important;
         scroll-snap-align: start;
         scroll-snap-stop: always;
-        isolation: isolate;
-        transition: transform 0.28s ease, box-shadow 0.28s ease;
     }
-    .kindred-card:nth-child(even) {
-        transform: translateY(9px);
-    }
-    .kindred-card:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 13px 27px rgba(54, 47, 55, 0.18);
-        color: #fff !important;
+    .kindred-slide:hover {
         text-decoration: none !important;
     }
-    .kindred-card:nth-child(even):hover {
-        transform: translateY(7px);
-    }
-    .kindred-card__image {
-        position: absolute;
-        inset: 0;
+    .kindred-slide__image {
+        display: block;
         width: 100%;
         height: 100%;
         max-width: none;
         object-fit: cover;
+        object-position: center;
         transition: transform 0.45s ease;
     }
-    .kindred-card:hover .kindred-card__image {
-        transform: scale(1.035);
+    .kindred-slide:hover .kindred-slide__image {
+        transform: scale(1.012);
     }
-    .kindred-card__shade {
+    .kindred-slideshow__control {
         position: absolute;
-        inset: 0;
-        z-index: 1;
-        background:
-            linear-gradient(180deg, rgba(21, 21, 25, 0.08) 26%, rgba(28, 26, 31, 0.88) 100%),
-            linear-gradient(90deg, rgba(72, 56, 67, 0.12), transparent 56%);
-    }
-    .kindred-card__content {
-        position: absolute;
-        inset: auto 0 0;
         z-index: 2;
-        display: grid;
-        gap: 5px;
-        padding: 14px;
-    }
-    .kindred-card__number {
-        width: fit-content;
-        padding: 4px 6px;
-        border: 1px solid rgba(255, 255, 255, 0.28);
-        border-radius: 999px;
-        background: rgba(247, 242, 246, 0.13);
-        backdrop-filter: blur(10px);
-        color: rgba(255, 255, 255, 0.83);
-        font-size: 0.55rem;
-        font-weight: 800;
-        letter-spacing: 0.12em;
-        line-height: 1;
-        text-transform: uppercase;
-    }
-    .kindred-card__title {
-        color: #fff;
-        font-size: 0.86rem;
-        font-weight: 750;
-        line-height: 1.35;
-        text-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
-    }
-    .kindred-card__read {
-        display: flex;
+        top: 50%;
+        display: inline-flex;
         align-items: center;
-        gap: 6px;
-        color: rgba(255, 255, 255, 0.72);
-        font-size: 0.6rem;
+        justify-content: center;
+        width: 34px;
+        height: 34px;
+        padding: 0;
+        border: 1px solid rgba(255, 255, 255, 0.42);
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.68);
+        color: #68626b;
+        cursor: pointer;
+        box-shadow: 0 4px 14px rgba(30, 26, 31, 0.15);
+        backdrop-filter: blur(10px);
+        transform: translateY(-50%);
+        transition: background-color 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+    }
+    .kindred-slideshow__control--previous {
+        left: 12px;
+    }
+    .kindred-slideshow__control--next {
+        right: 12px;
+    }
+    .kindred-slideshow__control:hover:not(:disabled) {
+        background: rgba(255, 255, 255, 0.88);
+        transform: translateY(-50%) scale(1.04);
+    }
+    .kindred-slideshow__control:disabled {
+        opacity: 0;
+        pointer-events: none;
+    }
+    .kindred-slideshow__control:focus-visible,
+    .kindred-slideshow__track:focus-visible,
+    .kindred-slide:focus-visible,
+    .kindred-slideshow__caption:focus-visible {
+        outline: 3px solid rgba(155, 189, 221, 0.55);
+        outline-offset: -3px;
+    }
+    .kindred-slideshow__caption {
+        display: block;
+        padding: 10px 15px;
+        border-top: 1px solid rgba(170, 161, 178, 0.18);
+        background: rgba(255, 255, 255, 0.58);
+        color: #5f5961 !important;
+        font-size: 0.78rem;
         font-weight: 700;
-        letter-spacing: 0.04em;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+        backdrop-filter: blur(12px);
     }
-    .kindred-card__read svg {
-        transition: transform 0.2s ease;
-    }
-    .kindred-card:hover .kindred-card__read svg {
-        transform: translateX(3px);
-    }
-    @media (min-width: 768px) and (max-width: 1024px) {
-        .kindred-showcase__header {
-            grid-template-columns: minmax(190px, 0.6fr) minmax(225px, 1fr) auto;
-            gap: 12px;
-        }
-        .kindred-showcase__title {
-            font-size: clamp(2rem, 4.5vw, 2.45rem);
-        }
-        .kindred-carousel__track {
-            grid-auto-columns: minmax(180px, 34%);
-        }
+    .kindred-slideshow__caption:hover {
+        color: #a45f68 !important;
+        text-decoration: none !important;
     }
     @media (max-width: 767px) {
-        .kindred-showcase {
+        .kindred-slideshow {
             margin: 10px 0 18px;
-            padding: 16px 12px 14px;
-            border-radius: 16px;
+            border-radius: 14px;
         }
-        .kindred-showcase__header {
-            grid-template-columns: minmax(0, 1fr);
-            gap: 12px;
-            margin-bottom: 12px;
+        .kindred-slideshow__viewport {
+            aspect-ratio: 16 / 9;
         }
-        .kindred-showcase__title {
-            font-size: clamp(2.1rem, 11vw, 2.65rem);
+        .kindred-slideshow__control {
+            width: 30px;
+            height: 30px;
         }
-        .kindred-showcase__synopsis {
-            margin: 0;
-            font-size: 0.8rem;
-            line-height: 1.5;
+        .kindred-slideshow__control--previous {
+            left: 9px;
         }
-        .kindred-showcase__actions {
-            flex-wrap: wrap;
-            margin-top: 12px;
+        .kindred-slideshow__control--next {
+            right: 9px;
         }
-        .kindred-carousel__toolbar {
-            justify-content: space-between;
-        }
-        .kindred-carousel__status {
-            margin-right: auto;
-            text-align: left;
-        }
-        .kindred-carousel__track {
-            grid-auto-columns: 72%;
-            gap: 10px;
-            padding-bottom: 14px;
-        }
-        .kindred-card,
-        .kindred-card:nth-child(even) {
-            height: 232px;
-            transform: none;
-        }
-        .kindred-card:hover,
-        .kindred-card:nth-child(even):hover {
-            transform: none;
+        .kindred-slideshow__caption {
+            padding: 9px 12px;
+            font-size: 0.74rem;
         }
     }
     @media (prefers-reduced-motion: reduce) {
-        .kindred-card,
-        .kindred-card__image,
-        .kindred-card__read svg,
-        .kindred-carousel__control {
+        .kindred-slide__image,
+        .kindred-slideshow__control {
             transition: none;
         }
     }
-
     /* Responsive homepage cards: stack rich media above copy on narrow screens. */
     @media (max-width: 767px) {
         .main-heading { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; margin-bottom: 1.25rem; }
