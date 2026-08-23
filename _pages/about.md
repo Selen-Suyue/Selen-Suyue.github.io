@@ -536,7 +536,7 @@ Novel
     </a>
   </div>
 </section>
-<script src="assets/js/kindred_carousel.js"></script>
+<script src="assets/js/kindred_carousel.js?v=20260823"></script>
 
 Projects
 --------
