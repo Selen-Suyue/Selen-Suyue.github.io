@@ -436,9 +436,11 @@ Publications
 
 <section class="kindred-showcase" data-kindred-carousel aria-labelledby="kindred-title">
   <div class="kindred-showcase__header">
-    <div>
+    <div class="kindred-showcase__identity">
       <span class="kindred-showcase__eyebrow">A serialized speculative novel</span>
       <h2 class="kindred-showcase__title" id="kindred-title">KIND<span>RED</span></h2>
+    </div>
+    <div class="kindred-showcase__intro">
       <p class="kindred-showcase__synopsis">
         Written in the age of AI companions and simulated intimacy, <em>Kindred</em> follows investigator Zhou Yan into a city built so no one has to be alone. When its population stops adding up, he must ask who is human—and whether that distinction should decide who deserves to remain.
       </p>

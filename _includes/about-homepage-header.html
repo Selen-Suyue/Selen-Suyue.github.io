@@ -575,8 +575,8 @@
         position: relative;
         z-index: 1;
         display: grid;
-        grid-template-columns: minmax(0, 1fr) auto;
-        gap: 14px;
+        grid-template-columns: minmax(155px, 0.55fr) minmax(270px, 1.25fr) auto;
+        gap: 16px;
         align-items: end;
         margin-bottom: 12px;
     }
@@ -603,7 +603,7 @@
     }
     .kindred-showcase__synopsis {
         max-width: 620px;
-        margin: 10px 0 0;
+        margin: 0;
         color: #66666d;
         font-size: 0.82rem;
         line-height: 1.52;
@@ -612,7 +612,7 @@
         display: flex;
         align-items: center;
         gap: 8px;
-        margin-top: 12px;
+        margin-top: 10px;
     }
     .kindred-showcase__link {
         display: inline-flex;
@@ -808,6 +808,10 @@
         transform: translateX(3px);
     }
     @media (min-width: 768px) and (max-width: 1024px) {
+        .kindred-showcase__header {
+            grid-template-columns: minmax(145px, 0.5fr) minmax(240px, 1.2fr) auto;
+            gap: 12px;
+        }
         .kindred-carousel__track {
             grid-auto-columns: minmax(180px, 34%);
         }
@@ -827,7 +831,7 @@
             font-size: clamp(2.1rem, 11vw, 2.65rem);
         }
         .kindred-showcase__synopsis {
-            margin-top: 10px;
+            margin: 0;
             font-size: 0.8rem;
             line-height: 1.5;
         }
