@@ -20,7 +20,7 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: "Music Carnival", "HFBest Wishes", "Comic Sans MS", Verdana, sans-serif;
+    font-family: "Comic Sans MS", sans-serif;
     font-size: 17px;
     @include breakpoint($x-large) {
       max-width: $x-large;
