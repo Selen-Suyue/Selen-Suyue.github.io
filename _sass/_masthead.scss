@@ -2,6 +2,22 @@
    MASTHEAD
    ========================================================================== */
 
+@font-face {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/kalam-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Kalam";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/kalam-latin-700-normal.woff2") format("woff2");
+}
+
 .masthead {
   position: fixed;
   background: #FFFFFF;
