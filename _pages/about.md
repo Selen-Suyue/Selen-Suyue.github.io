@@ -431,7 +431,7 @@ Publications
   </div>
 </div>
 
-<script src="assets/js/show_publications.js"></script>
+<script src="assets/js/show_publications.js?v=20260827a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
