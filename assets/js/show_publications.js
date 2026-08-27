@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
       })
       .forEach((publication) => publicationParent.insertBefore(
         publication,
-        document.querySelector('script[src$="show_publications.js"]')
+        document.querySelector('script[src*="show_publications.js"]')
       ));
   }
 
