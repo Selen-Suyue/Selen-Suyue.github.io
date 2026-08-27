@@ -106,6 +106,45 @@ Publications
   </span>
 </div>
 
+<div class="publication-card featured first-author" data-topics="imagination action" data-date="2026-02-25">
+  <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
+    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
+      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline>
+        <source src="images/WoG.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+        <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
+            <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
+            <a href="https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en" target="_blank">Haixin Shi</a>, 
+            <a href="https://mingyulau.github.io/" target="_blank">Mingyu Liu</a>,
+            <a href="https://scholar.google.com/citations?user=8nrJ1vsAAAAJ&hl=en" target="_blank">Zhengshen Zhang</a>,
+            <a href="" target="_blank">Ningyuan Huang</a>,
+            <a href="https://scholar.google.com/citations?user=3EXYkZcAAAAJ&hl=zh-CN" target="_blank">Weiheng Zhong</a>,
+            <a href="https://zbzhu99.github.io/" target="_blank">Zhengbang Zhu</a>,
+            <a href="https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en" target="_blank">Yuxiao Liu</a>&dagger;,
+            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
+        </i><br>
+        We propose WoG (World Guidance), a world modeling paradigm  in condition space for action generation: less is more.
+        <div class="pub-meta-row">
+          <span class="pub-venue">ICML 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
+            <a href="https://github.com/Selen-Suyue/WoG"><em>[code]</em></a>
+            <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card" data-topics="imagination action" data-date="2026-08-02">
   <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
     <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
@@ -202,45 +241,6 @@ Publications
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
             <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
-          </span>
-        </div>
-    </div>
-  </div>
-</div>
-
-<div class="publication-card featured first-author" data-topics="imagination action" data-date="2026-02-25">
-  <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
-    <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
-  </div>
-  <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/WoG.png" alt="wog" style="width: 200px; height: 120px; object-fit: cover; display: block;">
-      <video style="width: 200px; height: 120px; object-fit: cover; display: none;" autoplay muted playsinline>
-        <source src="images/WoG.mp4" type="video/mp4">
-      </video>
-    </div>
-    <div>
-        <strong>World Guidance: World Modeling in Condition Space for Action Generation</strong><br>
-        <i style="font-size: 13px;">
-            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>, 
-            <a href="https://ch3cook-fdu.github.io/" target="_blank">Sijin Chen</a>,
-            <a href="https://scholar.google.com/citations?user=sACkOGEAAAAJ&hl=en" target="_blank">Haixin Shi</a>, 
-            <a href="https://mingyulau.github.io/" target="_blank">Mingyu Liu</a>,
-            <a href="https://scholar.google.com/citations?user=8nrJ1vsAAAAJ&hl=en" target="_blank">Zhengshen Zhang</a>,
-            <a href="" target="_blank">Ningyuan Huang</a>,
-            <a href="https://scholar.google.com/citations?user=3EXYkZcAAAAJ&hl=zh-CN" target="_blank">Weiheng Zhong</a>,
-            <a href="https://zbzhu99.github.io/" target="_blank">Zhengbang Zhu</a>,
-            <a href="https://scholar.google.com/citations?user=i8wNtSgAAAAJ&hl=en" target="_blank">Yuxiao Liu</a>&dagger;,
-            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
-        </i><br>
-        We propose WoG (World Guidance), a world modeling paradigm  in condition space for action generation: less is more.
-        <div class="pub-meta-row">
-          <span class="pub-venue">ICML 2026</span>
-          <span class="pub-links">
-            <a href="https://arxiv.org/abs/2602.22010"><em>[arXiv]</em></a>
-            <a href="https://github.com/Selen-Suyue/WoG"><em>[code]</em></a>
-            <a href="https://selen-suyue.github.io/WoGNet/"><em>[website]</em></a>
           </span>
         </div>
     </div>
