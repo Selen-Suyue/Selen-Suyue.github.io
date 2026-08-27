@@ -66,7 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
     );
 
     publications
-      .sort((a, b) => b.dataset.date.localeCompare(a.dataset.date))
+      .sort((a, b) => {
+        const aIsWorldGuidance = a.querySelector('strong')?.textContent.startsWith('World Guidance:');
+        const bIsWorldGuidance = b.querySelector('strong')?.textContent.startsWith('World Guidance:');
+
+        if (aIsWorldGuidance !== bIsWorldGuidance) return aIsWorldGuidance ? -1 : 1;
+        return b.dataset.date.localeCompare(a.dataset.date);
+      })
       .forEach((publication) => publicationParent.insertBefore(
         publication,
         document.querySelector('script[src$="show_publications.js"]')
