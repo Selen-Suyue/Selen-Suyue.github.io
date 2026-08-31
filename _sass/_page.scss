@@ -34,6 +34,34 @@
   }
 }
 
+/* Keep the homepage's visible desktop layout centered without changing the
+   theme grid, content widths, or mobile/tablet layout. */
+body.homepage {
+  @include breakpoint($large) {
+    --homepage-content-shift: 68px;
+    --homepage-content-gap-extra: 16px;
+
+    .masthead__menu .visible-links {
+      -webkit-transform: translateX(var(--homepage-content-shift));
+              transform: translateX(var(--homepage-content-shift));
+    }
+
+    #main .sidebar {
+      -webkit-transform: translate3d(var(--homepage-content-shift), 0, 0);
+              transform: translate3d(var(--homepage-content-shift), 0, 0);
+    }
+
+    #main .page__inner-wrap {
+      -webkit-transform: translateX(calc(var(--homepage-content-shift) + var(--homepage-content-gap-extra)));
+              transform: translateX(calc(var(--homepage-content-shift) + var(--homepage-content-gap-extra)));
+    }
+  }
+
+  @include breakpoint($x-large) {
+    --homepage-content-shift: 98px;
+  }
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
