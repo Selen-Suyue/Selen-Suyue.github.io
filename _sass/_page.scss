@@ -39,7 +39,7 @@
 body.homepage {
   @include breakpoint($large) {
     --homepage-content-shift: 68px;
-    --homepage-content-gap-extra: 10px;
+    --homepage-content-gap-extra: 8px;
     --homepage-left-bias: clamp(18px, 1.6vw, 30px);
 
     .masthead__menu .visible-links {
