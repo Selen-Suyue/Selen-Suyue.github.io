@@ -34,13 +34,13 @@
   }
 }
 
-/* Keep the homepage's visible desktop layout centered without changing the
-   theme grid, content widths, or mobile/tablet layout. */
+/* Keep the homepage's visible desktop layout balanced slightly left without
+   changing the theme grid, content widths, or mobile/tablet layout. */
 body.homepage {
   @include breakpoint($large) {
     --homepage-content-shift: 68px;
-    --homepage-content-gap-extra: 16px;
-    --homepage-left-bias: clamp(14px, 1.25vw, 24px);
+    --homepage-content-gap-extra: 10px;
+    --homepage-left-bias: clamp(18px, 1.6vw, 30px);
 
     .masthead__menu .visible-links {
       -webkit-transform: translateX(calc(var(--homepage-content-shift) - var(--homepage-left-bias)));
