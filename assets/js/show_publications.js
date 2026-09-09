@@ -67,10 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     publications
       .sort((a, b) => {
-        const aIsWorldGuidance = a.querySelector('strong')?.textContent.startsWith('World Guidance:');
-        const bIsWorldGuidance = b.querySelector('strong')?.textContent.startsWith('World Guidance:');
+        const aPinned = a.classList.contains('pinned');
+        const bPinned = b.classList.contains('pinned');
 
-        if (aIsWorldGuidance !== bIsWorldGuidance) return aIsWorldGuidance ? -1 : 1;
+        if (aPinned !== bPinned) return aPinned ? -1 : 1;
         return b.dataset.date.localeCompare(a.dataset.date);
       })
       .forEach((publication) => publicationParent.insertBefore(

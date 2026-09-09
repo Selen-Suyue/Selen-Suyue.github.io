@@ -187,6 +187,29 @@
     .publication-card.featured:hover {
         box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
     }
+    .publication-card.pinned {
+        border-width: 1.83px;
+        border-color: #e7b8ac;
+        background: #fffaf8;
+        box-shadow: 0 3px 8px rgba(202, 111, 111, 0.10);
+        z-index: 10;
+    }
+    .publication-card.pinned:hover {
+        box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
+    }
+    .publication-card.pinned::after {
+        content: "\f08d";
+        font-family: "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome";
+        font-weight: 900;
+        position: absolute;
+        top: 8px;
+        right: 10px;
+        font-size: 15px;
+        color: #ca6f6f;
+        opacity: 0.72;
+        z-index: 3;
+        pointer-events: none;
+    }
     .pub-button-container {
         display: flex;
         gap: 6px;

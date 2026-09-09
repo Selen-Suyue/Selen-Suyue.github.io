@@ -106,7 +106,7 @@ Publications
   </span>
 </div>
 
-<div class="publication-card featured first-author" data-topics="imagination action" data-date="2026-02-25">
+<div class="publication-card pinned featured first-author" data-topics="imagination action" data-date="2026-02-25">
   <div class="pub-category-dots" aria-label="Categories: Imagination, Action">
     <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
@@ -431,7 +431,7 @@ Publications
   </div>
 </div>
 
-<script src="assets/js/show_publications.js?v=20260827a"></script>
+<script src="assets/js/show_publications.js?v=20260909a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
