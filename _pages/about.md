@@ -41,6 +41,15 @@ Experience
   </div>
 
   <div class="experience-card">
+      <img src="images/tencent.png" alt="Tencent logo" class="experience-logo">
+      <div class="experience-info">
+          <strong>Tencent IEG</strong>
+          <span class="experience-date">Sep 2026 - </span>
+          Talent Plan Intern @ <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
+      </div>
+  </div>
+
+  <div class="experience-card">
       <img src="images/bytedance.png" alt="Seed logo" class="experience-logo">
       <div class="experience-info">
           <strong>ByteDance Seed</strong>
