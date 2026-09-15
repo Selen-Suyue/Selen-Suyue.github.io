@@ -41,7 +41,7 @@ Experience
   </div>
 
   <div class="experience-card">
-      <img src="images/tencent.png" alt="Tencent logo" class="experience-logo">
+      <img src="images/tencent-vertical.png" alt="Tencent logo" class="experience-logo experience-logo--tencent">
       <div class="experience-info">
           <strong>Tencent IEG</strong>
           <span class="experience-date">Sep 2026 - </span>
