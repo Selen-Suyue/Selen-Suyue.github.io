@@ -45,7 +45,7 @@ Experience
       <div class="experience-info">
           <strong>Tencent IEG</strong>
           <span class="experience-date">Sep 2026 - </span>
-          Talent Plan Intern @ <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
+          Talent Plan Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
       </div>
   </div>
 
@@ -440,6 +440,7 @@ Publications
   </div>
 </div>
 
+<script src="assets/js/experience_layout.js?v=20260915a" defer></script>
 <script src="assets/js/show_publications.js?v=20260915a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 

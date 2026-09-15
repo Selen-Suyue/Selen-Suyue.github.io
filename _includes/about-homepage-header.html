@@ -47,16 +47,22 @@
         color: #ca6f6f;
     }
     .experience-container {
+        --experience-columns: 3;
+        --experience-row-gap: 20px;
         display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 20px 12px;
+        grid-template-columns: repeat(var(--experience-columns), minmax(0, 1fr));
+        gap: var(--experience-row-gap) 12px;
         align-items: start;
     }
+    .experience-container--masonry {
+        grid-auto-rows: 1px;
+        row-gap: 0;
+    }
     @media (max-width: 924px) {
-        .experience-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+        .experience-container { --experience-columns: 2; }
     }
     @media (max-width: 599px) {
-        .experience-container { grid-template-columns: minmax(0, 1fr); }
+        .experience-container { --experience-columns: 1; }
     }
     .experience-card {
         box-sizing: border-box;
