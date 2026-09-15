@@ -52,11 +52,13 @@ function showPublications(topic) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.publication-card[data-topics]').forEach(
-    addPublicationCategoryDots
-  );
+// Add class="pinned" in the card markup, or call setPublicationPinned(card).
+function setPublicationPinned(publication, pinned = true) {
+  publication.classList.toggle('pinned', pinned);
+  sortPublications();
+}
 
+function sortPublications() {
   const firstPublication = document.querySelector('.publication-card[data-date]');
   const publicationParent = firstPublication && firstPublication.parentNode;
 
@@ -78,6 +80,14 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelector('script[src*="show_publications.js"]')
       ));
   }
+
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.publication-card[data-topics]').forEach(
+    addPublicationCategoryDots
+  );
+  sortPublications();
 
   document.querySelectorAll('.pub-button-container [data-filter]').forEach((button) => {
     button.addEventListener('click', () => showPublications(button.dataset.filter));

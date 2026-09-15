@@ -5,10 +5,10 @@
 
     .experience-card {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         background: #f9f9f9;
         border-radius: 12px;
-        padding: 16px;
+        padding: 12px 14px;
         margin-bottom: 0px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s, box-shadow 0.3s;
@@ -17,18 +17,30 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
-        width: 60px;
-        height: 60px;
-        margin-right: 20px;
+        width: 44px;
+        height: 44px;
+        flex: 0 0 44px;
+        margin-top: 2px;
+        margin-right: 12px;
         border-radius: 8px;
         object-fit: contain;
     }
     .experience-info {
         font-family: "Segoe UI", sans-serif;
         min-width: 0;
+        font-size: 13px;
+        line-height: 1.45;
+        overflow-wrap: anywhere;
     }
     .experience-info strong {
-        font-size: 1.1em;
+        font-size: 14px;
+        line-height: 1.35;
+    }
+    .experience-date {
+        display: block;
+        margin: 3px 0 2px;
+        font-size: 12px;
+        color: #70757a;
     }
     .experience-info a {
         text-decoration: none;
@@ -36,8 +48,8 @@
     }
     .experience-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+        gap: 12px;
     }
     .experience-card {
         box-sizing: border-box;
@@ -198,9 +210,12 @@
         box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
     }
     .publication-card.pinned::after {
-        content: "\f08d";
-        font-family: "Font Awesome 6 Free", "Font Awesome 5 Free", "FontAwesome";
-        font-weight: 900;
+        content: "";
+        width: 14px;
+        height: 14px;
+        background: #ca6f6f;
+        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 2h8v2l-1 1v5l3 3v2h-5v6l-1 2-1-2v-6H6v-2l3-3V5L8 4z'/%3E%3C/svg%3E") center / contain no-repeat;
+        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 2h8v2l-1 1v5l3 3v2h-5v6l-1 2-1-2v-6H6v-2l3-3V5L8 4z'/%3E%3C/svg%3E") center / contain no-repeat;
         position: absolute;
         top: 8px;
         right: 10px;
@@ -792,12 +807,12 @@
         .main-heading { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; margin-bottom: 1.25rem; }
         .main-heading img { width: 2rem; height: 2rem; vertical-align: -0.25rem; }
         .experience-container { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-        .experience-card { align-items: flex-start; padding: 14px; }
-        .experience-logo { width: 52px; height: 52px; margin-right: 14px; flex: 0 0 52px; }
+        .experience-card { align-items: flex-start; padding: 12px; }
+        .experience-logo { width: 40px; height: 40px; margin-right: 12px; flex: 0 0 40px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
         .publication-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .pub-category-dots { display: none; }
-        .publication-card.pinned::after { display: none; }
+        .publication-card.pinned { padding-top: 28px; }
         .publication-card .pub-media--dot-clearance { transform: none; }
         .project-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .publication-card > .publication-card__layout, .publication-card > div[style*="display: flex"], .project-card > div[style*="display: flex"] { display: grid !important; grid-template-columns: minmax(0, 1fr); gap: 12px; align-items: start !important; min-width: 0; }

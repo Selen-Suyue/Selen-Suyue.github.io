@@ -34,8 +34,8 @@ Experience
   <div class="experience-card">
       <img src="images/HKU.png" alt="HKU logo" class="experience-logo">
       <div class="experience-info">
-          <strong>The University of Hong Kong</strong><br>
-          Sep 2026 - <br>
+          <strong>The University of Hong Kong</strong>
+          <span class="experience-date">Sep 2026 - </span>
           Phd at <a href="https://mmlab.hk/"><em>MMLab@HKU</em></a> 
       </div>
   </div>
@@ -43,8 +43,8 @@ Experience
   <div class="experience-card">
       <img src="images/bytedance.png" alt="Seed logo" class="experience-logo">
       <div class="experience-info">
-          <strong>ByteDance Seed</strong><br>
-          Oct 2025 - May 2026<br>
+          <strong>ByteDance Seed</strong>
+          <span class="experience-date">Oct 2025 - May 2026</span>
           Research Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
       </div>
   </div>
@@ -52,8 +52,8 @@ Experience
   <div class="experience-card">
       <img src="images/astri.png" alt="astri logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Astribot Inc.</strong><br>
-          June 2025 - Sep 2025<br>
+          <strong>Astribot Inc.</strong>
+          <span class="experience-date">June 2025 - Sep 2025</span>
           Research Intern with <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
       </div>
   </div>
@@ -61,8 +61,8 @@ Experience
   <div class="experience-card">
       <img src="images/SJTU.png" alt="SJTU logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Shanghai Jiao Tong University</strong><br>
-          July 2024 - June 2025<br>
+          <strong>Shanghai Jiao Tong University</strong>
+          <span class="experience-date">July 2024 - June 2025</span>
           Research Assistant at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
       </div>
   </div>
@@ -70,8 +70,8 @@ Experience
   <div class="experience-card">
       <img src="images/XDU.png" alt="Xi'dian logo" class="experience-logo">
       <div class="experience-info">
-          <strong>Xidian University</strong><br>
-          Sep 2022 - July 2026<br>
+          <strong>Xidian University</strong>
+          <span class="experience-date">Sep 2022 - July 2026</span>
           Rank 4/174, <b>National Scholarship</b><br>
           B.E at <a href="https://sai.xidian.edu.cn"><em>SAI</em></a> & RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
       </div>
@@ -80,8 +80,8 @@ Experience
   <div class="experience-card">
       <img src="images/ssy.png" alt="ssy logo" class="experience-logo">
       <div class="experience-info">
-          <strong>湖北省武昌实验中学</strong><br>
-          Sep 2019 - June 2022<br>
+          <strong>湖北省武昌实验中学</strong>
+          <span class="experience-date">Sep 2019 - June 2022</span>
           那是一段小有遗憾的幸福时光.
       </div>
   </div>
@@ -431,7 +431,7 @@ Publications
   </div>
 </div>
 
-<script src="assets/js/show_publications.js?v=20260909a"></script>
+<script src="assets/js/show_publications.js?v=20260915a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
