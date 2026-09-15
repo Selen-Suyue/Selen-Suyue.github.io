@@ -8,7 +8,7 @@
         align-items: flex-start;
         background: #f9f9f9;
         border-radius: 12px;
-        padding: 12px 14px;
+        padding: 10px;
         margin-bottom: 0px;
         box-shadow: 0 4px 8px rgba(0,0,0,0.05);
         transition: transform 0.3s, box-shadow 0.3s;
@@ -17,29 +17,29 @@
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
     }
     .experience-logo {
-        width: 44px;
-        height: 44px;
-        flex: 0 0 44px;
+        width: 36px;
+        height: 36px;
+        flex: 0 0 36px;
         margin-top: 2px;
-        margin-right: 12px;
+        margin-right: 8px;
         border-radius: 8px;
         object-fit: contain;
     }
     .experience-info {
         font-family: "Segoe UI", sans-serif;
         min-width: 0;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 1.45;
         overflow-wrap: anywhere;
     }
     .experience-info strong {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 1.35;
     }
     .experience-date {
         display: block;
         margin: 3px 0 2px;
-        font-size: 12px;
+        font-size: 13px;
         color: #70757a;
     }
     .experience-info a {
@@ -48,8 +48,15 @@
     }
     .experience-container {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
-        gap: 12px;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 20px 12px;
+        align-items: start;
+    }
+    @media (max-width: 924px) {
+        .experience-container { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    @media (max-width: 599px) {
+        .experience-container { grid-template-columns: minmax(0, 1fr); }
     }
     .experience-card {
         box-sizing: border-box;
@@ -210,18 +217,14 @@
         box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
     }
     .publication-card.pinned::after {
-        content: "";
-        width: 14px;
-        height: 14px;
-        background: #ca6f6f;
-        -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 2h8v2l-1 1v5l3 3v2h-5v6l-1 2-1-2v-6H6v-2l3-3V5L8 4z'/%3E%3C/svg%3E") center / contain no-repeat;
-        mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M8 2h8v2l-1 1v5l3 3v2h-5v6l-1 2-1-2v-6H6v-2l3-3V5L8 4z'/%3E%3C/svg%3E") center / contain no-repeat;
+        content: "🎯";
+        font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+        line-height: 1;
         position: absolute;
         top: 8px;
         right: 10px;
         font-size: 15px;
         color: #ca6f6f;
-        opacity: 0.72;
         z-index: 3;
         pointer-events: none;
     }
@@ -806,9 +809,6 @@
     @media (max-width: 767px) {
         .main-heading { font-size: clamp(1.55rem, 7vw, 2rem); line-height: 1.25; margin-bottom: 1.25rem; }
         .main-heading img { width: 2rem; height: 2rem; vertical-align: -0.25rem; }
-        .experience-container { grid-template-columns: minmax(0, 1fr); gap: 12px; }
-        .experience-card { align-items: flex-start; padding: 12px; }
-        .experience-logo { width: 40px; height: 40px; margin-right: 12px; flex: 0 0 40px; }
         .experience-info { line-height: 1.45; overflow-wrap: anywhere; }
         .publication-card { display: block; padding: 12px; margin-bottom: 14px; border-radius: 12px; }
         .pub-category-dots { display: none; }
