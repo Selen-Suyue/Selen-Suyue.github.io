@@ -17,6 +17,19 @@
         object-fit: contain;
         flex: 0 0 1em;
     }
+    .inline-affiliation__iaai-icon {
+        display: inline-flex;
+        width: 1.2em;
+        height: 1.2em;
+        flex: 0 0 1.2em;
+        overflow: hidden;
+    }
+    .inline-affiliation__iaai-icon img {
+        width: 100%;
+        height: 100%;
+        flex: none;
+        transform: scale(1.3);
+    }
     .experience-card {
         display: flex;
         align-items: flex-start;
@@ -424,13 +437,61 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         color: #5f6368;
     }
-    .project-card .project-card__logo {
-        flex-shrink: 0;
-        padding: 20px;
-        max-height: 140px;
-        object-fit: contain !important;
-        background: #fff0f2;
-        border-radius: 6px;
+    .aha-cover {
+        position: relative;
+        width: 200px;
+        height: 130px;
+        flex: 0 0 200px;
+        margin-right: 20px;
+        overflow: hidden;
+        border: 1px solid #eadfe3;
+        border-radius: 8px;
+        background: #fffdfd;
+        font-family: Arial, sans-serif;
+        font-weight: 400;
+    }
+    .aha-cover__heading {
+        position: absolute;
+        top: 5px;
+        left: 8px;
+        font-size: 7px;
+        color: #66636b;
+    }
+    .aha-cover__art { position: absolute; inset: 14px 0 18px; }
+    .aha-cover canvas { display: block; width: 100%; height: 100%; }
+    .aha-cover__caption {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 4px 7px;
+        border: 1px solid #e8bfc5;
+        border-radius: 20px;
+        background: #fffdfd;
+        color: #9a4652;
+        font-size: 8px;
+        letter-spacing: 0.04em;
+        white-space: nowrap;
+        pointer-events: none;
+    }
+    .aha-cover button {
+        position: absolute;
+        right: 5px;
+        bottom: 3px;
+        padding: 2px 4px;
+        border: 1px solid #eadfe3;
+        border-radius: 4px;
+        background: #fffdfd;
+        color: #66636b;
+        font-size: 8px;
+        line-height: 1.2;
+        cursor: pointer;
+    }
+    .aha-cover button:focus-visible { outline: 2px solid #9a4652; outline-offset: 1px; }
+    @media (max-width: 767px) {
+        .aha-cover { width: 100%; height: 170px; margin-right: 0; }
+        .aha-cover__heading, .aha-cover button { font-size: 10px; }
+        .aha-cover__caption { font-size: 11px; }
     }
     .project-card > div > strong,
     .project-card > div > div > strong {
@@ -441,6 +502,40 @@
     }
     .project-card:hover {
         box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .blog-grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 16px;
+    }
+    .blog-card {
+        display: block;
+        min-width: 0;
+        overflow: hidden;
+        border: 1px solid #e6e6e6;
+        border-radius: 10px;
+        background: #fff;
+    }
+    .blog-card:hover,
+    .blog-card:focus-visible {
+        border-color: #ca6f6f;
+    }
+    .blog-card__cover {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        margin: 0;
+    }
+    .blog-card__body {
+        display: grid;
+        gap: 4px;
+        padding: 10px 12px 12px;
+        overflow-wrap: anywhere;
+    }
+    @media (max-width: 599px) {
+        .blog-grid { grid-template-columns: minmax(0, 1fr); }
     }
     .profile-list-section {
         --profile-accent: #6f86a6;

@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student at <a class="inline-affiliation" href="https://mmlab.hk/"><img src="images/mmlab-hku.png" alt="" width="16" height="16">MMLab@HKU</a> (2026.9 - 2030.8) with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
-I am the founder of the <a class="inline-affiliation" href="https://github.com/Interactive-Active-AI"><img src="images/iaai.png" alt="" width="16" height="16">IAAI</a> team, which I am building together with close friends.
+I am the founder of the <a class="inline-affiliation" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
 
 Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/), [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
 
@@ -523,7 +523,14 @@ Projects
 --------
 <div class="project-card">
  <div style="display: flex; align-items: center;">
-    <img class="project-card__logo" src="images/aha-looped-transformer.svg" alt="Aha Looped Transformer logo" width="200" height="110" style="margin-right: 20px;" loading="lazy">
+    <div class="aha-cover" id="aha-cover" role="group" aria-label="Aha Looped Transformer animation">
+      <span class="aha-cover__heading">RECURRENT COMPUTATION</span>
+      <div class="aha-cover__art">
+        <canvas id="la-orbit" role="img" aria-label="Particles loop through shared computation in a figure-eight pattern."></canvas>
+        <span class="aha-cover__caption">REPEAT. REFINE.</span>
+      </div>
+      <button type="button" id="la-motion-toggle" aria-pressed="false">Pause motion</button>
+    </div>
     <div>
         <strong>Aha Looped Transformer</strong><br>
 An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
@@ -559,23 +566,26 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 
 Blogs
 --------
+<script src="assets/js/aha_cover.js?v=20260916a" defer></script>
 <section class="profile-list-section profile-list-section--blogs" aria-label="Selected blog posts">
-  <ul class="profile-list">
-    <li class="profile-list__item">
-      <time class="profile-list__date" datetime="2026-09-15">Sep 2026</time>
-      <span class="profile-list__content">
-        <a class="profile-list__title" lang="zh-CN" href="https://selen-suyue.github.io/biosite/post/%E6%94%B6%E6%95%9B%E7%9A%84%E8%89%BA%E6%9C%AF/">收敛的艺术</a>
+  <div class="blog-grid">
+    <a class="blog-card" href="https://selen-suyue.github.io/biosite/post/%E6%94%B6%E6%95%9B%E7%9A%84%E8%89%BA%E6%9C%AF/">
+      <img class="blog-card__cover" src="https://selen-suyue.github.io/biosite/imgs/convergence-art-cover.png" alt="" loading="lazy" decoding="async" width="640" height="360">
+      <span class="blog-card__body">
+        <time class="profile-list__date" datetime="2026-09-15">Sep 2026</time>
+        <span class="profile-list__title" lang="zh-CN">收敛的艺术</span>
         <span class="profile-list__meta">The Art of Convergence · Research</span>
       </span>
-    </li>
-    <li class="profile-list__item">
-      <time class="profile-list__date" datetime="2026-07-03">Jul 2026</time>
-      <span class="profile-list__content">
-        <a class="profile-list__title" lang="zh-CN" href="https://selen-suyue.github.io/biosite/post/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%B9%8B%E6%88%91%E8%A7%81/">具身智能之我见</a>
+    </a>
+    <a class="blog-card" href="https://selen-suyue.github.io/biosite/post/%E5%85%B7%E8%BA%AB%E6%99%BA%E8%83%BD%E4%B9%8B%E6%88%91%E8%A7%81/">
+      <img class="blog-card__cover" src="https://selen-suyue.github.io/biosite/imgs/WoG_poster.png" alt="" loading="lazy" decoding="async" width="640" height="360">
+      <span class="blog-card__body">
+        <time class="profile-list__date" datetime="2026-07-03">Jul 2026</time>
+        <span class="profile-list__title" lang="zh-CN">具身智能之我见</span>
         <span class="profile-list__meta">My Perspective on Embodied Intelligence · Robotics</span>
       </span>
-    </li>
-  </ul>
+    </a>
+  </div>
 </section>
 
 Awards
