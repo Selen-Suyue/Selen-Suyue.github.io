@@ -23,7 +23,6 @@
   if (!root) return;
   const canvas = root.querySelector('canvas'), ctx = canvas.getContext('2d');
   if (!ctx) return;
-  const motion = root.querySelector('button');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
   const colors = ['#ca6f6f', '#83a1c7', '#aaa1b2'];
   const design = { speed: 0.8, glow: 1.1 };
@@ -80,8 +79,6 @@
   }
   function sync() {
     cancelAnimationFrame(raf); raf = 0;
-    motion.textContent = reduced.matches ? 'Reduced motion' : paused ? 'Play motion' : 'Pause motion';
-    motion.disabled = reduced.matches; motion.setAttribute('aria-pressed', String(paused));
     if (!paused && visible && !document.hidden) { last = performance.now(); raf = requestAnimationFrame(tick); } else draw();
   }
   function resize() {
@@ -90,7 +87,6 @@
     canvas.width = Math.round(width * dpr); canvas.height = Math.round(height * dpr);
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0); draw();
   }
-  motion.addEventListener('click', () => { paused = !paused; sync(); });
   reduced.addEventListener('change', () => { paused = reduced.matches; sync(); });
   document.addEventListener('visibilitychange', sync);
   new ResizeObserver(resize).observe(canvas);

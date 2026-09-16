@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student at <a class="inline-affiliation" href="https://mmlab.hk/"><img src="images/mmlab-hku.png" alt="" width="16" height="16">MMLab@HKU</a> (2026.9 - 2030.8) with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
-I am the founder of the <a class="inline-affiliation" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
+I am the founder of the <a class="inline-affiliation inline-affiliation--iaai" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
 
 Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/), [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
 
@@ -524,12 +524,10 @@ Projects
 <div class="project-card">
  <div style="display: flex; align-items: center;">
     <div class="aha-cover" id="aha-cover" role="group" aria-label="Aha Looped Transformer animation">
-      <span class="aha-cover__heading">RECURRENT COMPUTATION</span>
       <div class="aha-cover__art">
         <canvas id="la-orbit" role="img" aria-label="Particles loop through shared computation in a figure-eight pattern."></canvas>
         <span class="aha-cover__caption">REPEAT. REFINE.</span>
       </div>
-      <button type="button" id="la-motion-toggle" aria-pressed="false">Pause motion</button>
     </div>
     <div>
         <strong>Aha Looped Transformer</strong><br>
@@ -566,9 +564,9 @@ We've done what the Old Palace official website couldn't: offering 3D artifact v
 
 Blogs
 --------
-<script src="assets/js/aha_cover.js?v=20260916a" defer></script>
+<script src="assets/js/aha_cover.js?v=20260916b" defer></script>
 <section class="profile-list-section profile-list-section--blogs" aria-label="Selected blog posts">
-  <div class="blog-grid">
+  <div class="blog-grid" id="blog-track" tabindex="0" role="group" aria-label="Blog cards. Swipe or use the arrow keys.">
     <a class="blog-card" href="https://selen-suyue.github.io/biosite/post/%E6%94%B6%E6%95%9B%E7%9A%84%E8%89%BA%E6%9C%AF/">
       <img class="blog-card__cover" src="https://selen-suyue.github.io/biosite/imgs/convergence-art-cover.png" alt="" loading="lazy" decoding="async" width="640" height="360">
       <span class="blog-card__body">
@@ -585,8 +583,21 @@ Blogs
         <span class="profile-list__meta">My Perspective on Embodied Intelligence · Robotics</span>
       </span>
     </a>
+    <a class="blog-card" href="https://selen-suyue.github.io/biosite/post/test/">
+      <img class="blog-card__cover" src="https://selen-suyue.github.io/biosite/images/covers/cai.jpg" alt="" loading="lazy" decoding="async" width="640" height="360">
+      <span class="blog-card__body">
+        <time class="profile-list__date" datetime="2025-11-13">Nov 2025</time>
+        <span class="profile-list__title" lang="zh-CN">理解与生成</span>
+        <span class="profile-list__meta">Understanding and Generation · Multimodality</span>
+      </span>
+    </a>
+  </div>
+  <div class="blog-controls" hidden>
+    <button type="button" data-blog-step="-1" aria-controls="blog-track" aria-label="Previous blog">←</button>
+    <button type="button" data-blog-step="1" aria-controls="blog-track" aria-label="Next blog">→</button>
   </div>
 </section>
+<script src="assets/js/blog_carousel.js?v=20260916a" defer></script>
 
 Awards
 --------
