@@ -3,6 +3,20 @@
     @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
     @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 
+    .inline-affiliation {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25em;
+        vertical-align: -0.1em;
+        white-space: nowrap;
+    }
+    .inline-affiliation img {
+        width: 1em;
+        height: 1em;
+        margin: 0;
+        object-fit: contain;
+        flex: 0 0 1em;
+    }
     .experience-card {
         display: flex;
         align-items: flex-start;
@@ -409,6 +423,14 @@
         margin-bottom: 20px;
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         color: #5f6368;
+    }
+    .project-card .project-card__logo {
+        flex-shrink: 0;
+        padding: 20px;
+        max-height: 140px;
+        object-fit: contain !important;
+        background: #fff0f2;
+        border-radius: 6px;
     }
     .project-card > div > strong,
     .project-card > div > div > strong {
