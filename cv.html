@@ -258,7 +258,11 @@
     @page { size: A4; margin: 0; }
 
     @media print {
-      html, body { background: #fff; }
+      html, body {
+        background: #fff;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
       .page {
         margin: 0;
         box-shadow: none;
