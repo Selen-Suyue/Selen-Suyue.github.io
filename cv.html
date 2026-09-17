@@ -145,6 +145,9 @@
     .cv-entry .secondary,
     .cv-entry .date { font-style: italic; }
 
+    .cv-entry .advisor { grid-column: 1 / -1; margin-top: 2pt; }
+    .advisor a { color: var(--link); text-decoration: none; }
+
     ul.cv-list,
     ul.publications,
     ul.projects,
@@ -208,7 +211,7 @@
     .publications > li + li { margin-top: 5.2pt; }
     .paper-title {
       display: block;
-      white-space: nowrap;
+      text-wrap: balance;
       font-size: 10.1pt;
       font-weight: 700;
       letter-spacing: -.08pt;
@@ -216,6 +219,7 @@
     .authors, .abstract, .links { display: block; }
     .authors { line-height: 1.13; }
     .abstract { margin-top: 1pt; line-height: 1.18; }
+    .authors, .abstract, .project-title, .project-description { text-wrap: balance; }
     .links { margin-top: 1pt; }
     .me { font-weight: 700; text-decoration: underline; text-decoration-thickness: .55pt; text-underline-offset: 1.6pt; }
     sup { font-size: 68%; line-height: 0; vertical-align: .52em; }
@@ -227,7 +231,7 @@
     .page-two h2 { margin-bottom: 7pt; }
     .projects > li { line-height: 1.18; }
     .projects > li + li { margin-top: 6pt; }
-    .project-title { font-weight: 700; }
+    .project-title { display: block; font-weight: 700; }
     .project-description { display: block; margin-top: 2.8pt; }
     .project-links { display: block; margin-top: 2.5pt; }
 
@@ -310,6 +314,7 @@
         <div class="cv-entry">
           <div class="primary">The University of Hong Kong</div><div class="place">Hong Kong, China</div>
           <div class="secondary">PhD at MMLab@HKU, ECE@HKU</div><div class="date">2026–2030</div>
+          <div class="advisor">Advisor: <a href="https://xh-liu.github.io/">Prof. Xihui Liu</a></div>
         </div>
         <div class="cv-entry">
           <div class="primary">Xidian University</div><div class="place">China</div>
@@ -334,25 +339,25 @@
           <li>
             <span class="paper-title">World Guidance: World Modeling in Condition Space for Action Generation</span>
             <span class="authors"><span class="me">Yue Su,</span> Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu<sup>†</sup>, Xihui Liu<sup>†</sup></span>
-            <span class="abstract">We propose WoG (World Guidance), a world modeling paradigm in condition space for action generation.</span>
+            <span class="abstract">World modeling in condition space for robot action generation.</span>
             <span class="links"><span class="venue">ICML 2026</span>&nbsp; <a href="https://arxiv.org/abs/2602.22010">[arxiv]</a> <a href="https://github.com/Selen-Suyue/WoG">[code]</a> <a href="https://selen-suyue.github.io/WoGNet/">[website]</a></span>
           </li>
           <li>
             <span class="paper-title">DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</span>
             <span class="authors"><span class="me">Yue Su,</span> Chubin Zhang, Sijin Chen, Liufan Tan, Yansong Tang, Jianan Wang, Xihui Liu<sup>†</sup></span>
-            <span class="abstract">Improved Dense Policy for Whole-body Mobile Manipulation, with effective perception, generalizable manipulation and coherent actions.</span>
+            <span class="abstract">Generalizable whole-body manipulation with improved perception and coherent actions.</span>
             <span class="links"><span class="venue">ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2509.16063">[arxiv]</a> <a href="https://github.com/Selen-Suyue/DSPv2">[code]</a> <a href="https://selen-suyue.github.io/DSPv2Net/">[website]</a></span>
           </li>
           <li>
             <span class="paper-title">Dense Policy: Bidirectional Autoregressive Learning of Actions</span>
             <span class="authors"><span class="me">Yue Su,</span><sup>*</sup> Xinyu Zhan<sup>*</sup>, Hongjie Fang, Han Xue, Haoshu Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
-            <span class="abstract">Propose Dense Policy, A bidirectional robotic autoregressive policy, which infers trajectories by gradually expanding actions from sparse keyframes, has demonstrated capabilities exceeding diffusion-based policies.</span>
+            <span class="abstract">Bidirectional action generation that expands sparse keyframes into trajectories.</span>
             <span class="links"><span class="venue">ICCV 2025</span>&nbsp; <a href="https://arxiv.org/abs/2503.13217">[arxiv]</a> <a href="https://github.com/Selen-Suyue/DensePolicy">[code]</a> <a href="https://selen-suyue.github.io/DspNet/">[website]</a></span>
           </li>
           <li>
             <span class="paper-title">Motion Before Action: Diffusing Object Motion as Manipulation Condition</span>
             <span class="authors"><span class="me">Yue Su,</span><sup>*</sup> Xinyu Zhan<sup>*</sup>, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
-            <span class="abstract">Propose MBA, a novel module that employs two cascaded diffusion processes for robot action generation under object motion guidance. Designed as a plug-and-play component, MBA can be flexibly integrated into existing robotic manipulation policies with diffusion action heads.</span>
+            <span class="abstract">Object-motion guidance for diffusion-based robot manipulation policies.</span>
             <span class="links"><span class="venue">RA-L 2025, ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2411.09658">[arxiv]</a> <a href="https://github.com/Selen-Suyue/MBA">[code]</a> <a href="https://selen-suyue.github.io/MBApage/">[website]</a></span>
           </li>
         </ul>
@@ -365,13 +370,18 @@
         <h2>Selected Projects</h2>
         <ul class="projects">
           <li>
+            <span class="project-title">Aha Looped Transformer</span>
+            <span class="project-description">Interactive atlas of looped Transformers, adaptive depth, and latent reasoning.</span>
+            <span class="project-links"><a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/">[website]</a> <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer">[repo]</a></span>
+          </li>
+          <li>
             <span class="project-title">ManiUniCon: A Unified Control Interface for Robotic Manipulation</span>
-            <span class="project-description">A multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time.</span>
+            <span class="project-description">Unified robot control with sensor integration and real-time policy execution.</span>
             <span class="project-links"><a href="https://github.com/Universal-Control">[team]</a> <a href="https://github.com/Universal-Control/ManiUniCon">[code]</a></span>
           </li>
           <li>
             <span class="project-title">MetaPalace: Let you in a meta world of The Palace Museum</span>
-            <span class="project-description">We’ve done what the Old Palace official website couldn’t: offering 3D artifact views with single-view reconstruction and an interactive LLM-powered tour guider using RAG technology.</span>
+            <span class="project-description">3D artifact reconstruction and an interactive, RAG-powered museum guide.</span>
             <span class="project-links"><a href="https://metapalace.xj63.fun/">[website]</a> <a href="https://github.com/xj63/MetaPalaceSite">[front-end code]</a> <a href="https://github.com/Selen-Suyue/MetaPalace">[back-end code]</a></span>
           </li>
         </ul>
