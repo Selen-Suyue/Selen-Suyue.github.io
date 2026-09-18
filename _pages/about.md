@@ -102,8 +102,8 @@ Publications
 --------------
 <div class="pub-button-container">
   <button class="pub-button pub-button--all active" type="button" data-filter="all" aria-pressed="true">All</button>
-  <button class="pub-button pub-button--comprehension" type="button" data-filter="comprehension" aria-pressed="false">Understanding</button>
-  <button class="pub-button pub-button--imagination" type="button" data-filter="imagination" aria-pressed="false">Generation</button>
+  <button class="pub-button pub-button--understanding" type="button" data-filter="understanding" aria-pressed="false">Understanding</button>
+  <button class="pub-button pub-button--generation" type="button" data-filter="generation" aria-pressed="false">Generation</button>
   <button class="pub-button pub-button--action" type="button" data-filter="action" aria-pressed="false">Action</button>
   <span class="pub-legend-group" role="group" aria-label="Publication distinction filters">
     <button class="pub-legend" type="button" data-filter="first" aria-pressed="false" title="Show first- or co-first-author papers">
@@ -117,9 +117,9 @@ Publications
   </span>
 </div>
 
-<div class="publication-card pinned featured first-author" data-topics="imagination action" data-date="2026-02-25">
+<div class="publication-card pinned featured first-author" data-topics="generation action" data-date="2026-02-25">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
@@ -156,9 +156,9 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="imagination action" data-date="2026-08-02">
+<div class="publication-card" data-topics="generation action" data-date="2026-08-02">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
@@ -193,9 +193,9 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="comprehension" data-date="2026-07-24">
+<div class="publication-card" data-topics="understanding" data-date="2026-07-24">
   <div class="pub-category-dots" aria-label="Category: Understanding">
-    <span class="pub-category-dot pub-category-dot--comprehension" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--understanding" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
     <img src="https://enjundu.com/publication/507_cara/featured.jpg" alt="CARA framework overview" width="200" height="120" style="margin-right: 20px; object-fit: cover;">
@@ -325,9 +325,9 @@ Publications
   </div>
 </div>
 
-<div class="publication-card" data-topics="imagination" data-date="2025-04-11">
+<div class="publication-card" data-topics="generation" data-date="2025-04-11">
   <div class="pub-category-dots" aria-label="Category: Generation">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
     <img src="images/iraa.png" alt="Raa" width="200" height="100" style="margin-right: 20px;">
@@ -387,9 +387,9 @@ Publications
 </div>
 </div>
 
-<div class="publication-card first-author" data-topics="imagination action" data-date="2024-11-14">
+<div class="publication-card first-author" data-topics="generation action" data-date="2024-11-14">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
   </div>
  <div style="display: flex; align-items: center;">
@@ -418,9 +418,9 @@ Publications
 </div>
 </div>
 
-<div class="publication-card first-author" data-topics="imagination" data-date="2024-10-26">
+<div class="publication-card first-author" data-topics="generation" data-date="2024-10-26">
   <div class="pub-category-dots" aria-label="Category: Generation">
-    <span class="pub-category-dot pub-category-dot--imagination" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
   </div>
   <div class="publication-card__layout">
     <img class="pub-media--dot-clearance" src="images/GAP.png" alt="RIaa" width="200" height="100" style="margin-right: 20px;">
@@ -443,7 +443,7 @@ Publications
 </div>
 
 <script src="assets/js/experience_layout.js?v=20260915a" defer></script>
-<script src="assets/js/show_publications.js?v=20260918a"></script>
+<script src="assets/js/show_publications.js?v=20260918b"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
