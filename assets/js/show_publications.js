@@ -1,6 +1,6 @@
 const PUBLICATION_CATEGORIES = {
-  comprehension: 'Comprehension',
-  imagination: 'Imagination',
+  comprehension: 'Understanding',
+  imagination: 'Generation',
   action: 'Action'
 };
 
