@@ -47,7 +47,7 @@ Experience
       <div class="experience-info">
           <strong>Tencent IEG</strong>
           <span class="experience-date">Sep 2026 - </span>
-          Talent Plan Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
+          Talent Prog. Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
       </div>
   </div>
 
