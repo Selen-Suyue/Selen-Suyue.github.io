@@ -11,9 +11,7 @@ I am a PhD student at <a class="inline-affiliation" href="https://mmlab.hk/"><im
 
 I am the founder of the <a class="inline-affiliation inline-affiliation--iaai" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
 
-Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/), [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
-
-I got my B. Eng. degree from [Xidian University](https://en.xidian.edu.cn/) (2022.9 - 2026.6).
+I got my B. Eng. degree from [Xidian University](https://en.xidian.edu.cn/) (2022.9 - 2026.6). During thir period, I worked at [ByteDance Seed](https://seed.bytedance.com/en/); [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
 
 News
 ---------------
