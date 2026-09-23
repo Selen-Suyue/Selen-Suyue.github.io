@@ -965,6 +965,15 @@
         .pub-button { min-height: 40px; padding: 8px 12px; font-size: 0.82rem; line-height: 1.2; }
         .pub-legend { min-height: 40px; padding: 8px 11px; font-size: 0.8rem; }
     }
+
+    /* Keep the original typefaces; reduce macOS rendering weight and avoid
+       artificial emboldening when a selected family has no heavier face. */
+    body.homepage #main,
+    body.homepage .page__footer {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-synthesis-weight: none;
+    }
 </style>
 
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt="Hi"> Welcome to my Homepage!</h1>
