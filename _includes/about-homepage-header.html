@@ -974,6 +974,23 @@
         -moz-osx-font-smoothing: grayscale;
         font-synthesis-weight: none;
     }
+
+    /* A tiny inward edge overlay slightly lightens the fixed Bold face on Mac.
+       Keep pictograms and the handwritten greeting outside this treatment. */
+    html.mac-font-light body.homepage #main,
+    html.mac-font-light body.homepage .page__footer {
+        -webkit-text-stroke: 0.12px rgba(255, 255, 255, 0.7);
+    }
+    html.mac-font-light body.homepage :is(.main-heading, .aha-cover, svg, canvas,
+        i[class], .icon),
+    html.mac-font-light body.homepage .publication-card.pinned::after {
+        -webkit-text-stroke: 0;
+    }
 </style>
+<script>
+  if (/Mac/.test(navigator.platform) && navigator.maxTouchPoints < 2) {
+    document.documentElement.classList.add('mac-font-light');
+  }
+</script>
 
 <h1 class="main-heading">Hi there <img src="images/Hi.gif" width="40px" alt="Hi"> Welcome to my Homepage!</h1>
