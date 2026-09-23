@@ -533,7 +533,8 @@ Projects
         <strong>Aha Looped Transformer</strong><br>
 An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
       <a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/"><em>[website]</em></a>
-      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[repo]</em></a>
+      <a href="https://github.com/Interactive-Active-AI"><em>[team]</em></a>
+      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[code]</em></a>
     </div>
  </div>
 </div>
