@@ -11,7 +11,9 @@ I am a PhD student at <a class="inline-affiliation" href="https://mmlab.hk/"><im
 
 I am the founder of the <a class="inline-affiliation inline-affiliation--iaai" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
 
-I got my B. Eng. degree from [Xidian University](https://en.xidian.edu.cn/) (2022.9 - 2026.6). During this period, I worked at [ByteDance Seed](https://seed.bytedance.com/en/); also as an RA at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
+Previously I worked at [ByteDance Seed](https://seed.bytedance.com/en/), [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html). 
+
+I got my B. Eng. degree from [Xidian University](https://en.xidian.edu.cn/) (2022.9 - 2026.6).
 
 News
 ---------------
@@ -45,7 +47,7 @@ Experience
       <div class="experience-info">
           <strong>Tencent IEG</strong>
           <span class="experience-date">Sep 2026 - </span>
-          Talent Prog. Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
+          Talent Plan Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
       </div>
   </div>
 
@@ -531,8 +533,7 @@ Projects
         <strong>Aha Looped Transformer</strong><br>
 An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
       <a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/"><em>[website]</em></a>
-      <a href="https://github.com/Interactive-Active-AI"><em>[team]</em></a>
-      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[code]</em></a>
+      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[repo]</em></a>
     </div>
  </div>
 </div>
