@@ -1,8 +1,60 @@
 <style>
-    @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap');
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Regular.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-RegularItalic.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Medium.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: italic;
+        font-weight: 500;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-MediumItalic.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Semibold.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: italic;
+        font-weight: 600;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-SemiboldItalic.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-Bold.woff2") format("woff2");
+    }
+    @font-face {
+        font-family: "OpenAI Sans";
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: url("https://cdn.openai.com/common/fonts/openai-sans/v2/OpenAISans-BoldItalic.woff2") format("woff2");
+    }
 
     .inline-affiliation {
         display: inline-flex;
@@ -455,7 +507,7 @@
         border: 1px solid #eadfe3;
         border-radius: 8px;
         background: #fffdfd;
-        font-family: Arial, sans-serif;
+        font-family: inherit;
         font-weight: 400;
     }
     .aha-cover__art { position: absolute; inset: 0; }
@@ -655,11 +707,11 @@
     }
     body {
         background-color: #FFFFFF;
-        font-family: 'Roboto', Arial, sans-serif;
+        font-family: 'OpenAI Sans', sans-serif;
         font-size: 15px;
     }
     .main-heading {
-        font-family: 'Permanent Marker', cursive;
+        font-family: 'OpenAI Sans', sans-serif;
         text-align: center;
         color: #ca6f6f;
     }
@@ -965,6 +1017,121 @@
         .pub-button-container { display: flex; gap: 7px; margin: 14px 0 18px; }
         .pub-button { min-height: 40px; padding: 8px 12px; font-size: 0.82rem; line-height: 1.2; }
         .pub-legend { min-height: 40px; padding: 8px 11px; font-size: 0.8rem; }
+    }
+
+    /* Homepage typography, matching the OpenAI Developers reading hierarchy.
+       Scope text overrides to the content and footer; masthead keeps Kalam.
+       Icon fonts and the pinned emoji retain their own glyph families. */
+    #main,
+    #main :where(h1, h2, h3, h4, h5, h6, p, li, a, button, input, select,
+                 textarea, table, figcaption, .author__urls-wrapper, .aha-cover),
+    .page__footer,
+    .page__footer :where(p, li, a, span, .page__footer-copyright) {
+        font-family: "OpenAI Sans", sans-serif;
+    }
+    #main {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.6;
+        letter-spacing: -0.01em;
+    }
+    #main .page__content {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+        font-weight: 600;
+        letter-spacing: -0.02em;
+    }
+    #main .main-heading {
+        font-size: clamp(24px, 3vw, 30px);
+        line-height: 1.3;
+    }
+    #main .page__content h2 {
+        font-size: 26px;
+        line-height: 1.5;
+    }
+    #main .sidebar .author__name {
+        font-size: 22px;
+        line-height: 1.35;
+    }
+    #main .sidebar p,
+    #main .sidebar li,
+    #main .author__urls a {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.45;
+        letter-spacing: -0.01em;
+    }
+    #main .author__urls-wrapper button {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    #main .experience-info {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    #main .experience-info strong {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #main .publication-card,
+    #main .project-card {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    #main .publication-card strong,
+    #main .project-card strong {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+    }
+    #main .publication-card i {
+        font-size: 14px !important; /* Author rows previously used inline 13px. */
+    }
+    #main .publication-card .self-author {
+        font-weight: 700;
+    }
+    #main .pub-meta-row,
+    #main .project-card em {
+        font-size: 14px;
+    }
+    #main .pub-meta-row .pub-venue {
+        font-weight: 500;
+    }
+    #main .pub-button,
+    #main .pub-legend {
+        font-size: 14px;
+        font-weight: 500;
+    }
+    #main .pub-badge {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #main .profile-list__title {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #main .profile-list__meta {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #main .profile-list__date {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    #main .novel-section__series {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    #main .novel-section__series-name,
+    #main .kindred-slide__title {
+        font-weight: 600;
+    }
+    .page__footer {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.6;
     }
 </style>
 
