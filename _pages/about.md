@@ -36,7 +36,7 @@ Experience
       <div class="experience-info">
           <strong>The University of Hong Kong</strong>
           <span class="experience-date">Sep 2026 - </span>
-          Phd at <a href="https://mmlab.hk/"><em>MMLab@HKU</em></a> 
+          Phd at <a href="https://mmlab.hk/">MMLab@HKU</a>
       </div>
   </div>
 
@@ -45,7 +45,7 @@ Experience
       <div class="experience-info">
           <strong>Tencent IEG</strong>
           <span class="experience-date">Sep 2026 - </span>
-          Talent Prog. Intern at <a href="https://www.lightspeed-studios.com/"><em>LightSpeed</em></a>
+          Talent Prog. Intern at <a href="https://www.lightspeed-studios.com/">LightSpeed</a>
       </div>
   </div>
 
@@ -54,7 +54,7 @@ Experience
       <div class="experience-info">
           <strong>ByteDance Seed</strong>
           <span class="experience-date">Oct 2025 - May 2026</span>
-          Research Intern at <a href="https://seed.bytedance.com/en/"><em>Seed-Robotics</em></a> 
+          Research Intern at <a href="https://seed.bytedance.com/en/">Seed-Robotics</a>
       </div>
   </div>
 
@@ -63,7 +63,7 @@ Experience
       <div class="experience-info">
           <strong>Astribot Inc.</strong>
           <span class="experience-date">June 2025 - Sep 2025</span>
-          Research Intern with <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en"><em>Jianan Wang</em></a>
+          Research Intern with <a href="https://scholar.google.com/citations?user=mt5mvZ8AAAAJ&hl=en">Jianan Wang</a>
       </div>
   </div>
 
@@ -72,7 +72,7 @@ Experience
       <div class="experience-info">
           <strong>Shanghai Jiao Tong University</strong>
           <span class="experience-date">July 2024 - June 2025</span>
-          Research Assistant at <a href="https://www.mvig.org/index.html"><em>MVIG</em></a> Lab
+          Research Assistant at <a href="https://www.mvig.org/index.html">MVIG</a> Lab
       </div>
   </div>
 
@@ -82,7 +82,7 @@ Experience
           <strong>Xidian University</strong>
           <span class="experience-date">Sep 2022 - July 2026</span>
           Rank 4/174, <b>National Scholarship</b><br>
-          B.E at <a href="https://sai.xidian.edu.cn"><em>SAI</em></a> & RA at <a href="https://web.xidian.edu.cn/mggong/"><em>OMEGA</em></a> Lab
+          B.E at <a href="https://sai.xidian.edu.cn">SAI</a> & RA at <a href="https://web.xidian.edu.cn/mggong/">OMEGA</a> Lab
       </div>
   </div>
 
