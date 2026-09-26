@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student at <a class="inline-affiliation" href="https://mmlab.hk/"><img src="images/mmlab-hku.png" alt="" width="16" height="16">MMLab@HKU</a> (2026.9 - 2030.8) with [Prof. Xihui Liu](https://xh-liu.github.io/).
 
-I am the founder of the <a class="inline-affiliation inline-affiliation--iaai" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends.
+I am the founder of the <a class="inline-affiliation inline-affiliation--iaai" href="https://github.com/Interactive-Active-AI"><span class="inline-affiliation__iaai-icon" aria-hidden="true"><img src="images/iaai.png" alt="" width="20" height="20"></span>IAAI</a> team, which I am building together with friends. Currently, I'm also an intern at [Tencent LightSpeed](https://www.lightspeed-studios.com/)
 
 I earned my B.Eng. degree from [Xidian University](https://en.xidian.edu.cn/) (2022.9 - 2026.6), during this period I worked at [ByteDance Seed](https://seed.bytedance.com/en/) and served as an RA at [MVIG@SJTU](https://www.mvig.org/index.html) with [Prof. Lixin Yang](https://lixiny.github.io/) and [Prof. Cewu Lu](https://www.mvig.org/index.html).
 
