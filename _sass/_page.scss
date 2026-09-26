@@ -63,14 +63,6 @@ body.homepage {
   }
 }
 
-/* The compact desktop layout needs more breathing room between the profile
-   and article columns on landscape tablets. */
-@media screen and (min-width: 925px) and (max-width: 1279px) {
-  body.homepage {
-    --homepage-content-gap-extra: 36px;
-  }
-}
-
 .page__title {
   margin-top: 0;
   line-height: 1;
