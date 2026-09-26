@@ -34,27 +34,63 @@
   }
 }
 
-/* Keep the homepage's visible desktop layout balanced slightly left without
-   changing the theme grid, content widths, or mobile/tablet layout. */
+/* Use a fluid two-column homepage layout. The gutter is a share of the
+   content container, so tablets and desktops follow the same spacing rule. */
 body.homepage {
   @include breakpoint($large) {
     --homepage-content-shift: 68px;
-    --homepage-content-gap-extra: 8px;
     --homepage-left-bias: clamp(20px, 1.9vw, 34px);
+    --homepage-column-gap: clamp(32px, 6.5%, 72px);
 
     .masthead__menu .visible-links {
       -webkit-transform: translateX(calc(var(--homepage-content-shift) - var(--homepage-left-bias)));
               transform: translateX(calc(var(--homepage-content-shift) - var(--homepage-left-bias)));
     }
 
-    #main .sidebar {
-      -webkit-transform: translate3d(calc(var(--homepage-content-shift) - var(--homepage-left-bias)), 0, 0);
-              transform: translate3d(calc(var(--homepage-content-shift) - var(--homepage-left-bias)), 0, 0);
-    }
+    #main {
+      display: grid;
+      grid-template-columns: minmax(175px, 19.5%) minmax(0, 1fr);
+      column-gap: var(--homepage-column-gap);
+      align-items: start;
+      width: calc(100% - var(--homepage-left-bias) - var(--homepage-left-bias));
+      max-width: 1080px;
+      position: relative;
+      left: calc(0px - var(--homepage-left-bias));
 
-    #main .page__inner-wrap {
-      -webkit-transform: translateX(calc(var(--homepage-content-shift) + var(--homepage-content-gap-extra) - var(--homepage-left-bias)));
-              transform: translateX(calc(var(--homepage-content-shift) + var(--homepage-content-gap-extra) - var(--homepage-left-bias)));
+      // The float grid's clearfix must not create extra grid items.
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      > .sidebar {
+        position: sticky;
+        top: calc(#{$masthead-height} + 1em);
+        width: auto;
+        max-width: none;
+        min-width: 0;
+        height: auto;
+        max-height: calc(100vh - #{$masthead-height} - 2em);
+        overflow-y: auto;
+        float: none;
+        margin: 0;
+        padding: 0;
+        -webkit-transform: none;
+                transform: none;
+      }
+
+      > .page {
+        width: auto;
+        min-width: 0;
+        float: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .page__inner-wrap {
+        -webkit-transform: none;
+                transform: none;
+      }
     }
   }
 
