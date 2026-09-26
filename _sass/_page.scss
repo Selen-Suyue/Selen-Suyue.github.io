@@ -58,6 +58,10 @@ body.homepage {
               transform: none;
     }
 
+    .masthead__menu .visible-links > .masthead__menu-item--lg {
+      padding-right: 3.3em;
+    }
+
     #main {
       display: grid;
       grid-template-columns: minmax(175px, 19.5%) minmax(0, 1fr);
