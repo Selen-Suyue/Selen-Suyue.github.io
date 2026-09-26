@@ -38,13 +38,24 @@
    content container, so tablets and desktops follow the same spacing rule. */
 body.homepage {
   @include breakpoint($large) {
-    --homepage-content-shift: 68px;
     --homepage-left-bias: clamp(20px, 1.9vw, 34px);
     --homepage-column-gap: clamp(32px, 6.5%, 72px);
 
+    // Share one horizontal frame; the header uses a different font size,
+    // so its em-based padding must not determine its alignment.
+    #main,
+    .masthead__inner-wrap {
+      width: calc(100% - var(--homepage-left-bias) - var(--homepage-left-bias));
+      max-width: 1080px;
+      padding-left: 15px;
+      padding-right: 15px;
+      position: relative;
+      left: calc(0px - var(--homepage-left-bias));
+    }
+
     .masthead__menu .visible-links {
-      -webkit-transform: translateX(calc(var(--homepage-content-shift) - var(--homepage-left-bias)));
-              transform: translateX(calc(var(--homepage-content-shift) - var(--homepage-left-bias)));
+      -webkit-transform: none;
+              transform: none;
     }
 
     #main {
@@ -52,10 +63,6 @@ body.homepage {
       grid-template-columns: minmax(175px, 19.5%) minmax(0, 1fr);
       column-gap: var(--homepage-column-gap);
       align-items: start;
-      width: calc(100% - var(--homepage-left-bias) - var(--homepage-left-bias));
-      max-width: 1080px;
-      position: relative;
-      left: calc(0px - var(--homepage-left-bias));
 
       // The float grid's clearfix must not create extra grid items.
       &::before,
@@ -94,9 +101,6 @@ body.homepage {
     }
   }
 
-  @include breakpoint($x-large) {
-    --homepage-content-shift: 98px;
-  }
 }
 
 .page__title {
