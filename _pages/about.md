@@ -94,25 +94,25 @@ Experience
   </div>
 </div>
 
-Publications
---------------
+<h2 id="works">Works</h2>
 <div class="pub-button-container">
   <button class="pub-button pub-button--all active" type="button" data-filter="all" aria-pressed="true">All</button>
   <button class="pub-button pub-button--understanding" type="button" data-filter="understanding" aria-pressed="false">Understanding</button>
   <button class="pub-button pub-button--generation" type="button" data-filter="generation" aria-pressed="false">Generation</button>
   <button class="pub-button pub-button--action" type="button" data-filter="action" aria-pressed="false">Action</button>
-  <span class="pub-legend-group" role="group" aria-label="Publication distinction filters">
-    <button class="pub-legend" type="button" data-filter="first" aria-pressed="false" title="Show first- or co-first-author papers">
+  <span class="pub-legend-group" role="group" aria-label="Work distinction filters">
+    <button class="pub-legend" type="button" data-filter="first" aria-pressed="false" title="Show first- or core-contributor works">
       <span class="pub-legend__swatch" aria-hidden="true"></span>
       First / Core
     </button>
-    <button class="pub-legend" type="button" data-filter="selected" aria-pressed="false" title="Show selected publications">
+    <button class="pub-legend" type="button" data-filter="selected" aria-pressed="false" title="Show selected works">
       <span class="pub-legend__swatch pub-legend__swatch--selected" aria-hidden="true"></span>
       Selected
     </button>
   </span>
 </div>
 
+<div id="works-list">
 <div class="publication-card pinned featured first-author" data-topics="generation action" data-date="2026-02-25">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
     <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
@@ -438,8 +438,54 @@ Publications
   </div>
 </div>
 
+<div class="publication-card" data-topics="understanding">
+  <div class="pub-category-dots" aria-label="Category: Understanding">
+    <span class="pub-category-dot pub-category-dot--understanding" aria-hidden="true"></span>
+  </div>
+ <div class="publication-card__layout">
+    <div class="aha-cover" id="aha-cover" role="group" aria-label="Aha Looped Transformer animation">
+      <div class="aha-cover__art">
+        <canvas id="la-orbit" role="img" aria-label="Particles loop through shared computation in a figure-eight pattern."></canvas>
+        <span class="aha-cover__caption">REPEAT. REFINE.</span>
+      </div>
+    </div>
+    <div>
+        <strong>Aha Looped Transformer</strong><br>
+An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
+      <div class="pub-meta-row">
+        <span class="pub-links">
+      <a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/"><em>[website]</em></a>
+      <a href="https://github.com/Interactive-Active-AI"><em>[team]</em></a>
+      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[code]</em></a>
+        </span>
+      </div>
+    </div>
+ </div>
+</div>
+
+<div class="publication-card" data-topics="action">
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
+  </div>
+ <div class="publication-card__layout">
+    <img src="images/maniunicon.png" alt="Maniunicon" width="200" height="100" style="margin-right: 20px;">
+    <div>
+        <strong>ManiUniCon: A Unified Control Interface for Robotic Manipulation</strong><br>
+ManiUniCon is a comprehensive, multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time. <br>
+      <div class="pub-meta-row">
+        <span class="pub-links">
+      <a href="https://github.com/Universal-Control"><em>[team]</em></a>
+      <a href="https://github.com/Universal-Control/ManiUniCon"><em>[code]</em></a>
+        </span>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+<nav class="works-pagination" id="works-pagination" aria-label="Works pagination" hidden></nav>
+
 <script src="assets/js/experience_layout.js?v=20260915a" defer></script>
-<script src="assets/js/show_publications.js?v=20260918b"></script>
+<script src="assets/js/show_publications.js?v=20261002a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
@@ -515,48 +561,6 @@ Publications
 </section>
 <script src="assets/js/kindred_carousel.js?v=20260823d"></script>
 
-Projects
---------
-<div class="project-card">
- <div style="display: flex; align-items: center;">
-    <div class="aha-cover" id="aha-cover" role="group" aria-label="Aha Looped Transformer animation">
-      <div class="aha-cover__art">
-        <canvas id="la-orbit" role="img" aria-label="Particles loop through shared computation in a figure-eight pattern."></canvas>
-        <span class="aha-cover__caption">REPEAT. REFINE.</span>
-      </div>
-    </div>
-    <div>
-        <strong>Aha Looped Transformer</strong><br>
-An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
-      <a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/"><em>[website]</em></a>
-      <a href="https://github.com/Interactive-Active-AI"><em>[team]</em></a>
-      <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer"><em>[code]</em></a>
-    </div>
- </div>
-</div>
-<div class="project-card">
- <div style="display: flex; align-items: center;">
-    <img src="images/maniunicon.png" alt="Maniunicon" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>ManiUniCon: A Unified Control Interface for Robotic Manipulation</strong><br>
-ManiUniCon is a comprehensive, multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time. <br>
-      <a href="https://github.com/Universal-Control"><em>[team]</em></a>
-      <a href="https://github.com/Universal-Control/ManiUniCon"><em>[code]</em></a>
-    </div>
-</div>
-</div>
-<div class="project-card">
- <div style="display: flex; align-items: center;">
-    <img src="images/MetaPalace.png" alt="MetaPalace" width="200" height="100" style="margin-right: 20px;">
-    <div>
-        <strong>MetaPalace: Let you in a meta world of The Palace Museum</strong><br>
-We've done what the Old Palace official website couldn't: offering 3D artifact views with single-view reconstruction and an interactive LLM-powered tour guider using RAG technology. <br>
-      <a href="https://metapalace.xj63.fun/"><em>[website]</em></a> 
-      <a href="https://github.com/xj63/MetaPalaceSite"><em>[front-end code]</em></a>
-      <a href="https://github.com/Selen-Suyue/MetaPalace"><em>[back-end code]</em></a>
-    </div>
-</div>
-</div>
 
 
 Blogs
