@@ -438,7 +438,7 @@ Experience
   </div>
 </div>
 
-<div class="publication-card" data-topics="understanding">
+<div class="publication-card" data-topics="understanding" data-date="2026-09">
   <div class="pub-category-dots" aria-label="Category: Understanding">
     <span class="pub-category-dot pub-category-dot--understanding" aria-hidden="true"></span>
   </div>
@@ -453,6 +453,7 @@ Experience
         <strong>Aha Looped Transformer</strong><br>
 An open visual atlas exploring looped Transformers, recurrent computation, adaptive depth, and latent reasoning. <br>
       <div class="pub-meta-row">
+        <span class="pub-venue">Project 2026</span>
         <span class="pub-links">
       <a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/"><em>[website]</em></a>
       <a href="https://github.com/Interactive-Active-AI"><em>[team]</em></a>
@@ -463,7 +464,7 @@ An open visual atlas exploring looped Transformers, recurrent computation, adapt
  </div>
 </div>
 
-<div class="publication-card" data-topics="action">
+<div class="publication-card" data-topics="action" data-date="2025-11">
   <div class="pub-category-dots" aria-label="Category: Action">
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
   </div>
@@ -473,6 +474,7 @@ An open visual atlas exploring looped Transformers, recurrent computation, adapt
         <strong>ManiUniCon: A Unified Control Interface for Robotic Manipulation</strong><br>
 ManiUniCon is a comprehensive, multi-process robotics control framework designed for robotic manipulation tasks. It provides a unified interface for controlling various robot arms, integrating sensors, and executing policies in real-time. <br>
       <div class="pub-meta-row">
+        <span class="pub-venue">Project 2025</span>
         <span class="pub-links">
       <a href="https://github.com/Universal-Control"><em>[team]</em></a>
       <a href="https://github.com/Universal-Control/ManiUniCon"><em>[code]</em></a>
