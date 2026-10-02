@@ -39,7 +39,10 @@
 body.homepage {
   @include breakpoint($large) {
     --homepage-left-bias: clamp(20px, 1.9vw, 34px);
-    --homepage-column-gap: clamp(32px, 6.5%, 72px);
+    --homepage-sidebar-min: 175px;
+    --homepage-sidebar-percent: 19.5;
+    --homepage-gap-percent: 6.5;
+    --homepage-column-gap: clamp(32px, calc(var(--homepage-gap-percent) * 1%), 72px);
 
     // Share one horizontal frame; the header uses a different font size,
     // so its em-based padding must not determine its alignment.
@@ -62,9 +65,27 @@ body.homepage {
       padding-right: 3.3em;
     }
 
+    // Size the title slot from the same proportions as the body grid.
+    // The half-rem inset is optical spacing, independent of the intro text.
+    @supports (width: 1cqw) {
+      .masthead__menu {
+        container-type: inline-size;
+      }
+
+      .masthead__menu .visible-links > .masthead__menu-item--lg {
+        padding-right: 0;
+        min-width: calc(
+          max(var(--homepage-sidebar-min), calc(var(--homepage-sidebar-percent) * 1cqw))
+          + clamp(32px, calc(var(--homepage-gap-percent) * 1cqw), 72px)
+          - 0.5rem
+        );
+      }
+    }
+
+
     #main {
       display: grid;
-      grid-template-columns: minmax(175px, 19.5%) minmax(0, 1fr);
+      grid-template-columns: minmax(var(--homepage-sidebar-min), calc(var(--homepage-sidebar-percent) * 1%)) minmax(0, 1fr);
       column-gap: var(--homepage-column-gap);
       align-items: start;
 
