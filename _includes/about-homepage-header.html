@@ -254,11 +254,8 @@
         box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
     }
     .publication-card.pinned {
-        /* Keep the pin in its own intrinsic-width column on every screen. */
-        display: grid;
-        grid-template-columns: minmax(0, 1fr) max-content;
-        column-gap: 8px;
-        align-items: start;
+        /* Reserve a fixed top strip; the content keeps the ordinary card width. */
+        padding-top: 24px;
         border-width: 1.83px;
         border-color: #e7b8ac;
         background: #fffaf8;
@@ -269,8 +266,7 @@
         box-shadow: 0 8px 16px rgba(202, 111, 111, 0.16);
     }
     .publication-card.pinned > div:not(.pub-category-dots) {
-        grid-column: 1;
-        grid-row: 1;
+        width: 100%;
         min-width: 0;
     }
     .publication-card.pinned > div:not(.pub-category-dots) > div:last-child {
@@ -280,11 +276,16 @@
     .publication-card.pinned::after {
         content: "🎯";
         font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+        position: absolute;
+        top: 4px;
+        right: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 16px;
+        height: 16px;
         line-height: 1;
-        grid-column: 2;
-        grid-row: 1;
-        align-self: start;
-        font-size: 15px;
+        font-size: 12px;
         color: #ca6f6f;
         z-index: 3;
         pointer-events: none;
