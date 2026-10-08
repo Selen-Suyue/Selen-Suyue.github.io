@@ -3,407 +3,319 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yue Su - Resume</title>
+  <meta name="description" content="Curriculum vitae of Yue Su, PhD student at MMLab, The University of Hong Kong. Education, experience, selected publications, projects and invited talks.">
+  <title>Yue Su - Curriculum Vitae</title>
   <style>
-    @font-face {
-      font-family: "Computer Modern Sans";
-      src: url("assets/fonts/cv/cmss10.ttf") format("truetype");
-      font-style: normal;
-      font-weight: 400;
-    }
-    @font-face {
-      font-family: "Computer Modern Sans";
-      src: url("assets/fonts/cv/cmssbx10.ttf") format("truetype");
-      font-style: normal;
-      font-weight: 700;
-    }
-    @font-face {
-      font-family: "Computer Modern Sans";
-      src: url("assets/fonts/cv/cmssi10.ttf") format("truetype");
-      font-style: italic;
-      font-weight: 400;
-    }
-
     :root {
-      --blue: #3779b9;
-      --link: #d36f6f;
-      --muted: #777;
+      --accent: #a95f69;
+      --ink: #303238;
+      --muted: #696a70;
+      --rule: #e6d7d5;
+      --paper: #ffffff;
+      --background: #f4f1ef;
     }
-
     * { box-sizing: border-box; }
-
-    html, body {
+    html { background: var(--background); }
+    body {
       margin: 0;
-      padding: 0;
-      background: #ececec;
-      color: #090909;
-      font-family: "Computer Modern Sans", sans-serif;
-      font-size: 10.65pt;
-      line-height: 1.15;
-      font-kerning: normal;
-      text-rendering: geometricPrecision;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, "Noto Sans", sans-serif;
+      font-size: 10.2pt;
+      line-height: 1.35;
       -webkit-font-smoothing: antialiased;
     }
-
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    .toolbar {
+      width: 210mm; margin: 22px auto 0;
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: 13px;
+    }
+    .toolbar a { color: var(--muted); }
+    .toolbar button {
+      padding: 8px 14px; border: 1px solid var(--rule); border-radius: 6px;
+      color: var(--accent); background: #fff; font: inherit; cursor: pointer;
+    }
+    .toolbar button:hover { background: #faf4f3; }
     .page {
-      position: relative;
-      width: 210mm;
-      height: 297mm;
-      margin: 10mm auto;
-      overflow: hidden;
-      background: #fff;
-      box-shadow: 0 1mm 4mm rgba(0,0,0,.16);
+      position: relative; width: 210mm; min-height: 297mm;
+      padding: 16mm 18mm 18mm; margin: 16px auto 28px;
+      background: var(--paper);
+      box-shadow: 0 6px 28px rgba(65, 42, 37, .08);
+      border: 1px solid #eae3e0;
     }
-
-    .page-one { padding: 21mm 21mm 16mm; }
-    .page-two { padding: 16mm 21mm 16mm; }
-
-    header {
-      color: var(--muted);
-      text-align: center;
-      margin-bottom: 6.2pt;
-    }
-
-    h1 {
-      margin: -1.5pt 0 3.2pt;
-      color: var(--blue);
-      font-size: 25.5pt;
-      font-weight: 700;
-      line-height: 1.02;
-      letter-spacing: .15pt;
-    }
-
-    .contacts {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 14pt;
-      white-space: nowrap;
-      font-size: 10.45pt;
-      line-height: 1.22;
-    }
-
-    .contacts + .contacts { margin-top: .2pt; }
-
-    .contact {
-      display: inline-flex;
-      align-items: center;
-      gap: 3.1pt;
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .separator {
-      margin: 0 8.5pt;
-      color: #747474;
-      font-size: 9.6pt;
-    }
-
-    .icon {
-      display: inline-flex;
-      width: 10.2pt;
-      height: 10.2pt;
-      align-items: center;
-      justify-content: center;
-      color: #777;
-      flex: none;
-    }
-
-    .icon svg { width: 100%; height: 100%; fill: currentColor; }
-    .icon.linkedin { width: 10.7pt; height: 10.7pt; font: 700 9.2pt/1 Arial, sans-serif; }
-
-    section { margin: 0; }
-    section + section { margin-top: 12.2pt; }
-
+    .identity { padding-bottom: 13px; border-bottom: 1px solid var(--rule); margin-bottom: 18px; }
+    .eyebrow { color: var(--accent); font-size: 9px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; }
+    h1 { margin: 7px 0 5px; font-size: 34px; font-weight: 700; letter-spacing: -.8px; line-height: 1.12; }
+    .name-zh { font-size: 20px; font-weight: 400; color: var(--muted); letter-spacing: 1px; margin-left: 10px; }
+    .affiliation { margin: 0 0 8px; font-size: 14px; }
+    .contacts { display: flex; flex-wrap: wrap; gap: 5px 14px; font-size: 11.5px; }
+    .personal { margin: 5px 0 0; color: var(--muted); font-size: 10px; }
+    section + section { margin-top: 18px; }
     h2 {
-      margin: 0 0 6.1pt;
-      padding: 0 0 1.4pt;
-      color: var(--blue);
-      border-bottom: .55pt solid var(--blue);
-      font-size: 15.1pt;
-      font-weight: 700;
-      line-height: 1.05;
-      letter-spacing: .05pt;
+      display: flex; align-items: center; gap: 12px;
+      margin: 0 0 10px; color: var(--accent); font-size: 15px;
+      font-weight: 650; line-height: 1.2; letter-spacing: .1px;
     }
-
-    .education .cv-entry + .cv-entry { margin-top: 6.1pt; }
-
+    h2::after { content: ""; flex: 1; height: 1px; background: var(--rule); }
     .cv-entry {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      column-gap: 10pt;
-      font-size: 10.65pt;
-      line-height: 1.16;
+      display: grid; grid-template-columns: minmax(0, 1fr) auto;
+      gap: 2px 16px; font-size: 13px; line-height: 1.32;
     }
-
-    .cv-entry .primary,
-    .cv-entry .place { font-weight: 700; }
-
-    .cv-entry .place,
-    .cv-entry .date { text-align: right; }
-
-    .cv-entry .secondary,
-    .cv-entry .date { font-style: italic; }
-
-    .cv-entry .advisor { grid-column: 1 / -1; margin-top: 2pt; }
-
-    ul.cv-list,
-    ul.publications,
-    ul.projects,
-    ul.awards {
-      list-style: none;
-      margin: 0;
-      padding: 0 0 0 11.5pt;
+    .primary { font-weight: 650; }
+    .date { color: var(--muted); text-align: right; white-space: nowrap; font-size: 11.5px; font-variant-numeric: tabular-nums; }
+    .secondary, .advisor { grid-column: 1 / -1; }
+    .advisor { color: var(--muted); font-size: 11.5px; }
+    .education .cv-entry + .cv-entry { margin-top: 10px; }
+    .rank { margin: 3px 0 0; font-size: 11.5px; color: var(--muted); }
+    ul { list-style: none; margin: 0; padding: 0; }
+    .cv-list > li + li { margin-top: 9px; }
+    .publications > li + li { margin-top: 10px; }
+    .paper-title { display: block; font-size: 13px; font-weight: 650; line-height: 1.3; }
+    .authors { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); line-height: 1.28; }
+    .me { color: var(--ink); font-weight: 700; }
+    sup { font-size: 70%; line-height: 0; vertical-align: super; }
+    .abstract { display: block; font-size: 12px; margin-top: 2px; line-height: 1.3; }
+    .links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 3px; font-size: 11.5px; line-height: 1.3; }
+    .venue { font-weight: 650; color: var(--ink); margin-right: 2px; }
+    .badge { margin-left: 4px; color: var(--accent); font-size: 10px; font-weight: 700; }
+    .publication-note { margin: 8px 0 0; color: var(--muted); font-size: 9.5px; }
+    .continued {
+      display: flex; justify-content: space-between; gap: 12px;
+      padding-bottom: 9px; margin-bottom: 17px; border-bottom: 1px solid var(--rule);
+      font-size: 11px; color: var(--muted);
     }
-
-    ul.cv-list > li,
-    ul.publications > li,
-    ul.projects > li,
-    ul.awards > li {
-      position: relative;
+    .continued strong { color: var(--ink); font-weight: 650; }
+    .projects > li + li { margin-top: 10px; }
+    .project-title { display: block; font-size: 13px; font-weight: 650; line-height: 1.3; }
+    .project-description { display: block; font-size: 12px; margin-top: 3px; line-height: 1.35; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 3px; font-size: 11.5px; }
+    .talks > li { display: grid; grid-template-columns: 63px minmax(0, 1fr); gap: 12px; font-size: 12px; line-height: 1.4; }
+    .talks > li + li { margin-top: 5px; }
+    .talks time { color: var(--muted); font-size: 10.5px; }
+    .talks a { font-weight: 600; }
+    .bottom-grid { display: grid; grid-template-columns: .95fr 1.05fr; gap: 24px; margin-top: 18px; }
+    .bottom-grid section { margin: 0; }
+    .compact-list { font-size: 12px; line-height: 1.4; }
+    .compact-list > li + li { margin-top: 6px; }
+    .award-year { color: var(--muted); font-size: 10.5px; margin-right: 7px; }
+    .page-footer {
+      position: absolute; left: 18mm; right: 18mm; bottom: 9mm;
+      display: flex; justify-content: space-between; padding-top: 8px;
+      border-top: 1px solid var(--rule); color: var(--muted); font-size: 9px;
     }
-
-    ul.cv-list > li::before,
-    ul.publications > li::before,
-    ul.projects > li::before,
-    ul.awards > li::before {
-      content: "";
-      position: absolute;
-      left: -11.9pt;
-      top: .39em;
-      width: 5.3pt;
-      height: 5.3pt;
-      border: .7pt solid var(--blue);
-      border-radius: 50%;
-    }
-
-    .rank {
-      margin: 5.7pt 0 0;
-      padding-left: 11.5pt;
-      position: relative;
-      font-style: italic;
-      line-height: 1.08;
-    }
-
-    .rank::before {
-      content: "";
-      position: absolute;
-      left: -.25pt;
-      top: .33em;
-      width: 5.3pt;
-      height: 5.3pt;
-      border: .7pt solid var(--blue);
-      border-radius: 50%;
-    }
-
-    .experience { margin-top: 14.8pt; }
-    .experience h2 { margin-bottom: 7.4pt; }
-    .experience li + li { margin-top: 8.1pt; }
-
-    .publications-section { margin-top: 13.4pt; }
-    .publications-section h2 { margin-bottom: 7.4pt; }
-
-    .publications > li {
-      line-height: 1.15;
-      margin: 0;
-    }
-    .publications > li + li { margin-top: 5.2pt; }
-    .paper-title {
-      display: block;
-      text-wrap: balance;
-      font-size: 10.1pt;
-      font-weight: 700;
-      letter-spacing: -.08pt;
-    }
-    .authors, .abstract, .links { display: block; }
-    .authors { line-height: 1.13; }
-    .abstract { margin-top: 1pt; line-height: 1.18; }
-    .authors, .abstract, .project-title, .project-description { text-wrap: balance; }
-    .links { margin-top: 1pt; }
-    .me { font-weight: 700; text-decoration: underline; text-decoration-thickness: .55pt; text-underline-offset: 1.6pt; }
-    sup { font-size: 68%; line-height: 0; vertical-align: .52em; }
-    .venue { color: #4184c2; font-style: italic; }
-    .links a,
-    .project-links a { color: var(--link); text-decoration: none; }
-
-    .page-two section + section { margin-top: 11pt; }
-    .page-two h2 { margin-bottom: 7pt; }
-    .projects > li { line-height: 1.18; }
-    .projects > li + li { margin-top: 6pt; }
-    .project-title { display: block; font-weight: 700; }
-    .project-description { display: block; margin-top: 2.8pt; }
-    .project-links { display: block; margin-top: 2.5pt; }
-
-    .awards-section { margin-top: 7.5pt !important; }
-    .awards-section h2 { margin-bottom: 8pt; }
-    .awards > li {
-      font-weight: 700;
-      line-height: 1.08;
-    }
-    .awards > li + li { margin-top: 2.8pt; }
-
-    .community-section { margin-top: 7.4pt !important; }
-    .community-section h2 { margin-bottom: 8.4pt; }
-    .community-section li { font-weight: 700; line-height: 1.08; }
-
-    .page-number {
-      position: absolute;
-      right: 21mm;
-      bottom: 13.1mm;
-      color: #777;
-      font-size: 10.8pt;
-      font-style: italic;
-    }
-
     @page { size: A4; margin: 0; }
-
+    @media screen and (max-width: 820px) {
+      .toolbar { width: auto; margin: 16px 20px 0; }
+      .page { width: auto; min-height: 0; margin: 16px 14px; padding: 28px 24px; }
+      .page-footer { position: static; margin-top: 24px; }
+    }
+    @media screen and (max-width: 480px) {
+      .page { margin: 12px 8px; padding: 25px 20px; }
+      h1 { font-size: 32px; }
+      .name-zh { font-size: 19px; }
+      .affiliation { font-size: 13px; }
+      .contacts { gap: 7px 13px; font-size: 12px; }
+      .cv-entry { grid-template-columns: 1fr; gap: 3px; }
+      .date { text-align: left; grid-row: 2; }
+      .secondary, .advisor { grid-column: 1; }
+      .cv-list > li + li, .education .cv-entry + .cv-entry { margin-top: 14px; }
+      .paper-title { font-size: 13px; }
+      .authors, .abstract, .project-description, .compact-list { font-size: 12px; }
+      .publications > li + li { margin-top: 15px; }
+      .links, .project-links { font-size: 11.5px; }
+      .bottom-grid { grid-template-columns: 1fr; gap: 20px; }
+      .talks { font-size: 12px; }
+    }
     @media print {
-      html, body {
-        background: #fff;
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-      }
-      .page {
-        margin: 0;
-        box-shadow: none;
-        break-after: page;
-        page-break-after: always;
-      }
-      .page:last-child {
-        break-after: auto;
-        page-break-after: auto;
-      }
+      html, body { background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+      .toolbar { display: none; }
+      .page { width: 210mm; height: 297mm; min-height: 0; margin: 0; border: 0; box-shadow: none; break-after: page; page-break-after: always; }
+      .page:last-child { break-after: auto; page-break-after: auto; }
+      li, .cv-entry { break-inside: avoid; }
+      a { text-decoration: none; }
     }
   </style>
 </head>
 <body>
-  <main>
-    <article class="page page-one">
-      <header>
-        <h1>Yue Su</h1>
+  <nav class="toolbar" aria-label="CV actions">
+    <a href="https://selen-suyue.github.io/">← Homepage</a>
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </nav>
+  <main aria-label="Curriculum vitae">
+    <article class="page page-one" aria-label="CV page 1">
+      <header class="identity">
+        <div class="eyebrow">Curriculum Vitae</div>
+        <h1>Yue Su <span class="name-zh" lang="zh-CN">苏悦</span></h1>
+        <p class="affiliation">PhD Student · MMLab, The University of Hong Kong</p>
         <div class="contacts">
-          <span class="contact">
-            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 1.6h10a2.5 2.5 0 0 1 2.5 2.5v15.8a2.5 2.5 0 0 1-2.5 2.5H7a2.5 2.5 0 0 1-2.5-2.5V4.1A2.5 2.5 0 0 1 7 1.6Zm0 3v13.8h10V4.6H7Zm5 16.4a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"/></svg></span>
-            wechat selensu
-          </span>
-          <span class="separator">●</span>
-          <a class="contact" href="mailto:selenyuesu@gmail.com">
-            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4Zm2.1 2L12 12.2 19.9 6H4.1ZM20 18V8.1l-8 6.3-8-6.3V18h16Z"/></svg></span>
-            selenyuesu@gmail.com
-          </a>
-          <span class="separator">●</span>
-          <a class="contact" href="https://selen-suyue.github.io/">
-            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1.8A10.2 10.2 0 1 0 12 22.2 10.2 10.2 0 0 0 12 1.8Zm6.9 6.1h-3a16 16 0 0 0-1.4-3.5 8.3 8.3 0 0 1 4.4 3.5ZM12 3.9c.8.9 1.7 2.2 2.1 4H9.9c.4-1.8 1.3-3.1 2.1-4ZM4.5 14a8 8 0 0 1 0-4h3.2a16 16 0 0 0 0 4H4.5Zm.6 2h3a16 16 0 0 0 1.4 3.5A8.3 8.3 0 0 1 5.1 16Zm3-8h-3a8.3 8.3 0 0 1 4.4-3.5A16 16 0 0 0 8.1 8Zm3.9 12.1c-.8-.9-1.7-2.2-2.1-4h4.2c-.4 1.8-1.3 3.1-2.1 4Zm2.5-.5a16 16 0 0 0 1.4-3.5h3a8.3 8.3 0 0 1-4.4 3.5ZM16.3 14a16 16 0 0 0 0-4h3.2a8 8 0 0 1 0 4h-3.2Zm-6.7 0a14.6 14.6 0 0 1 0-4h4.8a14.6 14.6 0 0 1 0 4H9.6Z"/></svg></span>
-            selen-suyue.github.io
-          </a>
+          <a href="mailto:selenyuesu@gmail.com">selenyuesu@gmail.com</a>
+          <a href="https://selen-suyue.github.io/">Homepage</a>
+          <a href="https://scholar.google.com/citations?view_op=list_works&amp;hl=en&amp;user=TUVYCcIAAAAJ">Google Scholar</a>
+          <a href="https://github.com/Selen-Suyue">GitHub</a>
+          <a href="https://www.linkedin.com/in/selen-su-008867334">LinkedIn</a>
         </div>
-        <div class="contacts">
-          <a class="contact" href="https://www.linkedin.com/in/selen-su-008867334">
-            <span class="icon linkedin" aria-hidden="true">in</span>
-            selen-su-008867334
-          </a>
-          <span class="separator">●</span>
-          <a class="contact" href="https://github.com/selen-suyue">
-            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 1.9A10.2 10.2 0 0 0 8.8 21.8c.5.1.7-.2.7-.5v-2c-2.9.6-3.5-1.2-3.5-1.2-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 1.7 2.5 1.2 3.1.9.1-.7.4-1.2.7-1.5-2.3-.3-4.8-1.2-4.8-5.1 0-1.1.4-2.1 1.1-2.8-.1-.3-.5-1.3.1-2.8 0 0 .9-.3 2.8 1.1a9.8 9.8 0 0 1 5.2 0c1.9-1.4 2.8-1.1 2.8-1.1.6 1.5.2 2.5.1 2.8.7.7 1.1 1.7 1.1 2.8 0 4-2.4 4.8-4.8 5.1.4.3.7 1 .7 2v3c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.9Z"/></svg></span>
-            selen-suyue
-          </a>
-          <span class="separator">●</span>
-          <span class="contact">He/Him</span>
-        </div>
+        <p class="personal">WeChat: selensu · He/Him</p>
       </header>
 
-      <section class="education">
-        <h2>Education</h2>
+      <section class="education" aria-labelledby="education-title">
+        <h2 id="education-title">Education</h2>
         <div class="cv-entry">
-          <div class="primary">The University of Hong Kong</div><div class="place">Hong Kong, China</div>
-          <div class="secondary">PhD at MMLab@HKU, ECE@HKU</div><div class="date">2026–2030</div>
+          <div class="primary">The University of Hong Kong</div>
+          <div class="date">Sep 2026 - Aug 2030 (expected)</div>
+          <div class="secondary">PhD, MMLab · Department of Electrical and Electronic Engineering</div>
           <div class="advisor">Advisor: Prof. Xihui Liu</div>
         </div>
         <div class="cv-entry">
-          <div class="primary">Xidian University</div><div class="place">China</div>
-          <div class="secondary">B. Eng. degree, School of Artificial Intelligence</div><div class="date">2022–2026</div>
+          <div class="primary">Xidian University</div><div class="date">2022 - 2026</div>
+          <div class="secondary">B.Eng., School of Artificial Intelligence</div>
         </div>
-        <p class="rank">Rank: 4/174&nbsp;&nbsp; GPA: 3.7/4.0&nbsp;&nbsp; National Scholarship</p>
+        <p class="rank">Rank: 4/174 · GPA: 3.7/4.0 · National Scholarship</p>
       </section>
 
-      <section class="experience">
-        <h2>Experience</h2>
+      <section class="experience" aria-labelledby="experience-title">
+        <h2 id="experience-title">Experience</h2>
         <ul class="cv-list">
-          <li><div class="cv-entry"><div class="primary">ByteDance Seed</div><div class="place">ByteDance Inc.</div><div class="secondary">Intern, Seed-Robotics.</div><div class="date">Oct 2025 - May 2026</div></div></li>
-          <li><div class="cv-entry"><div class="primary">Astribot Research Department</div><div class="place">Astribot Inc.</div><div class="secondary">Intern, with Jianan Wang.</div><div class="date">June 2025 - Sep 2025</div></div></li>
-          <li><div class="cv-entry"><div class="primary">Machine Vision and Intelligence Group</div><div class="place">Shanghai Jiao Tong University</div><div class="secondary">Intern, with Prof. Cewu Lu, Prof. Lixin Yang.</div><div class="date">July 2024 - June 2025</div></div></li>
-          <li><div class="cv-entry"><div class="primary">Key Laboratory of Cooperative Intelligent Systems</div><div class="place">Xidian University</div><div class="secondary">Intern, with Prof. Maoguo Gong, Prof. Hao Li.</div><div class="date">Sep 2023 - July 2024</div></div></li>
+          <li><div class="cv-entry">
+            <div class="primary">Tencent IEG · LightSpeed Studios</div><div class="date">Sep 2026 - Present</div>
+            <div class="secondary">Talent Program Intern</div>
+          </div></li>
+          <li><div class="cv-entry">
+            <div class="primary">ByteDance Seed · Seed Robotics</div><div class="date">Oct 2025 - May 2026</div>
+            <div class="secondary">Research Intern</div>
+          </div></li>
+          <li><div class="cv-entry">
+            <div class="primary">Astribot Inc. · Research Department</div><div class="date">Jun 2025 - Sep 2025</div>
+            <div class="secondary">Research Intern, with Jianan Wang</div>
+          </div></li>
+          <li><div class="cv-entry">
+            <div class="primary">Shanghai Jiao Tong University · MVIG</div><div class="date">Jul 2024 - Jun 2025</div>
+            <div class="secondary">Research Assistant, with Prof. Cewu Lu and Prof. Lixin Yang</div>
+          </div></li>
+          <li><div class="cv-entry">
+            <div class="primary">Xidian University · Cooperative Intelligent Systems Lab</div><div class="date">Sep 2023 - Jul 2024</div>
+            <div class="secondary">Intern, with Prof. Maoguo Gong and Prof. Hao Li</div>
+          </div></li>
         </ul>
       </section>
 
-      <section class="publications-section">
-        <h2>Selected Publications</h2>
+      <section class="publications-section" aria-labelledby="publications-title">
+        <h2 id="publications-title">Selected Publications</h2>
         <ul class="publications">
           <li>
             <span class="paper-title">World Guidance: World Modeling in Condition Space for Action Generation</span>
-            <span class="authors"><span class="me">Yue Su,</span> Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu<sup>†</sup>, Xihui Liu<sup>†</sup></span>
+            <span class="authors"><span class="me">Yue Su</span>, Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu<sup>†</sup>, Xihui Liu<sup>†</sup></span>
             <span class="abstract">World modeling in condition space for robot action generation.</span>
-            <span class="links"><span class="venue">ICML 2026</span>&nbsp; <a href="https://arxiv.org/abs/2602.22010">[arxiv]</a> <a href="https://github.com/Selen-Suyue/WoG">[code]</a> <a href="https://selen-suyue.github.io/WoGNet/">[website]</a></span>
+            <span class="links"><span class="venue">ICML 2026</span>&nbsp; <a href="https://arxiv.org/abs/2602.22010">arXiv</a> <a href="https://github.com/Selen-Suyue/WoG">Code</a> <a href="https://selen-suyue.github.io/WoGNet/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</span>
-            <span class="authors"><span class="me">Yue Su,</span> Chubin Zhang, Sijin Chen, Liufan Tan, Yansong Tang, Jianan Wang, Xihui Liu<sup>†</sup></span>
+            <span class="authors"><span class="me">Yue Su</span>, Chubin Zhang, Sijin Chen, Liufan Tan, Yansong Tang, Jianan Wang, Xihui Liu<sup>†</sup></span>
             <span class="abstract">Generalizable whole-body manipulation with improved perception and coherent actions.</span>
-            <span class="links"><span class="venue">ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2509.16063">[arxiv]</a> <a href="https://github.com/Selen-Suyue/DSPv2">[code]</a> <a href="https://selen-suyue.github.io/DSPv2Net/">[website]</a></span>
+            <span class="links"><span class="venue">ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2509.16063">arXiv</a> <a href="https://github.com/Selen-Suyue/DSPv2">Code</a> <a href="https://selen-suyue.github.io/DSPv2Net/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">Dense Policy: Bidirectional Autoregressive Learning of Actions</span>
-            <span class="authors"><span class="me">Yue Su,</span><sup>*</sup> Xinyu Zhan<sup>*</sup>, Hongjie Fang, Han Xue, Haoshu Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
+            <span class="authors"><span class="me">Yue Su</span><sup>*</sup>, Xinyu Zhan<sup>*</sup>, Hongjie Fang, Han Xue, Haoshu Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
             <span class="abstract">Bidirectional action generation that expands sparse keyframes into trajectories.</span>
-            <span class="links"><span class="venue">ICCV 2025</span>&nbsp; <a href="https://arxiv.org/abs/2503.13217">[arxiv]</a> <a href="https://github.com/Selen-Suyue/DensePolicy">[code]</a> <a href="https://selen-suyue.github.io/DspNet/">[website]</a></span>
+            <span class="links"><span class="venue">ICCV 2025</span>&nbsp; <a href="https://arxiv.org/abs/2503.13217">arXiv</a> <a href="https://github.com/Selen-Suyue/DensePolicy">Code</a> <a href="https://selen-suyue.github.io/DspNet/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">Motion Before Action: Diffusing Object Motion as Manipulation Condition</span>
-            <span class="authors"><span class="me">Yue Su,</span><sup>*</sup> Xinyu Zhan<sup>*</sup>, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
+            <span class="authors"><span class="me">Yue Su</span><sup>*</sup>, Xinyu Zhan<sup>*</sup>, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
             <span class="abstract">Object-motion guidance for diffusion-based robot manipulation policies.</span>
-            <span class="links"><span class="venue">RA-L 2025, ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2411.09658">[arxiv]</a> <a href="https://github.com/Selen-Suyue/MBA">[code]</a> <a href="https://selen-suyue.github.io/MBApage/">[website]</a></span>
+            <span class="links"><span class="venue">RA-L 2025, ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2411.09658">arXiv</a> <a href="https://github.com/Selen-Suyue/MBA">Code</a> <a href="https://selen-suyue.github.io/MBApage/">Project</a></span>
           </li>
-        </ul>
+                </ul>
+        <p class="publication-note"><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author. Additional selected publications on page 2.</p>
       </section>
-      <div class="page-number">1/2</div>
+      <footer class="page-footer"><span>Yue Su · selen-suyue.github.io</span><span>01 / 02</span></footer>
     </article>
 
-    <article class="page page-two">
-      <section class="projects-section">
-        <h2>Selected Projects</h2>
+    <article class="page page-two" aria-label="CV page 2">
+      <div class="continued"><strong>Yue Su <span lang="zh-CN">苏悦</span></strong><span>Curriculum Vitae · continued</span></div>
+      <section class="publications-section" aria-labelledby="additional-title">
+        <h2 id="additional-title">Selected Publications <span style="font-weight:400;font-size:11px;color:var(--muted)">(continued)</span></h2>
+        <ul class="publications">
+          <li>
+            <span class="paper-title">SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</span>
+            <span class="authors">Ruiteng Zhao, Zhengshen Zhang, <span class="me">Yue Su</span>, Wenshuo Wang, Jiahui Li, Zhiyuan Yang, Francis E. H. Tay, Marcelo H. Ang Jr., Haiyue Zhu<sup>†</sup></span>
+            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2608.01397">arXiv</a> <a href="https://github.com/ReturnZhao/SG-WAM">Code</a> <a href="https://sg-wam.github.io/#paper-note">Project</a></span>
+          </li>
+          <li>
+            <span class="paper-title">CARA: Concept-Aware Risk Attention for Interpretable Collision Prediction</span>
+            <span class="authors">Zhishan Tao, Ruoyu Wang, Yucheng Wu, Enjun Du, Yilei Yuan, Sherwin Ho, <span class="me">Yue Su</span>, Jinbo Su, Yi Hong<sup>†</sup></span>
+            <span class="links"><span class="venue">ACM MM 2026 <span class="badge">Oral</span></span> <a href="https://arxiv.org/abs/2607.22494">arXiv</a></span>
+          </li>
+          <li>
+            <span class="paper-title">Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse</span>
+            <span class="authors">Kuan Zhang<sup>*</sup>, Dongchen Liu<sup>*</sup>, Qiyue Zhao<sup>*</sup>, Tianyu Xin<sup>*</sup>, <span class="me">Yue Su</span><sup>*</sup>, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, …, Yiming Li<sup>†</sup></span>
+            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2605.09965">arXiv</a> <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">Code</a></span>
+          </li>
+          <li>
+            <span class="paper-title">CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos</span>
+            <span class="authors">Chubin Zhang<sup>*</sup>, Jianan Wang<sup>*</sup>, Zifeng Gao, <span class="me">Yue Su</span>, Tiranru Dai, Cai Zhou, Jiwen Lu, Yansong Tang<sup>†</sup></span>
+            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2601.04061">arXiv</a> <a href="https://github.com/LinShan-Bin/OpenCLAP">Code</a> <a href="https://lin-shan.com/CLAP/#">Project</a></span>
+          </li>
+          <li>
+            <span class="paper-title">AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</span>
+            <span class="authors">Hao Li<sup>†</sup>, Fanggao Wan, <span class="me">Yue Su</span>, Yue Wu, Mingyang Zhang, Maoguo Gong<sup>†</sup></span>
+            <span class="links"><span class="venue">AAAI 2025</span> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/34011">Paper</a></span>
+          </li>
+        </ul>
+        <p class="publication-note"><sup>*</sup> Equal contribution. <sup>†</sup> Corresponding author.</p>
+      </section>
+
+      <section class="projects-section" aria-labelledby="projects-title">
+        <h2 id="projects-title">Selected Projects</h2>
         <ul class="projects">
           <li>
             <span class="project-title">Aha Looped Transformer</span>
             <span class="project-description">Interactive atlas of looped Transformers, adaptive depth, and latent reasoning.</span>
-            <span class="project-links"><a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/">[website]</a> <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer">[repo]</a></span>
+            <span class="project-links"><a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/">Website</a> <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer">Code</a></span>
           </li>
           <li>
             <span class="project-title">ManiUniCon: A Unified Control Interface for Robotic Manipulation</span>
             <span class="project-description">Unified robot control with sensor integration and real-time policy execution.</span>
-            <span class="project-links"><a href="https://github.com/Universal-Control">[team]</a> <a href="https://github.com/Universal-Control/ManiUniCon">[code]</a></span>
+            <span class="project-links"><a href="https://github.com/Universal-Control">Team</a> <a href="https://github.com/Universal-Control/ManiUniCon">Code</a></span>
           </li>
           <li>
             <span class="project-title">MetaPalace: Let you in a meta world of The Palace Museum</span>
             <span class="project-description">3D artifact reconstruction and an interactive, RAG-powered museum guide.</span>
-            <span class="project-links"><a href="https://metapalace.xj63.fun/">[website]</a> <a href="https://github.com/xj63/MetaPalaceSite">[front-end code]</a> <a href="https://github.com/Selen-Suyue/MetaPalace">[back-end code]</a></span>
+            <span class="project-links"><a href="https://metapalace.xj63.fun/">Website</a> <a href="https://github.com/xj63/MetaPalaceSite">Frontend</a> <a href="https://github.com/Selen-Suyue/MetaPalace">Backend</a></span>
           </li>
+                </ul>
+      </section>
+
+      <section aria-labelledby="talks-title">
+        <h2 id="talks-title">Invited Talks</h2>
+        <ul class="talks">
+          <li><time datetime="2026-03">Mar 2026</time><span><a href="http://xhslink.com/o/74L1xM2Vw2f">RoboTion</a> · World Guidance (WoG)</span></li>
+          <li><time datetime="2025-12">Dec 2025</time><span><a href="https://www.bilibili.com/video/BV1utBrBfED4?spm_id_from=333.788.videopod.episodes&amp;p=9">NICE Seminar</a> · Imitation Learning</span></li>
+          <li><time datetime="2025-12">Dec 2025</time><span><a href="https://b23.tv/We6FLQh">RL China</a> · DSPv2</span></li>
+          <li><time datetime="2025-10">Oct 2025</time><span><a href="https://b23.tv/PvLKNR1" lang="zh-CN">3D视觉工坊</a> · DSP &amp; DSPv2</span></li>
         </ul>
       </section>
 
-      <section class="awards-section">
-        <h2>Awards</h2>
-        <ul class="awards">
-          <li>Xiaomi Outstanding Scholarship 2025</li>
-          <li>National Scholarship 2025</li>
-          <li>Outstanding Student, Xidian University, 2025</li>
-        </ul>
-      </section>
-
-      <section class="community-section">
-        <h2>Community Experience</h2>
-        <ul class="awards"><li>Head of the Research Department of Microsoft Club, Xidian University.</li></ul>
-      </section>
-      <div class="page-number">2/2</div>
+      <div class="bottom-grid">
+        <section aria-labelledby="awards-title">
+          <h2 id="awards-title">Awards</h2>
+          <ul class="compact-list">
+            <li><span class="award-year">2025</span>Xiaomi Outstanding Scholarship</li>
+            <li><span class="award-year">2025</span>National Scholarship</li>
+            <li><span class="award-year">2025</span>Outstanding Student, Xidian University</li>
+          </ul>
+        </section>
+        <section aria-labelledby="leadership-title">
+          <h2 id="leadership-title">Leadership &amp; Community</h2>
+          <ul class="compact-list">
+            <li>Founder, <a href="https://github.com/Interactive-Active-AI">IAAI</a></li>
+            <li>Head of the Research Department, Microsoft Club, Xidian University</li>
+          </ul>
+        </section>
+      </div>
+      <footer class="page-footer"><span>Yue Su · selen-suyue.github.io</span><span>02 / 02</span></footer>
     </article>
   </main>
 </body>
