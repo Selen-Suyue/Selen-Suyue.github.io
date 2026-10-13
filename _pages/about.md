@@ -152,6 +152,73 @@ Experience
   </div>
 </div>
 
+<div class="publication-card" data-topics="action" data-date="2026-10">
+  <div class="pub-category-dots" aria-label="Category: Action">
+    <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
+  </div>
+  <div class="publication-card__layout">
+    <img src="https://gamescaling.github.io/assets/img/teaser.jpg" alt="GameScaling: embodied agents across diverse virtual worlds" width="200" height="120" style="margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+    <div>
+        <strong>Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://itheresaapocalypse.github.io/academicpages.github.io/" target="_blank">Kuan Zhang</a>*,
+            Yukun Chen*,
+            Zhihao Yang*,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+            Xiangnan Wu,
+            Zirong Chen,
+            Run Luo,
+            Jinkun Hou,
+            Tao Tan,
+            Yinhe Zheng&dagger;,
+            <a href="https://yimingli-page.github.io/" target="_blank">Yiming Li</a>&dagger;
+        </i><br>
+        A controlled study of how gameplay data, world diversity, and model size scale continued pre-training and cross-world generalization for embodied game agents.
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv preprint 2026</span>
+          <span class="pub-links">
+            <a href="https://gamescaling.github.io/assets/paper.pdf"><em>[paper]</em></a>
+            <a href="https://github.com/THUSI-Lab/GameScaling"><em>[code]</em></a>
+            <a href="https://gamescaling.github.io/"><em>[website]</em></a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="publication-card" data-topics="understanding" data-date="2026-10">
+  <div class="pub-category-dots" aria-label="Category: Understanding">
+    <span class="pub-category-dot pub-category-dot--understanding" aria-hidden="true"></span>
+  </div>
+  <div class="publication-card__layout">
+    <img src="https://videoarena-bench.github.io/assets/img/teaser1.jpg" alt="Video-Arena: perceiving events, interpreting updates, and tracking world states" width="200" height="120" style="margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+    <div>
+        <strong>Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://itheresaapocalypse.github.io/academicpages.github.io/" target="_blank">Kuan Zhang</a>*,
+            Yukun Chen*,
+            Zhihao Yang*,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+            Xiangnan Wu,
+            Zirong Chen,
+            Run Luo,
+            Tao Tan,
+            Yinhe Zheng&dagger;,
+            <a href="https://yimingli-page.github.io/" target="_blank">Yiming Li</a>&dagger;
+        </i><br>
+        A scalable video benchmark for perceiving critical events, interpreting state updates, and tracking evolving world states under visual and agentic evaluation protocols.
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv preprint 2026</span>
+          <span class="pub-links">
+            <a href="https://videoarena-bench.github.io/assets/paper.pdf"><em>[paper]</em></a>
+            <a href="https://github.com/THUSI-Lab/VideoArena"><em>[code]</em></a>
+            <a href="https://videoarena-bench.github.io/"><em>[website]</em></a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card" data-topics="generation action" data-date="2026-08-02">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
     <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
