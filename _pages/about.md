@@ -161,13 +161,13 @@ Experience
     <div>
         <strong>Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://itheresaapocalypse.github.io/academicpages.github.io/" target="_blank">Kuan Zhang</a>*,
+            <a href="https://itheresaapocalypse.github.io/" target="_blank">Kuan Zhang</a>*,
             Yukun Chen*,
-            Zhihao Yang*,
+            <a href="https://zhihaoyang30.github.io/" target="_blank">Zhihao Yang</a>*,
             <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
-            Xiangnan Wu,
+            <a href="https://xiangnan-wu.github.io/" target="_blank">Xiangnan Wu</a>,
             Zirong Chen,
-            Run Luo,
+            <a href="https://rainbowluocs.github.io/" target="_blank">Run Luo</a>,
             Jinkun Hou,
             Tao Tan,
             Yinhe Zheng&dagger;,
@@ -195,13 +195,13 @@ Experience
     <div>
         <strong>Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability</strong><br>
         <i style="font-size: 13px;">
-            <a href="https://itheresaapocalypse.github.io/academicpages.github.io/" target="_blank">Kuan Zhang</a>*,
+            <a href="https://itheresaapocalypse.github.io/" target="_blank">Kuan Zhang</a>*,
             Yukun Chen*,
-            Zhihao Yang*,
+            <a href="https://zhihaoyang30.github.io/" target="_blank">Zhihao Yang</a>*,
             <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
-            Xiangnan Wu,
+            <a href="https://xiangnan-wu.github.io/" target="_blank">Xiangnan Wu</a>,
             Zirong Chen,
-            Run Luo,
+            <a href="https://rainbowluocs.github.io/" target="_blank">Run Luo</a>,
             Tao Tan,
             Yinhe Zheng&dagger;,
             <a href="https://yimingli-page.github.io/" target="_blank">Yiming Li</a>&dagger;
