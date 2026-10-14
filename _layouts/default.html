@@ -9,9 +9,16 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
+    {% if page.url == "/" or page.url == "/404.html" %}
+    <script>
+      if (/Mac/.test(navigator.platform) && navigator.maxTouchPoints < 2) {
+        document.documentElement.classList.add('mac-font-light');
+      }
+    </script>
+    {% endif %}
   </head>
 
-  <body{% if page.url == "/" %} class="homepage"{% endif %}>
+  <body{% if page.url == "/" %} class="homepage profile-page"{% elsif page.url == "/404.html" %} class="profile-page"{% endif %}>
 
     {% include browser-upgrade.html %}
     {% include masthead.html %}

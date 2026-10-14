@@ -34,9 +34,34 @@
   }
 }
 
-/* Use a fluid two-column homepage layout. The gutter is a share of the
+/* Share typography and the fluid two-column layout between the homepage
+   and the not-found page. The gutter is a share of the
    content container, so tablets and desktops follow the same spacing rule. */
-body.homepage {
+body.profile-page {
+  background-color: #fff;
+  font-family: "Arial Rounded MT Bold", "Verdana", sans-serif;
+  font-size: 15px;
+
+  #main,
+  .page__footer {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-synthesis-weight: none;
+  }
+
+  // Lighten the fixed Bold face on Mac while preserving pictograms and media.
+  @at-root html.mac-font-light & {
+    #main,
+    .page__footer {
+      -webkit-text-stroke: 0.12px rgba(255, 255, 255, 0.7);
+    }
+
+    :is(.main-heading, .aha-cover, svg, canvas, i[class], .icon),
+    .publication-card.pinned::after {
+      -webkit-text-stroke: 0;
+    }
+  }
+
   @include breakpoint($large) {
     --homepage-left-bias: clamp(20px, 1.9vw, 34px);
     --homepage-sidebar-min: 175px;
