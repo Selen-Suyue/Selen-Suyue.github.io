@@ -113,6 +113,47 @@ Experience
 </div>
 
 <div id="works-list">
+<div class="publication-card pinned featured first-author" data-topics="generation action" data-date="2026-10-15">
+  <div class="pub-category-dots" aria-label="Categories: Generation, Action">
+    <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
+    <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
+  </div>
+  <div style="display: flex; align-items: center;">
+    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
+      <img src="images/OneWM.png" alt="OneWM: unified causal training for world prediction and action generation" width="200" height="120" style="width: 200px; height: 120px; object-fit: contain; background: #fff; display: block;">
+      <video style="width: 200px; height: 120px; object-fit: contain; background: #fff; display: none;" autoplay muted playsinline>
+        <source src="images/OneWM.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+        <strong>OneWM: Can World and Action Modeling Benefit Each Other under Unified Causal Training?</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>*,
+            <a href="https://github.com/The-kamisato-Sii" target="_blank">Bokai Lin</a>*,
+            <a href="https://summerwxk.github.io/" target="_blank">Xinkai Wang</a>*,
+            <a href="https://lin-shan.com/" target="_blank">Chubin Zhang</a>,
+            <a href="https://xiangnan-wu.github.io/" target="_blank">Xiangnan Wu</a>,
+            <a href="https://itheresaapocalypse.github.io/" target="_blank">Kuan Zhang</a>,
+            <a href="https://huggingface.co/Wayne-King" target="_blank">Weiyang Jin</a>,
+            <a href="https://yujiwen.github.io/" target="_blank">Jiwen Yu</a>,
+            <a href="https://yimingli-page.github.io/" target="_blank">Yiming Li</a>,
+            <a href="https://www.mvig.org/" target="_blank">Cewu Lu</a>,
+            <a href="https://lixiny.github.io/" target="_blank">Lixin Yang</a>&dagger;,
+            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
+        </i><br>
+        OneWM unifies world prediction and action generation under causal training, enabling both tasks to benefit each other within one shared model.
+        <div class="pub-meta-row">
+          <span class="pub-venue">Preprint 2026</span>
+          <span class="pub-links">
+            <a href="https://github.com/Interactive-Active-AI/OneWM/blob/main/assets/OneWM-preview.pdf"><em>[paper]</em></a>
+            <a href="https://github.com/Interactive-Active-AI/OneWM"><em>[code]</em></a>
+            <a href="https://selen-suyue.github.io/OneWMNet/"><em>[website]</em></a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card pinned featured first-author" data-topics="generation action" data-date="2026-02-25">
   <div class="pub-category-dots" aria-label="Categories: Generation, Action">
     <span class="pub-category-dot pub-category-dot--generation" aria-hidden="true"></span>
