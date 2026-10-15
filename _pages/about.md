@@ -141,7 +141,7 @@ Experience
             <a href="https://lixiny.github.io/" target="_blank">Lixin Yang</a>&dagger;,
             <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
         </i><br>
-        OneWM unifies world prediction and action generation under causal training, enabling both tasks to benefit each other within one shared model. Its &ldquo;Endless Dream&rdquo; alternates action generation and world prediction, continuing in imagination without further environment observations.
+        OneWM unifies world prediction and action learning for mutual benefit. Its &ldquo;Endless Dream&rdquo; continues in imagination without new observations.
         <div class="pub-meta-row">
           <span class="pub-venue">Preprint 2026</span>
           <span class="pub-links">
