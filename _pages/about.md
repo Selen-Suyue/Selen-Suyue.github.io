@@ -143,7 +143,7 @@ Experience
         </i><br>
         OneWM unifies world prediction and action learning for mutual benefit. Its &ldquo;Endless Dream&rdquo; continues in imagination without new observations.
         <div class="pub-meta-row">
-          <span class="pub-venue">Preprint 2026</span>
+          <span class="pub-venue">arXiv preprint 2026</span>
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2610.21095"><em>[arXiv]</em></a>
             <a href="https://github.com/Interactive-Active-AI/OneWM"><em>[code]</em></a>
@@ -286,7 +286,7 @@ Experience
         SG-WAM predicts action-conditioned future dynamics in a geometry-aware policy representation space for robust robot manipulation.
         <br>
         <div class="pub-meta-row">
-          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-venue">arXiv preprint 2026</span>
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2608.01397"><em>[arXiv]</em></a>
             <a href="https://github.com/ReturnZhao/SG-WAM"><em>[code]</em></a>
@@ -352,7 +352,7 @@ Experience
         A survey of foundation models as generalist game players across datasets, models, harnesses, and benchmarks.
         <br>
         <div class="pub-meta-row">
-          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-venue">arXiv preprint 2026</span>
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
             <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
@@ -385,7 +385,7 @@ Experience
         Learning Vision-Language-Action Models from Human Videos.
         <br>
         <div class="pub-meta-row">
-          <span class="pub-venue">arXiv 2026</span>
+          <span class="pub-venue">arXiv preprint 2026</span>
           <span class="pub-links">
             <a href="https://mp.weixin.qq.com/s/6qkoPGMbnZXFWOYg-MljlQ"><em>[机器之心]</em></a>
             <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
@@ -537,7 +537,7 @@ Experience
     </i><br>
     A generative physical adversarial attack on VI-ReID models perturbs modality-invariant features. <br>
     <div class="pub-meta-row">
-      <span class="pub-venue">arXiv 2024</span>
+      <span class="pub-venue">arXiv preprint 2024</span>
       <span class="pub-links">
         <a href="https://arxiv.org/abs/2410.20097"><em>[arXiv]</em></a>
       </span>
