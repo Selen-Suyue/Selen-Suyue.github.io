@@ -145,7 +145,7 @@ Experience
         <div class="pub-meta-row">
           <span class="pub-venue">Preprint 2026</span>
           <span class="pub-links">
-            <a href="https://github.com/Interactive-Active-AI/OneWM/blob/main/assets/OneWM-preview.pdf"><em>[paper]</em></a>
+            <a href="https://arxiv.org/abs/2610.21095"><em>[arXiv]</em></a>
             <a href="https://github.com/Interactive-Active-AI/OneWM"><em>[code]</em></a>
             <a href="https://selen-suyue.github.io/OneWMNet/"><em>[website]</em></a>
           </span>
