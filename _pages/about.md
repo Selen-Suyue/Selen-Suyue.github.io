@@ -119,11 +119,15 @@ Experience
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
   </div>
   <div style="display: flex; align-items: center;">
-    <div class="pub-media-rotator" data-interval="4000" style="position: relative; width: 200px; height: 120px; margin-right: 20px; border-radius: 8px; overflow: hidden; flex: 0 0 auto;">
-      <img src="images/OneWM.png" alt="OneWM: unified causal training for world prediction and action generation" width="200" height="120" style="width: 200px; height: 120px; object-fit: contain; background: #fff; display: block;">
-      <video style="width: 200px; height: 120px; object-fit: contain; background: #fff; display: none;" autoplay muted playsinline>
-        <source src="images/OneWM.mp4" type="video/mp4">
+    <div class="onewm-cover" aria-label="OneWM cover and 27-second demonstration">
+      <img src="images/OneWM-cover.png" alt="OneWM: real-world action, world prediction, and An Endless Dream" width="1920" height="1080">
+      <video muted playsinline preload="metadata" hidden poster="images/OneWM-cover.png" aria-label="OneWM: complete robot task, world prediction with reference actions, and Endless Dream with predicted actions">
+        <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
       </video>
+      <div class="onewm-cover__controls">
+        <button type="button" data-onewm-toggle aria-label="Play OneWM demo video" aria-pressed="false" title="Play 27-second demo">▶</button>
+        <button type="button" data-onewm-expand aria-label="Watch OneWM demo in HD" title="Watch in HD">⤢</button>
+      </div>
     </div>
     <div>
         <strong>OneWM: Can World and Action Modeling Benefit Each Other under Unified Causal Training?</strong><br>
@@ -597,6 +601,14 @@ ManiUniCon is a comprehensive, multi-process robotics control framework designed
 <script src="assets/js/experience_layout.js?v=20260915a" defer></script>
 <script src="assets/js/show_publications.js?v=20261002a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
+<dialog class="onewm-viewer" aria-label="OneWM high-definition demonstration">
+  <button type="button" aria-label="Close OneWM video">×</button>
+  <video controls muted playsinline preload="none" poster="images/OneWM-cover.png" aria-label="OneWM complete 27-second demo">
+    <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
+  </video>
+</dialog>
+<link rel="stylesheet" href="assets/css/onewm_cover.css?v=20261017">
+<script src="assets/js/onewm_cover.js?v=20261017" defer></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
 <h2 id="novel-section-title">Novels</h2>
