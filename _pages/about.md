@@ -120,8 +120,8 @@ Experience
   </div>
   <div style="display: flex; align-items: center;">
     <div class="onewm-cover" aria-label="OneWM cover and 27-second demonstration">
-      <img src="images/OneWM-cover.png" alt="OneWM: real-world action, world prediction, and An Endless Dream" width="1920" height="1080">
-      <video muted playsinline preload="metadata" hidden poster="images/OneWM-cover.png" aria-label="OneWM: complete robot task, world prediction with reference actions, and Endless Dream with predicted actions">
+      <img src="images/OneWM.png" alt="OneWM: unified causal training for world prediction and action generation" width="1920" height="910">
+      <video muted playsinline preload="metadata" hidden poster="images/OneWM.png" aria-label="OneWM: complete robot task, world prediction with reference actions, and Endless Dream with predicted actions">
         <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
       </video>
       <div class="onewm-cover__controls">
@@ -603,7 +603,7 @@ ManiUniCon is a comprehensive, multi-process robotics control framework designed
 <script src="assets/js/pub_media_rotator.js"></script>
 <dialog class="onewm-viewer" aria-label="OneWM high-definition demonstration">
   <button type="button" aria-label="Close OneWM video">×</button>
-  <video controls muted playsinline preload="none" poster="images/OneWM-cover.png" aria-label="OneWM complete 27-second demo">
+  <video controls muted playsinline preload="none" poster="images/OneWM.png" aria-label="OneWM complete 27-second demo">
     <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
   </video>
 </dialog>
