@@ -124,10 +124,6 @@ Experience
       <video muted playsinline preload="metadata" hidden poster="images/OneWM.png" aria-label="OneWM: complete robot task, world prediction with reference actions, and Endless Dream with predicted actions">
         <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
       </video>
-      <div class="onewm-cover__controls">
-        <button type="button" data-onewm-toggle aria-label="Play OneWM demo video" aria-pressed="false" title="Play 27-second demo">▶</button>
-        <button type="button" data-onewm-expand aria-label="Watch OneWM demo in HD" title="Watch in HD">⤢</button>
-      </div>
     </div>
     <div>
         <strong>OneWM: Can World and Action Modeling Benefit Each Other under Unified Causal Training?</strong><br>
@@ -601,14 +597,8 @@ ManiUniCon is a comprehensive, multi-process robotics control framework designed
 <script src="assets/js/experience_layout.js?v=20260915a" defer></script>
 <script src="assets/js/show_publications.js?v=20261002a"></script>
 <script src="assets/js/pub_media_rotator.js"></script>
-<dialog class="onewm-viewer" aria-label="OneWM high-definition demonstration">
-  <button type="button" aria-label="Close OneWM video">×</button>
-  <video controls muted playsinline preload="none" poster="images/OneWM.png" aria-label="OneWM complete 27-second demo">
-    <source src="images/OneWM-cover-1080p.mp4" type="video/mp4">
-  </video>
-</dialog>
-<link rel="stylesheet" href="assets/css/onewm_cover.css?v=20261017">
-<script src="assets/js/onewm_cover.js?v=20261017" defer></script>
+<link rel="stylesheet" href="assets/css/onewm_cover.css?v=20261017b">
+<script src="assets/js/onewm_cover.js?v=20261017b" defer></script>
 
 <section class="novel-section" aria-labelledby="novel-section-title">
 <h2 id="novel-section-title">Novels</h2>
