@@ -53,6 +53,7 @@
       font-family: "PingFang SC", "Noto Sans SC", "Microsoft YaHei", sans-serif;
       font-size: 25px; font-weight: 500; line-height: 1;
       color: #494e52; letter-spacing: .08em;
+      transform: translateY(2px); /* Align the visible CJK and Latin letter bottoms. */
     }
     .affiliation { margin: 0 0 8px; font-size: 14px; }
     .contacts { display: flex; flex-wrap: wrap; gap: 5px 14px; font-size: 11.5px; }
@@ -80,15 +81,15 @@
     .authors { display: block; margin-top: 2px; font-size: 12px; color: var(--muted); line-height: 1.28; }
     .me { color: var(--ink); font-weight: 700; }
     sup { font-size: 70%; line-height: 0; vertical-align: super; }
-    .abstract { display: block; font-size: 12px; margin-top: 2px; line-height: 1.3; }
     .links { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin-top: 3px; font-size: 11.5px; line-height: 1.3; }
     .venue { font-weight: 650; color: var(--ink); margin-right: 2px; }
     .badge { margin-left: 4px; color: var(--red); font-size: 10px; font-weight: 700; }
     .publication-note { margin: 8px 0 0; color: var(--muted); font-size: 9.5px; }
     .projects > li + li { margin-top: 10px; }
     .project-title { display: block; font-size: 13px; font-weight: 650; line-height: 1.3; }
-    .project-description { display: block; font-size: 12px; margin-top: 3px; line-height: 1.35; }
-    .project-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 3px; font-size: 11.5px; }
+    .project-details { display: flex; flex-wrap: wrap; align-items: baseline; gap: 3px 12px; margin-top: 3px; }
+    .project-description { font-size: 12px; line-height: 1.35; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 12px; font-size: 11.5px; }
     .talks > li { display: grid; grid-template-columns: 63px minmax(0, 1fr); gap: 12px; font-size: 12px; line-height: 1.4; }
     .talks > li + li { margin-top: 5px; }
     .talks time { color: var(--muted); font-size: 10.5px; }
@@ -120,7 +121,7 @@
       .secondary, .advisor { grid-column: 1; }
       .cv-list > li + li, .education .cv-entry + .cv-entry { margin-top: 14px; }
       .paper-title { font-size: 13px; }
-      .authors, .abstract, .project-description, .compact-list { font-size: 12px; }
+      .authors, .project-description, .compact-list { font-size: 12px; }
       .publications > li + li { margin-top: 15px; }
       .links, .project-links { font-size: 11.5px; }
       .bottom-grid { grid-template-columns: 1fr; gap: 20px; }
@@ -200,27 +201,28 @@
         <h2 id="publications-title">Selected Publications</h2>
         <ul class="publications">
           <li>
+            <span class="paper-title">OneWM: Can World and Action Modeling Benefit Each Other under Unified Causal Training?</span>
+            <span class="authors"><span class="me">Yue Su</span><sup>*</sup>, Bokai Lin<sup>*</sup>, Xinkai Wang<sup>*</sup>, Chubin Zhang, Xiangnan Wu, Kuan Zhang, Weiyang Jin, Jiwen Yu, Yiming Li, Cewu Lu, Lixin Yang<sup>†</sup>, Xihui Liu<sup>†</sup></span>
+            <span class="links"><span class="venue">arXiv preprint 2026</span> <a href="https://arxiv.org/abs/2610.21095">arXiv</a> <a href="https://github.com/Interactive-Active-AI/OneWM">Code</a> <a href="https://selen-suyue.github.io/OneWMNet/">Project</a></span>
+          </li>
+          <li>
             <span class="paper-title">World Guidance: World Modeling in Condition Space for Action Generation</span>
             <span class="authors"><span class="me">Yue Su</span>, Sijin Chen, Haixin Shi, Mingyu Liu, Zhengshen Zhang, Ningyuan Huang, Weiheng Zhong, Zhengbang Zhu, Yuxiao Liu<sup>†</sup>, Xihui Liu<sup>†</sup></span>
-            <span class="abstract">World modeling in condition space for robot action generation.</span>
             <span class="links"><span class="venue">ICML 2026</span>&nbsp; <a href="https://arxiv.org/abs/2602.22010">arXiv</a> <a href="https://github.com/Selen-Suyue/WoG">Code</a> <a href="https://selen-suyue.github.io/WoGNet/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">DSPv2: Improved Dense Policy for Effective and Generalizable Whole-body Mobile Manipulation</span>
             <span class="authors"><span class="me">Yue Su</span>, Chubin Zhang, Sijin Chen, Liufan Tan, Yansong Tang, Jianan Wang, Xihui Liu<sup>†</sup></span>
-            <span class="abstract">Generalizable whole-body manipulation with improved perception and coherent actions.</span>
             <span class="links"><span class="venue">ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2509.16063">arXiv</a> <a href="https://github.com/Selen-Suyue/DSPv2">Code</a> <a href="https://selen-suyue.github.io/DSPv2Net/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">Dense Policy: Bidirectional Autoregressive Learning of Actions</span>
             <span class="authors"><span class="me">Yue Su</span><sup>*</sup>, Xinyu Zhan<sup>*</sup>, Hongjie Fang, Han Xue, Haoshu Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
-            <span class="abstract">Bidirectional action generation that expands sparse keyframes into trajectories.</span>
             <span class="links"><span class="venue">ICCV 2025</span>&nbsp; <a href="https://arxiv.org/abs/2503.13217">arXiv</a> <a href="https://github.com/Selen-Suyue/DensePolicy">Code</a> <a href="https://selen-suyue.github.io/DspNet/">Project</a></span>
           </li>
           <li>
             <span class="paper-title">Motion Before Action: Diffusing Object Motion as Manipulation Condition</span>
             <span class="authors"><span class="me">Yue Su</span><sup>*</sup>, Xinyu Zhan<sup>*</sup>, Hongjie Fang, Yong-Lu Li, Cewu Lu, Lixin Yang<sup>†</sup></span>
-            <span class="abstract">Object-motion guidance for diffusion-based robot manipulation policies.</span>
             <span class="links"><span class="venue">RA-L 2025, ICRA 2026</span>&nbsp; <a href="https://arxiv.org/abs/2411.09658">arXiv</a> <a href="https://github.com/Selen-Suyue/MBA">Code</a> <a href="https://selen-suyue.github.io/MBApage/">Project</a></span>
           </li>
         </ul>
@@ -234,9 +236,19 @@
         <h2 id="additional-title">Selected Publications</h2>
         <ul class="publications">
           <li>
+            <span class="paper-title">Scaling in Games: Continued Pre-Training for Embodied Agents in Diverse Virtual Worlds</span>
+            <span class="authors">Kuan Zhang<sup>*</sup>, Yukun Chen<sup>*</sup>, Zhihao Yang<sup>*</sup>, <span class="me">Yue Su</span>, Xiangnan Wu, Zirong Chen, Run Luo, Jinkun Hou, Tao Tan, Yinhe Zheng<sup>†</sup>, Yiming Li<sup>†</sup></span>
+            <span class="links"><span class="venue">Preprint 2026</span> <a href="https://gamescaling.github.io/assets/paper.pdf">Paper</a> <a href="https://github.com/THUSI-Lab/GameScaling">Code</a> <a href="https://gamescaling.github.io/">Project</a></span>
+          </li>
+          <li>
+            <span class="paper-title">Video-Arena: A Scalable Agentic Video Benchmark for Spatiotemporal Capability</span>
+            <span class="authors">Kuan Zhang<sup>*</sup>, Yukun Chen<sup>*</sup>, Zhihao Yang<sup>*</sup>, <span class="me">Yue Su</span>, Xiangnan Wu, Zirong Chen, Run Luo, Tao Tan, Yinhe Zheng<sup>†</sup>, Yiming Li<sup>†</sup></span>
+            <span class="links"><span class="venue">arXiv preprint 2026</span> <a href="https://arxiv.org/abs/2610.14158">arXiv</a> <a href="https://github.com/THUSI-Lab/VideoArena">Code</a> <a href="https://videoarena-bench.github.io/">Project</a></span>
+          </li>
+          <li>
             <span class="paper-title">SG-WAM: Self-Guided World Modeling in Geometry-Aware Policy Space</span>
             <span class="authors">Ruiteng Zhao, Zhengshen Zhang, <span class="me">Yue Su</span>, Wenshuo Wang, Jiahui Li, Zhiyuan Yang, Francis E. H. Tay, Marcelo H. Ang Jr., Haiyue Zhu<sup>†</sup></span>
-            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2608.01397">arXiv</a> <a href="https://github.com/ReturnZhao/SG-WAM">Code</a> <a href="https://sg-wam.github.io/#paper-note">Project</a></span>
+            <span class="links"><span class="venue">arXiv preprint 2026</span> <a href="https://arxiv.org/abs/2608.01397">arXiv</a> <a href="https://github.com/ReturnZhao/SG-WAM">Code</a> <a href="https://sg-wam.github.io/#paper-note">Project</a></span>
           </li>
           <li>
             <span class="paper-title">CARA: Concept-Aware Risk Attention for Interpretable Collision Prediction</span>
@@ -246,12 +258,12 @@
           <li>
             <span class="paper-title">Towards Generalist Game Players: An Investigation of Foundation Models in the Game Multiverse</span>
             <span class="authors">Kuan Zhang<sup>*</sup>, Dongchen Liu<sup>*</sup>, Qiyue Zhao<sup>*</sup>, Tianyu Xin<sup>*</sup>, <span class="me">Yue Su</span><sup>*</sup>, Haisheng Wang, Han Yin, Hongbo Ma, Peize Li, …, Yiming Li<sup>†</sup></span>
-            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2605.09965">arXiv</a> <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">Code</a></span>
+            <span class="links"><span class="venue">arXiv preprint 2026</span> <a href="https://arxiv.org/abs/2605.09965">arXiv</a> <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games">Code</a></span>
           </li>
           <li>
             <span class="paper-title">CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos</span>
             <span class="authors">Chubin Zhang<sup>*</sup>, Jianan Wang<sup>*</sup>, Zifeng Gao, <span class="me">Yue Su</span>, Tiranru Dai, Cai Zhou, Jiwen Lu, Yansong Tang<sup>†</sup></span>
-            <span class="links"><span class="venue">arXiv 2026</span> <a href="https://arxiv.org/abs/2601.04061">arXiv</a> <a href="https://github.com/LinShan-Bin/OpenCLAP">Code</a> <a href="https://lin-shan.com/CLAP/#">Project</a></span>
+            <span class="links"><span class="venue">arXiv preprint 2026</span> <a href="https://arxiv.org/abs/2601.04061">arXiv</a> <a href="https://github.com/LinShan-Bin/OpenCLAP">Code</a> <a href="https://lin-shan.com/CLAP/#">Project</a></span>
           </li>
           <li>
             <span class="paper-title">AdvDisplay: Adversarial Display Assembled by Thermoelectric Cooler for Fooling Thermal Infrared Detectors</span>
@@ -267,18 +279,24 @@
         <ul class="projects">
           <li>
             <span class="project-title">Aha Looped Transformer</span>
-            <span class="project-description">Interactive atlas of looped Transformers, adaptive depth, and latent reasoning.</span>
-            <span class="project-links"><a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/">Website</a> <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer">Code</a></span>
+            <div class="project-details">
+              <span class="project-description">Interactive atlas of looped Transformers, adaptive depth, and latent reasoning.</span>
+              <span class="project-links"><a href="https://interactive-active-ai.github.io/Aha-Looped-Transformer/">Website</a> <a href="https://github.com/Interactive-Active-AI/Aha-Looped-Transformer">Code</a></span>
+            </div>
           </li>
           <li>
             <span class="project-title">ManiUniCon: A Unified Control Interface for Robotic Manipulation</span>
-            <span class="project-description">Unified robot control with sensor integration and real-time policy execution.</span>
-            <span class="project-links"><a href="https://github.com/Universal-Control">Team</a> <a href="https://github.com/Universal-Control/ManiUniCon">Code</a></span>
+            <div class="project-details">
+              <span class="project-description">Unified robot control with sensor integration and real-time policy execution.</span>
+              <span class="project-links"><a href="https://github.com/Universal-Control">Team</a> <a href="https://github.com/Universal-Control/ManiUniCon">Code</a></span>
+            </div>
           </li>
           <li>
             <span class="project-title">MetaPalace: Let you in a meta world of The Palace Museum</span>
-            <span class="project-description">3D artifact reconstruction and an interactive, RAG-powered museum guide.</span>
-            <span class="project-links"><a href="https://metapalace.xj63.fun/">Website</a> <a href="https://github.com/xj63/MetaPalaceSite">Frontend</a> <a href="https://github.com/Selen-Suyue/MetaPalace">Backend</a></span>
+            <div class="project-details">
+              <span class="project-description">3D artifact reconstruction and an interactive, RAG-powered museum guide.</span>
+              <span class="project-links"><a href="https://metapalace.xj63.fun/">Website</a> <a href="https://github.com/xj63/MetaPalaceSite">Frontend</a> <a href="https://github.com/Selen-Suyue/MetaPalace">Backend</a></span>
+            </div>
           </li>
         </ul>
       </section>
