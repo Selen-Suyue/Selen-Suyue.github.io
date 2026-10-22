@@ -382,7 +382,7 @@ Experience
         A survey of foundation models as generalist game players across datasets, models, harnesses, and benchmarks.
         <br>
         <div class="pub-meta-row">
-          <span class="pub-venue">arXiv preprint 2026</span>
+          <span class="pub-venue">TMLR 2026</span>
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2605.09965"><em>[arXiv]</em></a>
             <a href="https://github.com/THUSI-Lab/Awesome-LFMs-Play-Games"><em>[code]</em></a>
@@ -415,7 +415,7 @@ Experience
         Learning Vision-Language-Action Models from Human Videos.
         <br>
         <div class="pub-meta-row">
-          <span class="pub-venue">arXiv preprint 2026</span>
+          <span class="pub-venue">TRO 2026</span>
           <span class="pub-links">
             <a href="https://mp.weixin.qq.com/s/6qkoPGMbnZXFWOYg-MljlQ"><em>[机器之心]</em></a>
             <a href="https://arxiv.org/abs/2601.04061"><em>[arXiv]</em></a>
