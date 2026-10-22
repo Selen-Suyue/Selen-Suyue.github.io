@@ -122,7 +122,7 @@ Experience
     <div class="onewm-cover" aria-label="OneWM cover and 27-second demonstration">
       <img src="images/OneWM.png" alt="OneWM: unified causal training for world prediction and action generation" width="1920" height="910">
       <video muted playsinline preload="metadata" hidden poster="images/OneWM.png" aria-label="OneWM: complete robot task, world prediction with reference actions, and Endless Dream with predicted actions">
-        <source src="images/OneWM-cover-1080p.mp4?v=2" type="video/mp4">
+        <source src="images/OneWM-cover-1080p.mp4?v=3" type="video/mp4">
       </video>
     </div>
     <div>
