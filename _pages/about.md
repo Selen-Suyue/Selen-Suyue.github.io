@@ -193,6 +193,36 @@ Experience
   </div>
 </div>
 
+<div class="publication-card" data-topics="understanding" data-date="2026-10-15">
+  <div class="pub-category-dots" aria-label="Category: Understanding">
+    <span class="pub-category-dot pub-category-dot--understanding" aria-hidden="true"></span>
+  </div>
+  <div class="publication-card__layout">
+    <img src="images/truncate-or-not.png" alt="Looped transformer scaling with truncated backpropagation" width="200" height="120" style="margin-right: 20px; object-fit: contain; flex-shrink: 0;">
+    <div>
+        <strong>Truncate or Not? A Scaling Study of Looped Transformers with Truncated Backpropagation</strong><br>
+        <i style="font-size: 13px;">
+            <a href="https://github.com/xjxyys" target="_blank">Xuyuan Xiong</a>*,
+            <a href="https://statistics.yale.edu/profile/siyu-chen" target="_blank">Siyu Chen</a>*,
+            Zihan Shao,
+            <a href="https://selen-suyue.github.io" target="_blank"><span class="self-author">Yue Su</span></a>,
+            <a href="https://huggingface.co/Wayne-King" target="_blank">Weiyang Jin</a>,
+            <a href="http://luoping.me/" target="_blank">Ping Luo</a>,
+            <a href="https://zhuoranyang.github.io/" target="_blank">Zhuoran Yang</a>&dagger;,
+            <a href="https://xh-liu.github.io/" target="_blank">Xihui Liu</a>&dagger;
+        </i><br>
+        A unified scaling law over nearly 600 runs favors full BPTT through fewer loops, and two fully trained loops beat a larger non-looped model with fewer parameters.
+        <div class="pub-meta-row">
+          <span class="pub-venue">arXiv preprint 2026</span>
+          <span class="pub-links">
+            <a href="https://arxiv.org/abs/2610.26030"><em>[arXiv]</em></a>
+            <a href="https://github.com/xjxyys/Truncate-or-Not"><em>[code]</em></a>
+          </span>
+        </div>
+    </div>
+  </div>
+</div>
+
 <div class="publication-card" data-topics="action" data-date="2026-10">
   <div class="pub-category-dots" aria-label="Category: Action">
     <span class="pub-category-dot pub-category-dot--action" aria-hidden="true"></span>
