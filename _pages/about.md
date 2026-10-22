@@ -217,6 +217,7 @@ Experience
           <span class="pub-links">
             <a href="https://arxiv.org/abs/2610.26030"><em>[arXiv]</em></a>
             <a href="https://github.com/xjxyys/Truncate-or-Not"><em>[code]</em></a>
+            <a href="https://xjxyys.github.io/truncate-or-not/"><em>[website]</em></a>
           </span>
         </div>
     </div>
